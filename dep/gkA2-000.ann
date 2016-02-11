@@ -1,0 +1,243 @@
+T1	PROPN 0 5	Hasan
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=Hasan<N:prop>|Lemma=Hasan|Stem=Hasan
+T2	PROPN 6 15	Fransızca
+A2	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=Fransızca<N:prop>|Lemma=Fransızca|Stem=Fransızca
+T3	VERB 16 28	okuyabiliyor
+A3	Aspect T3 Prog
+A4	Mood T3 Abil
+A5	Negative T3 Pos
+A6	Tense T3 Pres
+#3	ExtraFeatures T3	TRmorphTag=oku<V><abil><cont>|Lemma=okumak|Stem=oku
+T4	PUNCT 29 30	.
+#4	ExtraFeatures T4	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T5	NOUN 31 37	Yağmur
+A7	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=yağmur<N>|Lemma=yağmur|Stem=yağmur
+T6	VERB 38 47	yağabilir
+A8	Aspect T6 Habit
+A9	Mood T6 Abil-Gen
+A10	Negative T6 Pos
+A11	Number T6 Sing
+A12	Person T6 3
+A13	Tense T6 Pres
+#6	ExtraFeatures T6	TRmorphTag=yağ<V><abil><aor><3s>|Lemma=yağmak|Stem=yağ
+T7	PUNCT 48 49	.
+#7	ExtraFeatures T7	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T8	PRON 50 55	Oraya
+A14	Case T8 Dat
+A15	Negative T8 Pos
+A16	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=ora<Prn:locp><dat>|Lemma=ora|Stem=ora
+T9	VERB 56 66	gidemezsin
+A17	Aspect T9 Habit
+A18	Mood T9 Abil-Gen
+A19	Negative T9 Neg
+A20	Number T9 Sing
+A21	Person T9 2
+A22	Tense T9 Pres
+#9	ExtraFeatures T9	TRmorphTag=git<V><abil><neg><aor><2s>|Lemma=gitmek|Stem=git
+T10	PUNCT 67 68	.
+#10	ExtraFeatures T10	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T11	NOUN 69 76	Arabamı
+A23	Case T11 Acc
+A24	Number T11 Sing
+A25	Number_psor T11 Sing
+A26	Person_psor T11 1
+#11	ExtraFeatures T11	TRmorphTag=araba<N><p1s><acc>|Lemma=araba|Stem=araba
+T12	VERB 77 83	sattım
+A27	Aspect T12 Perf
+A28	Mood T12 Ind
+A29	Negative T12 Pos
+A30	Number T12 Sing
+A31	Person T12 1
+A32	Tense T12 Past
+#12	ExtraFeatures T12	TRmorphTag=sat<V><past><1s>|Lemma=satmak|Stem=sat
+T13	PUNCT 84 85	.
+#13	ExtraFeatures T13	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T14	PRON 86 92	Burada
+A33	Case T14 Loc
+A34	Negative T14 Pos
+A35	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=bura<Prn:locp><loc>|Lemma=bura|Stem=bura
+T15	NOUN 93 99	yağmur
+A36	Number T15 Sing
+#15	ExtraFeatures T15	TRmorphTag=yağmur<N>|Lemma=yağmur|Stem=yağmur
+T16	VERB 100 106	yağmış
+A37	Aspect T16 Perf
+A38	Evidential T16 Nfh
+A39	Mood T16 Ind
+A40	Negative T16 Pos
+A41	Number T16 Sing
+A42	Person T16 3
+A43	Tense T16 Past
+#16	ExtraFeatures T16	TRmorphTag=yağ<V><evid><3s>|Lemma=yağmak|Stem=yağ
+T17	PUNCT 107 108	.
+#17	ExtraFeatures T17	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T18	DET 109 110	O
+A44	Definite T18 Def
+A45	Negative T18 Pos
+A46	Number T18 Sing
+#18	ExtraFeatures T18	TRmorphTag=o<Det:def>|Lemma=o|Stem=o
+T19	NOUN 111 116	hafta
+A47	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=hafta<N>|Lemma=hafta|Stem=hafta
+T20	ADV 117 120	çok
+#20	ExtraFeatures T20	TRmorphTag=çok<Adv>|Lemma=çok|Stem=çok
+T21	NOUN 121 127	yağmur
+A48	Number T21 Sing
+#21	ExtraFeatures T21	TRmorphTag=yağmur<N>|Lemma=yağmur|Stem=yağmur
+T22	VERB 128 136	yağmıştı
+A49	Aspect T22 Perf
+A50	Evidential T22 Nfh
+A51	Mood T22 Ind
+A52	Negative T22 Pos
+A53	Number T22 Sing
+A54	Person T22 3
+A55	Tense T22 Pqp
+#22	ExtraFeatures T22	TRmorphTag=yağ<V><evid><cpl:past><3s>|Lemma=yağmak|Stem=yağ
+T23	PUNCT 137 138	.
+#23	ExtraFeatures T23	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T24	DET 139 141	Şu
+A56	Definite T24 Def
+A57	Negative T24 Pos
+A58	Number T24 Sing
+#24	ExtraFeatures T24	TRmorphTag=şu<Det:def>|Lemma=şu|Stem=şu
+T25	NOUN 142 146	anda
+A59	Case T25 Loc
+A60	Number T25 Sing
+#25	ExtraFeatures T25	TRmorphTag=an<N><loc>|Lemma=an|Stem=an
+T26	PROPN 147 152	Ahmet
+A61	Number T26 Sing
+#26	ExtraFeatures T26	TRmorphTag=Ahmet<N:prop>|Lemma=Ahmet|Stem=Ahmet
+T27	NOUN 153 159	futbol
+A62	Number T27 Sing
+#27	ExtraFeatures T27	TRmorphTag=futbol<N>|Lemma=futbol|Stem=futbol
+T28	VERB 160 167	oynuyor
+A63	Aspect T28 Prog
+A64	Mood T28 Ind
+A65	Negative T28 Pos
+A66	Number T28 Sing
+A67	Person T28 3
+A68	Tense T28 Pres
+#28	ExtraFeatures T28	TRmorphTag=oyna<V><cont><3s>|Lemma=oynamak|Stem=oyna
+T29	PUNCT 168 169	.
+#29	ExtraFeatures T29	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T30	PRON 170 173	Sen
+A69	Negative T30 Pos
+A70	Number T30 Sing
+A71	Person T30 2
+#30	ExtraFeatures T30	TRmorphTag=sen<Prn:pers:2s>|Lemma=sen|Stem=sen
+T31	NOUN 174 181	telefon
+A72	Number T31 Sing
+#31	ExtraFeatures T31	TRmorphTag=telefon<N>|Lemma=telefon|Stem=telefon
+T32	VERB 182 191	ettiğinde
+A73	Mood T32 Ind
+A74	Negative T32 Pos
+A75	Number T32 Sing
+A76	Person T32 2
+A77	Tense T32 Past
+#32	ExtraFeatures T32	TRmorphTag=et<V>|Lemma=etmek|Stem=et
+T33	NOUN 193 194	_
+A78	Case T33 Loc
+A79	Number T33 Sing
+#33	ExtraFeatures T33	TRmorphTag=<vn:past><N><p2s><loc>|Lemma=-dik|Stem=-dik
+T34	PROPN 195 200	Ahmet
+A80	Number T34 Sing
+#34	ExtraFeatures T34	TRmorphTag=Ahmet<N:prop>|Lemma=Ahmet|Stem=Ahmet
+T35	NOUN 201 207	futbol
+A81	Number T35 Sing
+#35	ExtraFeatures T35	TRmorphTag=futbol<N>|Lemma=futbol|Stem=futbol
+T36	VERB 208 217	oynuyordu
+A82	Aspect T36 Prog
+A83	Mood T36 Ind
+A84	Negative T36 Pos
+A85	Number T36 Sing
+A86	Person T36 3
+A87	Tense T36 Past
+#36	ExtraFeatures T36	TRmorphTag=oyna<V><cont><cpl:past><3s>|Lemma=oynamak|Stem=oyna
+T37	PUNCT 218 219	.
+#37	ExtraFeatures T37	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T38	NOUN 220 233	Cumartesileri
+A88	Number T38 Sing
+#38	ExtraFeatures T38	TRmorphTag=cumartesi<N>|Lemma=cumartesi|Stem=cumartesi
+T39	ADV 235 236	_
+#39	ExtraFeatures T39	TRmorphTag=<leri><Adv>|Lemma=-leri|Stem=-leri
+T40	PROPN 237 242	Ahmet
+A89	Number T40 Sing
+#40	ExtraFeatures T40	TRmorphTag=Ahmet<N:prop>|Lemma=Ahmet|Stem=Ahmet
+T41	NOUN 243 249	futbol
+A90	Number T41 Sing
+#41	ExtraFeatures T41	TRmorphTag=futbol<N>|Lemma=futbol|Stem=futbol
+T42	VERB 250 257	oynuyor
+A91	Aspect T42 Prog
+A92	Mood T42 Ind
+A93	Negative T42 Pos
+A94	Number T42 Sing
+A95	Person T42 3
+A96	Tense T42 Pres
+#42	ExtraFeatures T42	TRmorphTag=oyna<V><cont><3s>|Lemma=oynamak|Stem=oyna
+T43	PUNCT 258 259	.
+#43	ExtraFeatures T43	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T44	NOUN 260 273	Cumartesileri
+A97	Number T44 Sing
+#44	ExtraFeatures T44	TRmorphTag=cumartesi<N>|Lemma=cumartesi|Stem=cumartesi
+T45	ADV 275 276	_
+#45	ExtraFeatures T45	TRmorphTag=<leri><Adv>|Lemma=-leri|Stem=-leri
+T46	PROPN 277 282	Ahmet
+A98	Number T46 Sing
+#46	ExtraFeatures T46	TRmorphTag=Ahmet<N:prop>|Lemma=Ahmet|Stem=Ahmet
+T47	NOUN 283 289	futbol
+A99	Number T47 Sing
+#47	ExtraFeatures T47	TRmorphTag=futbol<N>|Lemma=futbol|Stem=futbol
+T48	VERB 290 299	oynuyordu
+A100	Aspect T48 Prog
+A101	Mood T48 Ind
+A102	Negative T48 Pos
+A103	Number T48 Sing
+A104	Person T48 3
+A105	Tense T48 Past
+#48	ExtraFeatures T48	TRmorphTag=oyna<V><cont><cpl:past><3s>|Lemma=oynamak|Stem=oyna
+T49	PUNCT 300 301	.
+#49	ExtraFeatures T49	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+R1	dobj Arg1:T3 Arg2:T2	
+R2	nsubj Arg1:T3 Arg2:T1	
+R3	punct Arg1:T3 Arg2:T4	
+R4	nsubj Arg1:T6 Arg2:T5	
+R5	punct Arg1:T6 Arg2:T7	
+R6	nmod Arg1:T9 Arg2:T8	
+#50	AnnotatorNotes R6	DO ?
+R7	punct Arg1:T9 Arg2:T10	
+R8	dobj Arg1:T12 Arg2:T11	
+R9	punct Arg1:T12 Arg2:T13	
+R10	nsubj Arg1:T16 Arg2:T15	
+R11	nmod Arg1:T16 Arg2:T14	
+R12	punct Arg1:T16 Arg2:T17	
+R13	det Arg1:T19 Arg2:T18	
+R14	nsubj Arg1:T22 Arg2:T21	
+R15	advmod Arg1:T22 Arg2:T20	
+R16	nmod_tmod Arg1:T22 Arg2:T19	
+R17	punct Arg1:T22 Arg2:T23	
+R18	dobj Arg1:T28 Arg2:T27	
+R19	nsubj Arg1:T28 Arg2:T26	
+R20	nmod_tmod Arg1:T28 Arg2:T25	
+R21	det Arg1:T25 Arg2:T24	
+R22	punct Arg1:T28 Arg2:T29	
+R23	acl Arg1:T33 Arg2:T31	
+R24	compound Arg1:T31 Arg2:T32	
+R25	nsubj Arg1:T31 Arg2:T30	
+R26	dobj Arg1:T36 Arg2:T35	
+R27	punct Arg1:T36 Arg2:T37	
+R28	nsubj Arg1:T36 Arg2:T34	
+R29	nmod_tmod Arg1:T36 Arg2:T33	
+R30	case Arg1:T38 Arg2:T39	
+R31	dobj Arg1:T42 Arg2:T41	
+R32	nsubj Arg1:T42 Arg2:T40	
+R33	punct Arg1:T42 Arg2:T43	
+R34	nmod_tmod Arg1:T42 Arg2:T38	
+R35	case Arg1:T44 Arg2:T45	
+R36	punct Arg1:T48 Arg2:T49	
+R37	dobj Arg1:T48 Arg2:T47	
+R38	nsubj Arg1:T48 Arg2:T46	
+R39	nmod_tmod Arg1:T48 Arg2:T44	

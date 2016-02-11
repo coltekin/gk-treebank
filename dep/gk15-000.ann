@@ -1,0 +1,136 @@
+T1	ADJ 0 5	beyaz
+#1	ExtraFeatures T1	TRmorphTag=beyaz<Adj>|Lemma=beyaz|Stem=beyaz
+T2	NOUN 6 13	elbisem
+A1	Number T2 Sing
+A2	Number_psor T2 Sing
+A3	Person_psor T2 1
+#2	ExtraFeatures T2	TRmorphTag=elbise<N><p1s>|Lemma=elbise|Stem=elbise
+T3	NOUN 14 23	bahçedeki
+A4	Case T3 Loc
+A5	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=bahçe<N><loc>|Lemma=bahçe|Stem=bahçe
+T4	ADJ 25 26	_
+#4	ExtraFeatures T4	TRmorphTag=<ki><Adj>|Lemma=-ki|Stem=-ki
+T5	NOUN 27 31	ağaç
+A6	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=ağaç<N>|Lemma=ağaç|Stem=ağaç
+T6	NOUN 32 41	manzarası
+A7	Number T6 Sing
+A8	Number_psor T6 Sing
+A9	Person_psor T6 3
+#6	ExtraFeatures T6	TRmorphTag=manzara<N><p3s>|Lemma=manzara|Stem=manzara
+T7	VERB 42 46	olan
+A10	Mood T7 Ind
+A11	Tense T7 Pres
+A12	VerbType T7 Part
+#7	ExtraFeatures T7	TRmorphTag=ol<V><part:pres><Adj>|Lemma=olan|Stem=olan
+T8	DET 47 50	bir
+A13	Definite T8 Ind
+A14	Negative T8 Pos
+A15	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T9	NOUN 51 53	ev
+A16	Number T9 Sing
+#9	ExtraFeatures T9	TRmorphTag=ev<N>|Lemma=ev|Stem=ev
+T10	ADJ 54 60	yüksek
+#10	ExtraFeatures T10	TRmorphTag=yüksek<Adj>|Lemma=yüksek|Stem=yüksek
+T11	NOUN 61 65	ağaç
+A17	Number T11 Sing
+#11	ExtraFeatures T11	TRmorphTag=ağaç<N>|Lemma=ağaç|Stem=ağaç
+T12	NUM 66 69	beş
+A18	NumType T12 Ord
+#12	ExtraFeatures T12	TRmorphTag=beş<Num>|Lemma=beş|Stem=beş
+T13	NOUN 70 75	yatak
+A19	Number T13 Sing
+#13	ExtraFeatures T13	TRmorphTag=yatak<N>|Lemma=yatak|Stem=yatak
+T14	NOUN 76 81	odalı
+A20	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=oda<N>|Lemma=oda|Stem=oda
+T15	ADJ 83 84	_
+#15	ExtraFeatures T15	TRmorphTag=<li><Adj>|Lemma=-li|Stem=-li
+T16	NOUN 85 87	ev
+A21	Number T16 Sing
+#16	ExtraFeatures T16	TRmorphTag=ev<N>|Lemma=ev|Stem=ev
+T17	NUM 88 92	yedi
+A22	NumType T17 Ord
+#17	ExtraFeatures T17	TRmorphTag=yedi<Num>|Lemma=yedi|Stem=yedi
+T18	NOUN 93 100	yaşında
+A23	Case T18 Loc
+A24	Number T18 Sing
+A25	Number_psor T18 Sing
+A26	Person_psor T18 3
+#18	ExtraFeatures T18	TRmorphTag=yaş<N><p3s><loc>|Lemma=yaş|Stem=yaş
+T19	NOUN 101 106	çocuk
+A27	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=çocuk<N>|Lemma=çocuk|Stem=çocuk
+T20	NOUN 107 111	evin
+A28	Case T20 Gen
+A29	Number T20 Sing
+#20	ExtraFeatures T20	TRmorphTag=ev<N><gen>|Lemma=ev|Stem=ev
+T21	ADP 112 120	önündeki
+A30	Number_psor T21 Sing
+A31	Person_psor T21 3
+#21	ExtraFeatures T21	TRmorphTag=ön<N><p3s><loc><Postp:adv:nomC>|Lemma=önünde|Stem=önünde
+T22	ADJ 122 123	_
+#22	ExtraFeatures T22	TRmorphTag=<ki><Adj>|Lemma=-ki|Stem=-ki
+T23	NOUN 124 132	arabalar
+A32	Number T23 Plur
+#23	ExtraFeatures T23	TRmorphTag=araba<N><pl>|Lemma=araba|Stem=araba
+T24	NOUN 133 137	Ağaç
+A33	Number T24 Sing
+#24	ExtraFeatures T24	TRmorphTag=ağaç<N>|Lemma=ağaç|Stem=ağaç
+T25	ADJ 138 144	yüksek
+#25	ExtraFeatures T25	TRmorphTag=yüksek<Adj>|Lemma=yüksek|Stem=yüksek
+T26	VERB 146 147	_
+A34	Mood T26 Ind
+A35	Negative T26 Pos
+A36	Number T26 Sing
+A37	Person T26 3
+A38	Tense T26 Pres
+#26	ExtraFeatures T26	TRmorphTag=<0><V><cpl:pres><3s>|Lemma=-0|Stem=-0
+T27	PUNCT 148 149	.
+#27	ExtraFeatures T27	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T28	NOUN 150 155	Çocuk
+A39	Number T28 Sing
+#28	ExtraFeatures T28	TRmorphTag=çocuk<N>|Lemma=çocuk|Stem=çocuk
+T29	NUM 156 160	yedi
+A40	NumType T29 Ord
+#29	ExtraFeatures T29	TRmorphTag=yedi<Num>|Lemma=yedi|Stem=yedi
+T30	NOUN 161 168	yaşında
+A41	Case T30 Loc
+A42	Number T30 Sing
+A43	Number_psor T30 Sing
+A44	Person_psor T30 3
+#30	ExtraFeatures T30	TRmorphTag=yaş<N><p3s><loc>|Lemma=yaş|Stem=yaş
+T31	VERB 170 171	_
+A45	Mood T31 Ind
+A46	Negative T31 Pos
+A47	Number T31 Sing
+A48	Person T31 3
+A49	Tense T31 Pres
+#31	ExtraFeatures T31	TRmorphTag=<0><V><cpl:pres><3s>|Lemma=-0|Stem=-0
+T32	PUNCT 172 173	.
+#32	ExtraFeatures T32	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+R1	amod Arg1:T2 Arg2:T1	
+R2	case Arg1:T3 Arg2:T4	
+R3	nmod Arg1:T5 Arg2:T3	
+R5	cop Arg1:T6 Arg2:T7	
+R6	det Arg1:T9 Arg2:T8	
+R7	acl Arg1:T9 Arg2:T6	
+R8	amod Arg1:T11 Arg2:T10	
+R9	nmod_poss Arg1:T14 Arg2:T13	
+R10	nummod Arg1:T14 Arg2:T12	
+R11	case Arg1:T14 Arg2:T15	
+R12	nmod Arg1:T16 Arg2:T14	
+R13	nummod Arg1:T18 Arg2:T17	
+R14	nmod Arg1:T19 Arg2:T18	
+R15	case Arg1:T20 Arg2:T21	
+R16	case Arg1:T20 Arg2:T22	
+R17	nmod Arg1:T23 Arg2:T20	
+R18	cop Arg1:T25 Arg2:T26	
+R19	punct Arg1:T25 Arg2:T27	
+R20	nsubj Arg1:T25 Arg2:T24	
+R21	nummod Arg1:T30 Arg2:T29	
+R22	cop Arg1:T30 Arg2:T31	
+R23	punct Arg1:T30 Arg2:T32	
+R24	nsubj Arg1:T30 Arg2:T28	

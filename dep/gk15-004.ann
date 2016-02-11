@@ -1,0 +1,117 @@
+T1	NOUN 0 4	Notu
+A1	Number T1 Sing
+A2	Number_psor T1 Sing
+A3	Person_psor T1 3
+#1	ExtraFeatures T1	TRmorphTag=not<N><p3s>|Lemma=not|Stem=not
+T2	ADJ 5 10	düşük
+#2	ExtraFeatures T2	TRmorphTag=düşük<Adj>|Lemma=düşük|Stem=düşük
+T3	DET 11 14	bir
+A4	Definite T3 Ind
+A5	Negative T3 Pos
+A6	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T4	NOUN 15 22	öğrenci
+A7	Number T4 Sing
+#4	ExtraFeatures T4	TRmorphTag=öğrenci<N>|Lemma=öğrenci|Stem=öğrenci
+T5	DET 23 25	bu
+A8	Definite T5 Def
+A9	Negative T5 Pos
+A10	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=bu<Det:def>|Lemma=bu|Stem=bu
+T6	NOUN 26 32	sınavı
+A11	Case T6 Acc
+A12	Number T6 Sing
+#6	ExtraFeatures T6	TRmorphTag=sınav<N><acc>|Lemma=sınav|Stem=sınav
+T7	VERB 33 39	alamaz
+A13	Aspect T7 Habit
+A14	Mood T7 Abil-Gen
+A15	Negative T7 Neg
+A16	Number T7 Sing
+A17	Person T7 3
+A18	Tense T7 Pres
+#7	ExtraFeatures T7	TRmorphTag=al<V><abil><neg><aor><3s>|Lemma=almak|Stem=al
+T8	PUNCT 40 41	.
+#8	ExtraFeatures T8	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T9	ADV 42 45	çok
+#9	ExtraFeatures T9	TRmorphTag=çok<Adv>|Lemma=çok|Stem=çok
+T10	ADJ 46 51	temiz
+#10	ExtraFeatures T10	TRmorphTag=temiz<Adj>|Lemma=temiz|Stem=temiz
+T11	ADV 52 57	biraz
+#11	ExtraFeatures T11	TRmorphTag=biraz<Adv>|Lemma=biraz|Stem=biraz
+T12	ADJ 58 63	aptal
+#12	ExtraFeatures T12	TRmorphTag=aptal<Adj>|Lemma=aptal|Stem=aptal
+T13	PROPN 64 72	Filiz’in
+A19	Case T13 Gen
+A20	Number T13 Sing
+#13	ExtraFeatures T13	TRmorphTag=Filiz<N:prop><gen>|Lemma=Filiz|Stem=Filiz
+T14	NOUN 73 76	evi
+A21	Number T14 Sing
+A22	Number_psor T14 Sing
+A23	Person_psor T14 3
+#14	ExtraFeatures T14	TRmorphTag=ev<N><p3s>|Lemma=ev|Stem=ev
+T15	ADP 77 82	kadar
+#15	ExtraFeatures T15	TRmorphTag=kadar<Postp:adv:datC>|Lemma=kadar|Stem=kadar
+T16	ADJ 83 88	temiz
+#16	ExtraFeatures T16	TRmorphTag=temiz<Adj>|Lemma=temiz|Stem=temiz
+T17	VERB 89 103	inanılamayacak
+A24	Mood T17 Ind
+A25	Tense T17 Fut
+A26	VerbType T17 Part
+#17	ExtraFeatures T17	TRmorphTag=inan<V><pass><abil><neg><part:fut><Adj>|Lemma=inanılamayacak|Stem=inanılamayacak
+T18	ADP 104 109	kadar
+#18	ExtraFeatures T18	TRmorphTag=kadar<Postp:adv:nomC>|Lemma=kadar|Stem=kadar
+T19	ADJ 110 115	temiz
+#19	ExtraFeatures T19	TRmorphTag=temiz<Adj>|Lemma=temiz|Stem=temiz
+T20	VERB 116 128	beklediğimiz
+A27	Mood T20 Ind
+A28	Number_psor T20 Plur
+A29	Person_psor T20 1
+A30	Tense T20 Past
+A31	VerbType T20 Part
+#20	ExtraFeatures T20	TRmorphTag=bekle<V><part:past><Adj><p1p>|Lemma=bekledik|Stem=bekledik
+T21	ADP 129 134	kadar
+#21	ExtraFeatures T21	TRmorphTag=kadar<Postp:adv:nomC>|Lemma=kadar|Stem=kadar
+T22	ADJ 135 140	temiz
+#22	ExtraFeatures T22	TRmorphTag=temiz<Adj>|Lemma=temiz|Stem=temiz
+T23	ADV 141 145	daha
+#23	ExtraFeatures T23	TRmorphTag=daha<Adv>|Lemma=daha|Stem=daha
+T24	ADJ 146 151	rahat
+#24	ExtraFeatures T24	TRmorphTag=rahat<Adj>|Lemma=rahat|Stem=rahat
+T25	ADV 152 155	çok
+#25	ExtraFeatures T25	TRmorphTag=çok<Adv>|Lemma=çok|Stem=çok
+T26	ADV 156 160	daha
+#26	ExtraFeatures T26	TRmorphTag=daha<Adv>|Lemma=daha|Stem=daha
+T27	ADJ 161 166	rahat
+#27	ExtraFeatures T27	TRmorphTag=rahat<Adj>|Lemma=rahat|Stem=rahat
+T28	ADV 167 171	daha
+#28	ExtraFeatures T28	TRmorphTag=daha<Adv>|Lemma=daha|Stem=daha
+T29	ADJ 172 177	güzel
+#29	ExtraFeatures T29	TRmorphTag=güzel<Adj>|Lemma=güzel|Stem=güzel
+T30	ADV 178 183	biraz
+#30	ExtraFeatures T30	TRmorphTag=biraz<Adv>|Lemma=biraz|Stem=biraz
+T31	ADV 184 188	daha
+#31	ExtraFeatures T31	TRmorphTag=daha<Adv>|Lemma=daha|Stem=daha
+T32	ADJ 189 194	güzel
+#32	ExtraFeatures T32	TRmorphTag=güzel<Adj>|Lemma=güzel|Stem=güzel
+R1	nsubj Arg1:T2 Arg2:T1	
+R2	det Arg1:T4 Arg2:T3	
+R3	acl Arg1:T4 Arg2:T2	
+R4	det Arg1:T6 Arg2:T5	
+R5	dobj Arg1:T7 Arg2:T6	
+R6	nsubj Arg1:T7 Arg2:T4	
+R7	punct Arg1:T7 Arg2:T8	
+R8	advmod Arg1:T10 Arg2:T9	
+R9	advmod Arg1:T12 Arg2:T11	
+R10	nmod_poss Arg1:T14 Arg2:T13	
+R11	case Arg1:T14 Arg2:T15	
+R12	nmod Arg1:T16 Arg2:T14	
+R13	mark Arg1:T20 Arg2:T21	
+R14	mark Arg1:T17 Arg2:T18	
+R15	acl Arg1:T19 Arg2:T17	
+R18	advmod Arg1:T24 Arg2:T23	
+R19	advmod Arg1:T26 Arg2:T25	
+R20	advmod Arg1:T27 Arg2:T26	
+R21	advmod Arg1:T29 Arg2:T28	
+R22	advmod Arg1:T31 Arg2:T30	
+R23	advmod Arg1:T32 Arg2:T31	
+R24	acl Arg1:T22 Arg2:T20	

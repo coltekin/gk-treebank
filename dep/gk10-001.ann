@@ -1,0 +1,77 @@
+T1	NOUN 0 4	kuzu
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=kuzu<N>|Lemma=kuzu|Stem=kuzu
+T2	NOUN 5 10	fırın
+A2	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=fırın<N>|Lemma=fırın|Stem=fırın
+T3	PROPN 11 16	Akgül
+A3	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=Akgül<N:prop>|Lemma=Akgül|Stem=Akgül
+T4	NOUN 17 22	Sokak
+A4	Number T4 Sing
+#4	ExtraFeatures T4	TRmorphTag=sokak<N>|Lemma=sokak|Stem=sokak
+T5	NOUN 23 32	karabiber
+A5	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=karabiber<N>|Lemma=karabiber|Stem=karabiber
+T6	ADJ 33 37	sarı
+#6	ExtraFeatures T6	TRmorphTag=sarı<Adj>|Lemma=sarı|Stem=sarı
+T7	NOUN 38 43	humma
+A6	Number T7 Sing
+#7	ExtraFeatures T7	TRmorphTag=humma<N>|Lemma=humma|Stem=humma
+T8	NOUN 44 50	otobüs
+A7	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=otobüs<N>|Lemma=otobüs|Stem=otobüs
+T9	NOUN 51 57	bileti
+A8	Number T9 Sing
+A9	Number_psor T9 Sing
+A10	Person_psor T9 3
+#9	ExtraFeatures T9	TRmorphTag=bilet<N><p3s>|Lemma=bilet|Stem=bilet
+T10	NOUN 58 60	el
+A11	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=el<N>|Lemma=el|Stem=el
+T11	NOUN 61 68	çantası
+A12	Number T11 Sing
+A13	Number_psor T11 Sing
+A14	Person_psor T11 3
+#11	ExtraFeatures T11	TRmorphTag=çanta<N><p3s>|Lemma=çanta|Stem=çanta
+T12	NOUN 69 73	masa
+A15	Number T12 Sing
+#12	ExtraFeatures T12	TRmorphTag=masa<N>|Lemma=masa|Stem=masa
+T13	NOUN 74 80	örtüsü
+A16	Number T13 Sing
+A17	Number_psor T13 Sing
+A18	Person_psor T13 3
+#13	ExtraFeatures T13	TRmorphTag=örtü<N><p3s>|Lemma=örtü|Stem=örtü
+T14	NOUN 81 84	çay
+A19	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=çay<N>|Lemma=çay|Stem=çay
+T15	NOUN 85 92	bardağı
+A20	Number T15 Sing
+A21	Number_psor T15 Sing
+A22	Person_psor T15 3
+#15	ExtraFeatures T15	TRmorphTag=bardak<N><p3s>|Lemma=bardak|Stem=bardak
+T16	NOUN 93 98	çocuk
+A23	Number T16 Sing
+#16	ExtraFeatures T16	TRmorphTag=çocuk<N>|Lemma=çocuk|Stem=çocuk
+T17	NOUN 99 106	bahçesi
+A24	Number T17 Sing
+A25	Number_psor T17 Sing
+A26	Person_psor T17 3
+#17	ExtraFeatures T17	TRmorphTag=bahçe<N><p3s>|Lemma=bahçe|Stem=bahçe
+T18	NOUN 107 113	otobüs
+A27	Number T18 Sing
+#18	ExtraFeatures T18	TRmorphTag=otobüs<N>|Lemma=otobüs|Stem=otobüs
+T19	NOUN 114 123	biletleri
+A28	Number T19 Plur
+A29	Number_psor T19 Sing
+A30	Person_psor T19 3
+#19	ExtraFeatures T19	TRmorphTag=bilet<N><pl><p3s>|Lemma=bilet|Stem=bilet
+R1	compound Arg1:T2 Arg2:T1	
+R2	compound Arg1:T4 Arg2:T3	
+R3	amod Arg1:T7 Arg2:T6	
+R4	nmod_poss Arg1:T9 Arg2:T8	
+R5	nmod_poss Arg1:T11 Arg2:T10	
+R6	nmod_poss Arg1:T13 Arg2:T12	
+R7	nmod_poss Arg1:T15 Arg2:T14	
+R8	nmod_poss Arg1:T17 Arg2:T16	
+R9	nmod_poss Arg1:T19 Arg2:T18	

@@ -1,0 +1,112 @@
+T1	PROPN 0 3	Çin
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=Çin<N:prop>|Lemma=Çin|Stem=Çin
+T2	NOUN 4 10	feneri
+A2	Number T2 Sing
+A3	Number_psor T2 Sing
+A4	Person_psor T2 3
+#2	ExtraFeatures T2	TRmorphTag=fener<N><p3s>|Lemma=fener|Stem=fener
+T3	PROPN 11 19	Brezilya
+A5	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=Brezilya<N:prop>|Lemma=Brezilya|Stem=Brezilya
+T4	NOUN 20 26	takımı
+A6	Number T4 Sing
+A7	Number_psor T4 Sing
+A8	Person_psor T4 3
+#4	ExtraFeatures T4	TRmorphTag=takım<N><p3s>|Lemma=takım|Stem=takım
+T5	DET 27 30	bir
+A9	Definite T5 Ind
+A10	Negative T5 Pos
+A11	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T6	PROPN 31 37	Afrika
+A12	Number T6 Sing
+#6	ExtraFeatures T6	TRmorphTag=Afrika<N:prop>|Lemma=Afrika|Stem=Afrika
+T7	NOUN 38 44	ülkesi
+A13	Number T7 Sing
+A14	Number_psor T7 Sing
+A15	Person_psor T7 3
+#7	ExtraFeatures T7	TRmorphTag=ülke<N><p3s>|Lemma=ülke|Stem=ülke
+T8	PROPN 45 53	Ortadoğu
+A16	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=Ortadoğu<N:prop>|Lemma=Ortadoğu|Stem=Ortadoğu
+T9	NOUN 54 62	siyaseti
+A17	Number T9 Sing
+A18	Number_psor T9 Sing
+A19	Person_psor T9 3
+#9	ExtraFeatures T9	TRmorphTag=siyaset<N><p3s>|Lemma=siyaset|Stem=siyaset
+T10	PROPN 63 70	Akdeniz
+A20	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=Akdeniz<N:prop>|Lemma=Akdeniz|Stem=Akdeniz
+T11	NOUN 71 77	iklimi
+A21	Number T11 Sing
+A22	Number_psor T11 Sing
+A23	Person_psor T11 3
+#11	ExtraFeatures T11	TRmorphTag=iklim<N><p3s>|Lemma=iklim|Stem=iklim
+T12	PROPN 78 82	Uşak
+A24	Number T12 Sing
+#12	ExtraFeatures T12	TRmorphTag=Uşak<N:prop>|Lemma=Uşak|Stem=Uşak
+T13	NOUN 83 89	halısı
+A25	Number T13 Sing
+A26	Number_psor T13 Sing
+A27	Person_psor T13 3
+#13	ExtraFeatures T13	TRmorphTag=halı<N><p3s>|Lemma=halı|Stem=halı
+T14	DET 90 93	Bir
+A28	Definite T14 Ind
+A29	Negative T14 Pos
+A30	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T15	PROPN 94 97	Rus
+A31	Number T15 Sing
+#15	ExtraFeatures T15	TRmorphTag=Rus<N:prop>|Lemma=Rus|Stem=Rus
+T16	NOUN 98 106	sporcusu
+A32	Number T16 Sing
+#16	ExtraFeatures T16	TRmorphTag=spor<N><ci><N><p3s>|Lemma=sporcu|Stem=sporcu
+T17	PROPN 107 112	Yunan
+A33	Number T17 Sing
+#17	ExtraFeatures T17	TRmorphTag=Yunan<N:prop>|Lemma=Yunan|Stem=Yunan
+T18	NOUN 113 122	başbakanı
+A34	Number T18 Sing
+A35	Number_psor T18 Sing
+A36	Person_psor T18 3
+#18	ExtraFeatures T18	TRmorphTag=başbakan<N><p3s>|Lemma=başbakan|Stem=başbakan
+T19	PROPN 123 130	İngiliz
+A37	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=İngiliz<N:prop>|Lemma=İngiliz|Stem=İngiliz
+T20	NOUN 131 140	Edebiyatı
+A38	Number T20 Sing
+A39	Number_psor T20 Sing
+A40	Person_psor T20 3
+#20	ExtraFeatures T20	TRmorphTag=edebiyat<N><p3s>|Lemma=edebiyat|Stem=edebiyat
+T21	NOUN 141 147	Bölümü
+A41	Number T21 Sing
+A42	Number_psor T21 Sing
+A43	Person_psor T21 3
+#21	ExtraFeatures T21	TRmorphTag=bölüm<N><p3s>|Lemma=bölüm|Stem=bölüm
+T22	NOUN 148 151	göz
+A44	Number T22 Sing
+#22	ExtraFeatures T22	TRmorphTag=göz<N>|Lemma=göz|Stem=göz
+T23	NOUN 152 164	hastalıkları
+A45	Number T23 Plur
+A46	Number_psor T23 Sing
+A47	Person_psor T23 3
+#23	ExtraFeatures T23	TRmorphTag=hastalık<N><pl><p3s>|Lemma=hastalık|Stem=hastalık
+T24	NOUN 165 174	hastanesi
+A48	Number T24 Sing
+A49	Number_psor T24 Sing
+A50	Person_psor T24 3
+#24	ExtraFeatures T24	TRmorphTag=hastane<N><p3s>|Lemma=hastane|Stem=hastane
+R1	nmod_poss Arg1:T2 Arg2:T1	
+R2	nmod_poss Arg1:T4 Arg2:T3	
+R3	nmod_poss Arg1:T7 Arg2:T6	
+R4	det Arg1:T7 Arg2:T5	
+R5	nmod_poss Arg1:T9 Arg2:T8	
+R6	nmod_poss Arg1:T11 Arg2:T10	
+R7	nmod_poss Arg1:T13 Arg2:T12	
+R8	nmod_poss Arg1:T16 Arg2:T15	
+R9	det Arg1:T16 Arg2:T14	
+R11	nmod_poss Arg1:T18 Arg2:T17	
+R12	nmod_poss Arg1:T20 Arg2:T19	
+R13	nmod_poss Arg1:T21 Arg2:T20	
+R14	nmod_poss Arg1:T23 Arg2:T22	
+R15	nmod_poss Arg1:T24 Arg2:T23	

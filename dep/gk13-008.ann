@@ -1,0 +1,302 @@
+T1	DET 0 5	Bütün
+A1	Definite T1 Def
+A2	Negative T1 Pos
+A3	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=bütün<Det:def>|Lemma=bütün|Stem=bütün
+T2	NOUN 6 17	öğrencilere
+A4	Case T2 Dat
+A5	Number T2 Plur
+#2	ExtraFeatures T2	TRmorphTag=öğrenci<N><pl><dat>|Lemma=öğrenci|Stem=öğrenci
+T3	NOUN 18 26	resimler
+A6	Number T3 Plur
+#3	ExtraFeatures T3	TRmorphTag=resim<N><pl>|Lemma=resim|Stem=resim
+T4	VERB 27 38	yaptırtıldı
+A7	Aspect T4 Perf
+A8	Mood T4 Ind
+A9	Negative T4 Pos
+A10	Number T4 Sing
+A11	Person T4 3
+A12	Tense T4 Past
+A13	Voice T4 Cau-Cau-Pass
+#4	ExtraFeatures T4	TRmorphTag=yap<V><caus><caus><pass><past><3s>|Lemma=yapmak|Stem=yap
+T5	PUNCT 39 40	.
+#5	ExtraFeatures T5	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T6	NOUN 41 48	Fasulye
+A14	Number T6 Sing
+#6	ExtraFeatures T6	TRmorphTag=fasulye<N>|Lemma=fasulye|Stem=fasulye
+T7	ADJ 49 53	kart
+#7	ExtraFeatures T7	TRmorphTag=kart<Adj>|Lemma=kart|Stem=kart
+T8	VERB 54 64	olduğundan
+A15	Mood T8 Ind
+A16	Negative T8 Pos
+A17	Number T8 Sing
+A18	Person T8 3
+A19	Tense T8 Past
+#8	ExtraFeatures T8	TRmorphTag=ol<V>|Lemma=olmak|Stem=ol
+T9	NOUN 66 67	_
+A20	Case T9 Abl
+A21	Number T9 Sing
+#9	ExtraFeatures T9	TRmorphTag=<vn:past><N><p3s><abl>|Lemma=-dik|Stem=-dik
+T10	NUM 68 70	üç
+A22	NumType T10 Ord
+#10	ExtraFeatures T10	TRmorphTag=üç<Num>|Lemma=üç|Stem=üç
+T11	NOUN 71 77	saatte
+A23	Case T11 Loc
+A24	Number T11 Sing
+#11	ExtraFeatures T11	TRmorphTag=saat<N><loc>|Lemma=saat|Stem=saat
+T12	VERB 78 83	pişti
+A25	Aspect T12 Perf
+A26	Mood T12 Ind
+A27	Negative T12 Pos
+A28	Number T12 Sing
+A29	Person T12 3
+A30	Tense T12 Past
+#12	ExtraFeatures T12	TRmorphTag=piş<V><past><3s>|Lemma=pişmek|Stem=piş
+T13	PUNCT 84 85	.
+#13	ExtraFeatures T13	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T14	ADV 86 91	Keşke
+#14	ExtraFeatures T14	TRmorphTag=keşke<Cnj:adv>|Lemma=keşke|Stem=keşke
+T15	DET 92 94	şu
+A31	Definite T15 Def
+A32	Negative T15 Pos
+A33	Number T15 Sing
+#15	ExtraFeatures T15	TRmorphTag=şu<Det:def>|Lemma=şu|Stem=şu
+T16	NOUN 95 105	fasulyeler
+A34	Number T16 Plur
+#16	ExtraFeatures T16	TRmorphTag=fasulye<N><pl>|Lemma=fasulye|Stem=fasulye
+T17	ADJ 106 111	doğru
+#17	ExtraFeatures T17	TRmorphTag=doğru<Adj>|Lemma=doğru|Stem=doğru
+T18	ADJ 112 118	dürüst
+#18	ExtraFeatures T18	TRmorphTag=dürüst<Adj>|Lemma=dürüst|Stem=dürüst
+T19	DET 119 122	bir
+A35	Definite T19 Ind
+A36	Negative T19 Pos
+A37	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T20	NOUN 123 127	ahçı
+A38	Number T20 Sing
+#20	ExtraFeatures T20	TRmorphTag=ahçı<N>|Lemma=ahçı|Stem=ahçı
+T21	ADP 128 138	tarafından
+A39	Number_psor T21 Sing
+A40	Person_psor T21 3
+#21	ExtraFeatures T21	TRmorphTag=taraf<N><p3s><abl><Postp:adv:nomC>|Lemma=tarafından|Stem=tarafından
+T22	VERB 139 151	pişirilseydi
+A41	Mood T22 Cnd
+A42	Negative T22 Pos
+A43	Number T22 Sing
+A44	Person T22 3
+A45	Tense T22 Past
+A46	Voice T22 Cau-Pass
+#22	ExtraFeatures T22	TRmorphTag=piş<V><caus><pass><cond><cpl:past><3s>|Lemma=pişmek|Stem=piş
+T23	PUNCT 152 153	!
+#23	ExtraFeatures T23	TRmorphTag=!<Punc>|Lemma=!|Stem=!
+T24	NOUN 154 162	Babaları
+A47	Number T24 Sing
+A48	Number_psor T24 Plur
+A49	Person_psor T24 3
+#24	ExtraFeatures T24	TRmorphTag=baba<N><p3p>|Lemma=baba|Stem=baba
+T25	NOUN 163 173	kardeşleri
+A50	Case T25 Acc
+A51	Number T25 Plur
+#25	ExtraFeatures T25	TRmorphTag=kardeş<N><pl><acc>|Lemma=kardeş|Stem=kardeş
+T26	VERB 174 183	öpüştürdü
+A52	Aspect T26 Perf
+A53	Mood T26 Ind
+A54	Negative T26 Pos
+A55	Number T26 Sing
+A56	Person T26 3
+A57	Tense T26 Past
+A58	Voice T26 Cau-Rcp
+#26	ExtraFeatures T26	TRmorphTag=öp<V><rcp><caus><past><3s>|Lemma=öpmek|Stem=öp
+T27	PUNCT 184 185	.
+#27	ExtraFeatures T27	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T28	DET 186 188	Bu
+A59	Definite T28 Def
+A60	Negative T28 Pos
+A61	Number T28 Sing
+#28	ExtraFeatures T28	TRmorphTag=bu<Det:def>|Lemma=bu|Stem=bu
+T29	NOUN 189 196	arenada
+A62	Case T29 Loc
+A63	Number T29 Sing
+#29	ExtraFeatures T29	TRmorphTag=arena<N><loc>|Lemma=arena|Stem=arena
+T30	DET 197 200	her
+A64	Definite T30 Def
+A65	Negative T30 Pos
+A66	Number T30 Sing
+#30	ExtraFeatures T30	TRmorphTag=her<Det:def>|Lemma=her|Stem=her
+T31	NOUN 201 206	zaman
+A67	Number T31 Sing
+#31	ExtraFeatures T31	TRmorphTag=zaman<N>|Lemma=zaman|Stem=zaman
+T32	VERB 207 220	dövüşülmüştür
+A68	Aspect T32 Perf
+A69	Evidential T32 Nfh
+A70	Mood T32 Gen
+A71	Negative T32 Pos
+A72	Number T32 Sing
+A73	Person T32 3
+A74	Tense T32 Past
+A75	Voice T32 Pass-Rcp
+#32	ExtraFeatures T32	TRmorphTag=döv<V><rcp><pass><evid><3s><dir>|Lemma=dövmek|Stem=döv
+T33	PUNCT 221 222	.
+#33	ExtraFeatures T33	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T34	PRON 223 228	Onlar
+A76	Negative T34 Pos
+A77	Number T34 Plur
+#34	ExtraFeatures T34	TRmorphTag=o<Prn:dem><pl>|Lemma=o|Stem=o
+T35	PRON 229 235	burada
+A78	Case T35 Loc
+A79	Negative T35 Pos
+A80	Number T35 Sing
+#35	ExtraFeatures T35	TRmorphTag=bura<Prn:locp><loc>|Lemma=bura|Stem=bura
+T36	VERB 236 248	dövüştürüldü
+A81	Aspect T36 Perf
+A82	Mood T36 Ind
+A83	Negative T36 Pos
+A84	Number T36 Sing
+A85	Person T36 3
+A86	Tense T36 Past
+A87	Voice T36 Cau-Pass-Rcp
+#36	ExtraFeatures T36	TRmorphTag=döv<V><rcp><caus><pass><past><3s>|Lemma=dövmek|Stem=döv
+T37	PUNCT 249 250	.
+#37	ExtraFeatures T37	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T38	DET 251 253	Bu
+A88	Definite T38 Def
+A89	Negative T38 Pos
+A90	Number T38 Sing
+#38	ExtraFeatures T38	TRmorphTag=bu<Det:def>|Lemma=bu|Stem=bu
+T39	NOUN 254 261	hamamda
+A91	Case T39 Loc
+A92	Number T39 Sing
+#39	ExtraFeatures T39	TRmorphTag=hamam<N><loc>|Lemma=hamam|Stem=hamam
+T40	ADV 262 265	iyi
+#40	ExtraFeatures T40	TRmorphTag=iyi<Adv>|Lemma=iyi|Stem=iyi
+T41	VERB 266 275	yıkanılır
+A93	Aspect T41 Habit
+A94	Mood T41 Gen
+A95	Negative T41 Pos
+A96	Number T41 Sing
+A97	Person T41 3
+A98	Tense T41 Pres
+A99	Voice T41 Pass-Rfl
+#41	ExtraFeatures T41	TRmorphTag=yıka<V><rfl><pass><aor><3s>|Lemma=yıkamak|Stem=yıka
+T42	PUNCT 276 277	.
+#42	ExtraFeatures T42	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T43	DET 278 281	Her
+A100	Definite T43 Def
+A101	Negative T43 Pos
+A102	Number T43 Sing
+#43	ExtraFeatures T43	TRmorphTag=her<Det:def>|Lemma=her|Stem=her
+T44	NOUN 282 285	gün
+A103	Number T44 Sing
+#44	ExtraFeatures T44	TRmorphTag=gün<N>|Lemma=gün|Stem=gün
+T45	NOUN 286 294	çikolata
+A104	Number T45 Sing
+#45	ExtraFeatures T45	TRmorphTag=çikolata<N>|Lemma=çikolata|Stem=çikolata
+T46	VERB 295 306	yiyebilirim
+A105	Aspect T46 Habit
+A106	Mood T46 Abil-Gen
+A107	Negative T46 Pos
+A108	Number T46 Sing
+A109	Person T46 1
+A110	Tense T46 Pres
+#46	ExtraFeatures T46	TRmorphTag=ye<V><abil><aor><1s>|Lemma=yemek|Stem=ye
+T47	PUNCT 307 308	.
+#47	ExtraFeatures T47	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T48	DET 309 310	O
+A111	Definite T48 Def
+A112	Negative T48 Pos
+A113	Number T48 Sing
+#48	ExtraFeatures T48	TRmorphTag=o<Det:def>|Lemma=o|Stem=o
+T49	NOUN 311 315	anda
+A114	Case T49 Loc
+A115	Number T49 Sing
+#49	ExtraFeatures T49	TRmorphTag=an<N><loc>|Lemma=an|Stem=an
+T50	NOUN 316 321	odaya
+A116	Case T50 Dat
+A117	Number T50 Sing
+#50	ExtraFeatures T50	TRmorphTag=oda<N><dat>|Lemma=oda|Stem=oda
+T51	DET 322 325	bir
+A118	Definite T51 Ind
+A119	Negative T51 Pos
+A120	Number T51 Sing
+#51	ExtraFeatures T51	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T52	NOUN 326 330	adam
+A121	Number T52 Sing
+#52	ExtraFeatures T52	TRmorphTag=adam<N>|Lemma=adam|Stem=adam
+T53	VERB 331 340	giriverdi
+A122	Aspect T53 Perf-Rapid
+A123	Mood T53 Ind
+A124	Negative T53 Pos
+A125	Number T53 Sing
+A126	Person T53 3
+A127	Tense T53 Past
+#53	ExtraFeatures T53	TRmorphTag=gir<V><iver><past><3s>|Lemma=girmek|Stem=gir
+T54	PUNCT 341 342	.
+#54	ExtraFeatures T54	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T55	DET 343 345	Şu
+A128	Definite T55 Def
+A129	Negative T55 Pos
+A130	Number T55 Sing
+#55	ExtraFeatures T55	TRmorphTag=şu<Det:def>|Lemma=şu|Stem=şu
+T56	NOUN 346 355	pencereyi
+A131	Case T56 Acc
+A132	Number T56 Sing
+#56	ExtraFeatures T56	TRmorphTag=pencere<N><acc>|Lemma=pencere|Stem=pencere
+T57	VERB 356 369	kapayıversene
+A133	Aspect T57 Rapid
+A134	Mood T57 Imp
+A135	Negative T57 Pos
+A136	Number T57 Sing
+A137	Person T57 2
+A138	Tense T57 Pres
+#57	ExtraFeatures T57	TRmorphTag=kapa<V><iver><imp><2s>|Lemma=kapamak|Stem=kapa
+T58	PUNCT 370 371	.
+#58	ExtraFeatures T58	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+R1	det Arg1:T2 Arg2:T1	
+R2	nsubjpass Arg1:T4 Arg2:T3	
+R3	punct Arg1:T4 Arg2:T5	
+R4	nmod_cau Arg1:T4 Arg2:T2	
+R5	cop Arg1:T7 Arg2:T8	
+R6	nummod Arg1:T11 Arg2:T10	
+R7	acl Arg1:T9 Arg2:T7	
+R8	nmod_tmod Arg1:T12 Arg2:T11	
+R9	punct Arg1:T12 Arg2:T13	
+R10	nmod Arg1:T12 Arg2:T9	
+R11	nsubj Arg1:T12 Arg2:T6	
+R12	punct Arg1:T22 Arg2:T23	
+R13	case Arg1:T20 Arg2:T21	
+R14	mwe Arg1:T17 Arg2:T18	
+R15	det Arg1:T20 Arg2:T19	
+R16	amod Arg1:T20 Arg2:T17	
+R17	nmod_pass Arg1:T22 Arg2:T20	
+R18	nsubjpass Arg1:T22 Arg2:T16	
+R19	det Arg1:T16 Arg2:T15	
+R20	discourse Arg1:T22 Arg2:T14	
+R21	punct Arg1:T26 Arg2:T27	
+R22	dobj_cau Arg1:T26 Arg2:T25	
+R23	nsubj Arg1:T26 Arg2:T24	
+R24	punct Arg1:T32 Arg2:T33	
+R25	det Arg1:T31 Arg2:T30	
+R26	nmod_tmod Arg1:T32 Arg2:T31	
+R27	det Arg1:T29 Arg2:T28	
+R28	nmod Arg1:T32 Arg2:T29	
+R29	punct Arg1:T36 Arg2:T37	
+R30	nmod Arg1:T36 Arg2:T35	
+R31	nsubjpass Arg1:T36 Arg2:T34	
+R32	advmod Arg1:T41 Arg2:T40	
+R33	punct Arg1:T41 Arg2:T42	
+R34	det Arg1:T39 Arg2:T38	
+R35	nmod Arg1:T41 Arg2:T39	
+R36	punct Arg1:T46 Arg2:T47	
+R37	dobj Arg1:T46 Arg2:T45	
+R38	det Arg1:T44 Arg2:T43	
+R39	nmod_tmod Arg1:T46 Arg2:T44	
+R40	det Arg1:T49 Arg2:T48	
+R41	det Arg1:T52 Arg2:T51	
+R42	nsubj Arg1:T53 Arg2:T52	
+R43	nmod Arg1:T53 Arg2:T50	
+R44	nmod_tmod Arg1:T53 Arg2:T49	
+R45	punct Arg1:T57 Arg2:T58	
+R46	det Arg1:T56 Arg2:T55	
+R47	dobj Arg1:T57 Arg2:T56	
+R48	punct Arg1:T53 Arg2:T54	

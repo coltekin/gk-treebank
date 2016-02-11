@@ -1,0 +1,72 @@
+T1	NOUN 0 2	el
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=el<N>|Lemma=el|Stem=el
+T2	NOUN 3 12	çantaları
+A2	Number T2 Plur
+A3	Number_psor T2 Sing
+A4	Person_psor T2 3
+#2	ExtraFeatures T2	TRmorphTag=çanta<N><pl><p3s>|Lemma=çanta|Stem=çanta
+T3	NOUN 13 16	çay
+A5	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=çay<N>|Lemma=çay|Stem=çay
+T4	NOUN 17 27	bardakları
+A6	Number T4 Plur
+A7	Number_psor T4 Sing
+A8	Person_psor T4 3
+#4	ExtraFeatures T4	TRmorphTag=bardak<N><pl><p3s>|Lemma=bardak|Stem=bardak
+T5	NOUN 28 40	buzdolapları
+A9	Number T5 Plur
+#5	ExtraFeatures T5	TRmorphTag=buzdolabı<N><pl>|Lemma=buzdolabı|Stem=buzdolabı
+T6	NOUN 41 52	yayınevleri
+A10	Number T6 Plur
+#6	ExtraFeatures T6	TRmorphTag=yayınevi<N><pl>|Lemma=yayınevi|Stem=yayınevi
+T7	NOUN 53 64	ayakkabılar
+A11	Number T7 Plur
+#7	ExtraFeatures T7	TRmorphTag=ayakkabı<N><pl>|Lemma=ayakkabı|Stem=ayakkabı
+T8	PROPN 65 69	Ağrı
+A12	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=Ağrı<N:prop>|Lemma=Ağrı|Stem=Ağrı
+T9	NOUN 70 74	Dağı
+A13	Number T9 Sing
+A14	Number_psor T9 Sing
+A15	Person_psor T9 3
+#9	ExtraFeatures T9	TRmorphTag=dağ<N><p3s>|Lemma=dağ|Stem=dağ
+T10	PROPN 75 78	Van
+A16	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=Van<N:prop>|Lemma=Van|Stem=Van
+T11	NOUN 79 83	Gölü
+A17	Number T11 Sing
+A18	Number_psor T11 Sing
+A19	Person_psor T11 3
+#11	ExtraFeatures T11	TRmorphTag=göl<N><p3s>|Lemma=göl|Stem=göl
+T12	PROPN 84 88	Efes
+A20	Number T12 Sing
+#12	ExtraFeatures T12	TRmorphTag=Efes<N:prop>|Lemma=Efes|Stem=Efes
+T13	NOUN 89 98	Lokantası
+A21	Number T13 Sing
+A22	Number_psor T13 Sing
+A23	Person_psor T13 3
+#13	ExtraFeatures T13	TRmorphTag=lokanta<N><p3s>|Lemma=lokanta|Stem=lokanta
+T14	PROPN 99 106	Türkiye
+A24	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=Türkiye<N:prop>|Lemma=Türkiye|Stem=Türkiye
+T15	NOUN 107 118	Cumhuriyeti
+A25	Number T15 Sing
+A26	Number_psor T15 Sing
+A27	Person_psor T15 3
+#15	ExtraFeatures T15	TRmorphTag=cumhuriyet<N><p3s>|Lemma=cumhuriyet|Stem=cumhuriyet
+T16	NUM 119 123	1912
+A28	NumType T16 Ord
+#16	ExtraFeatures T16	TRmorphTag=1912<Num:ara>|Lemma=1912|Stem=1912
+T17	NOUN 124 128	yılı
+A29	Number T17 Sing
+A30	Number_psor T17 Sing
+A31	Person_psor T17 3
+#17	ExtraFeatures T17	TRmorphTag=yıl<N><p3s>|Lemma=yıl|Stem=yıl
+R1	nmod_poss Arg1:T2 Arg2:T1	
+R2	nmod_poss Arg1:T4 Arg2:T3	
+R3	nmod_poss Arg1:T9 Arg2:T8	
+R4	nmod_poss Arg1:T11 Arg2:T10	
+R5	nmod_poss Arg1:T13 Arg2:T12	
+R6	nmod_poss Arg1:T15 Arg2:T14	
+R7	nmod_poss Arg1:T17 Arg2:T16	

@@ -1,0 +1,67 @@
+T1	NOUN 0 5	erkek
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=erkek<N>|Lemma=erkek|Stem=erkek
+T2	NOUN 6 12	kardeş
+A2	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=kardeş<N>|Lemma=kardeş|Stem=kardeş
+T3	NOUN 13 23	kızarkadaş
+A3	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=kızarkadaş<N>|Lemma=kızarkadaş|Stem=kızarkadaş
+T4	NOUN 24 29	kadın
+A4	Number T4 Sing
+#4	ExtraFeatures T4	TRmorphTag=kadın<N>|Lemma=kadın|Stem=kadın
+T5	NOUN 30 36	doktor
+A5	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=doktor<N>|Lemma=doktor|Stem=doktor
+T6	NOUN 37 43	avukat
+A6	Number T6 Sing
+#6	ExtraFeatures T6	TRmorphTag=avukat<N>|Lemma=avukat|Stem=avukat
+T7	NOUN 44 49	kadın
+A7	Number T7 Sing
+#7	ExtraFeatures T7	TRmorphTag=kadın<N>|Lemma=kadın|Stem=kadın
+T8	PROPN 50 55	Alman
+A8	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=Alman<N:prop>|Lemma=Alman|Stem=Alman
+T9	NOUN 56 61	mimar
+A9	Number T9 Sing
+#9	ExtraFeatures T9	TRmorphTag=mimar<N>|Lemma=mimar|Stem=mimar
+T10	PROPN 62 66	Türk
+A10	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=Türk<N:prop>|Lemma=Türk|Stem=Türk
+T11	NOUN 67 75	çocuklar
+A11	Number T11 Plur
+#11	ExtraFeatures T11	TRmorphTag=çocuk<N><pl>|Lemma=çocuk|Stem=çocuk
+T12	NOUN 76 81	çelik
+A12	Number T12 Sing
+#12	ExtraFeatures T12	TRmorphTag=çelik<N>|Lemma=çelik|Stem=çelik
+T13	NOUN 82 86	kapı
+A13	Number T13 Sing
+#13	ExtraFeatures T13	TRmorphTag=kapı<N>|Lemma=kapı|Stem=kapı
+T14	NOUN 87 90	taş
+A14	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=taş<N>|Lemma=taş|Stem=taş
+T15	NOUN 91 96	duvar
+A15	Number T15 Sing
+#15	ExtraFeatures T15	TRmorphTag=duvar<N>|Lemma=duvar|Stem=duvar
+T16	NOUN 97 100	yün
+A16	Number T16 Sing
+#16	ExtraFeatures T16	TRmorphTag=yün<N>|Lemma=yün|Stem=yün
+T17	NOUN 101 106	çorap
+A17	Number T17 Sing
+#17	ExtraFeatures T17	TRmorphTag=çorap<N>|Lemma=çorap|Stem=çorap
+T18	NOUN 107 110	şiş
+A18	Number T18 Sing
+#18	ExtraFeatures T18	TRmorphTag=şiş<N>|Lemma=şiş|Stem=şiş
+T19	NOUN 111 116	kebap
+A19	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=kebap<N>|Lemma=kebap|Stem=kebap
+R1	compound Arg1:T2 Arg2:T1	
+R2	compound Arg1:T5 Arg2:T4	
+R3	compound Arg1:T7 Arg2:T6	
+R4	compound Arg1:T9 Arg2:T8	
+#20	AnnotatorNotes R4	Q: should we use amod here?
+R5	compound Arg1:T11 Arg2:T10	
+R6	compound Arg1:T13 Arg2:T12	
+R7	compound Arg1:T15 Arg2:T14	
+R8	compound Arg1:T17 Arg2:T16	
+R9	compound Arg1:T19 Arg2:T18	

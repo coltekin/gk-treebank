@@ -1,0 +1,203 @@
+T1	DET 0 2	Bu
+A1	Definite T1 Def
+A2	Negative T1 Pos
+A3	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=bu<Det:def>|Lemma=bu|Stem=bu
+T2	NOUN 3 7	işte
+A4	Case T2 Loc
+A5	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=iş<N><loc>|Lemma=iş|Stem=iş
+T3	ADJ 8 13	büyük
+#3	ExtraFeatures T3	TRmorphTag=büyük<Adj>|Lemma=büyük|Stem=büyük
+T4	NOUN 14 18	para
+A6	Number T4 Sing
+#4	ExtraFeatures T4	TRmorphTag=para<N>|Lemma=para|Stem=para
+T5	ADJ 19 22	var
+A7	Negative T5 Pos
+#5	ExtraFeatures T5	TRmorphTag=var<Exist>|Lemma=var|Stem=var
+T6	VERB 24 25	_
+A8	Mood T6 Ind
+A9	Negative T6 Pos
+A10	Number T6 Sing
+A11	Person T6 3
+A12	Tense T6 Pres
+#6	ExtraFeatures T6	TRmorphTag=<0><V><cpl:pres><3s>|Lemma=-0|Stem=-0
+T7	PUNCT 26 27	.
+#7	ExtraFeatures T7	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T8	NOUN 28 35	Kumları
+A13	Case T8 Acc
+A14	Number T8 Plur
+#8	ExtraFeatures T8	TRmorphTag=kum<N><pl><acc>|Lemma=kum|Stem=kum
+T9	NOUN 36 49	parmaklarının
+A15	Case T9 Gen
+A16	Number T9 Plur
+A17	Number_psor T9 Sing
+A18	Person_psor T9 3
+#9	ExtraFeatures T9	TRmorphTag=parmak<N><pl><p3s><gen>|Lemma=parmak|Stem=parmak
+T10	ADP 50 59	arasından
+A19	Number_psor T10 Sing
+A20	Person_psor T10 3
+#10	ExtraFeatures T10	TRmorphTag=ara<N><p3s><abl><Postp:adv:nomC>|Lemma=arasından|Stem=arasından
+T11	VERB 60 71	geçiriyordu
+A21	Aspect T11 Prog
+A22	Mood T11 Ind
+A23	Negative T11 Pos
+A24	Number T11 Sing
+A25	Person T11 3
+A26	Tense T11 Past
+#11	ExtraFeatures T11	TRmorphTag=geçir<V><cont><cpl:past><3s>|Lemma=geçirmek|Stem=geçir
+T12	PUNCT 72 73	.
+#12	ExtraFeatures T12	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T13	PRON 74 79	Bizim
+A27	Case T13 Gen
+A28	Negative T13 Pos
+A29	Number T13 Sing
+A30	Person T13 1
+#13	ExtraFeatures T13	TRmorphTag=biz<Prn:pers:1p><gen>|Lemma=biz|Stem=biz
+T14	PROPN 80 89	Migros’ta
+A31	Case T14 Loc
+A32	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=Migros<N:prop><loc>|Lemma=Migros|Stem=Migros
+T15	ADJ 90 95	güzel
+#15	ExtraFeatures T15	TRmorphTag=güzel<Adj>|Lemma=güzel|Stem=güzel
+T16	NOUN 96 104	şaraplar
+A33	Number T16 Plur
+#16	ExtraFeatures T16	TRmorphTag=şarap<N><pl>|Lemma=şarap|Stem=şarap
+T17	ADJ 105 108	var
+A34	Negative T17 Pos
+#17	ExtraFeatures T17	TRmorphTag=var<Exist>|Lemma=var|Stem=var
+T18	VERB 110 111	_
+A35	Mood T18 Ind
+A36	Negative T18 Pos
+A37	Number T18 Sing
+A38	Person T18 3
+A39	Tense T18 Pres
+#18	ExtraFeatures T18	TRmorphTag=<0><V><cpl:pres><3s>|Lemma=-0|Stem=-0
+T19	PUNCT 112 113	.
+#19	ExtraFeatures T19	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T20	NOUN 114 121	Kanlara
+A40	Case T20 Dat
+A41	Number T20 Plur
+#20	ExtraFeatures T20	TRmorphTag=kan<N><pl><dat>|Lemma=kan|Stem=kan
+T21	VERB 122 132	bulanmıştı
+A42	Aspect T21 Perf
+A43	Evidential T21 Nfh
+A44	Mood T21 Ind
+A45	Negative T21 Pos
+A46	Number T21 Sing
+A47	Person T21 3
+A48	Tense T21 Pqp
+A49	Voice T21 Pass
+#21	ExtraFeatures T21	TRmorphTag=bula<V><pass><evid><cpl:past><3s>|Lemma=bulamak|Stem=bula
+T22	PUNCT 133 134	.
+#22	ExtraFeatures T22	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T23	NOUN 135 139	Kana
+A50	Case T23 Dat
+A51	Number T23 Sing
+#23	ExtraFeatures T23	TRmorphTag=kan<N><dat>|Lemma=kan|Stem=kan
+T24	VERB 140 150	bulanmıştı
+A52	Aspect T24 Perf
+A53	Evidential T24 Nfh
+A54	Mood T24 Ind
+A55	Negative T24 Pos
+A56	Number T24 Sing
+A57	Person T24 3
+A58	Tense T24 Pqp
+A59	Voice T24 Pass
+#24	ExtraFeatures T24	TRmorphTag=bula<V><pass><evid><cpl:past><3s>|Lemma=bulamak|Stem=bula
+T25	PUNCT 151 152	.
+#25	ExtraFeatures T25	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T26	NOUN 153 160	Kumlara
+A60	Case T26 Dat
+A61	Number T26 Plur
+#26	ExtraFeatures T26	TRmorphTag=kum<N><pl><dat>|Lemma=kum|Stem=kum
+T27	VERB 161 168	uzandım
+A62	Aspect T27 Perf
+A63	Mood T27 Ind
+A64	Negative T27 Pos
+A65	Number T27 Sing
+A66	Person T27 1
+A67	Tense T27 Past
+#27	ExtraFeatures T27	TRmorphTag=uzan<V><past><1s>|Lemma=uzanmak|Stem=uzan
+T28	PUNCT 169 170	.
+#28	ExtraFeatures T28	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T29	NOUN 171 175	Kuma
+A68	Case T29 Dat
+A69	Number T29 Sing
+#29	ExtraFeatures T29	TRmorphTag=kum<N><dat>|Lemma=kum|Stem=kum
+T30	VERB 176 183	uzandım
+A70	Aspect T30 Perf
+A71	Mood T30 Ind
+A72	Negative T30 Pos
+A73	Number T30 Sing
+A74	Person T30 1
+A75	Tense T30 Past
+#30	ExtraFeatures T30	TRmorphTag=uzan<V><past><1s>|Lemma=uzanmak|Stem=uzan
+T31	PUNCT 184 185	.
+#31	ExtraFeatures T31	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T32	DET 186 191	Böyle
+A76	Definite T32 Ind
+A77	Negative T32 Pos
+A78	Number T32 Sing
+#32	ExtraFeatures T32	TRmorphTag=böyle<Det:indef>|Lemma=böyle|Stem=böyle
+T33	NOUN 192 206	tembelliklerim
+A79	Number T33 Plur
+#33	ExtraFeatures T33	TRmorphTag=tembel<Adj><lik><N><pl><p1s>|Lemma=tembellik|Stem=tembellik
+T34	ADV 207 210	çok
+#34	ExtraFeatures T34	TRmorphTag=çok<Adv>|Lemma=çok|Stem=çok
+T35	VERB 211 217	oluyor
+A80	Aspect T35 Prog
+A81	Mood T35 Ind
+A82	Negative T35 Pos
+A83	Number T35 Sing
+A84	Person T35 3
+A85	Tense T35 Pres
+#35	ExtraFeatures T35	TRmorphTag=ol<V><cont><3s>|Lemma=olmak|Stem=ol
+#36	AnnotatorNotes T35	Here, 'ol-' is not just a copula, it is a verb with the meaning 'occur' or 'happen'.
+T36	PUNCT 218 219	.
+#37	ExtraFeatures T36	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T37	PRON 220 229	buralarda
+A86	Case T37 Loc
+A87	Negative T37 Pos
+A88	Number T37 Plur
+#38	ExtraFeatures T37	TRmorphTag=bura<Prn:locp><pl><loc>|Lemma=bura|Stem=bura
+T38	DET 230 233	bir
+A89	Definite T38 Ind
+A90	Negative T38 Pos
+A91	Number T38 Sing
+#39	ExtraFeatures T38	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T39	NOUN 234 240	yerler
+A92	Number T39 Plur
+#40	ExtraFeatures T39	TRmorphTag=yer<N><pl>|Lemma=yer|Stem=yer
+R1	cop Arg1:T5 Arg2:T6	
+R2	punct Arg1:T5 Arg2:T7	
+R3	nsubj Arg1:T5 Arg2:T4	
+R4	amod Arg1:T4 Arg2:T3	
+R5	nmod Arg1:T5 Arg2:T2	
+R6	det Arg1:T2 Arg2:T1	
+R7	dobj Arg1:T11 Arg2:T8	
+R8	case Arg1:T9 Arg2:T10	
+R9	nmod Arg1:T11 Arg2:T9	
+R10	punct Arg1:T11 Arg2:T12	
+R11	nmod_poss Arg1:T14 Arg2:T13	
+#41	AnnotatorNotes R11	Possessive on the head is left out
+R12	nsubj Arg1:T17 Arg2:T16	
+R13	cop Arg1:T17 Arg2:T18	
+R14	punct Arg1:T17 Arg2:T19	
+R15	amod Arg1:T16 Arg2:T15	
+R16	nmod Arg1:T17 Arg2:T14	
+R17	nmod Arg1:T21 Arg2:T20	
+#42	AnnotatorNotes R17	DO ?
+R18	punct Arg1:T21 Arg2:T22	
+R19	nmod Arg1:T24 Arg2:T23	
+#43	AnnotatorNotes R19	DO ?
+R20	punct Arg1:T24 Arg2:T25	
+R21	nmod Arg1:T27 Arg2:T26	
+R22	punct Arg1:T27 Arg2:T28	
+R23	nmod Arg1:T30 Arg2:T29	
+R24	punct Arg1:T30 Arg2:T31	
+R25	nsubj Arg1:T35 Arg2:T33	
+R26	det Arg1:T33 Arg2:T32	
+R27	advmod Arg1:T35 Arg2:T34	
+R29	punct Arg1:T35 Arg2:T36	
+R30	det Arg1:T39 Arg2:T38	

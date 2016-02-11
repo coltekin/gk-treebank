@@ -1,0 +1,92 @@
+T1	NOUN 0 4	cuma
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=cuma<N>|Lemma=cuma|Stem=cuma
+T2	NOUN 5 9	günü
+A2	Number T2 Sing
+A3	Number_psor T2 Sing
+A4	Person_psor T2 3
+#2	ExtraFeatures T2	TRmorphTag=gün<N><p3s>|Lemma=gün|Stem=gün
+T3	NOUN 10 14	ocak
+A5	Number T3 Sing
+#3	ExtraFeatures T3	TRmorphTag=ocak<N>|Lemma=ocak|Stem=ocak
+T4	NOUN 15 18	ayı
+A6	Number T4 Sing
+A7	Number_psor T4 Sing
+A8	Person_psor T4 3
+#4	ExtraFeatures T4	TRmorphTag=ay<N><p3s>|Lemma=ay|Stem=ay
+T5	PROPN 19 23	Türk
+A9	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=Türk<N:prop>|Lemma=Türk|Stem=Türk
+T6	NOUN 24 31	kahvesi
+A10	Number T6 Sing
+A11	Number_psor T6 Sing
+A12	Person_psor T6 3
+#6	ExtraFeatures T6	TRmorphTag=kahve<N><p3s>|Lemma=kahve|Stem=kahve
+T7	PROPN 32 37	Alman
+A13	Number T7 Sing
+#7	ExtraFeatures T7	TRmorphTag=Alman<N:prop>|Lemma=Alman|Stem=Alman
+T8	NOUN 38 44	ekmeği
+A14	Number T8 Sing
+A15	Number_psor T8 Sing
+A16	Person_psor T8 3
+#8	ExtraFeatures T8	TRmorphTag=ekmek<N><p3s>|Lemma=ekmek|Stem=ekmek
+T9	PROPN 45 49	Türk
+A17	Number T9 Sing
+#9	ExtraFeatures T9	TRmorphTag=Türk<N:prop>|Lemma=Türk|Stem=Türk
+T10	NOUN 50 56	Lirası
+A18	Number T10 Sing
+A19	Number_psor T10 Sing
+A20	Person_psor T10 3
+#10	ExtraFeatures T10	TRmorphTag=lira<N><p3s>|Lemma=lira|Stem=lira
+T11	PROPN 57 64	Fransız
+A21	Number T11 Sing
+#11	ExtraFeatures T11	TRmorphTag=Fransız<N:prop>|Lemma=Fransız|Stem=Fransız
+T12	NOUN 65 74	edebiyatı
+A22	Number T12 Sing
+A23	Number_psor T12 Sing
+A24	Person_psor T12 3
+#12	ExtraFeatures T12	TRmorphTag=edebiyat<N><p3s>|Lemma=edebiyat|Stem=edebiyat
+T13	PROPN 75 80	Yunan
+A25	Number T13 Sing
+#13	ExtraFeatures T13	TRmorphTag=Yunan<N:prop>|Lemma=Yunan|Stem=Yunan
+T14	NOUN 81 87	müziği
+A26	Number T14 Sing
+A27	Number_psor T14 Sing
+A28	Person_psor T14 3
+#14	ExtraFeatures T14	TRmorphTag=müzik<N><p3s>|Lemma=müzik|Stem=müzik
+T15	PROPN 88 92	Hint
+A29	Number T15 Sing
+#15	ExtraFeatures T15	TRmorphTag=Hint<N:prop>|Lemma=Hint|Stem=Hint
+T16	NOUN 93 100	dilleri
+A30	Number T16 Plur
+A31	Number_psor T16 Sing
+A32	Person_psor T16 3
+#16	ExtraFeatures T16	TRmorphTag=dil<N><pl><p3s>|Lemma=dil|Stem=dil
+T17	PROPN 101 108	Yunanlı
+A33	Number T17 Sing
+#17	ExtraFeatures T17	TRmorphTag=Yunan<N:prop>|Lemma=Yunan|Stem=Yunan
+T18	ADJ 110 111	_
+#18	ExtraFeatures T18	TRmorphTag=<li><Adj>|Lemma=-li|Stem=-li
+T19	NOUN 112 118	doktor
+A34	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=doktor<N>|Lemma=doktor|Stem=doktor
+T20	PROPN 119 125	Hintli
+A35	Number T20 Sing
+#20	ExtraFeatures T20	TRmorphTag=Hint<N:prop>|Lemma=Hint|Stem=Hint
+T21	ADJ 127 128	_
+#21	ExtraFeatures T21	TRmorphTag=<li><Adj>|Lemma=-li|Stem=-li
+T22	NOUN 129 137	müzisyen
+A36	Number T22 Sing
+#22	ExtraFeatures T22	TRmorphTag=müzisyen<N>|Lemma=müzisyen|Stem=müzisyen
+R1	nmod_poss Arg1:T2 Arg2:T1	
+R2	nmod_poss Arg1:T4 Arg2:T3	
+R3	nmod_poss Arg1:T6 Arg2:T5	
+R4	nmod_poss Arg1:T8 Arg2:T7	
+R5	nmod_poss Arg1:T10 Arg2:T9	
+R6	nmod_poss Arg1:T12 Arg2:T11	
+R7	nmod_poss Arg1:T14 Arg2:T13	
+R8	nmod_poss Arg1:T16 Arg2:T15	
+R9	case Arg1:T17 Arg2:T18	
+R10	amod Arg1:T20 Arg2:T21	
+R11	nmod Arg1:T19 Arg2:T17	
+R12	nmod Arg1:T22 Arg2:T20	

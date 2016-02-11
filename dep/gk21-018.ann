@@ -1,0 +1,299 @@
+T1	DET 0 1	O
+A1	Definite T1 Def
+A2	Negative T1 Pos
+A3	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=o<Det:def>|Lemma=o|Stem=o
+T2	NOUN 2 5	gün
+A4	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=gün<N>|Lemma=gün|Stem=gün
+T3	NOUN 6 11	annem
+A5	Number T3 Sing
+A6	Number_psor T3 Sing
+A7	Person_psor T3 1
+#3	ExtraFeatures T3	TRmorphTag=anne<N><p1s>|Lemma=anne|Stem=anne
+T4	ADV 12 17	biraz
+#4	ExtraFeatures T4	TRmorphTag=biraz<Adv>|Lemma=biraz|Stem=biraz
+T5	ADJ 18 28	rahatsızdı
+#5	ExtraFeatures T5	TRmorphTag=rahatsız<Adj>|Lemma=rahatsız|Stem=rahatsız
+T6	VERB 30 31	_
+A8	Mood T6 Ind
+A9	Negative T6 Pos
+A10	Number T6 Sing
+A11	Person T6 3
+A12	Tense T6 Past
+#6	ExtraFeatures T6	TRmorphTag=<0><V><cpl:past><3s>|Lemma=-0|Stem=-0
+T7	PUNCT 32 33	.
+#7	ExtraFeatures T7	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T8	DET 34 35	O
+A13	Definite T8 Def
+A14	Negative T8 Pos
+A15	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=o<Det:def>|Lemma=o|Stem=o
+T9	NOUN 36 39	gün
+A16	Number T9 Sing
+#9	ExtraFeatures T9	TRmorphTag=gün<N>|Lemma=gün|Stem=gün
+T10	PROPN 40 48	Ayşe’nin
+A17	Case T10 Gen
+A18	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=Ayşe<N:prop><gen>|Lemma=Ayşe|Stem=Ayşe
+T11	NOUN 49 55	annesi
+A19	Number T11 Sing
+A20	Number_psor T11 Sing
+A21	Person_psor T11 3
+#11	ExtraFeatures T11	TRmorphTag=anne<N><p3s>|Lemma=anne|Stem=anne
+T12	ADV 56 61	biraz
+#12	ExtraFeatures T12	TRmorphTag=biraz<Adv>|Lemma=biraz|Stem=biraz
+T13	ADJ 62 73	rahatsızmış
+#13	ExtraFeatures T13	TRmorphTag=rahatsız<Adj>|Lemma=rahatsız|Stem=rahatsız
+T14	VERB 75 76	_
+A22	Evidential T14 Nfh
+A23	Mood T14 Ind
+A24	Negative T14 Pos
+A25	Number T14 Sing
+A26	Person T14 3
+A27	Tense T14 Past
+#14	ExtraFeatures T14	TRmorphTag=<0><V><cpl:evid><3s>|Lemma=-0|Stem=-0
+T15	PUNCT 77 78	.
+#15	ExtraFeatures T15	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T16	NUM 79 82	Bir
+A28	NumType T16 Ord
+#16	ExtraFeatures T16	TRmorphTag=bir<Num>|Lemma=bir|Stem=bir
+T17	NOUN 83 94	yaşındayken
+A29	Case T17 Loc
+A30	Number T17 Sing
+A31	Number_psor T17 Sing
+A32	Person_psor T17 3
+#17	ExtraFeatures T17	TRmorphTag=yaş<N><p3s><loc>|Lemma=yaş|Stem=yaş
+T18	VERB 96 97	_
+A33	Mood T18 Ind
+A34	VerbType T18 Trans
+#18	ExtraFeatures T18	TRmorphTag=<0><V><cv:ken><Adv>|Lemma=-0|Stem=-0
+T19	NOUN 98 102	kalp
+A35	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=kalp<N>|Lemma=kalp|Stem=kalp
+T20	NOUN 103 112	ameliyatı
+A36	Number T20 Sing
+A37	Number_psor T20 Sing
+A38	Person_psor T20 3
+#20	ExtraFeatures T20	TRmorphTag=ameliyat<N><p3s>|Lemma=ameliyat|Stem=ameliyat
+T21	VERB 113 120	olmuşum
+A39	Aspect T21 Perf
+A40	Evidential T21 Nfh
+A41	Mood T21 Ind
+A42	Negative T21 Pos
+A43	Number T21 Sing
+A44	Person T21 1
+A45	Tense T21 Past
+#21	ExtraFeatures T21	TRmorphTag=ol<V><evid><1s>|Lemma=olmak|Stem=ol
+T22	PUNCT 121 122	.
+#22	ExtraFeatures T22	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T23	ADV 123 128	Sözde
+#23	ExtraFeatures T23	TRmorphTag=sözde<Adv>|Lemma=sözde|Stem=sözde
+T24	ADJ 129 141	inatçıymışım
+#24	ExtraFeatures T24	TRmorphTag=inatçı<Adj>|Lemma=inatçı|Stem=inatçı
+T25	VERB 143 144	_
+A46	Evidential T25 Nfh
+A47	Mood T25 Ind
+A48	Negative T25 Pos
+A49	Number T25 Sing
+A50	Person T25 1
+A51	Tense T25 Past
+#25	ExtraFeatures T25	TRmorphTag=<0><V><cpl:evid><1s>|Lemma=-0|Stem=-0
+T26	PUNCT 145 146	.
+#26	ExtraFeatures T26	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T27	PRON 147 150	Siz
+A52	Negative T27 Pos
+A53	Number T27 Sing
+A54	Person T27 2
+#27	ExtraFeatures T27	TRmorphTag=siz<Prn:pers:2p>|Lemma=siz|Stem=siz
+T28	NOUN 151 158	babamla
+A55	Case T28 Ins
+A56	Number T28 Sing
+A57	Number_psor T28 Sing
+A58	Person_psor T28 1
+#28	ExtraFeatures T28	TRmorphTag=baba<N><p1s><ins>|Lemma=baba|Stem=baba
+T29	VERB 159 176	tanışıyormuşsunuz
+A59	Aspect T29 Prog
+A60	Evidential T29 Nfh
+A61	Mood T29 Ind
+A62	Negative T29 Pos
+A63	Number T29 Plur
+A64	Person T29 2
+A65	Tense T29 Pres
+A66	Voice T29 Rcp
+#29	ExtraFeatures T29	TRmorphTag=tanı<V><rcp><cont><cpl:evid><2p>|Lemma=tanımak|Stem=tanı
+T30	ADV 177 183	galiba
+#30	ExtraFeatures T30	TRmorphTag=galiba<Adv>|Lemma=galiba|Stem=galiba
+T31	PUNCT 184 185	.
+#31	ExtraFeatures T31	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T32	NOUN 186 192	Ressam
+A67	Number T32 Sing
+#32	ExtraFeatures T32	TRmorphTag=ressam<N>|Lemma=ressam|Stem=ressam
+T33	NUM 193 196	iki
+A68	NumType T33 Ord
+#33	ExtraFeatures T33	TRmorphTag=iki<Num>|Lemma=iki|Stem=iki
+T34	NOUN 197 204	figürün
+A69	Case T34 Gen
+A70	Number T34 Sing
+#34	ExtraFeatures T34	TRmorphTag=figür<N><gen>|Lemma=figür|Stem=figür
+T35	NOUN 205 212	arasını
+A71	Case T35 Acc
+A72	Number T35 Sing
+A73	Number_psor T35 Sing
+A74	Person_psor T35 3
+#35	ExtraFeatures T35	TRmorphTag=ara<N><p3s><acc>|Lemma=ara|Stem=ara
+T36	ADJ 213 216	boş
+#36	ExtraFeatures T36	TRmorphTag=boş<Adj>|Lemma=boş|Stem=boş
+T37	VERB 217 225	bırakmış
+A75	Aspect T37 Perf
+A76	Evidential T37 Nfh
+A77	Mood T37 Ind
+A78	Negative T37 Pos
+A79	Number T37 Sing
+A80	Person T37 3
+A81	Tense T37 Past
+#37	ExtraFeatures T37	TRmorphTag=bırak<V><evid><3s>|Lemma=bırakmak|Stem=bırak
+T38	PUNCT 226 227	.
+#38	ExtraFeatures T38	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T39	NOUN 228 237	Gözlüğümü
+A82	Case T39 Acc
+A83	Number T39 Sing
+A84	Number_psor T39 Sing
+A85	Person_psor T39 1
+#39	ExtraFeatures T39	TRmorphTag=gözlük<N><p1s><acc>|Lemma=gözlük|Stem=gözlük
+T40	ADP 238 244	yanıma
+A86	Number_psor T40 Sing
+A87	Person_psor T40 1
+#40	ExtraFeatures T40	TRmorphTag=yan<N><p1s><dat><Postp:adv:nomC>|Lemma=yanıma|Stem=yanıma
+T41	VERB 245 254	almamışım
+A88	Aspect T41 Perf
+A89	Evidential T41 Nfh
+A90	Mood T41 Ind
+A91	Negative T41 Neg
+A92	Number T41 Sing
+A93	Person T41 1
+A94	Tense T41 Past
+#41	ExtraFeatures T41	TRmorphTag=al<V><neg><evid><1s>|Lemma=almak|Stem=al
+T42	PUNCT 255 256	.
+#42	ExtraFeatures T42	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T43	INTJ 257 260	Aaa
+#43	ExtraFeatures T43	TRmorphTag=aaa<Ij>|Lemma=aaa|Stem=aaa
+T44	PUNCT 261 262	,
+#44	ExtraFeatures T44	TRmorphTag=,<Punc>|Lemma=,|Stem=,
+T45	ADJ 263 270	yiyecek
+#45	ExtraFeatures T45	TRmorphTag=yiyecek<Adj>|Lemma=yiyecek|Stem=yiyecek
+T46	DET 271 277	hiçbir
+A95	Definite T46 Ind
+A96	Negative T46 Neg
+A97	Number T46 Sing
+#46	ExtraFeatures T46	TRmorphTag=hiçbir<Det:indef:neg>|Lemma=hiçbir|Stem=hiçbir
+T47	NOUN 278 281	şey
+A98	Number T47 Sing
+#47	ExtraFeatures T47	TRmorphTag=şey<N>|Lemma=şey|Stem=şey
+T48	ADJ 282 288	yokmuş
+A99	Negative T48 Neg
+#48	ExtraFeatures T48	TRmorphTag=yok<Exist:neg>|Lemma=yok|Stem=yok
+T49	VERB 290 291	_
+A100	Evidential T49 Nfh
+A101	Mood T49 Ind
+A102	Negative T49 Pos
+A103	Number T49 Sing
+A104	Person T49 3
+A105	Tense T49 Past
+#49	ExtraFeatures T49	TRmorphTag=<0><V><cpl:evid><3s>|Lemma=-0|Stem=-0
+T50	PUNCT 292 293	.
+#50	ExtraFeatures T50	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T51	NOUN 294 302	Kardeşin
+A106	Case T51 Gen
+A107	Number T51 Sing
+#51	ExtraFeatures T51	TRmorphTag=kardeş<N><gen>|Lemma=None|Stem=None
+T52	ADV 303 306	pek
+#52	ExtraFeatures T52	TRmorphTag=pek<Adv>|Lemma=pek|Stem=pek
+T53	ADJ 307 316	tatlıymış
+#53	ExtraFeatures T53	TRmorphTag=tatlı<Adj>|Lemma=tatlı|Stem=tatlı
+T54	VERB 318 319	_
+A108	Evidential T54 Nfh
+A109	Mood T54 Ind
+A110	Negative T54 Pos
+A111	Number T54 Sing
+A112	Person T54 3
+A113	Tense T54 Past
+#54	ExtraFeatures T54	TRmorphTag=<0><V><cpl:evid><3s>|Lemma=-0|Stem=-0
+T55	PUNCT 320 321	.
+#55	ExtraFeatures T55	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T56	NOUN 322 327	Bugün
+A114	Number T56 Sing
+#56	ExtraFeatures T56	TRmorphTag=bugün<N>|Lemma=bugün|Stem=bugün
+T57	NOUN 328 333	dolar
+A115	Number T57 Sing
+#57	ExtraFeatures T57	TRmorphTag=dolar<N>|Lemma=dolar|Stem=dolar
+T58	PRON 334 336	ne
+A116	Negative T58 Pos
+A117	Number T58 Sing
+A118	PronType T58 Int
+A119	Question T58 Yes
+#58	ExtraFeatures T58	TRmorphTag=ne<Prn:qst>|Lemma=ne|Stem=ne
+T59	ADP 337 345	kadarmış
+#59	ExtraFeatures T59	TRmorphTag=kadar<Postp:adj:nomC>|Lemma=kadar|Stem=kadar
+T60	VERB 347 348	_
+A120	Evidential T60 Nfh
+A121	Mood T60 Ind
+A122	Negative T60 Pos
+A123	Number T60 Sing
+A124	Person T60 3
+A125	Tense T60 Past
+#60	ExtraFeatures T60	TRmorphTag=<0><V><cpl:evid><3s>|Lemma=-0|Stem=-0
+T61	PUNCT 349 350	?
+#61	ExtraFeatures T61	TRmorphTag=?<Punc>|Lemma=?|Stem=?
+R1	det Arg1:T2 Arg2:T1	
+R2	advmod Arg1:T5 Arg2:T4	
+R3	cop Arg1:T5 Arg2:T6	
+R4	punct Arg1:T5 Arg2:T7	
+R5	nsubj Arg1:T5 Arg2:T3	
+R6	nmod_tmod Arg1:T5 Arg2:T2	
+R7	det Arg1:T9 Arg2:T8	
+R8	cop Arg1:T13 Arg2:T14	
+R9	punct Arg1:T13 Arg2:T15	
+R10	advmod Arg1:T13 Arg2:T12	
+R11	nsubj Arg1:T13 Arg2:T11	
+R12	nmod_poss Arg1:T11 Arg2:T10	
+R13	nmod_tmod Arg1:T13 Arg2:T9	
+R14	nummod Arg1:T17 Arg2:T16	
+R16	cop Arg1:T17 Arg2:T18	
+R17	nmod_poss Arg1:T20 Arg2:T19	
+R18	compound Arg1:T20 Arg2:T21	
+R19	punct Arg1:T20 Arg2:T22	
+R20	advcl Arg1:T20 Arg2:T17	
+R21	cop Arg1:T24 Arg2:T25	
+R22	punct Arg1:T24 Arg2:T26	
+R23	advmod Arg1:T24 Arg2:T23	
+R24	nmod Arg1:T29 Arg2:T28	
+#62	AnnotatorNotes R24	part of reciprocal subject
+R25	nsubj Arg1:T29 Arg2:T27	
+R26	discourse Arg1:T29 Arg2:T30	
+R27	punct Arg1:T29 Arg2:T31	
+R28	compound Arg1:T36 Arg2:T37	
+R29	nummod Arg1:T34 Arg2:T33	
+R30	nmod_poss Arg1:T35 Arg2:T34	
+R31	dobj Arg1:T36 Arg2:T35	
+R32	punct Arg1:T36 Arg2:T38	
+R33	nsubj Arg1:T36 Arg2:T32	
+R34	punct Arg1:T41 Arg2:T42	
+R35	dobj Arg1:T41 Arg2:T39	
+R36	nmod Arg1:T41 Arg2:T40	
+R37	det Arg1:T47 Arg2:T46	
+R38	amod Arg1:T47 Arg2:T45	
+R39	nsubj Arg1:T48 Arg2:T47	
+R40	cop Arg1:T48 Arg2:T49	
+R41	punct Arg1:T48 Arg2:T50	
+R42	punct Arg1:T48 Arg2:T44	
+R43	discourse Arg1:T48 Arg2:T43	
+R44	cop Arg1:T53 Arg2:T54	
+R45	punct Arg1:T53 Arg2:T55	
+R46	advmod Arg1:T53 Arg2:T52	
+R47	nsubj Arg1:T53 Arg2:T51	
+R48	mwe Arg1:T58 Arg2:T59	
+R49	cop Arg1:T58 Arg2:T60	
+R50	punct Arg1:T58 Arg2:T61	
+R51	nsubj Arg1:T58 Arg2:T57	
+R52	nmod_tmod Arg1:T58 Arg2:T56	

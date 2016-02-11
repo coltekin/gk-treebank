@@ -1,0 +1,33 @@
+T1	NOUN 0 8	Kaygımız
+A1	Number T1 Sing
+A2	Number_psor T1 Plur
+A3	Person_psor T1 1
+#1	ExtraFeatures T1	TRmorphTag=kaygı<N><p1p>|Lemma=kaygı|Stem=kaygı
+T2	NOUN 9 16	terörün
+A4	Case T2 Gen
+A5	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=terör<N><gen>|Lemma=terör|Stem=terör
+T3	VERB 17 35	durdurulamamasıydı
+A6	Mood T3 Abil
+A7	Negative T3 Neg
+A8	Number T3 Sing
+A9	Person T3 3
+A10	Voice T3 Cau-Pass
+#3	ExtraFeatures T3	TRmorphTag=dur<V><caus><pass><abil><neg>|Lemma=durmak|Stem=dur
+T4	NOUN 37 38	_
+A11	Number T4 Sing
+#4	ExtraFeatures T4	TRmorphTag=<vn:inf><N><p3s>|Lemma=-mek|Stem=-mek
+T5	VERB 40 41	_
+A12	Mood T5 Ind
+A13	Negative T5 Pos
+A14	Number T5 Sing
+A15	Person T5 3
+A16	Tense T5 Past
+#5	ExtraFeatures T5	TRmorphTag=<0><V><cpl:past><3s>|Lemma=-0|Stem=-0
+T6	PUNCT 42 43	.
+#6	ExtraFeatures T6	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+R1	nsubj Arg1:T3 Arg2:T2	
+R2	nmod Arg1:T4 Arg2:T1	
+R3	acl Arg1:T4 Arg2:T3	
+R4	cop Arg1:T4 Arg2:T5	
+R5	punct Arg1:T4 Arg2:T6	

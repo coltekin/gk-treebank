@@ -1,0 +1,108 @@
+T1	NOUN 0 5	çocuk
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=çocuk<N>|Lemma=çocuk|Stem=çocuk
+T2	NOUN 6 8	Ev
+A2	Number T2 Sing
+#2	ExtraFeatures T2	TRmorphTag=ev<N>|Lemma=ev|Stem=ev
+T3	VERB 9 19	Oturacağım
+A3	Aspect T3 Perf
+A4	Mood T3 Ind
+A5	Negative T3 Pos
+A6	Number T3 Sing
+A7	Person T3 1
+A8	Tense T3 Fut
+#3	ExtraFeatures T3	TRmorphTag=otur<V><fut><1s>|Lemma=oturmak|Stem=otur
+T4	PUNCT 20 21	.
+#4	ExtraFeatures T4	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T5	DET 22 24	Şu
+A9	Definite T5 Def
+A10	Negative T5 Pos
+A11	Number T5 Sing
+#5	ExtraFeatures T5	TRmorphTag=şu<Det:def>|Lemma=şu|Stem=şu
+T6	NOUN 25 29	anda
+A12	Case T6 Loc
+A13	Number T6 Sing
+#6	ExtraFeatures T6	TRmorphTag=an<N><loc>|Lemma=an|Stem=an
+T7	NOUN 30 35	evden
+A14	Case T7 Abl
+A15	Number T7 Sing
+#7	ExtraFeatures T7	TRmorphTag=ev<N><abl>|Lemma=ev|Stem=ev
+T8	VERB 36 41	çıktı
+A16	Aspect T8 Perf
+A17	Mood T8 Ind
+A18	Negative T8 Pos
+A19	Number T8 Sing
+A20	Person T8 3
+A21	Tense T8 Past
+#8	ExtraFeatures T8	TRmorphTag=çık<V><past><3s>|Lemma=çıkmak|Stem=çık
+T9	PUNCT 42 43	.
+#9	ExtraFeatures T9	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T10	VERB 44 53	Yüzüyoruz
+A22	Aspect T10 Prog
+A23	Mood T10 Ind
+A24	Negative T10 Pos
+A25	Number T10 Plur
+A26	Person T10 1
+A27	Tense T10 Pres
+#10	ExtraFeatures T10	TRmorphTag=yüz<V><cont><1p>|Lemma=yüzmek|Stem=yüz
+T11	PUNCT 54 55	.
+#11	ExtraFeatures T11	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T12	VERB 56 68	Yıkılmamıştı
+A28	Aspect T12 Perf
+A29	Evidential T12 Nfh
+A30	Mood T12 Ind
+A31	Negative T12 Neg
+A32	Number T12 Sing
+A33	Person T12 3
+A34	Tense T12 Pqp
+A35	Voice T12 Pass
+#12	ExtraFeatures T12	TRmorphTag=yık<V><pass><neg><evid><cpl:past><3s>|Lemma=yıkmak|Stem=yık
+T13	PUNCT 69 70	.
+#13	ExtraFeatures T13	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T14	VERB 71 92	Döğüştürülmeyebiliyor
+A36	Aspect T14 Prog
+A37	Mood T14 Abil
+A38	Negative T14 Neg
+A39	Tense T14 Pres
+A40	Voice T14 Cau-Pass-Rcp
+#14	ExtraFeatures T14	TRmorphTag=döv<V><rcp><caus><pass><neg><abil><cont>|Lemma=None|Stem=None
+T15	VERB 93 101	sevmekle
+A41	Mood T15 Ind
+A42	Negative T15 Pos
+#15	ExtraFeatures T15	TRmorphTag=sev<V>|Lemma=sevmek|Stem=sev
+T16	NOUN 103 104	_
+A43	Case T16 Ins
+A44	Number T16 Sing
+#16	ExtraFeatures T16	TRmorphTag=<vn:inf><N><ins>|Lemma=-mek|Stem=-mek
+T17	VERB 105 121	baktırmadığından
+A45	Mood T17 Ind
+A46	Negative T17 Neg
+A47	Number T17 Sing
+A48	Person T17 3
+A49	Tense T17 Past
+A50	Voice T17 Cau
+#17	ExtraFeatures T17	TRmorphTag=bak<V><caus><neg>|Lemma=bakmak|Stem=bak
+T18	NOUN 123 124	_
+A51	Case T18 Abl
+A52	Number T18 Sing
+#18	ExtraFeatures T18	TRmorphTag=<vn:past><N><p3s><abl>|Lemma=-dik|Stem=-dik
+T19	VERB 125 131	Geçtin
+A53	Aspect T19 Perf
+A54	Mood T19 Ind
+A55	Negative T19 Pos
+A56	Number T19 Sing
+A57	Person T19 2
+A58	Tense T19 Past
+#19	ExtraFeatures T19	TRmorphTag=geç<V><past><2s>|Lemma=geçmek|Stem=geç
+T20	PUNCT 132 133	.
+#20	ExtraFeatures T20	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+R1	punct Arg1:T3 Arg2:T4	
+R2	det Arg1:T6 Arg2:T5	
+R3	nmod Arg1:T8 Arg2:T7	
+R4	nmod_tmod Arg1:T8 Arg2:T6	
+R5	punct Arg1:T8 Arg2:T9	
+R6	punct Arg1:T10 Arg2:T11	
+R7	punct Arg1:T12 Arg2:T13	
+R8	acl Arg1:T16 Arg2:T15	
+R9	acl Arg1:T18 Arg2:T17	
+R10	punct Arg1:T19 Arg2:T20	

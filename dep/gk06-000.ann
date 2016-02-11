@@ -1,0 +1,63 @@
+T1	NOUN 0 10	suçlulukla
+A1	Number T1 Sing
+#1	ExtraFeatures T1	TRmorphTag=suçlu<Adj><lik><N>|Lemma=suçluluk|Stem=suçluluk
+T2	AUX 11 13	mı
+A2	Question T2 Yes
+#2	ExtraFeatures T2	TRmorphTag=mı<Q>|Lemma=mı|Stem=mı
+T3	NOUN 14 26	dizgelerimde
+A3	Case T3 Loc
+A4	Number T3 Plur
+A5	Number_psor T3 Sing
+A6	Person_psor T3 1
+#3	ExtraFeatures T3	TRmorphTag=dizge<N><pl><p1s><loc>|Lemma=dizge|Stem=dizge
+T4	VERB 27 44	yapılaştırılmamış
+A7	Aspect T4 Perf
+A8	Evidential T4 Nfh
+A9	Mood T4 Ind
+A10	Negative T4 Neg
+A11	Tense T4 Past
+A12	Voice T4 Cau-Pass
+#4	ExtraFeatures T4	TRmorphTag=yapı<N><las><V><caus><pass><neg><evid>|Lemma=yapılaşmak|Stem=yapılaş
+T5	ADJ 46 47	_
+#5	ExtraFeatures T5	TRmorphTag=<0><Adj>|Lemma=-0|Stem=-0
+T6	VERB 48 59	Gidebilirim
+A13	Aspect T6 Habit
+A14	Mood T6 Abil-Gen
+A15	Negative T6 Pos
+A16	Number T6 Sing
+A17	Person T6 1
+A18	Tense T6 Pres
+#6	ExtraFeatures T6	TRmorphTag=git<V><abil><aor><1s>|Lemma=gitmek|Stem=git
+T7	ADV 60 62	de
+#7	ExtraFeatures T7	TRmorphTag=de<Cnj:adv>|Lemma=de|Stem=de
+T8	PUNCT 63 64	.
+#8	ExtraFeatures T8	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T9	VERB 65 80	Görüştürülemeye
+A19	Mood T9 Abil
+A20	Negative T9 Neg
+A21	Voice T9 Cau-Pass-Rcp
+#9	ExtraFeatures T9	TRmorphTag=gör<V><rcp><caus><pass><abil><neg><partial>|Lemma=görmek|Stem=gör
+T10	ADV 81 83	de
+#10	ExtraFeatures T10	TRmorphTag=de<Cnj:adv>|Lemma=de|Stem=de
+T11	VERB 84 91	biliyor
+A22	Aspect T11 Prog
+A23	Mood T11 Ind
+A24	Negative T11 Pos
+A25	Tense T11 Pres
+#11	ExtraFeatures T11	TRmorphTag=bil<V><cont>|Lemma=bilmek|Stem=bil
+T12	AUX 92 100	muydunuz
+A26	Number T12 Plur
+A27	Person T12 2
+A28	Question T12 Yes
+A29	Tense T12 Past
+#12	ExtraFeatures T12	TRmorphTag=mu<Q><cpl:past><2p>|Lemma=mu|Stem=mu
+T13	PUNCT 101 102	?
+#13	ExtraFeatures T13	TRmorphTag=?<Punc>|Lemma=?|Stem=?
+R1	aux_q Arg1:T1 Arg2:T2	
+R4	mark Arg1:T4 Arg2:T5	
+R5	advmod_emph Arg1:T6 Arg2:T7	
+R6	punct Arg1:T6 Arg2:T8	
+R7	advmod_emph Arg1:T9 Arg2:T10	
+R8	aux Arg1:T9 Arg2:T11	
+R9	aux_q Arg1:T9 Arg2:T12	
+R10	punct Arg1:T9 Arg2:T13	

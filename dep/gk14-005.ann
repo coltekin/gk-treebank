@@ -1,0 +1,110 @@
+T1	PRON 0 6	Oralar
+A1	Negative T1 Pos
+A2	Number T1 Plur
+#1	ExtraFeatures T1	TRmorphTag=ora<Prn:locp><pl>|Lemma=ora|Stem=ora
+T2	ADJ 7 12	güzel
+#2	ExtraFeatures T2	TRmorphTag=güzel<Adj>|Lemma=güzel|Stem=güzel
+T3	VERB 14 15	_
+A3	Mood T3 Ind
+A4	Negative T3 Pos
+A5	Number T3 Sing
+A6	Person T3 3
+A7	Tense T3 Pres
+#3	ExtraFeatures T3	TRmorphTag=<0><V><cpl:pres><3s>|Lemma=-0|Stem=-0
+T4	PUNCT 16 17	.
+#4	ExtraFeatures T4	TRmorphTag=.<Punc>|Lemma=.|Stem=.
+T5	NOUN 18 27	uzaklarda
+A8	Case T5 Loc
+A9	Number T5 Plur
+#5	ExtraFeatures T5	TRmorphTag=uzak<Adj><0><N><pl><loc>|Lemma=uzak|Stem=uzak
+T6	NUM 28 32	1995
+A10	NumType T6 Ord
+#6	ExtraFeatures T6	TRmorphTag=1995<Num:ara>|Lemma=1995|Stem=1995
+T7	NOUN 33 44	ortalarında
+A11	Case T7 Loc
+A12	Number T7 Plur
+A13	Number_psor T7 Sing
+A14	Person_psor T7 3
+#7	ExtraFeatures T7	TRmorphTag=orta<N><pl><p3s><loc>|Lemma=orta|Stem=orta
+T8	NOUN 45 50	mayıs
+A15	Number T8 Sing
+#8	ExtraFeatures T8	TRmorphTag=mayıs<N>|Lemma=mayıs|Stem=mayıs
+T9	NOUN 51 61	başlarında
+A16	Case T9 Loc
+A17	Number T9 Plur
+A18	Number_psor T9 Sing
+A19	Person_psor T9 3
+#9	ExtraFeatures T9	TRmorphTag=baş<N><pl><p3s><loc>|Lemma=baş|Stem=baş
+T10	DET 62 64	bu
+A20	Definite T10 Def
+A21	Negative T10 Pos
+A22	Number T10 Sing
+#10	ExtraFeatures T10	TRmorphTag=bu<Det:def>|Lemma=bu|Stem=bu
+T11	NOUN 65 73	haftanın
+A23	Case T11 Gen
+A24	Number T11 Sing
+#11	ExtraFeatures T11	TRmorphTag=hafta<N><gen>|Lemma=hafta|Stem=hafta
+T12	NOUN 74 83	sonlarına
+A25	Case T12 Dat
+A26	Number T12 Plur
+A27	Number_psor T12 Sing
+A28	Person_psor T12 3
+#12	ExtraFeatures T12	TRmorphTag=son<N><pl><p3s><dat>|Lemma=son|Stem=son
+T13	ADP 84 89	doğru
+#13	ExtraFeatures T13	TRmorphTag=doğru<Postp:adv:datC>|Lemma=doğru|Stem=doğru
+T14	DET 90 91	o
+A29	Definite T14 Def
+A30	Negative T14 Pos
+A31	Number T14 Sing
+#14	ExtraFeatures T14	TRmorphTag=o<Det:def>|Lemma=o|Stem=o
+T15	NOUN 92 101	sıralarda
+A32	Case T15 Loc
+A33	Number T15 Plur
+#15	ExtraFeatures T15	TRmorphTag=sıra<N><pl><loc>|Lemma=sıra|Stem=sıra
+T16	NOUN 102 112	şimdilerde
+A34	Case T16 Loc
+A35	Number T16 Plur
+#16	ExtraFeatures T16	TRmorphTag=şimdi<Adv><0><N><pl><loc>|Lemma=şimdi|Stem=şimdi
+T17	ADV 113 122	sonraları
+#17	ExtraFeatures T17	TRmorphTag=sonra<Adv>|Lemma=sonra|Stem=sonra
+T18	ADV 124 125	_
+#18	ExtraFeatures T18	TRmorphTag=<leri><Adv>|Lemma=-leri|Stem=-leri
+T19	DET 126 129	bir
+A36	Definite T19 Ind
+A37	Negative T19 Pos
+A38	Number T19 Sing
+#19	ExtraFeatures T19	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T20	NOUN 130 138	zamanlar
+A39	Number T20 Plur
+#20	ExtraFeatures T20	TRmorphTag=zaman<N><pl>|Lemma=zaman|Stem=zaman
+T21	NUM 139 146	kırkbeş
+A40	NumType T21 Ord
+#21	ExtraFeatures T21	TRmorphTag=kırkbeş<Num>|Lemma=kırkbeş|Stem=kırkbeş
+T22	NOUN 147 157	yaşlarında
+A41	Case T22 Loc
+A42	Number T22 Plur
+A43	Number_psor T22 Sing
+A44	Person_psor T22 3
+#22	ExtraFeatures T22	TRmorphTag=yaş<N><pl><p3s><loc>|Lemma=yaş|Stem=yaş
+T23	DET 158 161	bir
+A45	Definite T23 Ind
+A46	Negative T23 Pos
+A47	Number T23 Sing
+#23	ExtraFeatures T23	TRmorphTag=bir<Det:indef>|Lemma=bir|Stem=bir
+T24	NOUN 162 166	adam
+A48	Number T24 Sing
+#24	ExtraFeatures T24	TRmorphTag=adam<N>|Lemma=adam|Stem=adam
+R1	cop Arg1:T2 Arg2:T3	
+R2	punct Arg1:T2 Arg2:T4	
+R3	nsubj Arg1:T2 Arg2:T1	
+R4	nmod_tmod Arg1:T7 Arg2:T6	
+R5	nmod_tmod Arg1:T9 Arg2:T8	
+R6	det Arg1:T11 Arg2:T10	
+R7	nmod_tmod Arg1:T12 Arg2:T11	
+R8	case Arg1:T12 Arg2:T13	
+R9	det Arg1:T15 Arg2:T14	
+R10	case Arg1:T17 Arg2:T18	
+R11	det Arg1:T20 Arg2:T19	
+R12	nmod Arg1:T22 Arg2:T21	
+R13	det Arg1:T24 Arg2:T23	
+R14	nmod Arg1:T24 Arg2:T22	
