@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
-import sys
+import sys, argparse, re 
 from udtools.conllu import conllu_sentences
 
-tb = conllu_sentences(sys.argv[1])
+ap = argparse.ArgumentParser()
+ap.add_argument('input_file')
+ap.add_argument('--id-prefix', '-I', default="GKXX")
+args = ap.parse_args()
+
+
+tb = conllu_sentences(args.input_file)
 
 def feat_replace(fs, *args):
     ret = fs
@@ -28,9 +34,11 @@ for sent_num, sent in enumerate(tb):
         if c.startswith('# sent_id = '):
             add_id = False
     if add_text:
-        sent.comment.append('# text = ' + sent.text().strip())
+        t = re.sub(' ([:.,?…])', '\g<1>', sent.text().strip())
+        sent.comment.append('# text = ' + t)
     if add_id:
-        sent.comment.append('# sent_id = {:04d}'.format(sent_num))
+        sent.comment.append('# sent_id = {}-{:04d}'.format(
+            args.id_prefix, sent_num + 1))
     for node in sent.nodes:
         if node.upos == 'CONJ':
             node.upos = 'CCONJ'
@@ -72,6 +80,15 @@ for sent_num, sent in enumerate(tb):
             if '|' in node.feats:
                 node.feats = '|'.join(sorted(set(node.feats.split('|'))))
 
+        head = None
+        if node.head:
+            head = sent.nodes[node.head]
+        next_node = None
+        if node.index < len(sent):
+            next_node = sent.nodes[node.index + 1]
+
+        if head and 'nmod' in node.deprel and head.upos == 'VERB':
+            node.deprel = node.deprel.replace('nmod', 'obl')
         if node.deprel == 'dobj':
             node.deprel = 'obj'
         if node.deprel == 'dobj:cau':
@@ -86,5 +103,14 @@ for sent_num, sent in enumerate(tb):
             node.deprel = 'fixed'
         elif node.deprel == 'name':
             node.deprel = 'flat'
+
+        if next_node and next_node.upos == 'PUNCT':
+            node.misc = 'SpaceAfter=No'
+        else:
+            node.misc = '_'
+    for mult in sent.multi.values():
+        if 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
+            mult.add_misc('SpaceAfter', 'No')
+            sent.nodes[mult.multi].del_misc('SpaceAfter')
 
     print(sent)
