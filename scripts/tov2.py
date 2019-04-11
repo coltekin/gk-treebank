@@ -103,6 +103,8 @@ for sent_num, sent in enumerate(tb):
             node.deprel = 'fixed'
         elif node.deprel == 'name':
             node.deprel = 'flat'
+        elif node.deprel == 'advcl:cond':
+            node.deprel = 'advcl'
 
         if next_node and next_node.upos == 'PUNCT':
             node.misc = 'SpaceAfter=No'
