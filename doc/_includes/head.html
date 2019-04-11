@@ -1,0 +1,13 @@
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ site.title }}: {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <title>{{ page.title }}</title>
+    <link rel="root" href=""/> <!-- for JS -->
+    <link rel="stylesheet" type="text/css" href="{{ relative }}css/style-vis.css"/>
+    <script type="text/javascript" src="{{ relative }}lib/ext/head.load.min.js"></script>
+  </head>
