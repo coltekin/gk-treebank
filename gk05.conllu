@@ -21,7 +21,7 @@
 # text = Her gün nereye gidiyorsun?
 1	Her	her	DET	DET	Definite=Def	2	det	_	_
 2	gün	gün	NOUN	NOUN	Case=Nom|Number=Sing	4	obl:tmod	_	_
-3	nereye	nere	PRON	PRON	Case=Dat|Number=Sing|PronType=Int	4	obj	_	_
+3	nereye	nere	PRON	PRON	Case=Dat|Number=Sing|PronType=Int	4	obl	_	_
 4	gidiyorsun	git	VERB	VERB	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -37,9 +37,9 @@
 # text = Bugün Ziya’yla buluştuğun zaman…
 1	Bugün	bugün	NOUN	NOUN	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	Ziya’yla	Ziya	PROPN	PROPN	Case=Ins|Number=Sing	3	obl	_	_
-3	buluştuğun	buluş	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	4	acl	_	_
-4	zaman	zaman	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
-5	…	…	PUNCT	PUNCT	_	4	punct	_	_
+3	buluştuğun	buluş	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	0	root	_	_
+4	zaman	zaman	NOUN	NOUN	Case=Nom|Number=Sing	3	case	_	SpaceAfter=No
+5	…	…	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = GK05-0006
 # text = Eve gittim, çantamı aldım…
@@ -148,8 +148,8 @@
 # text = Çamaşırları gene makinanın içinde bırakmışım.
 1	Çamaşırları	çamaşır	NOUN	NOUN	Case=Acc|Number=Plur	5	obj	_	_
 2	gene	gene	ADV	ADV	_	5	advmod	_	_
-3	makinanın	makina	NOUN	NOUN	Case=Gen|Number=Sing	5	obl	_	_
-4	içinde	içinde	ADP	ADP	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+3	makinanın	makina	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
+4	içinde	içinde	NOUN	ADP	Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	bırakmışım	bırak	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -174,8 +174,8 @@
 # sent_id = GK05-0021
 # text = Bu hayvanların arasında en vahşisi kaplanmış.
 1	Bu	bu	DET	DET	Definite=Def|Number=Sing|Polarity=Pos	2	det	_	_
-2	hayvanların	hayvan	NOUN	NOUN	Case=Gen|Number=Plur	5	nmod:part	_	_
-3	arasında	arasında	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	hayvanların	hayvan	NOUN	NOUN	Case=Gen|Number=Plur	3	nmod	_	_
+3	arasında	arasında	NOUN	ADP	Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	en	en	ADV	ADV	_	5	advmod	_	_
 5	vahşisi	vahşi	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 6-7	kaplanmış	_	_	_	_	_	_	_	SpaceAfter=No
@@ -187,7 +187,7 @@
 # text = Halk politikacıların çoğuna güvenmiyor.
 1	Halk	halk	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	_
 2	politikacıların	politikacı	NOUN	NOUN	Case=Gen|Number=Plur	3	nmod:part	_	_
-3	çoğuna	çok	NOUN	NOUN	Case=Dat|Number=Sing	4	obl	_	_
+3	çoğuna	çok	DET	NOUN	Case=Dat|Number=Sing	4	obl	_	_
 4	güvenmiyor	güven	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -195,8 +195,8 @@
 # text = Bugün Ziya’yla buluştuğunuz zaman bana telefon edin.
 1	Bugün	bugün	NOUN	NOUN	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	Ziya’yla	Ziya	PROPN	PROPN	Case=Ins|Number=Sing	3	obl	_	_
-3	buluştuğunuz	buluştuk	VERB	VERB	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	4	acl	_	_
-4	zaman	zaman	NOUN	NOUN	Case=Nom|Number=Sing	6	nmod:tmod	_	_
+3	buluştuğunuz	buluştuk	VERB	VERB	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	6	obl:tmod	_	_
+4	zaman	zaman	ADP	NOUN	Case=Nom|Number=Sing	3	case	_	_
 5	bana	ben	PRON	PRON	Case=Dat|Number=Sing|Person=1|Polarity=Pos	6	nmod	_	_
 6	telefon	telefon	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	_
 7	edin	et	VERB	VERB	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	6	compound	_	SpaceAfter=No
