@@ -106,10 +106,17 @@ for sent_num, sent in enumerate(tb):
         elif node.deprel == 'advcl:cond':
             node.deprel = 'advcl'
 
+        if node.lemma and node.lemma[-3:] in {'mek', 'mak'}\
+                and node.upos in {'VERB', 'AUX'}:
+            node.lemma = node.lemma[:-3]
+
         if next_node and next_node.upos == 'PUNCT':
             node.misc = 'SpaceAfter=No'
         else:
             node.misc = '_'
+
+        node.del_feat('Polarity', 'Pos')
+
     for mult in sent.multi.values():
         if 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
             mult.add_misc('SpaceAfter', 'No')

@@ -1,17 +1,27 @@
-1	suçlulukla	suçluluk	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=suçlu<Adj><lik><N>|Stem=suçluluk
-2	mı	mı	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
+# text = suçlulukla mı
+# sent_id = GK06-0001
+1	suçlulukla	suçluluk	NOUN	NOUN	_	0	root	_	_
+2	mı	mi	AUX	AUX	_	1	aux:q	_	_
 
-1	dizgelerimde	dizge	NOUN	NOUN	Case=Loc|Number=Plur|Number_psor=Sing|Person_psor=1	0	root	_	TRmorphTag=dizge<N><pl><p1s><loc>|Stem=dizge
+# text = dizgelerimde
+# sent_id = GK06-0002
+1	dizgelerimde	dizge	NOUN	NOUN	_	0	root	_	_
 
-1	yapılaştırılmamış	yapılaşmak	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=CauPass	0	root	_	TRmorphTag=yapı<N><las><V><caus><pass><neg><evid>|Stem=yapılaş
+# text = yapılaştırılmamış
+# sent_id = GK06-0003
+1	yapılaştırılmamış	yapılaş	VERB	VERB	_	0	root	_	_
 
-1	Gidebilirim	gitmek	VERB	VERB	Aspect=Habit|Mood=Abil-Gen|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=git<V><abil><aor><1s>|Stem=git
-2	de	de	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
-3	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Gidebilirim de.
+# sent_id = GK06-0004
+1	Gidebilirim	git	VERB	VERB	Polarity=Pos	0	root	_	_
+2	de	de	ADV	ADV	_	1	advmod:emph	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Görüştürülemeye	görmek	VERB	VERB	Mood=Abil|Negative=Neg|Voice=Cau-Pass-Rcp	0	root	_	TRmorphTag=gör<V><rcp><caus><pass><abil><neg><partial>|Stem=gör
-2	de	de	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
-3	biliyor	bilmek	AUX	AUX	Aspect=Prog|Mood=Ind|Negative=Pos|Tense=Pres	1	aux	_	TRmorphTag=bil<V><cont>|Stem=bil
-4	muydunuz	mu	AUX	AUX	Number=Plur|Person=2|Question=Yes|Tense=Past	1	aux:q	_	TRmorphTag=mu<Q><cpl:past><2p>|Stem=mu
-5	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+# text = Görüştürülemeye de biliyor muydunuz?
+# sent_id = GK06-0005
+1	Görüştürülemeye	gör	VERB	VERB	_	0	root	_	_
+2	de	de	ADV	ADV	_	1	advmod:emph	_	_
+3	biliyor	bil	AUX	AUX	Polarity=Pos	1	aux	_	_
+4	muydunuz	mi	AUX	AUX	_	1	aux:q	_	SpaceAfter=No
+5	?	?	PUNCT	PUNCT	_	1	punct	_	_
 
