@@ -1,0 +1,359 @@
+1	Yolladım	yollamak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	0	root	_	TRmorphTag=yolla<V><past><1s>|Stem=yolla
+2	bile	bile	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=bile<Cnj:adv>|Stem=bile
+3	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	annem	anne	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=1	0	root	_	TRmorphTag=anne<N><p1s>|Stem=anne
+2	de	de	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
+
+1	Bakabilirim	bakmak	VERB	VERB	Aspect=Habit|Mood=Abil-Gen|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=bak<V><abil><aor><1s>|Stem=bak
+2	de	de	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
+3	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Baka	bakmak	VERB	VERB	Mood=Ind|Negative=Pos	0	root	_	TRmorphTag=bak<V><partial>|Stem=bak
+2	da	da	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=da<Cnj:adv>|Stem=da
+3	bilirim	bilmek	AUX	AUX	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=1|Tense=Pres	1	aux	_	TRmorphTag=bil<V><aor><1s>|Stem=bil
+4	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Bakabilirim	bakmak	VERB	VERB	Aspect=Habit|Mood=Abil-Gen|Negative=Pos|Number=Sing|Person=1|Tense=Pres	6	conj	_	TRmorphTag=bak<V><abil><aor><1s>|Stem=bak
+2	de	de	CONJ	CONJ	_	1	cc	_	TRmorphTag=de<Cnj:coo>|Stem=de
+3	,	,	PUNCT	PUNCT	_	6	punct	_	TRmorphTag=,<Punc>|Stem=,
+4-5	beklemesi	_	_	_	_	_	_	_	_
+4	beklemesi	beklemek	VERB	VERB	Mood=Ind|Negative=Pos|Number=Sing|Person=3	5	acl	_	TRmorphTag=bekle<V>|Stem=bekle
+5	_	-mek	NOUN	NOUN	Number=Sing	6	nsubj	_	TRmorphTag=<vn:inf><N><p3s>|Stem=-mek
+6-7	gerek	_	_	_	_	_	_	_	_
+6	gerek	gerek	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=gerek<N>|Stem=gerek
+7	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	6	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+8	.	.	PUNCT	PUNCT	_	6	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bu<Det:def>|Stem=bu
+2	hediyeyi	hediye	NOUN	NOUN	Case=Acc|Number=Sing	5	dobj	_	TRmorphTag=hediye<N><acc>|Stem=hediye
+3	de	de	ADV	ADV	_	2	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
+4	Enver	Enver	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Enver<N:prop>|Stem=Enver
+5	aldı	almak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=al<V><past><3s>|Stem=al
+6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Seyretmedim	seyretmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Past	3	conj	_	TRmorphTag=seyret<V><neg><past><1s>|Stem=seyret
+2	de	de	CONJ	CONJ	_	1	cc	_	TRmorphTag=de<Cnj:coo>|Stem=de
+3	anlattılar	anlatmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Past	0	root	_	TRmorphTag=anlat<V><past><3p>|Stem=anlat
+4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Ayşe	Ayşe	PROPN	PROPN	Number=Sing	3	conj	_	TRmorphTag=Ayşe<N:prop>|Stem=Ayşe
+2	de	de	CONJ	CONJ	_	1	cc	_	TRmorphTag=de<Cnj:coo:partial>|Stem=de
+3	Semra	Semra	PROPN	PROPN	Number=Sing	0	root	_	TRmorphTag=Semra<N:prop>|Stem=Semra
+4	da	da	CONJ	CONJ	_	3	cc	_	TRmorphTag=da<Cnj:coo:partial>|Stem=da
+
+1-2	bense	_	_	_	_	_	_	_	_
+1	bense	ben	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=ben<N>|Stem=ben
+2	_	ise	ADV	ADV	_	1	discourse	_	TRmorphTag=<ise><Cnj:adv>|Stem=ise
+
+1	ben	ben	PRON	PRON	Negative=Pos|Number=Sing|Person=1	0	root	_	TRmorphTag=ben<Prn:pers:1s>|Stem=ben
+2	ise	ise	ADV	ADV	_	1	discourse	_	TRmorphTag=ise<Cnj:adv>|Stem=ise
+
+1-2	Onlarınsa	_	_	_	_	_	_	_	_
+1	Onlarınsa	o	PRON	PRON	Case=Gen|Negative=Pos|Number=Sing|Person=3	5	nmod:own	_	TRmorphTag=o<Prn:pers><3p><gen>|Stem=o
+2	_	ise	ADV	ADV	_	1	discourse	_	TRmorphTag=<ise><Cnj:adv>|Stem=ise
+3	hiç	hiç	ADV	ADV	_	5	advmod	_	TRmorphTag=hiç<Adv>|Stem=hiç
+4	parası	para	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	5	nsubj	_	TRmorphTag=para<N><p3s>|Stem=para
+5-6	yok	_	_	_	_	_	_	_	_
+5	yok	yok	ADJ	ADJ	Negative=Neg	0	root	_	TRmorphTag=yok<Exist:neg>|Stem=yok
+6	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	5	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+7	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Öğleden	öğle	NOUN	NOUN	Case=Abl|Number=Sing	4	nmod:tmod	_	TRmorphTag=öğle<N><abl>|Stem=öğle
+2-3	sonraysa	_	_	_	_	_	_	_	_
+2	sonraysa	sonra	ADV	ADV	_	1	case	_	TRmorphTag=sonra<Adv>|Stem=sonra
+3	_	ise	ADV	ADV	_	1	discourse	_	TRmorphTag=<ise><Cnj:adv>|Stem=ise
+4	yürüyüşe	yürüyüş	NOUN	NOUN	Case=Dat|Number=Sing	0	root	_	TRmorphTag=yürüyüş<N><dat>|Stem=yürüyüş
+5	çıktık	çıkmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Past	4	compound	_	TRmorphTag=çık<V><past><1p>|Stem=çık
+6	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	İnanıyorum	inanmak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=inan<V><cont><1s>|Stem=inan
+2	ki	ki	SCONJ	SCONJ	_	4	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+3	herşey	herşey	PRON	PRON	Negative=Pos|Number=Sing	4	nsubj	_	TRmorphTag=herşey<Prn>|Stem=herşey
+4	düzelecek	düzelmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut	1	ccomp	_	TRmorphTag=düzel<V><fut><3s>|Stem=düzel
+5	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Sana	san	NOUN	NOUN	Case=Dat|Number=Sing	3	nmod	_	TRmorphTag=san<N><dat>|Stem=san
+2	bunu	bu	PRON	PRON	Case=Acc|Negative=Pos|Number=Sing	3	dobj	_	TRmorphTag=bu<Prn:dem><acc>|Stem=bu
+3	söylüyorum	söylemek	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=söyle<V><cont><1s>|Stem=söyle
+4	ki	ki	SCONJ	SCONJ	_	6	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+5	sonradan	sonradan	ADV	ADV	_	6	advmod	_	TRmorphTag=sonradan<Adv>|Stem=sonradan
+6	şaşırmayasın	şaşırmak	VERB	VERB	Mood=Opt|Negative=Neg|Number=Sing|Person=2|Tense=Pres	3	advcl	_	TRmorphTag=şaşır<V><neg><opt><2s>|Stem=şaşır
+7	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Anlayamıyorum	anlamak	VERB	VERB	Aspect=Prog|Mood=Abil|Negative=Neg|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=anla<V><abil><neg><cont><1s>|Stem=anla
+2	ki	ki	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=ki<Cnj:adv>|Stem=ki
+3	!	!	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=!<Punc>|Stem=!
+
+1	Londra	Londra	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Londra<N:prop>|Stem=Londra
+2	sonbaharda	sonbahar	NOUN	NOUN	Case=Loc|Number=Sing	5	nmod:tmod	_	TRmorphTag=sonbahar<N><loc>|Stem=sonbahar
+3	o	o	PRON	PRON	Negative=Pos|Number=Sing	5	nmod	_	TRmorphTag=o<Prn:dem>|Stem=o
+4	kadar	kadar	ADP	ADP	_	3	mwe	_	TRmorphTag=kadar<Postp:adv:nomC>|Stem=kadar
+5	güzel	güzel	ADJ	ADJ	_	0	root	_	TRmorphTag=güzel<Adj>|Stem=güzel
+6	olur	olmak	AUX	AUX	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	5	cop	_	TRmorphTag=ol<V><aor><3s>|Stem=ol
+7	ki	ki	ADV	ADV	_	5	advmod:emph	_	TRmorphTag=ki<Cnj:adv>|Stem=ki
+8	!	!	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=!<Punc>|Stem=!
+
+1	Bugün	bugün	NOUN	NOUN	Number=Sing	3	nmod:tmod	_	TRmorphTag=bugün<N>|Stem=bugün
+2	hava	hava	NOUN	NOUN	Number=Sing	3	nsubj	_	TRmorphTag=hava<N>|Stem=hava
+3	açarsa	açmak	VERB	VERB	Aspect=Habit|Mood=Cnd-Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	13	advcl:cond	_	TRmorphTag=aç<V><aor><cpl:cond><3s>|Stem=aç
+4	,	,	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=,<Punc>|Stem=,
+5	ki	ki	SCONJ	SCONJ	_	9	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+6-7	açacağını	_	_	_	_	_	_	_	_
+6	açacağını	açmak	VERB	VERB	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut	7	acl	_	TRmorphTag=aç<V>|Stem=aç
+7	_	-ecek	NOUN	NOUN	Case=Acc|Number=Sing	9	ccomp	_	TRmorphTag=<vn:fut><N><p3s><acc>|Stem=-ecek
+8	pek	pek	ADV	ADV	_	9	advmod	_	TRmorphTag=pek<Adv>|Stem=pek
+9	sanmıyorum	sanmak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pres	3	parataxis	_	TRmorphTag=san<V><neg><cont><1s>|Stem=san
+10	,	,	PUNCT	PUNCT	_	13	punct	_	TRmorphTag=,<Punc>|Stem=,
+11	bahçede	bahçe	NOUN	NOUN	Case=Loc|Number=Sing	13	nmod	_	TRmorphTag=bahçe<N><loc>|Stem=bahçe
+12	mangal	mangal	NOUN	NOUN	Number=Sing	13	nmod	_	TRmorphTag=mangal<N>|Stem=mangal
+13	yakacaklarmış	yakmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Fut	0	root	_	TRmorphTag=yak<V><fut><3p><cpl:evid>|Stem=yak
+14	.	.	PUNCT	PUNCT	_	13	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Semra	Semra	PROPN	PROPN	Number=Sing	6	dislocated	_	TRmorphTag=Semra<N:prop>|Stem=Semra
+2	ki	ki	SCONJ	SCONJ	_	4	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+3	partileri	parti	NOUN	NOUN	Case=Acc|Number=Plur	4	dobj	_	TRmorphTag=parti<N><pl><acc>|Stem=parti
+4	sevmez	sevmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Neg|Number=Sing|Person=3|Tense=Pres	1	acl	_	TRmorphTag=sev<V><neg><aor><3s>|Stem=sev
+5	,	,	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=,<Punc>|Stem=,
+6	o	o	PRON	PRON	Negative=Pos|Number=Sing|Person=3	8	nsubj	_	TRmorphTag=o<Prn:pers:3s>|Stem=o
+7	bile	bile	ADV	ADV	_	6	advmod:emph	_	TRmorphTag=bile<Cnj:adv>|Stem=bile
+8	eğlendi	eğlenmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=eğlen<V><past><3s>|Stem=eğlen
+9	.	.	PUNCT	PUNCT	_	8	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Bir	bir	DET	DET	Definite=Ind|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bir<Det:indef>|Stem=bir
+2	şöför	şöför	NOUN	NOUN	Number=Sing	9	dislocated	_	TRmorphTag=şöför<N>|Stem=şöför
+3	ki	ki	SCONJ	SCONJ	_	7	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+4	park	park	NOUN	NOUN	Number=Sing	6	acl	_	TRmorphTag=park<N>|Stem=park
+5-6	etmeyi	_	_	_	_	_	_	_	_
+5	etmeyi	etmek	VERB	VERB	Mood=Ind|Negative=Pos	4	compound	_	TRmorphTag=et<V>|Stem=et
+6	_	-mek	NOUN	NOUN	Case=Acc|Number=Sing	7	ccomp	_	TRmorphTag=<vn:inf><N><acc>|Stem=-mek
+7	bilmesin	bilmek	VERB	VERB	Mood=Imp|Negative=Neg|Number=Sing|Person=3|Tense=Pres	2	acl	_	TRmorphTag=bil<V><neg><imp><3s>|Stem=bil
+8	,	,	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=,<Punc>|Stem=,
+9	ona	o	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing	10	nmod	_	TRmorphTag=o<Prn:dem><dat>|Stem=o
+10	güvenip	güvenip	VERB	VERB	Mood=Ind|VerbType=Trans	12	conj	_	TRmorphTag=güven<V><cv:ip><Adv>|Stem=güvenip
+11	arabasına	araba	NOUN	NOUN	Case=Dat|Number=Sing|Number_psor=Sing|Person_psor=3	12	nmod	_	TRmorphTag=araba<N><p3s><dat>|Stem=araba
+12	binilmez	binmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Neg|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	TRmorphTag=bin<V><pass><neg><aor><3s>|Stem=bin
+13	.	.	PUNCT	PUNCT	_	12	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1-2	Bildiğim	_	_	_	_	_	_	_	_
+1	Bildiğim	bilmek	VERB	VERB	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	2	acl	_	TRmorphTag=bil<V>|Stem=bil
+2	_	-dik	NOUN	NOUN	Number=Sing	3	csubj	_	TRmorphTag=<vn:past><N><p1s>|Stem=-dik
+3-4	şu	_	_	_	_	_	_	_	_
+3	şu	şu	PRON	PRON	Negative=Pos|Number=Sing	0	root	_	TRmorphTag=şu<Prn:dem>|Stem=şu
+4	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	3	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+5	ki	ki	SCONJ	SCONJ	_	9	mark	_	TRmorphTag=ki<Cnj:sub>|Stem=ki
+6	,	,	PUNCT	PUNCT	_	9	punct	_	TRmorphTag=,<Punc>|Stem=,
+7	herkesin	herkes	PRON	PRON	Case=Gen|Negative=Pos|Number=Sing|Person=3	9	nsubj	_	TRmorphTag=herkes<Prn:pers:3s><gen>|Stem=herkes
+8	tatile	tatil	NOUN	NOUN	Case=Dat|Number=Sing	9	nmod	_	TRmorphTag=tatil<N><dat>|Stem=tatil
+9	ihtiyacı	ihtiyaç	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	3	ccomp	_	TRmorphTag=ihtiyaç<N><p3s>|Stem=ihtiyaç
+10-11	var	_	_	_	_	_	_	_	_
+10	var	var	ADJ	ADJ	Negative=Pos	9	compound	_	TRmorphTag=var<Exist>|Stem=var
+11	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	10	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+12	.	.	PUNCT	PUNCT	_	9	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Gitse	gitmek	VERB	VERB	Mood=Cnd|Negative=Pos|Tense=Pres	0	root	_	TRmorphTag=git<V><cond>|Stem=git
+2	miydik	mi	AUX	AUX	Number=Plur|Person=1|Question=Yes|Tense=Past	1	aux:q	_	TRmorphTag=mi<Q><cpl:past><1p>|Stem=mi
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Başlamış	başlamak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Tense=Past	0	root	_	TRmorphTag=başla<V><evid>|Stem=başla
+2	mıydınız	mı	AUX	AUX	Number=Plur|Person=2|Question=Yes|Tense=Past	1	aux:q	_	TRmorphTag=mı<Q><cpl:past><2p>|Stem=mı
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-2	Burada	_	_	_	_	_	_	_	_
+1	Burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	0	root	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
+2	_	-0	AUX	-0	Mood=Ind|Negative=Pos	1	cop	_	TRmorphTag=<0><V>|Stem=-0
+3	mıymış	mı	AUX	AUX	Evidential=Nfh|Number=Sing|Person=3|Question=Yes|Tense=Past	1	aux:q	_	TRmorphTag=mı<Q><cpl:evid><3s>|Stem=mı
+4	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Gidiyor	gitmek	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Tense=Pres	0	root	_	TRmorphTag=git<V><cont>|Stem=git
+2	musun	mu	AUX	AUX	Number=Sing|Person=2|Question=Yes	1	aux:q	_	TRmorphTag=mu<Q><2s>|Stem=mu
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	İster	istemek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Tense=Pres	0	root	_	TRmorphTag=iste<V><aor>|Stem=iste
+2	miyiz	mi	AUX	AUX	Number=Plur|Person=1|Question=Yes	1	aux:q	_	TRmorphTag=mi<Q><1p>|Stem=mi
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-2	Hazır	_	_	_	_	_	_	_	_
+1	Hazır	hazır	ADJ	ADJ	_	0	root	_	TRmorphTag=hazır<Adj>|Stem=hazır
+2	_	-0	AUX	-0	Mood=Ind|Negative=Pos	1	cop	_	TRmorphTag=<0><V>|Stem=-0
+3	mısınız	mı	AUX	AUX	Number=Plur|Person=2|Question=Yes|Tense=Pres	1	aux:q	_	TRmorphTag=mı<Q><cpl:pres><2p>|Stem=mı
+4	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Unutmuş	unutmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Tense=Past	0	root	_	TRmorphTag=unut<V><evid>|Stem=unut
+2	mudurlar	mu	AUX	AUX	Mood=Gen|Number=Plur|Person=3|Question=Yes	1	aux:q	_	TRmorphTag=mu<Q><dir><3p>|Stem=mu
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Unutmuşlar	unutmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Past	0	root	_	TRmorphTag=unut<V><evid><3p>|Stem=unut
+2	mıdır	mı	AUX	AUX	Mood=Gen|Question=Yes	1	aux:q	_	TRmorphTag=mı<Q><dir>|Stem=mı
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-2	Evde	_	_	_	_	_	_	_	_
+1	Evde	ev	NOUN	NOUN	Case=Loc|Number=Sing	0	root	_	TRmorphTag=ev<N><loc>|Stem=ev
+2	_	-0	AUX	-0	Mood=Ind|Negative=Pos	1	cop	_	TRmorphTag=<0><V>|Stem=-0
+3	midir	mi	AUX	AUX	Mood=Gen|Number=Sing|Person=3|Question=Yes|Tense=Pres	1	aux:q	_	TRmorphTag=mi<Q><cpl:pres><3s><dir>|Stem=mi
+4	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Acaba	acaba	ADV	ADV	_	2	discourse	_	TRmorphTag=acaba<Adv>|Stem=acaba
+2	geçmiş	geçmek	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Tense=Past	0	root	_	TRmorphTag=geç<V><evid>|Stem=geç
+3	miyimdir	mi	AUX	AUX	Mood=Gen|Number=Sing|Person=1|Question=Yes	2	aux:q	_	TRmorphTag=mi<Q><1s><dir>|Stem=mi
+4	?	?	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Gördün	görmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Past	0	root	_	TRmorphTag=gör<V><past><2s>|Stem=gör
+2	mü	mü	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mü<Q>|Stem=mü
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Gitsek	gitmek	VERB	VERB	Mood=Cnd|Negative=Pos|Number=Plur|Person=1|Tense=Pres	0	root	_	TRmorphTag=git<V><cond><1p>|Stem=git
+2	mi	mi	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mi<Q>|Stem=mi
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Yürüdünüz	yürümek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=2|Tense=Past	0	root	_	TRmorphTag=yürü<V><past><2p>|Stem=yürü
+2	mü	mü	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mü<Q>|Stem=mü
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Kalayım	kalmak	VERB	VERB	Mood=Opt|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=kal<V><opt><1s>|Stem=kal
+2	mı	mı	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Başlasın	başlamak	VERB	VERB	Mood=Opt|Negative=Pos|Tense=Pres	0	root	_	TRmorphTag=başla<V><opt>|Stem=başla
+2	mı	mı	AUX	AUX	Number=Sing|Person=3|Question=Yes	1	aux:q	_	TRmorphTag=mı<Q><3s>|Stem=mı
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Gittiler	gitmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Past	0	root	_	TRmorphTag=git<V><past><3p>|Stem=git
+2	mi	mi	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mi<Q>|Stem=mi
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Uyanırlar	uyanmak	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Plur|Person=3|Tense=Pres	0	root	_	TRmorphTag=uyan<V><aor><3p>|Stem=uyan
+2	mı	mı	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
+3	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-2	Okuldalar	_	_	_	_	_	_	_	_
+1	Okuldalar	okul	NOUN	NOUN	Case=Loc|Number=Sing	0	root	_	TRmorphTag=okul<N><loc>|Stem=okul
+2	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres	1	cop	_	TRmorphTag=<0><V><cpl:pres><3p>|Stem=-0
+3	mı	mı	AUX	AUX	Question=Yes	1	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
+4	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-2	Akıllı	_	_	_	_	_	_	_	_
+1	Akıllı	Akıllı	PROPN	PROPN	Number=Sing	0	root	_	TRmorphTag=Akıllı<N:prop>|Stem=Akıllı
+2	_	-0	AUX	-0	Mood=Ind|Negative=Pos	1	cop	_	TRmorphTag=<0><V>|Stem=-0
+3	mı	mı	AUX	AUX	Number=Sing|Person=3|Question=Yes|Tense=Pres	1	aux:q	_	TRmorphTag=mı<Q><cpl:pres><3s>|Stem=mı
+4	?	?	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1-3	Benimki	_	_	_	_	_	_	_	_
+1	Benimki	ben	PRON	PRON	Case=Gen|Negative=Pos|Number=Sing|Person=1	2	nmod	_	TRmorphTag=ben<Prn:pers:1s><gen>|Stem=ben
+2	_	-ki	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=<ki><Adj><0><N>|Stem=-ki
+3	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	2	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+4	mi	mi	AUX	AUX	Question=Yes	2	aux:q	_	TRmorphTag=mi<Q>|Stem=mi
+5	?	?	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Gittin	gitmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Past	7	advcl	_	TRmorphTag=git<V><past><2s>|Stem=git
+2	mi	mi	SCONJ	SCONJ	_	1	mark	_	TRmorphTag=mi<Cnj:sub>|Stem=mi
+3	,	,	PUNCT	PUNCT	_	7	punct	_	TRmorphTag=,<Punc>|Stem=,
+4	hemen	hemen	ADV	ADV	_	7	advmod	_	TRmorphTag=hemen<Adv>|Stem=hemen
+5	yerine	yer	NOUN	NOUN	Case=Dat|Number=Sing|Number_psor=Sing|Person_psor=2	7	nmod	_	TRmorphTag=yer<N><p2s><dat>|Stem=yer
+6	yenisi	yeni	NOUN	NOUN	Number=Sing	7	nsubj	_	TRmorphTag=yeni<Adj><0><N><p3s>|Stem=yeni
+7	gelir	gelmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=gel<V><aor><3s>|Stem=gel
+8	.	.	PUNCT	PUNCT	_	7	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Evini	ev	NOUN	NOUN	Case=Acc|Number=Sing|Number_psor=Sing|Person_psor=2	2	dobj	_	TRmorphTag=ev<N><p2s><acc>|Stem=ev
+2	sattın	satmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Past	6	advcl	_	TRmorphTag=sat<V><past><2s>|Stem=sat
+3	mı	mı	SCONJ	SCONJ	_	2	mark	_	TRmorphTag=mı<Cnj:sub>|Stem=mı
+4	,	,	PUNCT	PUNCT	_	6	punct	_	TRmorphTag=,<Punc>|Stem=,
+5	gerisi	geri	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	6	nsubj	_	TRmorphTag=geri<N><p3s>|Stem=geri
+6	önemli	önemli	ADJ	ADJ	_	0	root	_	TRmorphTag=önemli<Adj>|Stem=önemli
+7	değil	değil	AUX	AUX	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres	6	cop	_	TRmorphTag=değil<Not><0><V><cpl:pres><3s>|Stem=de
+8	.	.	PUNCT	PUNCT	_	6	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	ilginç	ilginç	ADJ	ADJ	_	3	compound:redup	_	TRmorphTag=ilginç<Adj>|Stem=ilginç
+2	mi	mi	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=mi<Adv>|Stem=mi
+3	ilginç	ilginç	ADJ	ADJ	_	0	root	_	TRmorphTag=ilginç<Adj>|Stem=ilginç
+
+1	hızlı	hızlı	ADV	ADV	_	3	compound:redup	_	TRmorphTag=hızlı<Adv>|Stem=hızlı
+2	mı	mı	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=mı<Adv>|Stem=mı
+3	hızlı	hızlı	ADV	ADV	_	0	root	_	TRmorphTag=hızlı<Adv>|Stem=hızlı
+
+1	Gittim	gitmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	4	conj	_	TRmorphTag=git<V><past><1s>|Stem=git
+2	ya	ya	CONJ	CONJ	_	4	cc	_	TRmorphTag=ya<Cnj:coo>|Stem=ya
+3	onu	o	PRON	PRON	Case=Acc|Negative=Pos|Number=Sing|Person=3	4	dobj	_	TRmorphTag=o<Prn:pers:3s><acc>|Stem=o
+4	göremedim	görmek	VERB	VERB	Aspect=Perf|Mood=Abil|Negative=Neg|Number=Sing|Person=1|Tense=Past	0	root	_	TRmorphTag=gör<V><abil><neg><past><1s>|Stem=gör
+5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Görmedim	görmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Past	2	ccomp	_	TRmorphTag=gör<V><neg><past><1s>|Stem=gör
+2	dedim	demek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	0	root	_	TRmorphTag=de<V><past><1s>|Stem=de
+3	ya	ya	ADV	ADV	_	2	advmod:emph	_	TRmorphTag=ya<Cnj:adv>|Stem=ya
+4	!	!	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=!<Punc>|Stem=!
+
+1	Hani	hani	ADV	ADV	_	3	advmod	_	TRmorphTag=hani<Cnj:adv>|Stem=hani
+2	sana	sen	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing|Person=2	3	nmod	_	TRmorphTag=sen<Prn:pers:2s><dat>|Stem=sen
+3	göstermiştim	göstermek	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pqp	8	parataxis	_	TRmorphTag=göster<V><evid><cpl:past><1s>|Stem=göster
+4	ya	ya	ADV	ADV	_	3	advmod:emph	_	TRmorphTag=ya<Cnj:adv>|Stem=ya
+5	,	,	PUNCT	PUNCT	_	8	punct	_	TRmorphTag=,<Punc>|Stem=,
+6	işte	işte	ADV	ADV	_	8	discourse	_	TRmorphTag=işte<Cnj:adv>|Stem=işte
+7	o	o	DET	DET	Definite=Def|Negative=Pos|Number=Sing	8	det	_	TRmorphTag=o<Det:def>|Stem=o
+8-9	elbise	_	_	_	_	_	_	_	_
+8	elbise	elbise	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=elbise<N>|Stem=elbise
+9	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	8	cop	_	TRmorphTag=<0><V><cpl:pres><3s>|Stem=-0
+10	.	.	PUNCT	PUNCT	_	8	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Ya	ya	ADV	ADV	_	3	advmod	_	TRmorphTag=ya<Cnj:adv>|Stem=ya
+2	parası	para	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	3	nsubj	_	TRmorphTag=para<N><p3s>|Stem=para
+3-4	yoksa	_	_	_	_	_	_	_	_
+3	yoksa	yok	ADJ	ADJ	Negative=Neg	0	root	_	TRmorphTag=yok<Exist:neg>|Stem=yok
+4	_	-0	AUX	-0	Mood=Cnd|Negative=Pos|Number=Sing|Person=3	3	cop	_	TRmorphTag=<0><V><cpl:cond><3s>|Stem=-0
+5	?	?	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Tohumları	tohum	NOUN	NOUN	Case=Acc|Number=Plur	4	dobj	_	TRmorphTag=tohum<N><pl><acc>|Stem=tohum
+2	soğukta	soğuk	NOUN	NOUN	Case=Loc|Number=Sing	4	nmod	_	TRmorphTag=soğuk<Adj><0><N><loc>|Stem=soğuk
+3	mı	mı	AUX	AUX	Question=Yes	2	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
+4	bırakmıştın	bırakmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Pqp	0	root	_	TRmorphTag=bırak<V><evid><cpl:past><2s>|Stem=bırak
+5	ki	ki	ADV	ADV	_	4	advmod:emph	_	TRmorphTag=ki<Cnj:adv>|Stem=ki
+6	?	?	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Kağıtları	None	NOUN	NOUN	Case=Acc|Number=Plur	3	dobj	_	TRmorphTag=kâğıt<N><pl><acc>|Stem=None
+2	da	da	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=da<Cnj:adv>|Stem=da
+3	okumuş	okumak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Tense=Past	0	root	_	TRmorphTag=oku<V><evid>|Stem=oku
+4	mu	mu	AUX	AUX	Number=Sing|Person=3|Question=Yes	3	aux:q	_	TRmorphTag=mu<Q><3s>|Stem=mu
+5	?	?	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Çerçeveleri	çerçeve	NOUN	NOUN	Case=Acc|Number=Plur	3	dobj	_	TRmorphTag=çerçeve<N><pl><acc>|Stem=çerçeve
+2	bile	bile	ADV	ADV	_	3	advmod:emph	_	TRmorphTag=bile<Adv>|Stem=bile
+3	temizlemişsin	temizlemek	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Past	0	root	_	TRmorphTag=temiz<Adj><la><V><evid><2s>|Stem=temizle
+4	ya	ya	ADV	ADV	_	3	advmod:emph	_	TRmorphTag=ya<Cnj:adv>|Stem=ya
+5	!	!	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=!<Punc>|Stem=!
+
+1	Bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bu<Det:def>|Stem=bu
+2	gözlükle	gözlük	NOUN	NOUN	Case=Ins|Number=Sing	5	nmod	_	TRmorphTag=gözlük<N><ins>|Stem=gözlük
+3	sahneyi	sahne	NOUN	NOUN	Case=Acc|Number=Sing	5	dobj	_	TRmorphTag=sahne<N><acc>|Stem=sahne
+4	mi	mi	AUX	AUX	Question=Yes	3	aux:q	_	TRmorphTag=mi<Q>|Stem=mi
+5	göremiyormuş	görmek	VERB	VERB	Aspect=Prog|Evidential=Nfh|Mood=Abil|Negative=Neg|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=gör<V><abil><neg><cont><cpl:evid><3s>|Stem=gör
+6	?	?	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Yeni	yeni	ADJ	ADJ	_	2	amod	_	TRmorphTag=yeni<Adj>|Stem=yeni
+2	öğrencilerini	öğrenci	NOUN	NOUN	Case=Acc|Number=Plur|Number_psor=Sing|Person_psor=2	4	dobj	_	TRmorphTag=öğrenci<N><pl><p2s><acc>|Stem=öğrenci
+3	daha	daha	ADV	ADV	_	4	advmod	_	TRmorphTag=daha<Adv>|Stem=daha
+4	görmedin	görmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=2|Tense=Past	0	root	_	TRmorphTag=gör<V><neg><past><2s>|Stem=gör
+5	mi	mi	AUX	AUX	Question=Yes	4	aux:q	_	TRmorphTag=mi<Q>|Stem=mi
+6	?	?	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=?<Punc>|Stem=?
+
+1	Ben	ben	PRON	PRON	Negative=Pos|Number=Sing|Person=1	3	nsubj	_	TRmorphTag=ben<Prn:pers:1s>|Stem=ben
+2	de	de	ADV	ADV	_	1	advmod:emph	_	TRmorphTag=de<Cnj:adv>|Stem=de
+3	içmeyeceğim	içmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Fut	0	root	_	TRmorphTag=iç<V><neg><fut><1s>|Stem=iç
+4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Semra	Semra	PROPN	PROPN	Number=Sing	3	nsubj	_	TRmorphTag=Semra<N:prop>|Stem=Semra
+2	ücretini	ücret	NOUN	NOUN	Case=Acc|Number=Sing|Number_psor=Sing|Person_psor=3	3	dobj	_	TRmorphTag=ücret<N><p3s><acc>|Stem=ücret
+3	alamamış	almak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Abil|Negative=Neg|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=al<V><abil><neg><evid><3s>|Stem=al
+4	bile	bile	ADV	ADV	_	3	advmod:emph	_	TRmorphTag=bile<Adv>|Stem=bile
+5	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+
+1	Kimseyi	kimse	PRON	PRON	Case=Acc|Negative=Pos|Number=Sing	2	dobj	_	TRmorphTag=kimse<Prn><acc>|Stem=kimse
+2	görmedim	görmek	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Past	0	root	_	TRmorphTag=gör<V><neg><past><1s>|Stem=gör
+3	ki	ki	ADV	ADV	_	2	advmod:emph	_	TRmorphTag=ki<Cnj:adv>|Stem=ki
+4	!	!	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=!<Punc>|Stem=!
+
+1	Hani	hani	ADV	ADV	_	4	advmod	_	TRmorphTag=hani<Cnj:adv>|Stem=hani
+2	eski	eski	ADJ	ADJ	_	3	amod	_	TRmorphTag=eski<Adj>|Stem=eski
+3	gazeteleri	gazete	NOUN	NOUN	Case=Acc|Number=Plur	4	dobj	_	TRmorphTag=gazete<N><pl><acc>|Stem=gazete
+4	atmamıştım	atmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pqp	0	root	_	TRmorphTag=at<V><neg><evid><cpl:past><1s>|Stem=at
+5	ya	ya	ADV	ADV	_	4	advmod:emph	_	TRmorphTag=ya<Cnj:adv>|Stem=ya
+6	…	…	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=…<Punc>|Stem=…
+
