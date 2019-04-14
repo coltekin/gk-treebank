@@ -41,7 +41,7 @@ map_tam = {
     'evid':     'Evid', 
     'fut':      'Fut', 
     'obl':      'Obl',
-    'impf':     'Impf',
+    'impf':     'Imp',
     'cont':     'Cont',
     'past':     'Past',
     'cond':     'Cond',

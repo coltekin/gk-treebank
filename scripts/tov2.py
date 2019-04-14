@@ -106,9 +106,12 @@ for sent_num, sent in enumerate(tb):
         elif node.deprel == 'advcl:cond':
             node.deprel = 'advcl'
 
-        if node.lemma and node.lemma[-3:] in {'mek', 'mak'}\
-                and node.upos in {'VERB', 'AUX'}:
-            node.lemma = node.lemma[:-3]
+        if node.lemma:
+            if node.lemma[-3:] in {'mek', 'mak'}\
+                    and node.upos in {'VERB', 'AUX'}:
+                node.lemma = node.lemma[:-3]
+            if node.lemma == "-0":
+                node.lemma = "i"
 
         if next_node and next_node.upos == 'PUNCT':
             node.misc = 'SpaceAfter=No'
