@@ -116,3 +116,4 @@ However, there are two issues:
 - Instances of dislocated need a revision.
     Current UD guidelines require attaching the 'dislocated' word
     to its parent which does allow identifying the word that corresponds to it.
+- _-lArI- in time expressions, like _geceleri_ 

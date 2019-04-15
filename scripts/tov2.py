@@ -34,7 +34,7 @@ for sent_num, sent in enumerate(tb):
         if c.startswith('# sent_id = '):
             add_id = False
     if add_text:
-        t = re.sub(' ([:.,?…])', '\g<1>', sent.text().strip())
+        t = re.sub(' ([!:.,?…])', '\g<1>', sent.text().strip())
         sent.comment.append('# text = ' + t)
     if add_id:
         sent.comment.append('# sent_id = {}-{:04d}'.format(
@@ -105,6 +105,10 @@ for sent_num, sent in enumerate(tb):
             node.deprel = 'flat'
         elif node.deprel == 'advcl:cond':
             node.deprel = 'advcl'
+        elif node.deprel == 'nmod:own':
+            node.deprel = 'nmod'
+        elif node.deprel == 'conj:num':
+            node.deprel = 'compound'
 
         if node.lemma:
             if node.lemma[-3:] in {'mek', 'mak'}\
