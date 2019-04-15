@@ -110,3 +110,9 @@ However, there are two issues:
   or '(of your people, e.g., basketball players) Ali is the tall one'.
 - If a determiner (pro)nomilized this way, it is at odds with UD since
   it becomes head in some cases _politikacıların çoğ-u_ 'most of the politicians''
+
+## TODO
+
+- Instances of dislocated need a revision.
+    Current UD guidelines require attaching the 'dislocated' word
+    to its parent which does allow identifying the word that corresponds to it.
