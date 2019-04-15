@@ -114,14 +114,14 @@ for sent_num, sent in enumerate(tb):
                 node.lemma = "i"
 
         if next_node and next_node.upos == 'PUNCT':
-            node.misc = 'SpaceAfter=No'
+            node.add_misc('SpaceAfter', 'No')
         else:
-            node.misc = '_'
+            node.del_misc('SpaceAfter')
 
         node.del_feat('Polarity', 'Pos')
 
     for mult in sent.multi.values():
-        if 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
+        if sent.nodes[mult.multi].misc and 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
             mult.add_misc('SpaceAfter', 'No')
             sent.nodes[mult.multi].del_misc('SpaceAfter')
 
