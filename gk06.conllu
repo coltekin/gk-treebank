@@ -1,27 +1,27 @@
 # text = suçlulukla mı
 # sent_id = GK06-0001
-1	suçlulukla	suçluluk	NOUN	NOUN	_	0	root	_	_
-2	mı	mi	AUX	AUX	_	1	aux:q	_	_
+1	suçlulukla	suçluluk	NOUN	NOUN	Case=Ins|Number=Sing	0	root	_	Stem=suçluluk
+2	mı	mi	AUX	AUX	PronType=Int	1	aux:q	_	Stem=mı
 
 # text = dizgelerimde
 # sent_id = GK06-0002
-1	dizgelerimde	dizge	NOUN	NOUN	_	0	root	_	_
+1	dizgelerimde	dizge	NOUN	NOUN	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	Stem=dizge
 
 # text = yapılaştırılmamış
 # sent_id = GK06-0003
-1	yapılaştırılmamış	yapılaş	VERB	VERB	_	0	root	_	_
+1	yapılaştırılmamış	yapılaş	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=CauPass	0	root	_	Stem=yapılaş
 
 # text = Gidebilirim de.
 # sent_id = GK06-0004
-1	Gidebilirim	git	VERB	VERB	Polarity=Pos	0	root	_	_
-2	de	de	ADV	ADV	_	1	advmod:emph	_	SpaceAfter=No
-3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+1	Gidebilirim	git	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=1|Tense=Pres	0	root	_	Stem=git
+2	de	de	ADV	ADV	_	1	advmod:emph	_	SpaceAfter=No|Stem=de
+3	.	.	PUNCT	PUNCT	_	1	punct	_	Stem=.
 
 # text = Görüştürülemeye de biliyor muydunuz?
 # sent_id = GK06-0005
-1	Görüştürülemeye	gör	VERB	VERB	_	0	root	_	_
-2	de	de	ADV	ADV	_	1	advmod:emph	_	_
-3	biliyor	bil	AUX	AUX	Polarity=Pos	1	aux	_	_
-4	muydunuz	mi	AUX	AUX	_	1	aux:q	_	SpaceAfter=No
-5	?	?	PUNCT	PUNCT	_	1	punct	_	_
+1	Görüştürülemeye	gör	VERB	VERB	Mood=Abil|Polarity=Neg|Voice=CauPassRcp	0	root	_	Stem=gör
+2	de	de	ADV	ADV	_	1	advmod:emph	_	Stem=de
+3	biliyor	bil	AUX	VERB	Aspect=Prog|Mood=Ind|Tense=Pres	1	aux	_	Stem=bil
+4	muydunuz	mi	AUX	AUX	Number=Plur|Person=2|PronType=Int|Tense=Past	1	aux:q	_	SpaceAfter=No|Stem=mu
+5	?	?	PUNCT	PUNCT	_	1	punct	_	Stem=?
 

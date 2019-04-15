@@ -119,6 +119,8 @@ for sent_num, sent in enumerate(tb):
             node.del_misc('SpaceAfter')
 
         node.del_feat('Polarity', 'Pos')
+        node.del_misc('TRmorphTag')
+        node.del_misc('Stem')
 
     for mult in sent.multi.values():
         if sent.nodes[mult.multi].misc and 'SpaceAfter=No' in sent.nodes[mult.multi].misc:

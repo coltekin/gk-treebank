@@ -10,20 +10,20 @@
 
 # text = Oturacağım.
 # sent_id = GK08-0003
-1	Oturacağım	otur	VERB	VERB	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
+1	Oturacağım	otur	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Şu anda evden çıktı.
 # sent_id = GK08-0004
-1	Şu	şu	DET	DET	_	2	det	_	_
-2	anda	an	NOUN	NOUN	_	4	obl:tmod	_	_
+1	Şu	şu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	anda	an	NOUN	NOUN	Case=Loc|Number=Sing	4	obl:tmod	_	_
 3	evden	ev	NOUN	NOUN	Case=Abl|Number=Sing	4	obl	_	_
-4	çıktı	çık	VERB	VERB	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	çıktı	çık	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Yüzüyoruz.
 # sent_id = GK08-0005
-1	Yüzüyoruz	yüz	VERB	VERB	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+1	Yüzüyoruz	yüz	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Yıkılmamıştı.
@@ -33,11 +33,11 @@
 
 # text = Döğüştürülmeyebiliyor
 # sent_id = GK08-0007
-1	Döğüştürülmeyebiliyor	_	VERB	VERB	Aspect=Prog|Evident=Fh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=CauPassRcp	0	root	_	_
+1	Döğüştürülmeyebiliyor	_	VERB	VERB	Aspect=Prog|Mood=Abil|Polarity=Neg|Tense=Pres|Voice=CauPassRcp	0	root	_	_
 
 # text = sevmekle
 # sent_id = GK08-0008
-1	sevmekle	sev	VERB	_	Case=Ins|Number=Sing|VerbForm=Vnoun	0	root	_	_
+1	sevmekle	sev	VERB	VERB	Case=Ins|Number=Sing|VerbForm=Vnoun	0	root	_	_
 
 # text = baktırmadığından
 # sent_id = GK08-0009
@@ -45,34 +45,34 @@
 
 # text = Geçtin.
 # sent_id = GK08-0010
-1	Geçtin	geç	VERB	VERB	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+1	Geçtin	geç	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Bitirememiştir.
 # sent_id = GK08-0011
-1	Bitirememiştir	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+1	Bitirememiştir	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=AbilGen|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Okuyabilecekmiş.
 # sent_id = GK08-0012
-1	Okuyabilecekmiş	oku	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
+1	Okuyabilecekmiş	oku	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Abil|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Yazın Paris'teydik.
 # sent_id = GK08-0013
-1	Yazın	yaz	NOUN	NOUN	_	2	nmod:tmod	_	_
+1	Yazın	yaz	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:tmod	_	_
 2-3	Paris'teydik	_	_	_	_	_	_	_	SpaceAfter=No
-2	Paris'te	Paris	PROPN	PROPN	_	0	root	_	_
-3	ydik	i	AUX	-0	Polarity=Pos	2	cop	_	_
+2	Paris'te	Paris	PROPN	PROPN	Case=Loc|Number=Sing	0	root	_	_
+3	ydik	i	AUX	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Past	2	cop	_	_
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Mutlaka zamanı vardır.
 # sent_id = GK08-0014
 1	Mutlaka	mutlaka	ADV	ADV	_	3	advmod	_	_
-2	zamanı	zaman	NOUN	NOUN	_	3	nsubj	_	_
+2	zamanı	zaman	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	vardır	_	_	_	_	_	_	_	SpaceAfter=No
 3	var	var	ADJ	ADJ	_	0	root	_	_
-4	dır	i	AUX	-0	Mood=Imp|Number=Sing|Person=2|Voice=Cau	3	cop	_	_
+4	dır	i	AUX	VERB	Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = oturabilmek
@@ -81,54 +81,54 @@
 
 # text = Sever idi.
 # sent_id = GK08-0016
-1	Sever	sev	VERB	VERB	Polarity=Pos	0	root	_	_
-2	idi	i	AUX	AUX	Polarity=Pos	1	cop	_	SpaceAfter=No
+1	Sever	sev	VERB	VERB	Aspect=Hab|Mood=Gen|Tense=Pres	0	root	_	_
+2	idi	i	AUX	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = öğrenci değillerdi.
 # sent_id = GK08-0017
-1	öğrenci	öğrenci	NOUN	NOUN	_	0	root	_	_
-2	değillerdi	değil	AUX	AUX	_	1	aux	_	SpaceAfter=No
+1	öğrenci	öğrenci	NOUN	NOUN	Number=Sing	0	root	_	_
+2	değillerdi	değil	AUX	VERB	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past	1	aux	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = evde yoklarmış.
 # sent_id = GK08-0018
-1	evde	ev	NOUN	NOUN	_	2	nmod	_	_
+1	evde	ev	NOUN	NOUN	Case=Loc|Number=Sing	2	nmod	_	_
 2-3	yoklarmış	_	_	_	_	_	_	_	SpaceAfter=No
-2	yok	yok	ADJ	ADJ	_	0	root	_	_
-3	larmış	i	AUX	-0	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past	2	cop	_	_
+2	yok	yok	ADJ	ADJ	Polarity=Neg	0	root	_	_
+3	larmış	i	AUX	VERB	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past	2	cop	_	_
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Öğretmenler.
 # sent_id = GK08-0019
 1-2	Öğretmenler	_	_	_	_	_	_	_	SpaceAfter=No
-1	Öğretmen	öğretmen	NOUN	NOUN	_	0	root	_	_
-2	ler	i	AUX	-0	Number=Plur|Person=3	1	cop	_	_
+1	Öğretmen	öğretmen	NOUN	NOUN	Number=Sing	0	root	_	_
+2	ler	i	AUX	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Sorun yaratacağı belli.
 # sent_id = GK08-0020
-1	Sorun	sorun	NOUN	NOUN	_	2	obj	_	_
-2	yaratacağı	yarat	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	nsubj:cop	_	_
-3	belli	belli	ADJ	ADJ	_	0	root	_	SpaceAfter=No
+1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
+2	yaratacağı	yarat	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	csubj:cop	_	_
+3	belli	belli	ADJ	ADJ	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Sorun yaratan kuruluşlar uyarıldı.
 # sent_id = GK08-0021
-1	Sorun	sorun	NOUN	NOUN	_	2	obj	_	_
-2	yaratan	yaratan	VERB	VERB	_	3	acl	_	_
-3	kuruluşlar	kuruluş	NOUN	NOUN	_	4	nsubj	_	_
-4	uyarıldı	uyar	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
+2	yaratan	yaratan	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
+3	kuruluşlar	kuruluş	NOUN	NOUN	Number=Plur	4	nsubj	_	_
+4	uyarıldı	uyar	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Sorun yaratmaktansa sonuçları kabullendi.
 # sent_id = GK08-0022
-1	Sorun	sorun	NOUN	NOUN	_	2	obj	_	_
+1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
 2-3	yaratmaktansa	_	_	_	_	_	_	_	_
-2	yaratmaktan	yarat	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
-3	sa	i	AUX	_	Aspect=Imp|Evident=Nfh|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
-4	sonuçları	sonuç	NOUN	NOUN	_	5	obj	_	_
-5	kabullendi	kabullen	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+2	yaratmaktan	yarat	VERB	VERB	Case=Abl|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
+3	sa	i	AUX	VERB	Mood=Cnd|Number=Sing|Person=3	2	cop	_	_
+4	sonuçları	sonuç	NOUN	NOUN	Case=Acc|Number=Plur	5	obj	_	_
+5	kabullendi	kabullen	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = koşmak için
@@ -144,41 +144,41 @@
 # text = Gitmeyi bekliyor.
 # sent_id = GK08-0025
 1	Gitmeyi	git	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
-2	bekliyor	bekle	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+2	bekliyor	bekle	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Gitmenizi bekliyor.
 # sent_id = GK08-0026
 1	Gitmenizi	git	VERB	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=2|VerbForm=Vnoun	2	ccomp	_	_
-2	bekliyor	bekle	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+2	bekliyor	bekle	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Şarkı söylemene bayılır.
 # sent_id = GK08-0027
 1	Şarkı	şarkı	NOUN	NOUN	_	2	obj	_	_
 2	söylemene	söyle	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=2|VerbForm=Vnoun	3	advcl	_	_
-3	bayılır	bayıl	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+3	bayılır	bayıl	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Şarkı söylemeye bayılır.
 # sent_id = GK08-0028
 1	Şarkı	şarkı	NOUN	NOUN	_	2	obj	_	_
 2	söylemeye	söyle	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
-3	bayılır	bayıl	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+3	bayılır	bayıl	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Konuşmamda ısrar etti.
 # sent_id = GK08-0029
 1	Konuşmamda	konuş	VERB	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	3	advcl	_	_
 2	ısrar	ısrar	NOUN	NOUN	_	3	compound	_	_
-3	etti	et	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+3	etti	et	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Konuşmakta ısrar etti.
 # sent_id = GK08-0030
 1	Konuşmakta	konuş	VERB	_	Case=Loc|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 2	ısrar	ısrar	NOUN	NOUN	_	3	compound	_	_
-3	etti	et	VERB	VERB	Polarity=Pos	0	root	_	SpaceAfter=No
+3	etti	et	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Konuşmamdan korkuyor.
