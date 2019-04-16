@@ -109,6 +109,21 @@ for sent_num, sent in enumerate(tb):
             node.deprel = 'nmod'
         elif node.deprel == 'conj:num':
             node.deprel = 'compound'
+        elif node.deprel in {'obl:cau', 'obl:pass'}:
+            node.deprel = 'obl:agent'
+
+        # invert coordination direction - approximate, breaks on some structures, needs manual check
+        conj_head = None
+        if node.deprel == 'conj':
+            if node.index < head.index:
+                if conj_head:
+                    node.head = conj_head
+                else:
+                    conj_head = node.index
+                    node.deprel = head.deprel
+                    node.head = head.head
+                    head.head = conj_head
+                    head.deprel = 'conj'
 
         if node.lemma:
             if node.lemma[-3:] in {'mek', 'mak'}\

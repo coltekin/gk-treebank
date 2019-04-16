@@ -117,3 +117,7 @@ However, there are two issues:
     Current UD guidelines require attaching the 'dislocated' word
     to its parent which does allow identifying the word that corresponds to it.
 - _-lArI- in time expressions, like _geceleri_ 
+- _duymazlıktan geldi_  the composite suffix _-mAzlIk_ seems to form
+  some sort of verbal noun. Current analysis does not look good.
+  Another interesting point here is the double negative in
+  _duymamazlıktan geldi_
