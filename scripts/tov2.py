@@ -138,9 +138,6 @@ for sent_num, sent in enumerate(tb):
                     head.head = flat_head
                     head.deprel = 'flat'
 
-        if node.lemma and node.lemma == 'değil' and node.deprel == 'cop':
-            node.deprel = 'aux'
-            node.upos = 'AUX'
 
         if node.lemma:
             if node.lemma[-3:] in {'mek', 'mak'}\
@@ -148,6 +145,25 @@ for sent_num, sent in enumerate(tb):
                 node.lemma = node.lemma[:-3]
             if node.lemma == "-0":
                 node.lemma = "i"
+
+            if node.lemma == 'değil' and node.deprel == 'cop':
+                node.deprel = 'aux'
+                node.upos = 'AUX'
+
+            if node.lemma == 'olan' and node.upos == 'AUX':
+                node.lemma = 'ol'
+
+            if node.lemma == '-ki' and head.form.endswith('ki'):
+                print('---', node, sys.stderr)
+                node.lemma = 'ki'
+                node.form = 'ki'
+                head.form = head.form[:-2]
+
+            if node.lemma == '-li'\
+                    and head.form[-2:] in {'li', 'lı', 'lü', 'lu'}:
+                node.lemma = 'li'
+                node.form = head.form[-2:]
+                head.form = head.form[:-2]
 
         if next_node and next_node.upos == 'PUNCT':
             node.add_misc('SpaceAfter', 'No')
