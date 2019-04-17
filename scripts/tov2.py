@@ -125,6 +125,23 @@ for sent_num, sent in enumerate(tb):
                     head.head = conj_head
                     head.deprel = 'conj'
 
+        # same for flat
+        flat_head = None
+        if node.deprel == 'flat':
+            if node.index < head.index:
+                if flat_head:
+                    node.head = flat_head
+                else:
+                    flat_head = node.index
+                    node.deprel = head.deprel
+                    node.head = head.head
+                    head.head = flat_head
+                    head.deprel = 'flat'
+
+        if node.lemma and node.lemma == 'değil' and node.deprel == 'cop':
+            node.deprel = 'aux'
+            node.upos = 'AUX'
+
         if node.lemma:
             if node.lemma[-3:] in {'mek', 'mak'}\
                     and node.upos in {'VERB', 'AUX'}:
