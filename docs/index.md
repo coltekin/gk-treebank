@@ -118,6 +118,17 @@ However, there are two issues:
     to its parent which does allow identifying the word that corresponds to it.
 - _-lArI- in time expressions, like _geceleri_ 
 - _duymazlıktan geldi_  the composite suffix _-mAzlIk_ seems to form
-  some sort of verbal noun. Current analysis does not look good.
-  Another interesting point here is the double negative in
-  _duymamazlıktan geldi_
+      some sort of verbal noun. Current analysis does not look good.
+      Another interesting point here is the double negative in
+      _duymamazlıktan geldi_
+- Some clausal modifiers of nouns are not realy `acl`:
+    _üstünlüğünü kanıtlamak amacıyla yapıyor._
+- There is a inconsistency between the nominal/adjectivals with and
+  without _olarak_. _Ali çayını soğuk içer_ vs. _Ali çayını soğuk olarak içer_ 
+- Similar to above: nominal/cluasal modifiers of adjectives:
+    _düyaca meşhur_, _inanılmayacak kadar meşhur_.
+- A reasonble guideline/test for `compound` verbs.
+- Better/consistent analysis for _değil_.
+- Annotation of names like _Filiz Hanım_ and _Ahmet Bey_ is not
+    consistent.
+    

@@ -150,11 +150,10 @@ for sent_num, sent in enumerate(tb):
                 node.deprel = 'aux'
                 node.upos = 'AUX'
 
-            if node.lemma == 'olan' and node.upos == 'AUX':
+            if node.lemma in {'olan', 'olarak'} and node.upos == 'AUX':
                 node.lemma = 'ol'
 
             if node.lemma == '-ki' and head.form.endswith('ki'):
-                print('---', node, sys.stderr)
                 node.lemma = 'ki'
                 node.form = 'ki'
                 head.form = head.form[:-2]
@@ -162,6 +161,12 @@ for sent_num, sent in enumerate(tb):
             if node.lemma == '-li'\
                     and head.form[-2:] in {'li', 'lı', 'lü', 'lu'}:
                 node.lemma = 'li'
+                node.form = head.form[-2:]
+                head.form = head.form[:-2]
+
+            if node.lemma == '-ce'\
+                    and head.form[-2:] in {'ce', 'ca'}:
+                node.lemma = 'ce'
                 node.form = head.form[-2:]
                 head.form = head.form[:-2]
 
