@@ -34,7 +34,7 @@ for sent_num, sent in enumerate(tb):
         if c.startswith('# sent_id = '):
             add_id = False
     if add_text:
-        t = re.sub(' ([!:.,?…])', '\g<1>', sent.text().strip())
+        t = re.sub(' ([!;:.,?…])', '\g<1>', sent.text().strip())
         sent.comment.append('# text = ' + t)
     if add_id:
         sent.comment.append('# sent_id = {}-{:04d}'.format(
@@ -174,14 +174,20 @@ for sent_num, sent in enumerate(tb):
             node.add_misc('SpaceAfter', 'No')
         else:
             node.del_misc('SpaceAfter')
-
         node.del_feat('Polarity', 'Pos')
         node.del_misc('TRmorphTag')
         node.del_misc('Stem')
+
+        if node.form == "_" and node.feats == 'Mood=Ind|Number=Sing|Person=3|Tense=Pres':
+            if 'SpaceAfter=No' in node.misc:
+                sent.nodes[node.index -1].add_misc('SpaceAfter','No')
+            sent.delete_node(node.index)
+
 
     for mult in sent.multi.values():
         if sent.nodes[mult.multi].misc and 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
             mult.add_misc('SpaceAfter', 'No')
             sent.nodes[mult.multi].del_misc('SpaceAfter')
+
 
     print(sent)
