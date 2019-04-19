@@ -25,6 +25,32 @@ def feat_replace(fs, *args):
         ret = '_'
     return ret
 
+def replace_dep_label(node, head):
+    if head and 'nmod' in node.deprel and head.upos == 'VERB':
+        node.deprel = node.deprel.replace('nmod', 'obl')
+    if node.deprel == 'dobj':
+        node.deprel = 'obj'
+    if node.deprel == 'dobj:cau':
+        node.deprel = 'obj'
+    elif node.deprel == 'neg':
+        node.deprel = 'advmod'
+    elif node.deprel == 'nsubjpass':
+        node.deprel = 'nsubj'
+    elif node.deprel == 'csubjpass':
+        node.deprel = 'csubj'
+    elif node.deprel == 'mwe':
+        node.deprel = 'fixed'
+    elif node.deprel == 'name':
+        node.deprel = 'flat'
+    elif node.deprel == 'advcl:cond':
+        node.deprel = 'advcl'
+    elif node.deprel == 'nmod:own':
+        node.deprel = 'nmod'
+    elif node.deprel == 'conj:num':
+        node.deprel = 'compound'
+    elif node.deprel in {'obl:cau', 'obl:pass'}:
+        node.deprel = 'obl:agent'
+
 for sent_num, sent in enumerate(tb):
     add_text = True
     add_id = True
@@ -89,30 +115,7 @@ for sent_num, sent in enumerate(tb):
         if node.index < len(sent):
             next_node = sent.nodes[node.index + 1]
 
-        if head and 'nmod' in node.deprel and head.upos == 'VERB':
-            node.deprel = node.deprel.replace('nmod', 'obl')
-        if node.deprel == 'dobj':
-            node.deprel = 'obj'
-        if node.deprel == 'dobj:cau':
-            node.deprel = 'obj'
-        elif node.deprel == 'neg':
-            node.deprel = 'advmod'
-        elif node.deprel == 'nsubjpass':
-            node.deprel = 'nsubj'
-        elif node.deprel == 'csubjpass':
-            node.deprel = 'csubj'
-        elif node.deprel == 'mwe':
-            node.deprel = 'fixed'
-        elif node.deprel == 'name':
-            node.deprel = 'flat'
-        elif node.deprel == 'advcl:cond':
-            node.deprel = 'advcl'
-        elif node.deprel == 'nmod:own':
-            node.deprel = 'nmod'
-        elif node.deprel == 'conj:num':
-            node.deprel = 'compound'
-        elif node.deprel in {'obl:cau', 'obl:pass'}:
-            node.deprel = 'obl:agent'
+        replace_dep_label(node, head)
 
         # invert coordination direction - approximate, breaks on some structures, needs manual check
         conj_head = None
@@ -126,6 +129,7 @@ for sent_num, sent in enumerate(tb):
                     node.head = head.head
                     head.head = conj_head
                     head.deprel = 'conj'
+                    replace_dep_label(node, head)
 
         # same for flat
         flat_head = None
@@ -139,6 +143,7 @@ for sent_num, sent in enumerate(tb):
                     node.head = head.head
                     head.head = flat_head
                     head.deprel = 'flat'
+                    replace_dep_label(node, head)
 
 
         if node.lemma:
@@ -186,8 +191,6 @@ for sent_num, sent in enumerate(tb):
             sent.delete_node(node.index)
         else:
             i += 1
-
-
 
     for mult in sent.multi.values():
         if sent.nodes[mult.multi].misc and 'SpaceAfter=No' in sent.nodes[mult.multi].misc:
