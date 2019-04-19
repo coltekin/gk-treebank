@@ -39,7 +39,9 @@ for sent_num, sent in enumerate(tb):
     if add_id:
         sent.comment.append('# sent_id = {}-{:04d}'.format(
             args.id_prefix, sent_num + 1))
-    for node in sent.nodes:
+    i = 1
+    while i <= len(sent):
+        node = sent.nodes[i]
         if node.upos == 'CONJ':
             node.upos = 'CCONJ'
         if node.upos == 'AUX' and node.lemma in {'mi', 'mı', 'mü', 'mu'}:
@@ -179,9 +181,12 @@ for sent_num, sent in enumerate(tb):
         node.del_misc('Stem')
 
         if node.form == "_" and node.feats == 'Mood=Ind|Number=Sing|Person=3|Tense=Pres':
-            if 'SpaceAfter=No' in node.misc:
+            if node.misc and 'SpaceAfter=No' in node.misc:
                 sent.nodes[node.index -1].add_misc('SpaceAfter','No')
             sent.delete_node(node.index)
+        else:
+            i += 1
+
 
 
     for mult in sent.multi.values():
