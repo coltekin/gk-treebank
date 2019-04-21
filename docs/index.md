@@ -134,3 +134,5 @@ However, there are two issues:
 - _ol_ as verb/aux/cop needs a through revision
 - document _gerek_ and _zorunda_. The first can both be verb and noun,
     and the second forms nominal predicates with a (clausal) object.
+- document `discourse` use of _ise_ -_ysa_:
+    _Kitaplarsa hala kutularda duruyor._
