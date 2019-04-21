@@ -11,7 +11,7 @@
 
 # text = Bakabilirim de.
 # sent_id = GK11-0003
-1	Bakabilirim	bak	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+1	Bakabilirim	bak	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 2	de	de	ADV	ADV	_	1	advmod:emph	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -24,7 +24,7 @@
 
 # text = Bakabilirim de, beklemesi gerek.
 # sent_id = GK11-0005
-1	Bakabilirim	bak	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=1|Tense=Pres	5	parataxis	_	_
+1	Bakabilirim	bak	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres	5	parataxis	_	_
 2	de	de	CCONJ	CONJ	_	1	cc	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	beklemesi	bekle	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	5	acl	_	_
@@ -105,7 +105,7 @@
 
 # text = Anlayamıyorum ki!
 # sent_id = GK11-0015
-1	Anlayamıyorum	anla	VERB	VERB	Aspect=Prog|Mood=Abil|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+1	Anlayamıyorum	anla	VERB	VERB	Aspect=Prog|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
 2	ki	ki	ADV	ADV	_	1	advmod:emph	_	SpaceAfter=No
 3	!	!	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -339,7 +339,7 @@
 1	Gittim	git	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	4	advcl	_	_
 2	ya	ya	SCONJ	CONJ	_	1	mark	_	_
 3	onu	o	PRON	PRON	Case=Acc|Number=Sing|Person=3	4	obj	_	_
-4	göremedim	gör	VERB	VERB	Aspect=Perf|Mood=Abil|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
+4	göremedim	gör	VERB	VERB	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Görmedim dedim ya!
@@ -401,7 +401,7 @@
 2	gözlükle	gözlük	NOUN	NOUN	Case=Ins|Number=Sing	5	obl	_	_
 3	sahneyi	sahne	NOUN	NOUN	Case=Acc|Number=Sing	5	obj	_	_
 4	mi	mi	AUX	AUX	PronType=Int	3	aux:q	_	_
-5	göremiyormuş	gör	VERB	VERB	Aspect=Prog|Evident=Nfh|Mood=Abil|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+5	göremiyormuş	gör	VERB	VERB	Aspect=Prog|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = Yeni öğrencilerini daha görmedin mi?
@@ -424,7 +424,7 @@
 # sent_id = GK11-0055
 1	Semra	Semra	PROPN	PROPN	Number=Sing	3	nsubj	_	_
 2	ücretini	ücret	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
-3	alamamış	al	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Abil|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+3	alamamış	al	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
 4	bile	bile	ADV	ADV	_	3	advmod:emph	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 

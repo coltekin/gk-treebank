@@ -84,7 +84,7 @@
 9	20	20	NUM	NUM	NumType=Ord	10	nummod	_	_
 10	saniyenin	saniye	NOUN	NOUN	Case=Gen|Number=Sing	12	obl:tmod	_	_
 11	altında	altında	ADP	ADP	Number[psor]=Sing|Person[psor]=3	10	case	_	_
-12	koşabilir	koş	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+12	koşabilir	koş	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # text = Bugün sınıfta önemli konular işlediniz mi?
@@ -130,7 +130,7 @@
 5	iyi	iyi	ADJ	ADJ	_	7	amod	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
 7	piyanist	piyanist	NOUN	NOUN	Number=Sing	8	nsubj	_	_
-8	çalabilir	çal	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+8	çalabilir	çal	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = Herkes piyaniste bayıldı.
@@ -590,7 +590,7 @@
 5	ki	ki	SCONJ	SCONJ	_	8	mark	_	_
 6	balkondan	balkon	NOUN	NOUN	Case=Abl|Number=Sing	8	obl	_	_
 7	aşağı	aşağı	ADP	ADP	_	6	case	_	_
-8	düşülebilir	düş	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	SpaceAfter=No
+8	düşülebilir	düş	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # text = Böyle lafa kırılınır.
@@ -606,7 +606,7 @@
 2	duruma	durum	NOUN	NOUN	Case=Dat|Number=Sing	5	obl	_	_
 3	tabii	tabii	ADV	ADV	_	5	advmod	_	_
 4	ki	ki	ADV	ADV	_	3	fixed	_	_
-5	üzülünebilir	üz	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Tense=Pres|Voice=PassPass	0	root	_	SpaceAfter=No
+5	üzülünebilir	üz	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres|Voice=PassPass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = Okul meğer belediye başkanı tarafından kapatılmış.
@@ -674,7 +674,7 @@
 # sent_id = GK13-0080
 1	Çocuklar	çocuk	NOUN	NOUN	Number=Plur	3	nsubj	_	_
 2	kendileri	kendi	PRON	PRON	Number=Sing|Person=3|Reflex=Yes	1	nmod	_	_
-3	yıkanabilirler	yıka	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Plur|Person=3|Tense=Pres|Voice=Rfl	0	root	_	SpaceAfter=No
+3	yıkanabilirler	yıka	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Plur|Person=3|Tense=Pres|Voice=Rfl	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Çocuklar kendi kendilerine yıkanabilirler.
@@ -682,7 +682,7 @@
 1	Çocuklar	çocuk	NOUN	NOUN	Number=Plur	4	nsubj	_	_
 2	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	3	compound:redup	_	_
 3	kendilerine	kendi	PRON	PRON	Case=Dat|Number=Sing|Person=3|Reflex=Yes	1	nmod	_	_
-4	yıkanabilirler	yıka	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Plur|Person=3|Tense=Pres|Voice=Rfl	0	root	_	SpaceAfter=No
+4	yıkanabilirler	yıka	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Plur|Person=3|Tense=Pres|Voice=Rfl	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Kemal'le Zeki dövüştüler.
@@ -789,7 +789,7 @@
 1	Her	her	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	NOUN	Number=Sing	4	obl:tmod	_	_
 3	çikolata	çikolata	NOUN	NOUN	Number=Sing	4	obj	_	_
-4	yiyebilirim	ye	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	yiyebilirim	ye	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = O anda odaya bir adam giriverdi.
@@ -907,14 +907,14 @@
 # text = Görülmüş olabilir miyiz?
 # sent_id = GK13-0106
 1	Görülmüş	gör	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|Voice=Pass	0	root	_	_
-2	olabilir	ol	AUX	AUX	Aspect=Hab|Mood=AbilGen|Tense=Pres	1	aux	_	_
+2	olabilir	ol	AUX	AUX	Aspect=Hab|Mood=GenPot|Tense=Pres	1	aux	_	_
 3	miyiz	mi	AUX	AUX	Number=Plur|Person=1|PronType=Int	1	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Annesini görebilmiş oldu.
 # sent_id = GK13-0107
 1	Annesini	anne	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	_
-2	görebilmiş	gör	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Abil|Tense=Past	0	root	_	_
+2	görebilmiş	gör	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Pot|Tense=Past	0	root	_	_
 3	oldu	ol	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 

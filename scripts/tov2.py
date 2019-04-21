@@ -143,6 +143,20 @@ for sent_num, sent in enumerate(tb):
                     node.head = head.head
                     head.head = flat_head
                     head.deprel = 'flat'
+
+        # same for fixed
+        fixed_head = None
+        if node.deprel == 'fixed':
+            if node.index < head.index:
+                if fixed_head:
+                    node.head = fixed_head
+                else:
+                    fixed_head = node.index
+                    node.deprel = head.deprel
+                    node.head = head.head
+                    head.head = fixed_head
+                    head.deprel = 'fixed'
+                    replace_dep_label(node, head)
                     replace_dep_label(node, head)
 
 

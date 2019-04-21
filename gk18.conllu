@@ -31,7 +31,7 @@
 3	biz	biz	PRON	PRON	Number=Sing|Person=1	6	nsubj	_	_
 4	sizin	siz	PRON	PRON	Case=Gen|Number=Sing|Person=2	6	obl	_	_
 5	kadar	kadar	ADP	ADP	_	4	case	_	_
-6	bilemeyiz	bil	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+6	bilemeyiz	bil	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
 7	bu	bu	DET	DET	Definite=Def|Number=Sing	8	det	_	_
 8	konuları	konu	NOUN	NOUN	Case=Acc|Number=Plur	6	obj	_	_
 9	tabii	tabii	ADV	ADV	_	6	discourse	_	_
@@ -294,7 +294,7 @@
 6	başbakanın	başbakan	NOUN	NOUN	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	kendisini	kendi	PRON	PRON	Case=Acc|Number=Sing|Person=3|Reflex=Yes	9	obj	_	_
 8	bile	bile	ADV	ADV	_	7	advmod:emph	_	_
-9	görebilirsin	gör	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+9	görebilirsin	gör	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # text = Sonuçları onların kendilerinden öğrenebilirsin.
@@ -302,7 +302,7 @@
 1	Sonuçları	sonuç	NOUN	NOUN	Case=Acc|Number=Plur	4	obj	_	_
 2	onların	o	PRON	PRON	Case=Gen|Number=Plur	3	nmod:poss	_	_
 3	kendilerinden	kendi	PRON	PRON	Case=Abl|Number=Sing|Person=3|Reflex=Yes	4	nsubj	_	_
-4	öğrenebilirsin	öğren	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	öğrenebilirsin	öğren	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = benim kendimin bile anlayamadığım bir yazı
@@ -377,7 +377,7 @@
 # sent_id = GK18-0041
 1	Kendinden	kendi	PRON	PRON	Case=Abl|Number=Sing|Person=2|Reflex=Yes	2	nmod:poss	_	_
 2	başkasına	başkası	PRON	PRON	Case=Dat|Number=Sing	3	obl	_	_
-3	güvenemiyor	güven	VERB	VERB	Aspect=Prog|Mood=Abil|Polarity=Neg|Tense=Pres	0	root	_	_
+3	güvenemiyor	güven	VERB	VERB	Aspect=Prog|Mood=Pot|Polarity=Neg|Tense=Pres	0	root	_	_
 4	musun	mi	AUX	AUX	Number=Sing|Person=2|PronType=Int	3	aux:q	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -416,7 +416,7 @@
 # text = Kendime bakamıyorum.
 # sent_id = GK18-0045
 1	Kendime	kendi	PRON	PRON	Case=Dat|Number=Sing|Person=1|Reflex=Yes	2	obl	_	_
-2	bakamıyorum	bak	VERB	VERB	Aspect=Prog|Mood=Abil|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+2	bakamıyorum	bak	VERB	VERB	Aspect=Prog|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Ninem çok yaşlı.
@@ -430,7 +430,7 @@
 # sent_id = GK18-0047
 1	Artık	artık	ADV	ADV	_	3	advmod	_	_
 2	kendine	kendi	PRON	PRON	Case=Dat|Number=Sing|Reflex=Yes	3	obj	_	_
-3	bakamıyor	bak	VERB	VERB	Aspect=Prog|Mood=Abil|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+3	bakamıyor	bak	VERB	VERB	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Sanki bana kendimi anlatıyorlardı.
@@ -615,7 +615,7 @@
 3	kendine	kendi	PRON	PRON	Case=Dat|Number=Sing|Reflex=Yes	6	obl	_	_
 4	yurt	yurt	NOUN	NOUN	Number=Sing	6	obl	_	_
 5	dışına	dışına	ADP	ADP	Number[psor]=Sing|Person[psor]=2	4	case	_	_
-6	çıkamaz	çık	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+6	çıkamaz	çık	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = Ahmet kendi kendisine yurt dışına çıkamaz.
@@ -625,7 +625,7 @@
 3	kendisine	kendi	PRON	PRON	Case=Dat|Number=Sing|Person=3|Reflex=Yes	6	obl	_	_
 4	yurt	yurt	NOUN	NOUN	Number=Sing	6	obl	_	_
 5	dışına	dışına	ADP	ADP	Number[psor]=Sing|Person[psor]=2	4	case	_	_
-6	çıkamaz	çık	VERB	VERB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+6	çıkamaz	çık	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # text = Bu ütüler bir süre sonra kendi kendine kapanıyor.
@@ -1267,7 +1267,7 @@
 8	ancak	ancak	ADV	ADV	_	11	advmod	_	_
 9	dış	dış	ADJ	ADJ	_	10	amod	_	_
 10	yüzeylerde	yüzey	NOUN	NOUN	Case=Loc|Number=Plur	11	obl	_	_
-11	kullanılabiliyor	kullan	VERB	VERB	Aspect=Prog|Mood=Abil|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	ccomp	_	SpaceAfter=No
+11	kullanılabiliyor	kullan	VERB	VERB	Aspect=Prog|Mood=Pot|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # text = Görünen o ki, dünyanın iklimi değişiyor.
@@ -1669,7 +1669,7 @@
 4	şeylerimi	şey	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=1	5	obj	_	_
 5	arıyorum	ara	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 6	ama	ama	CCONJ	CONJ	_	7	cc	_	_
-7	bulamıyorum	bul	VERB	VERB	Aspect=Prog|Mood=Abil|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	5	conj	_	SpaceAfter=No
+7	bulamıyorum	bul	VERB	VERB	Aspect=Prog|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # text = İnsan bazen hiçbir şey bilmediğini sanıyor.

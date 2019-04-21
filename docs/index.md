@@ -131,4 +131,6 @@ However, there are two issues:
 - Better/consistent analysis for _değil_.
 - Annotation of names like _Filiz Hanım_ and _Ahmet Bey_ is not
     consistent.
-    
+- _ol_ as verb/aux/cop needs a through revision
+- document _gerek_ and _zorunda_. The first can both be verb and noun,
+    and the second forms nominal predicates with a (clausal) object.
