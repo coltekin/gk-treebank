@@ -32,6 +32,8 @@ def replace_dep_label(node, head):
         node.deprel = 'obj'
     if node.deprel == 'dobj:cau':
         node.deprel = 'obj'
+    elif node.deprel == 'acl:poss':
+        node.deprel = 'acl'
     elif node.deprel == 'neg':
         node.deprel = 'advmod'
     elif node.deprel == 'nsubjpass':
@@ -60,7 +62,8 @@ for sent_num, sent in enumerate(tb):
         if c.startswith('# sent_id = '):
             add_id = False
     if add_text:
-        t = re.sub(' ([!;:.,?…])', '\g<1>', sent.text().strip())
+        t = re.sub(' ([”!;:.,?…])', '\g<1>', sent.text().strip())
+        t = re.sub('([“‘]) ', '\g<1>', t)
         sent.comment.append('# text = ' + t)
     if add_id:
         sent.comment.append('# sent_id = {}-{:04d}'.format(
@@ -144,6 +147,7 @@ for sent_num, sent in enumerate(tb):
                     node.head = head.head
                     head.head = flat_head
                     head.deprel = 'flat'
+                    replace_dep_label(node, head)
 
         # same for fixed
         fixed_head = None
@@ -192,7 +196,8 @@ for sent_num, sent in enumerate(tb):
                 node.form = head.form[-2:]
                 head.form = head.form[:-2]
 
-        if next_node and next_node.upos == 'PUNCT':
+        if node.form in {'“', '‘'} or\
+                next_node and next_node.form not in {'“', '‘'} and next_node.upos == 'PUNCT':
             node.add_misc('SpaceAfter', 'No')
         else:
             node.del_misc('SpaceAfter')
