@@ -136,3 +136,7 @@ However, there are two issues:
     and the second forms nominal predicates with a (clausal) object.
 - document `discourse` use of _ise_ -_ysa_:
     _Kitaplarsa hala kutularda duruyor._
+- document the annotation of reflexive pronouns: as in _kendi yaptı
+    and _Ali kendi yaptı_.
+- The annotation of the subordinate clauses with _gibi_ and _diye_ are unclear:
+    are they core arguments?
