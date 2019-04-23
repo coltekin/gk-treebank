@@ -179,7 +179,7 @@ for sent_num, sent in enumerate(tb):
             if node.lemma in {'olan', 'olarak'} and node.upos == 'AUX':
                 node.lemma = 'ol'
 
-            if node.lemma == '-ki' and head.form.endswith('ki'):
+            if node.lemma == '-ki' and head and head.form.endswith('ki'):
                 node.lemma = 'ki'
                 node.form = 'ki'
                 head.form = head.form[:-2]
