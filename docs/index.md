@@ -140,3 +140,8 @@ However, there are two issues:
     and _Ali kendi yaptı_.
 - The annotation of the subordinate clauses with _gibi_ and _diye_ are unclear:
     are they core arguments?
+- Unalysis of (redundant) reflexive: it gets different relations
+    in _benim kendim oturacağım_ and _kendim oturacağım_
+- Adjectival verbs with no subordinating suffixes like _anlaşılır_
+    _görülmüş_ do not have any morphological indication that they are
+    subordinate clauses
