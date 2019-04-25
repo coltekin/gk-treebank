@@ -1,274 +1,358 @@
-1	Hasan	Hasan	PROPN	PROPN	Number=Sing	3	nsubj	_	TRmorphTag=Hasan<N:prop>|Stem=Hasan
-2	Fransızca	Fransızca	PROPN	PROPN	Number=Sing	3	dobj	_	TRmorphTag=Fransızca<N:prop>|Stem=Fransızca
-3	okuyabiliyor	okumak	VERB	VERB	Aspect=Prog|Mood=Abil|Negative=Pos|Tense=Pres	0	root	_	TRmorphTag=oku<V><abil><cont>|Stem=oku
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Hasan Fransızca okuyabiliyor.
+# sent_id = GKA2-0001
+1	Hasan	Hasan	PROPN	PROPN	Number=Sing	3	nsubj	_	_
+2	Fransızca	Fransızca	PROPN	PROPN	Number=Sing	3	obj	_	_
+3	okuyabiliyor	oku	VERB	VERB	Aspect=Prog|Mood=Pot|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Yağmur	yağmur	NOUN	NOUN	Number=Sing	2	nsubj	_	TRmorphTag=yağmur<N>|Stem=yağmur
-2	yağabilir	yağmak	VERB	VERB	Aspect=Habit|Mood=Abil-Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=yağ<V><abil><aor><3s>|Stem=yağ
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Yağmur yağabilir.
+# sent_id = GKA2-0002
+1	Yağmur	yağmur	NOUN	NOUN	Number=Sing	2	nsubj	_	_
+2	yağabilir	yağ	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Oraya	ora	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing	2	nmod	_	TRmorphTag=ora<Prn:locp><dat>|Stem=ora
-2	gidemezsin	gitmek	VERB	VERB	Aspect=Habit|Mood=Abil-Gen|Negative=Neg|Number=Sing|Person=2|Tense=Pres	0	root	_	TRmorphTag=git<V><abil><neg><aor><2s>|Stem=git
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Oraya gidemezsin.
+# sent_id = GKA2-0003
+1	Oraya	ora	PRON	PRON	Case=Dat|Number=Sing	2	obl	_	_
+2	gidemezsin	git	VERB	VERB	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Arabamı	araba	NOUN	NOUN	Case=Acc|Number=Sing|Number_psor=Sing|Person_psor=1	2	dobj	_	TRmorphTag=araba<N><p1s><acc>|Stem=araba
-2	sattım	satmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Past	0	root	_	TRmorphTag=sat<V><past><1s>|Stem=sat
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Arabamı sattım.
+# sent_id = GKA2-0004
+1	Arabamı	araba	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	_
+2	sattım	sat	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	3	nmod	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
-2	yağmur	yağmur	NOUN	NOUN	Number=Sing	3	nsubj	_	TRmorphTag=yağmur<N>|Stem=yağmur
-3	yağmış	yağmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=yağ<V><evid><3s>|Stem=yağ
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Burada yağmur yağmış.
+# sent_id = GKA2-0005
+1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	3	obl	_	_
+2	yağmur	yağmur	NOUN	NOUN	Number=Sing	3	nsubj	_	_
+3	yağmış	yağ	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	O	o	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=o<Det:def>|Stem=o
-2	hafta	hafta	NOUN	NOUN	Number=Sing	5	nmod:tmod	_	TRmorphTag=hafta<N>|Stem=hafta
-3	çok	çok	ADV	ADV	_	5	advmod	_	TRmorphTag=çok<Adv>|Stem=çok
-4	yağmur	yağmur	NOUN	NOUN	Number=Sing	5	nsubj	_	TRmorphTag=yağmur<N>|Stem=yağmur
-5	yağmıştı	yağmak	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pqp	0	root	_	TRmorphTag=yağ<V><evid><cpl:past><3s>|Stem=yağ
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = O hafta çok yağmur yağmıştı.
+# sent_id = GKA2-0006
+1	O	o	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	hafta	hafta	NOUN	NOUN	Number=Sing	5	obl:tmod	_	_
+3	çok	çok	ADV	ADV	_	5	advmod	_	_
+4	yağmur	yağmur	NOUN	NOUN	Number=Sing	5	nsubj	_	_
+5	yağmıştı	yağ	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-1	Şu	şu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=şu<Det:def>|Stem=şu
-2	anda	an	NOUN	NOUN	Case=Loc|Number=Sing	5	nmod:tmod	_	TRmorphTag=an<N><loc>|Stem=an
-3	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Ahmet<N:prop>|Stem=Ahmet
-4	futbol	futbol	NOUN	NOUN	Number=Sing	5	dobj	_	TRmorphTag=futbol<N>|Stem=futbol
-5	oynuyor	oynamak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=oyna<V><cont><3s>|Stem=oyna
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Şu anda Ahmet futbol oynuyor.
+# sent_id = GKA2-0007
+1	Şu	şu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	anda	an	NOUN	NOUN	Case=Loc|Number=Sing	5	obl:tmod	_	_
+3	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	5	nsubj	_	_
+4	futbol	futbol	NOUN	NOUN	Number=Sing	5	obj	_	_
+5	oynuyor	oyna	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-1	Sen	sen	PRON	PRON	Negative=Pos|Number=Sing|Person=2	2	nsubj	_	TRmorphTag=sen<Prn:pers:2s>|Stem=sen
-2	telefon	telefon	NOUN	NOUN	Number=Sing	4	acl	_	TRmorphTag=telefon<N>|Stem=telefon
-3-4	ettiğinde	_	_	_	_	_	_	_	_
-3	ettiğinde	etmek	VERB	VERB	Mood=Ind|Negative=Pos|Number=Sing|Person=2|Tense=Past	2	compound	_	TRmorphTag=et<V>|Stem=et
-4	_	-dik	NOUN	NOUN	Case=Loc|Number=Sing	7	nmod:tmod	_	TRmorphTag=<vn:past><N><p2s><loc>|Stem=-dik
-5	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	7	nsubj	_	TRmorphTag=Ahmet<N:prop>|Stem=Ahmet
-6	futbol	futbol	NOUN	NOUN	Number=Sing	7	dobj	_	TRmorphTag=futbol<N>|Stem=futbol
-7	oynuyordu	oynamak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=oyna<V><cont><cpl:past><3s>|Stem=oyna
-8	.	.	PUNCT	PUNCT	_	7	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Sen telefon ettiğinde Ahmet futbol oynuyordu.
+# sent_id = GKA2-0008
+1	Sen	sen	PRON	PRON	Number=Sing|Person=2	3	nsubj	_	_
+2	telefon	telefon	NOUN	NOUN	Number=Sing	3	compound	_	_
+3	ettiğinde	et	VERB	VERB	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	6	advcl	_	_
+4	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	6	nsubj	_	_
+5	futbol	futbol	NOUN	NOUN	Number=Sing	6	obj	_	_
+6	oynuyordu	oyna	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-1-2	Cumartesileri	_	_	_	_	_	_	_	_
-1	Cumartesileri	cumartesi	NOUN	NOUN	Number=Sing	5	nmod:tmod	_	TRmorphTag=cumartesi<N>|Stem=cumartesi
-2	_	-leri	ADV	ADV	_	1	case	_	TRmorphTag=<leri><Adv>|Stem=-leri
-3	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Ahmet<N:prop>|Stem=Ahmet
-4	futbol	futbol	NOUN	NOUN	Number=Sing	5	dobj	_	TRmorphTag=futbol<N>|Stem=futbol
-5	oynuyor	oynamak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=oyna<V><cont><3s>|Stem=oyna
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Cumartesileri Ahmet futbol oynuyor.
+# sent_id = GKA2-0009
+1	Cumartesileri	cumartesi	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
+2	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
+3	futbol	futbol	NOUN	NOUN	Number=Sing	4	obj	_	_
+4	oynuyor	oyna	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1-2	Cumartesileri	_	_	_	_	_	_	_	_
-1	Cumartesileri	cumartesi	NOUN	NOUN	Number=Sing	5	nmod:tmod	_	TRmorphTag=cumartesi<N>|Stem=cumartesi
-2	_	-leri	ADV	ADV	_	1	case	_	TRmorphTag=<leri><Adv>|Stem=-leri
-3	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Ahmet<N:prop>|Stem=Ahmet
-4	futbol	futbol	NOUN	NOUN	Number=Sing	5	dobj	_	TRmorphTag=futbol<N>|Stem=futbol
-5	oynuyordu	oynamak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=oyna<V><cont><cpl:past><3s>|Stem=oyna
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Cumartesileri Ahmet futbol oynuyordu.
+# sent_id = GKA2-0010
+1	Cumartesileri	cumartesi	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
+2	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
+3	futbol	futbol	NOUN	NOUN	Number=Sing	4	obj	_	_
+4	oynuyordu	oyna	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Yarın	yarın	NOUN	NOUN	Number=Sing	3	nmod:tmod	_	TRmorphTag=yarın<N>|Stem=yarın
-2	Paris’e	Paris	PROPN	PROPN	Case=Dat|Number=Sing	3	nmod	_	TRmorphTag=Paris<N:prop><dat>|Stem=Paris
-3	gidiyoruz	gitmek	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Pres	0	root	_	TRmorphTag=git<V><cont><1p>|Stem=git
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Yarın Paris’e gidiyoruz.
+# sent_id = GKA2-0011
+1	Yarın	yarın	NOUN	NOUN	Number=Sing	3	obl:tmod	_	_
+2	Paris’e	Paris	PROPN	PROPN	Case=Dat|Number=Sing	3	obl	_	_
+3	gidiyoruz	git	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Şu	şu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=şu<Det:def>|Stem=şu
-2	sıralarda	sıra	NOUN	NOUN	Case=Loc|Number=Plur	4	nmod:tmod	_	TRmorphTag=sıra<N><pl><loc>|Stem=sıra
-3	konferansımı	konferans	NOUN	NOUN	Case=Acc|Number=Sing|Number_psor=Sing|Person_psor=1	4	dobj	_	TRmorphTag=konferans<N><p1s><acc>|Stem=konferans
-4	hazırlamaktayım	hazırlamak	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=hazır<Adj><la><V><impf><1s>|Stem=hazırla
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Şu sıralarda konferansımı hazırlamaktayım.
+# sent_id = GKA2-0012
+1	Şu	şu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	sıralarda	sıra	NOUN	NOUN	Case=Loc|Number=Plur	4	obl:tmod	_	_
+3	konferansımı	konferans	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	_
+4	hazırlamaktayım	hazırla	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Cep	cep	NOUN	NOUN	Number=Sing	2	nmod:poss	_	TRmorphTag=cep<N>|Stem=cep
-2	telefonlarının	telefon	NOUN	NOUN	Case=Gen|Number=Plur|Number_psor=Sing|Person_psor=3	3	nmod:poss	_	TRmorphTag=telefon<N><pl><p3s><gen>|Stem=telefon
-3	kullanımı	kullanım	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	9	nsubj	_	TRmorphTag=kullanım<N><p3s>|Stem=kullanım
-4	uçağın	uçak	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	TRmorphTag=uçak<N><gen>|Stem=uçak
-5	iletişim	iletişim	NOUN	NOUN	Number=Sing	6	nmod:poss	_	TRmorphTag=iletişim<N>|Stem=iletişim
-6	sistemini	sistem	NOUN	NOUN	Case=Acc|Number=Sing|Number_psor=Sing|Person_psor=3	9	dobj	_	TRmorphTag=sistem<N><p3s><acc>|Stem=sistem
-7	kötü	kötü	ADJ	ADJ	_	8	amod	_	TRmorphTag=kötü<Adj>|Stem=kötü
-8	yönde	yön	NOUN	NOUN	Case=Loc|Number=Sing	9	nmod	_	TRmorphTag=yön<N><loc>|Stem=yön
-9	etkilemektedir	etkilemek	VERB	VERB	Aspect=Prog|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=etki<N><la><V><impf><3s><dir>|Stem=etkile
-10	.	.	PUNCT	PUNCT	_	9	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Cep telefonlarının kullanımı uçağın iletişim sistemini kötü yönde etkilemektedir.
+# sent_id = GKA2-0013
+1	Cep	cep	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+2	telefonlarının	telefon	NOUN	NOUN	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	kullanımı	kullanım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
+4	uçağın	uçak	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	_
+5	iletişim	iletişim	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+6	sistemini	sistem	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
+7	kötü	kötü	ADJ	ADJ	_	8	amod	_	_
+8	yönde	yön	NOUN	NOUN	Case=Loc|Number=Sing	9	obl	_	_
+9	etkilemektedir	etkile	VERB	VERB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
-1	Burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	4	nmod	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
-2	dört	dört	NUM	NUM	NumType=Ord	3	nummod	_	TRmorphTag=dört<Num>|Stem=dört
-3	ev	ev	NOUN	NOUN	Number=Sing	4	dobj	_	TRmorphTag=ev<N>|Stem=ev
-4	yapılacak	yapmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	TRmorphTag=yap<V><pass><fut><3s>|Stem=yap
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Burada dört ev yapılacak.
+# sent_id = GKA2-0014
+1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	4	obl	_	_
+2	dört	dört	NUM	NUM	NumType=Ord	3	nummod	_	_
+3	ev	ev	NOUN	NOUN	Number=Sing	4	obj	_	_
+4	yapılacak	yap	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	4	nmod	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
-2	dört	dört	NUM	NUM	NumType=Ord	3	nummod	_	TRmorphTag=dört<Num>|Stem=dört
-3	ev	ev	NOUN	NOUN	Number=Sing	4	dobj	_	TRmorphTag=ev<N>|Stem=ev
-4	yapılacaktı	yapmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pfut|Voice=Pass	0	root	_	TRmorphTag=yap<V><pass><fut><cpl:past><3s>|Stem=yap
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Burada dört ev yapılacaktı.
+# sent_id = GKA2-0015
+1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	4	obl	_	_
+2	dört	dört	NUM	NUM	NumType=Ord	3	nummod	_	_
+3	ev	ev	NOUN	NOUN	Number=Sing	4	obj	_	_
+4	yapılacaktı	yap	VERB	VERB	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Tense=Fut,Past|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Kapı	kapı	NOUN	NOUN	Number=Sing	2	nmod:poss	_	TRmorphTag=kapı<N>|Stem=kapı
-2	çaldı	çalmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	4	parataxis	_	TRmorphTag=çal<V><past><3s>|Stem=çal
-3	,	,	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=,<Punc>|Stem=,
-4	Hasan	Hasan	PROPN	PROPN	Number=Sing	0	root	_	TRmorphTag=Hasan<N:prop>|Stem=Hasan
-5	olacak	olmak	AUX	AUX	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut	4	cop	_	TRmorphTag=ol<V><fut><3s>|Stem=ol
-6	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Kapı çaldı, Hasan olacak.
+# sent_id = GKA2-0016
+1	Kapı	kapı	NOUN	NOUN	Number=Sing	2	nsubj	_	_
+2	çaldı	çal	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	Hasan	Hasan	PROPN	PROPN	Number=Sing	0	root	_	_
+5	olacak	ol	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Herkes	herkes	PRON	PRON	Negative=Pos|Number=Sing|Person=3	4	nsubj	_	TRmorphTag=herkes<Prn:pers:3s>|Stem=herkes
-2	saat	saat	NOUN	NOUN	Number=Sing	3	nmod	_	TRmorphTag=saat<N>|Stem=saat
-3	ikide	iki	NUM	NUM	Case=Loc|Number=Sing	4	nmod:tmod	_	TRmorphTag=iki<Num><0><N><loc>|Stem=iki
-4	burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	7	parataxis	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
-5	olacak	olmak	AUX	AUX	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut	4	cop	_	TRmorphTag=ol<V><fut><3s>|Stem=ol
-6	,	,	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=,<Punc>|Stem=,
-7	anlaşıldı	anlaşmak	VERB	VERB	Aspect=Perf|Mood=Ind|Negative=Pos|Tense=Past|Voice=Pass	0	root	_	TRmorphTag=anlaş<V><pass><past>|Stem=anlaş
-8	mı	mı	AUX	AUX	Number=Sing|Person=3|Question=Yes	7	aux:q	_	TRmorphTag=mı<Q><3s>|Stem=mı
-9	?	?	PUNCT	PUNCT	_	7	punct	_	TRmorphTag=?<Punc>|Stem=?
+# text = Herkes saat ikide burada olacak, anlaşıldı mı?
+# sent_id = GKA2-0017
+1	Herkes	herkes	PRON	PRON	Number=Sing|Person=3	4	nsubj	_	_
+2	saat	saat	NOUN	NOUN	Number=Sing	3	nmod	_	_
+3	ikide	iki	NUM	NUM	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+4	burada	bura	PRON	PRON	Case=Loc|Number=Sing	7	parataxis	_	_
+5	olacak	ol	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	anlaşıldı	anlaş	VERB	VERB	Aspect=Perf|Mood=Ind|Tense=Past|Voice=Pass	0	root	_	_
+8	mı	mi	AUX	AUX	Number=Sing|Person=3|PronType=Int	7	aux:q	_	SpaceAfter=No
+9	?	?	PUNCT	PUNCT	_	7	punct	_	_
 
-1	Burada	bura	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	4	nmod	_	TRmorphTag=bura<Prn:locp><loc>|Stem=bura
-2	çok	çok	ADV	ADV	_	4	advmod	_	TRmorphTag=çok<Adv>|Stem=çok
-3	yağmur	yağmur	NOUN	NOUN	Number=Sing	4	nsubj	_	TRmorphTag=yağmur<N>|Stem=yağmur
-4	yağar	yağmak	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=yağ<V><aor><3s>|Stem=yağ
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Burada çok yağmur yağar.
+# sent_id = GKA2-0018
+1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	4	obl	_	_
+2	çok	çok	ADV	ADV	_	4	advmod	_	_
+3	yağmur	yağmur	NOUN	NOUN	Number=Sing	4	nsubj	_	_
+4	yağar	yağ	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Para	para	NOUN	NOUN	Number=Sing	3	nsubj	_	TRmorphTag=para<N>|Stem=para
-2	mutluluk	mutluluk	NOUN	NOUN	Number=Sing	3	dobj	_	TRmorphTag=mutlu<Adj><lik><N>|Stem=mutluluk
-3	getirmez	getirmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Neg|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=getir<V><neg><aor><3s>|Stem=getir
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Para mutluluk getirmez.
+# sent_id = GKA2-0019
+1	Para	para	NOUN	NOUN	Number=Sing	3	nsubj	_	_
+2	mutluluk	mutluluk	NOUN	NOUN	Number=Sing	3	obj	_	_
+3	getirmez	getir	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Öğrenciler	öğrenci	NOUN	NOUN	Number=Plur	4	nsubj	_	TRmorphTag=öğrenci<N><pl>|Stem=öğrenci
-2	çok	çok	ADV	ADV	_	4	advmod	_	TRmorphTag=çok<Adv>|Stem=çok
-3	kahve	kahve	NOUN	NOUN	Number=Sing	4	dobj	_	TRmorphTag=kahve<N>|Stem=kahve
-4	içer	içmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=iç<V><aor><3s>|Stem=iç
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Öğrenciler çok kahve içer.
+# sent_id = GKA2-0020
+1	Öğrenciler	öğrenci	NOUN	NOUN	Number=Plur	4	nsubj	_	_
+2	çok	çok	ADV	ADV	_	4	advmod	_	_
+3	kahve	kahve	NOUN	NOUN	Number=Sing	4	obj	_	_
+4	içer	iç	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Sen	sen	PRON	PRON	Negative=Pos|Number=Sing|Person=2	5	nsubj	_	TRmorphTag=sen<Prn:pers:2s>|Stem=sen
+# text = Sen oradaki havayı beğenmezsin.
+# sent_id = GKA2-0021
+1	Sen	sen	PRON	PRON	Number=Sing|Person=2	5	nsubj	_	_
 2-3	oradaki	_	_	_	_	_	_	_	_
-2	oradaki	ora	PRON	PRON	Case=Loc|Negative=Pos|Number=Sing	4	nmod	_	TRmorphTag=ora<Prn:locp><loc>|Stem=ora
-3	_	-ki	ADP	ADP	_	2	case	_	TRmorphTag=<ki><Adj>|Stem=-ki
-4	havayı	hava	NOUN	NOUN	Case=Acc|Number=Sing	5	dobj	_	TRmorphTag=hava<N><acc>|Stem=hava
-5	beğenmezsin	beğenmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Neg|Number=Sing|Person=2|Tense=Pres	0	root	_	TRmorphTag=beğen<V><neg><aor><2s>|Stem=beğen
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+2	orada	ora	PRON	PRON	Case=Loc|Number=Sing	4	nmod	_	_
+3	ki	ki	ADP	ADP	_	2	case	_	_
+4	havayı	hava	NOUN	NOUN	Case=Acc|Number=Sing	5	obj	_	_
+5	beğenmezsin	beğen	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-1	Oradan	ora	PRON	PRON	Case=Abl|Negative=Pos|Number=Sing	4	nmod	_	TRmorphTag=ora<Prn:locp><abl>|Stem=ora
-2	iki	iki	NUM	NUM	NumType=Ord	3	nummod	_	TRmorphTag=iki<Num>|Stem=iki
-3	saatte	saat	NOUN	NOUN	Case=Loc|Number=Sing	4	nmod:tmod	_	TRmorphTag=saat<N><loc>|Stem=saat
-4	gelirsiniz	gelmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Plur|Person=2|Tense=Pres	0	root	_	TRmorphTag=gel<V><aor><2p>|Stem=gel
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Oradan iki saatte gelirsiniz.
+# sent_id = GKA2-0022
+1	Oradan	ora	PRON	PRON	Case=Abl|Number=Sing	4	obl	_	_
+2	iki	iki	NUM	NUM	NumType=Ord	3	nummod	_	_
+3	saatte	saat	NOUN	NOUN	Case=Loc|Number=Sing	4	obl:tmod	_	_
+4	gelirsiniz	gel	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Plur|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Bana	ben	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing|Person=1	2	nmod	_	TRmorphTag=ben<Prn:pers:1s><dat>|Stem=ben
-2	yardım	yardım	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=yardım<N>|Stem=yardım
-3	eder	etmek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Tense=Pres	2	compound	_	TRmorphTag=et<V><aor>|Stem=et
-4	misiniz	mi	AUX	AUX	Number=Plur|Person=2|Question=Yes	2	aux:q	_	TRmorphTag=mi<Q><2p>|Stem=mi
-5	?	?	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=?<Punc>|Stem=?
+# text = Bana yardım eder misiniz?
+# sent_id = GKA2-0023
+1	Bana	ben	PRON	PRON	Case=Dat|Number=Sing|Person=1	3	obl	_	_
+2	yardım	yardım	NOUN	NOUN	Number=Sing	3	compound	_	_
+3	eder	et	VERB	VERB	Aspect=Hab|Mood=Gen|Tense=Pres	0	root	_	_
+4	misiniz	mi	AUX	AUX	Number=Plur|Person=2|PronType=Int	3	aux:q	_	SpaceAfter=No
+5	?	?	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Bunu	bu	PRON	PRON	Case=Acc|Negative=Pos|Number=Sing	3	dobj	_	TRmorphTag=bu<Prn:dem><acc>|Stem=bu
-2	kimseye	kimse	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing	3	nmod	_	TRmorphTag=kimse<Prn><dat>|Stem=kimse
-3	söylemem	söylemek	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Neg|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=söyle<V><neg><aor><1s>|Stem=söyle
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Bunu kimseye söylemem.
+# sent_id = GKA2-0024
+1	Bunu	bu	PRON	PRON	Case=Acc|Number=Sing	3	obj	_	_
+2	kimseye	kimse	PRON	PRON	Case=Dat|Number=Sing	3	obl	_	_
+3	söylemem	söyle	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Artık	artık	ADV	ADV	_	2	advmod	_	TRmorphTag=artık<Adv>|Stem=artık
-2	gitmeliyim	gitmek	VERB	VERB	Mood=Nec|Negative=Pos|Number=Sing|Person=1|Tense=Pres	0	root	_	TRmorphTag=git<V><obl><1s>|Stem=git
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Artık gitmeliyim.
+# sent_id = GKA2-0025
+1	Artık	artık	ADV	ADV	_	2	advmod	_	_
+2	gitmeliyim	git	VERB	VERB	Mood=Nec|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bu<Det:def>|Stem=bu
-2	ceket	ceket	NOUN	NOUN	Number=Sing	3	nsubj	_	TRmorphTag=ceket<N>|Stem=ceket
-3	senin	sen	PRON	PRON	Case=Gen|Negative=Pos|Number=Sing|Person=2	0	root	_	TRmorphTag=sen<Prn:pers:2s><gen>|Stem=sen
-4	olmalı	olmak	AUX	AUX	Mood=Nec|Negative=Pos|Number=Sing|Person=3|Tense=Pres	3	cop	_	TRmorphTag=ol<V><obl><3s>|Stem=ol
-5	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Bu ceket senin olmalı.
+# sent_id = GKA2-0026
+1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	ceket	ceket	NOUN	NOUN	Number=Sing	3	nsubj	_	_
+3	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	0	root	_	_
+4	olmalı	ol	AUX	AUX	Mood=Nec|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Daha	daha	ADV	ADV	_	2	advmod	_	TRmorphTag=daha<Adv>|Stem=daha
-2	büyük	büyük	ADJ	ADJ	_	4	amod	_	TRmorphTag=büyük<Adj>|Stem=büyük
-3	bir	bir	DET	DET	Definite=Ind|Negative=Pos|Number=Sing	4	det	_	TRmorphTag=bir<Det:indef>|Stem=bir
-4	arabamız	araba	NOUN	NOUN	Number=Sing|Number_psor=Plur|Person_psor=1	5	nsubj	_	TRmorphTag=araba<N><p1p>|Stem=araba
-5	olsa	olmak	VERB	VERB	Mood=Cnd|Negative=Pos|Number=Sing|Person=3|Tense=Pres	0	root	_	TRmorphTag=ol<V><cond><3s>|Stem=ol
-6	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Daha büyük bir arabamız olsa.
+# sent_id = GKA2-0027
+1	Daha	daha	ADV	ADV	_	2	advmod	_	_
+2	büyük	büyük	ADJ	ADJ	_	4	amod	_	_
+3	bir	bir	DET	DET	Definite=Ind|Number=Sing	4	det	_	_
+4	arabamız	araba	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj	_	_
+5	olsa	ol	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-1	Bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bu<Det:def>|Stem=bu
-2	akşam	akşam	NOUN	NOUN	Number=Sing	4	nmod:tmod	_	TRmorphTag=akşam<N>|Stem=akşam
-3	ne	ne	PRON	PRON	Negative=Pos|Number=Sing|PronType=Int|Question=Yes	4	dobj	_	TRmorphTag=ne<Prn:qst>|Stem=ne
-4	yapsak	yapmak	VERB	VERB	Mood=Cnd|Negative=Pos|Number=Plur|Person=1|Tense=Pres	0	root	_	TRmorphTag=yap<V><cond><1p>|Stem=yap
-5	acaba	acaba	ADV	ADV	_	4	discourse	_	TRmorphTag=acaba<Adv>|Stem=acaba
-6	?	?	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=?<Punc>|Stem=?
+# text = Bu akşam ne yapsak acaba?
+# sent_id = GKA2-0028
+1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	akşam	akşam	NOUN	NOUN	Number=Sing	4	obl:tmod	_	_
+3	ne	ne	PRON	PRON	Number=Sing|PronType=Int	4	obj	_	_
+4	yapsak	yap	VERB	VERB	Mood=Cnd|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+5	acaba	acaba	ADV	ADV	_	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=bu<Det:def>|Stem=bu
-2	parayı	para	NOUN	NOUN	Case=Acc|Number=Sing	4	dobj	_	TRmorphTag=para<N><acc>|Stem=para
-3	Kaya’ya	Kaya	PROPN	PROPN	Case=Dat|Number=Sing	4	nmod	_	TRmorphTag=Kaya<N:prop><dat>|Stem=Kaya
-4	ver	vermek	VERB	VERB	Mood=Imp|Negative=Pos|Number=Sing|Person=2|Tense=Pres	0	root	_	TRmorphTag=ver<V><imp><2s>|Stem=ver
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Bu parayı Kaya’ya ver.
+# sent_id = GKA2-0029
+1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	parayı	para	NOUN	NOUN	Case=Acc|Number=Sing	4	obj	_	_
+3	Kaya’ya	Kaya	PROPN	PROPN	Case=Dat|Number=Sing	4	obl	_	_
+4	ver	ver	VERB	VERB	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Düğmeye	düğme	NOUN	NOUN	Case=Dat|Number=Sing	2	nmod	_	TRmorphTag=düğme<N><dat>|Stem=düğme
-2	basın	basmak	VERB	VERB	Mood=Imp|Negative=Pos|Number=Plur|Person=2|Tense=Pres	0	root	_	TRmorphTag=bas<V><imp><2p>|Stem=bas
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Düğmeye basın.
+# sent_id = GKA2-0030
+1	Düğmeye	düğme	NOUN	NOUN	Case=Dat|Number=Sing	2	obl	_	_
+2	basın	bas	VERB	VERB	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Düğmeye	düğme	NOUN	NOUN	Case=Dat|Number=Sing	2	nmod	_	TRmorphTag=düğme<N><dat>|Stem=düğme
-2	basınız	basmak	VERB	VERB	Mood=Imp|Negative=Pos|Number=Plur|Person=2|Tense=Pres	0	root	_	TRmorphTag=bas<V><imp><2p>|Stem=bas
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Düğmeye basınız.
+# sent_id = GKA2-0031
+1	Düğmeye	düğme	NOUN	NOUN	Case=Dat|Number=Sing	2	obl	_	_
+2	basınız	bas	VERB	VERB	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Ayşe	Ayşe	PROPN	PROPN	Number=Sing	5	nsubj	_	TRmorphTag=Ayşe<N:prop>|Stem=Ayşe
-2	bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	3	det	_	TRmorphTag=bu<Det:def>|Stem=bu
-3	akşam	akşam	NOUN	NOUN	Number=Sing	5	nmod:tmod	_	TRmorphTag=akşam<N>|Stem=akşam
-4	bana	ben	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing|Person=1	5	nmod	_	TRmorphTag=ben<Prn:pers:1s><dat>|Stem=ben
-5	telefon	telefon	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=telefon<N>|Stem=telefon
-6	etsin	etmek	VERB	VERB	Mood=Imp|Negative=Pos|Number=Sing|Person=3|Tense=Pres	5	compound	_	TRmorphTag=et<V><imp><3s>|Stem=et
-7	.	.	PUNCT	PUNCT	_	5	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Ayşe bu akşam bana telefon etsin.
+# sent_id = GKA2-0032
+1	Ayşe	Ayşe	PROPN	PROPN	Number=Sing	6	nsubj	_	_
+2	bu	bu	DET	DET	Definite=Def|Number=Sing	3	det	_	_
+3	akşam	akşam	NOUN	NOUN	Number=Sing	6	obl:tmod	_	_
+4	bana	ben	PRON	PRON	Case=Dat|Number=Sing|Person=1	6	obl	_	_
+5	telefon	telefon	NOUN	NOUN	Number=Sing	6	compound	_	_
+6	etsin	et	VERB	VERB	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-1	Sana	sen	PRON	PRON	Case=Dat|Negative=Pos|Number=Sing|Person=2	2	nmod	_	TRmorphTag=sen<Prn:pers:2s><dat>|Stem=sen
-2	yardım	yardım	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=yardım<N>|Stem=yardım
-3	edeyim	etmek	VERB	VERB	Mood=Opt|Negative=Pos|Number=Sing|Person=1|Tense=Pres	2	compound	_	TRmorphTag=et<V><opt><1s>|Stem=et
-4	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Sana yardım edeyim.
+# sent_id = GKA2-0033
+1	Sana	sen	PRON	PRON	Case=Dat|Number=Sing|Person=2	3	obl	_	_
+2	yardım	yardım	NOUN	NOUN	Number=Sing	3	compound	_	_
+3	edeyim	et	VERB	VERB	Mood=Opt|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Biraz	biraz	ADV	ADV	_	2	advmod	_	TRmorphTag=biraz<Adv>|Stem=biraz
-2	oturalım	oturmak	VERB	VERB	Mood=Opt|Negative=Pos|Number=Plur|Person=1|Tense=Pres	0	root	_	TRmorphTag=otur<V><opt><1p>|Stem=otur
-3	mı	mı	AUX	AUX	Question=Yes	2	aux:q	_	TRmorphTag=mı<Q>|Stem=mı
-4	?	?	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=?<Punc>|Stem=?
+# text = Biraz oturalım mı?
+# sent_id = GKA2-0034
+1	Biraz	biraz	ADV	ADV	_	2	advmod	_	_
+2	oturalım	otur	VERB	VERB	Mood=Opt|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	mı	mi	AUX	AUX	PronType=Int	2	aux:q	_	SpaceAfter=No
+4	?	?	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Herkes	herkes	PRON	PRON	Negative=Pos|Number=Sing|Person=3	2	nsubj	_	TRmorphTag=herkes<Prn:pers:3s>|Stem=herkes
-2-3	bahçedeydi	_	_	_	_	_	_	_	_
-2	bahçedeydi	bahçe	NOUN	NOUN	Case=Loc|Number=Sing	0	root	_	TRmorphTag=bahçe<N><loc>|Stem=bahçe
-3	_	-0	AUX	-0	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	2	cop	_	TRmorphTag=<0><V><cpl:past><3s>|Stem=-0
-4	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Herkes bahçedeydi.
+# sent_id = GKA2-0035
+1	Herkes	herkes	PRON	PRON	Number=Sing|Person=3	2	nsubj	_	_
+2-3	bahçedeydi	_	_	_	_	_	_	_	SpaceAfter=No
+2	bahçede	bahçe	NOUN	NOUN	Case=Loc|Number=Sing	0	root	_	_
+3	ydi	i	AUX	-0	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Eğleniyorduk	eğlenmek	VERB	VERB	Aspect=Prog|Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Past	0	root	_	TRmorphTag=eğlen<V><cont><cpl:past><1p>|Stem=eğlen
-2	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Eğleniyorduk.
+# sent_id = GKA2-0036
+1	Eğleniyorduk	eğlen	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Sen	sen	PRON	PRON	Negative=Pos|Number=Sing|Person=2	6	nsubj	_	TRmorphTag=sen<Prn:pers:2s>|Stem=sen
-2	bu	bu	DET	DET	Definite=Def|Negative=Pos|Number=Sing	3	det	_	TRmorphTag=bu<Det:def>|Stem=bu
-3	işi	iş	NOUN	NOUN	Case=Acc|Number=Sing	6	dobj	_	TRmorphTag=iş<N><acc>|Stem=iş
-4	daha	daha	ADV	ADV	_	5	advmod	_	TRmorphTag=daha<Adv>|Stem=daha
-5	güzel	güzel	ADV	ADV	_	6	advmod	_	TRmorphTag=güzel<Adv>|Stem=güzel
-6	yapardın	yapmak	VERB	VERB	Aspect=Habit|Mood=Gen|Negative=Pos|Number=Sing|Person=2|Tense=Past	0	root	_	TRmorphTag=yap<V><aor><cpl:past><2s>|Stem=yap
-7	.	.	PUNCT	PUNCT	_	6	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Sen bu işi daha güzel yapardın.
+# sent_id = GKA2-0037
+1	Sen	sen	PRON	PRON	Number=Sing|Person=2	6	nsubj	_	_
+2	bu	bu	DET	DET	Definite=Def|Number=Sing	3	det	_	_
+3	işi	iş	NOUN	NOUN	Case=Acc|Number=Sing	6	obj	_	_
+4	daha	daha	ADV	ADV	_	5	advmod	_	_
+5	güzel	güzel	ADV	ADV	_	6	advmod	_	_
+6	yapardın	yap	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-1	Baştan	baştan	ADV	ADV	_	2	advmod	_	TRmorphTag=baştan<Adv>|Stem=baştan
-2	söyleseydin	söylemek	VERB	VERB	Mood=Cnd|Negative=Pos|Number=Sing|Person=2|Tense=Past	0	root	_	TRmorphTag=söyle<V><cond><cpl:past><2s>|Stem=söyle
-3	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Baştan söyleseydin.
+# sent_id = GKA2-0038
+1	Baştan	baştan	ADV	ADV	_	2	advmod	_	_
+2	söyleseydin	söyle	VERB	VERB	Mood=Cnd|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	Aysel’in	Aysel	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	TRmorphTag=Aysel<N:prop><gen>|Stem=Aysel
-2	babası	baba	NOUN	NOUN	Number=Sing|Number_psor=Sing|Person_psor=3	3	dobj	_	TRmorphTag=baba<N><p3s>|Stem=baba
-3-4	mühendismiş	_	_	_	_	_	_	_	_
-3	mühendismiş	mühendis	NOUN	NOUN	Number=Sing	0	root	_	TRmorphTag=mühendis<N>|Stem=mühendis
-4	_	-0	AUX	-0	Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	3	cop	_	TRmorphTag=<0><V><cpl:evid><3s>|Stem=-0
-5	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Aysel’in babası mühendismiş.
+# sent_id = GKA2-0039
+1	Aysel’in	Aysel	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj:cop	_	_
+3-4	mühendismiş	_	_	_	_	_	_	_	SpaceAfter=No
+3	mühendis	mühendis	NOUN	NOUN	Number=Sing	0	root	_	_
+4	miş	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Her	her	DET	DET	Definite=Def|Negative=Pos|Number=Sing	2	det	_	TRmorphTag=her<Det:def>|Stem=her
-2	yaz	yaz	NOUN	NOUN	Number=Sing	4	nmod:tmod	_	TRmorphTag=yaz<N>|Stem=yaz
-3	Amerika’ya	Amerika	PROPN	PROPN	Case=Dat|Number=Sing	4	nmod	_	TRmorphTag=Amerika<N:prop><dat>|Stem=Amerika
-4	gidiyorlarmış	gitmek	VERB	VERB	Aspect=Prog|Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres	0	root	_	TRmorphTag=git<V><cont><3p><cpl:evid>|Stem=git
-5	.	.	PUNCT	PUNCT	_	4	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Her yaz Amerika’ya gidiyorlarmış.
+# sent_id = GKA2-0040
+1	Her	her	DET	DET	Definite=Def|Number=Sing	2	det	_	_
+2	yaz	yaz	NOUN	NOUN	Number=Sing	4	obl:tmod	_	_
+3	Amerika’ya	Amerika	PROPN	PROPN	Case=Dat|Number=Sing	4	obl	_	_
+4	gidiyorlarmış	git	VERB	VERB	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-1	Burası	bura	PRON	PRON	Negative=Pos|Number=Sing|Number_psor=Sing|Person_psor=3	3	nsubj	_	TRmorphTag=bura<Prn:locp><p3s>|Stem=bura
-2	gerçekten	gerçekten	ADV	ADV	_	3	advmod	_	TRmorphTag=gerçekten<Adv>|Stem=gerçekten
-3-4	güzelmiş	_	_	_	_	_	_	_	_
-3	güzelmiş	güzel	ADJ	ADJ	_	0	root	_	TRmorphTag=güzel<Adj>|Stem=güzel
-4	_	-0	AUX	-0	Evidential=Nfh|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Past	3	cop	_	TRmorphTag=<0><V><cpl:evid><3s>|Stem=-0
-5	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Burası gerçekten güzelmiş.
+# sent_id = GKA2-0041
+1	Burası	bura	PRON	PRON	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+2	gerçekten	gerçekten	ADV	ADV	_	3	advmod	_	_
+3-4	güzelmiş	_	_	_	_	_	_	_	SpaceAfter=No
+3	güzel	güzel	ADJ	ADJ	_	0	root	_	_
+4	miş	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-1	Demir	demir	NOUN	NOUN	Number=Sing	2	nsubj	_	TRmorphTag=demir<N>|Stem=demir
-2-3	ağırdır	_	_	_	_	_	_	_	_
-2	ağırdır	ağır	ADJ	ADJ	_	0	root	_	TRmorphTag=ağır<Adj>|Stem=ağır
-3	_	-0	AUX	-0	Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	2	cop	_	TRmorphTag=<0><V><cpl:pres><3s><dir>|Stem=-0
-4	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Demir ağırdır.
+# sent_id = GKA2-0042
+1	Demir	demir	NOUN	NOUN	Number=Sing	2	nsubj	_	_
+2-3	ağırdır	_	_	_	_	_	_	_	SpaceAfter=No
+2	ağır	ağır	ADJ	ADJ	_	0	root	_	_
+3	dır	i	AUX	-0	Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1	İnsanlar	insan	NOUN	NOUN	Number=Plur	2	nsubj	_	TRmorphTag=insan<N><pl>|Stem=insan
-2-3	tembeldir	_	_	_	_	_	_	_	_
-2	tembeldir	tembel	ADJ	ADJ	_	0	root	_	TRmorphTag=tembel<Adj>|Stem=tembel
-3	_	-0	AUX	-0	Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Pres	2	cop	_	TRmorphTag=<0><V><cpl:pres><3s><dir>|Stem=-0
-4	.	.	PUNCT	PUNCT	_	2	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = İnsanlar tembeldir.
+# sent_id = GKA2-0043
+1	İnsanlar	insan	NOUN	NOUN	Number=Plur	2	nsubj	_	_
+2-3	tembeldir	_	_	_	_	_	_	_	SpaceAfter=No
+2	tembel	tembel	ADJ	ADJ	_	0	root	_	_
+3	dir	i	AUX	-0	Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
-1-2	Yorgunsundur	_	_	_	_	_	_	_	_
-1	Yorgunsundur	yorgun	ADJ	ADJ	_	0	root	_	TRmorphTag=yorgun<Adj>|Stem=yorgun
-2	_	-0	AUX	-0	Mood=Gen|Negative=Pos|Number=Sing|Person=2|Tense=Pres	1	cop	_	TRmorphTag=<0><V><cpl:pres><2s><dir>|Stem=-0
-3	.	.	PUNCT	PUNCT	_	1	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Yorgunsundur.
+# sent_id = GKA2-0044
+1-2	Yorgunsundur	_	_	_	_	_	_	_	SpaceAfter=No
+1	Yorgunsun	yorgun	ADJ	ADJ	_	0	root	_	_
+2	dur	i	AUX	-0	Mood=Gen|Number=Sing|Person=2|Tense=Pres	1	cop	_	_
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	Toplantı	toplantı	NOUN	NOUN	Number=Sing	3	nsubj	_	TRmorphTag=toplantı<N>|Stem=toplantı
-2	artık	artık	ADV	ADV	_	3	advmod	_	TRmorphTag=artık<Adv>|Stem=artık
-3	bitmiştir	bitmek	VERB	VERB	Aspect=Perf|Evidential=Nfh|Mood=Gen|Negative=Pos|Number=Sing|Person=3|Tense=Past	0	root	_	TRmorphTag=bit<V><evid><3s><dir>|Stem=bit
-4	.	.	PUNCT	PUNCT	_	3	punct	_	TRmorphTag=.<Punc>|Stem=.
+# text = Toplantı artık bitmiştir.
+# sent_id = GKA2-0045
+1	Toplantı	toplantı	NOUN	NOUN	Number=Sing	3	nsubj	_	_
+2	artık	artık	ADV	ADV	_	3	advmod	_	_
+3	bitmiştir	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
