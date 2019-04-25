@@ -70,7 +70,7 @@
 
 # text = Kerem’in babası ona biraz para vermiş.
 # sent_id = GK21-0010
-1	Kerem’in	Kerem	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Kerem’in	Kerem	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 3	ona	o	PRON	PRON	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 4	biraz	biraz	DET	DET	Definite=Ind|Number=Sing	5	det	_	_
@@ -320,7 +320,7 @@
 # text = Bugün aile yapısı hızla değişmektedir.
 # sent_id = GK21-0039
 1	Bugün	bugün	NOUN	NOUN	Number=Sing	5	obl:tmod	_	_
-2	aile	aile	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	aile	aile	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	yapısı	yapı	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 4	hızla	hız	NOUN	NOUN	Case=Ins|Number=Sing	5	obl	_	_
 5	değişmektedir	değiş	VERB	VERB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -476,7 +476,7 @@
 # sent_id = GK21-0058
 1	1994’te	1994	NUM	NUM	Case=Loc|Number=Sing	4	nmod:tmod	_	_
 2	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
-3	derneğin	dernek	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	derneğin	dernek	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4	başkanı	başkan	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 5	oldu	ol	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -485,7 +485,7 @@
 # sent_id = GK21-0059
 1	1994’te	1994	NUM	NUM	Case=Loc|Number=Sing	4	obl:tmod	_	_
 2	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
-3	derneğin	dernek	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	derneğin	dernek	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4-5	başkanıydı	_	_	_	_	_	_	_	SpaceAfter=No
 4	başkanı	başkan	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 5	ydı	i	AUX	-0	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
@@ -600,14 +600,14 @@
 # text = Halil benim dayızadem.
 # sent_id = GK21-0072
 1	Halil	Halil	PROPN	PROPN	Number=Sing	3	nsubj	_	_
-2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod:poss	_	_
+2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod	_	_
 3	dayızadem	dayızade	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Halil benim dayızadem oluyor.
 # sent_id = GK21-0073
 1	Halil	Halil	PROPN	PROPN	Number=Sing	3	nsubj	_	_
-2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod:poss	_	_
+2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod	_	_
 3	dayızadem	dayızade	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 4	oluyor	ol	AUX	AUX	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -715,7 +715,7 @@
 # text = Burada musluk suyu içilmez.
 # sent_id = GK21-0084
 1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	4	obl	_	_
-2	musluk	musluk	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	musluk	musluk	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	suyu	su	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	içilmez	iç	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -723,7 +723,7 @@
 # text = Burada musluk suyu içilmiyor.
 # sent_id = GK21-0085
 1	Burada	bura	PRON	PRON	Case=Loc|Number=Sing	4	obl	_	_
-2	musluk	musluk	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	musluk	musluk	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	suyu	su	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	içilmiyor	iç	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -800,7 +800,7 @@
 # sent_id = GK21-0095
 1	Antropoloji	antropoloji	NOUN	NOUN	Number=Sing	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	7	punct	_	_
-3	insan	insan	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	insan	insan	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	topluluklarını	topluluk	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	inceleyen	inceleyen	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Part	7	acl	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
@@ -811,7 +811,7 @@
 # sent_id = GK21-0096
 1	Antropoloji	antropoloji	NOUN	NOUN	Number=Sing	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	7	punct	_	_
-3	insan	insan	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	insan	insan	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	topluluklarını	topluluk	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	inceleyen	inceleyen	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Part	6	acl	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
@@ -836,7 +836,7 @@
 
 # text = Osmanlı Türkleri de bu kültüre katkıda bulunmuşlardır.
 # sent_id = GK21-0099
-1	Osmanlı	Osmanlı	PROPN	PROPN	Number=Sing	2	nmod:poss	_	_
+1	Osmanlı	Osmanlı	PROPN	PROPN	Number=Sing	2	nmod	_	_
 2	Türkleri	Türk	PROPN	PROPN	Number=Plur|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 3	de	de	ADV	ADV	_	2	advmod:emph	_	_
 4	bu	bu	DET	DET	Definite=Def|Number=Sing	5	det	_	_
@@ -1488,7 +1488,7 @@
 # sent_id = GK21-0174
 1	Bahçeye	bahçe	NOUN	NOUN	Case=Dat|Number=Sing	5	obl	_	_
 2	bir	bir	DET	DET	Definite=Ind|Number=Sing	4	det	_	_
-3	meşe	meşe	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	meşe	meşe	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	ağacı	ağaç	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	diktim	dik	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -1498,7 +1498,7 @@
 1	Ali	Ali	PROPN	PROPN	Number=Sing	6	nsubj	_	_
 2	bahçesine	bahçe	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	bir	bir	DET	DET	Definite=Ind|Number=Sing	5	det	_	_
-4	meşe	meşe	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	meşe	meşe	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	ağacı	ağaç	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 6	dikmiş	dik	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1507,7 +1507,7 @@
 # sent_id = GK21-0176
 1	Sen	sen	PRON	PRON	Number=Sing|Person=2	5	nsubj	_	_
 2	bir	bir	DET	DET	Definite=Ind|Number=Sing	4	det	_	_
-3	meşe	meşe	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	meşe	meşe	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	ağacı	ağaç	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	dikmişsin	dik	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past	8	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -1518,9 +1518,9 @@
 # text = İki tarafın temsilcileri Hilton Oteli’nde bir araya geldiler.
 # sent_id = GK21-0177
 1	İki	iki	NUM	NUM	NumType=Ord	2	nummod	_	_
-2	tarafın	taraf	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	tarafın	taraf	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	temsilcileri	temsilci	NOUN	NOUN	Number=Plur|Number[psor]=Plur|Person[psor]=3	8	nsubj	_	_
-4	Hilton	Hilton	PROPN	PROPN	Number=Sing	5	nmod:poss	_	_
+4	Hilton	Hilton	PROPN	PROPN	Number=Sing	5	nmod	_	_
 5	Oteli’nde	otel	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
 7	araya	ara	NOUN	NOUN	Case=Dat|Number=Sing	8	compound	_	_
@@ -1530,9 +1530,9 @@
 # text = İki tarafın temsilcileri Hilton Oteli’nde bir araya gelmişler.
 # sent_id = GK21-0178
 1	İki	iki	NUM	NUM	NumType=Ord	2	nummod	_	_
-2	tarafın	taraf	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	tarafın	taraf	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	temsilcileri	temsilci	NOUN	NOUN	Number=Plur|Number[psor]=Plur|Person[psor]=3	8	nsubj	_	_
-4	Hilton	Hilton	PROPN	PROPN	Number=Sing	5	nmod:poss	_	_
+4	Hilton	Hilton	PROPN	PROPN	Number=Sing	5	nmod	_	_
 5	Oteli’nde	otel	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
 7	araya	ara	NOUN	NOUN	Case=Dat|Number=Sing	8	compound	_	_
@@ -1548,7 +1548,7 @@
 
 # text = Ayşe’nin annesi biraz rahatsızmış.
 # sent_id = GK21-0180
-1	Ayşe’nin	Ayşe	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ayşe’nin	Ayşe	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	annesi	anne	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	biraz	biraz	ADV	ADV	_	4	advmod	_	_
 4-5	rahatsızmış	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1571,7 +1571,7 @@
 # sent_id = GK21-0182
 1	O	o	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	NOUN	Number=Sing	6	obl:tmod	_	_
-3	Ayşe’nin	Ayşe	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	Ayşe’nin	Ayşe	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod	_	_
 4	annesi	anne	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	biraz	biraz	ADV	ADV	_	6	advmod	_	_
 6-7	rahatsızmış	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1585,7 +1585,7 @@
 2-3	yaşındayken	_	_	_	_	_	_	_	_
 2	yaşında	yaş	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	advcl	_	_
 3	yken	i	AUX	-0	Mood=Ind	2	cop	_	_
-4	kalp	kalp	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	kalp	kalp	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	ameliyatı	ameliyat	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	compound	_	_
 6	olmuşum	ol	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1610,7 +1610,7 @@
 # sent_id = GK21-0186
 1	Ressam	ressam	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 2	iki	iki	NUM	NUM	NumType=Ord	3	nummod	_	_
-3	figürün	figür	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	figürün	figür	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4	arasını	ara	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 5	boş	boş	ADJ	ADJ	_	6	compound	_	_
 6	bırakmış	bırak	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -2149,7 +2149,7 @@
 
 # text = Ali’nin patronu onu sevmiyor olabilir.
 # sent_id = GK21-0245
-1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	patronu	patron	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	onu	o	PRON	PRON	Case=Acc|Number=Sing	4	obj	_	_
 4	sevmiyor	sev	VERB	VERB	Aspect=Prog|Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	_

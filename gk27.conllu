@@ -234,7 +234,7 @@
 # text = Ahmet evliliklerinin yıldönümünü unutursa Şebnem çok kızıyor.
 # sent_id = GK27-0024
 1	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
-2	evliliklerinin	evlilik	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	evliliklerinin	evlilik	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	yıldönümünü	yıldönümü	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	unutursa	unut	VERB	VERB	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres	7	advcl	_	_
 5	Şebnem	Şebnem	PROPN	PROPN	Number=Sing	7	nsubj	_	_
@@ -268,7 +268,7 @@
 1-2	Sınavdaki	_	_	_	_	_	_	_	_
 1	Sınavda	sınav	NOUN	NOUN	Case=Loc|Number=Sing	4	nmod	_	_
 2	ki	ki	ADP	ADP	_	1	case	_	_
-3	puan	puan	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	puan	puan	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	ortalaması	ortalama	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	düşük	düşük	ADJ	ADJ	_	6	compound	_	_
 6	çıkarsa	çık	VERB	VERB	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres	9	advcl	_	_
@@ -652,7 +652,7 @@
 # text = Kongre öğle zamanı bitmiş olsa katılanların çoğu aynı gün eve dönebilir.
 # sent_id = GK27-0062
 1	Kongre	kongre	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	zamanı	zaman	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 4	bitmiş	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past	11	advcl	_	_
 5	olsa	ol	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
@@ -667,7 +667,7 @@
 # text = Kongre öğle zamanı bitmiş olsa katılanların çoğu aynı gün eve dönebilirdi.
 # sent_id = GK27-0063
 1	Kongre	kongre	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	zamanı	zaman	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 4	bitmiş	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past	11	advcl	_	_
 5	olsa	ol	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
@@ -682,7 +682,7 @@
 # text = Kongre öğle zamanı bitmiş olsaydı katılanların çoğu aynı gün eve dönebilirdi.
 # sent_id = GK27-0064
 1	Kongre	kongre	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	öğle	öğle	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	zamanı	zaman	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 4	bitmiş	bit	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past	11	advcl	_	_
 5	olsaydı	ol	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|Tense=Past	4	aux	_	_
@@ -952,7 +952,7 @@
 1	Nazan	Nazan	PROPN	PROPN	Number=Sing	6	nsubj	_	_
 2	olsa	ol	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	3	compound:redup	_	_
 3	olsa	ol	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	6	advcl	_	_
-4	cumartesi	cumartesi	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	cumartesi	cumartesi	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	sabahı	sabah	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl:tmod	_	_
 6	gelebilirmiş	gel	VERB	VERB	Aspect=Hab|Evident=Nfh|Mood=GenPot|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1454,7 +1454,7 @@
 3	altına	altına	ADP	ADP	Number[psor]=Sing|Person[psor]=2	2	case	_	_
 4	alınmaması	al	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|VerbForm=Vnoun|Voice=Pass	10	advcl	_	_
 5	halinde	halinde	ADP	ADP	Number=Sing	4	case	_	_
-6	sahil	sahil	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	sahil	sahil	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	bölgeleri	bölge	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
 8	kısa	kısa	ADJ	ADJ	_	9	amod	_	_
 9	zamanda	zaman	NOUN	NOUN	Case=Loc|Number=Sing	10	obl:tmod	_	_
@@ -1468,7 +1468,7 @@
 3	altına	altına	ADP	ADP	Number[psor]=Sing|Person[psor]=2	2	case	_	_
 4	alınmaması	al	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|VerbForm=Vnoun|Voice=Pass	10	acl	_	_
 5	durumunda	durumunda	ADP	ADP	Number=Sing	4	case	_	_
-6	sahil	sahil	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	sahil	sahil	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	bölgeleri	bölge	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
 8	kısa	kısa	ADJ	ADJ	_	9	amod	_	_
 9	zamanda	zaman	NOUN	NOUN	Case=Loc|Number=Sing	10	obl:tmod	_	_

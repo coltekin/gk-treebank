@@ -59,7 +59,7 @@
 
 # text = Anıtlar Yüksek Kurulu’nu bundan sorumlu tutuyorum.
 # sent_id = GK22-0008
-1	Anıtlar	anıt	NOUN	NOUN	Number=Plur	3	nmod:poss	_	_
+1	Anıtlar	anıt	NOUN	NOUN	Number=Plur	3	nmod	_	_
 2	Yüksek	yüksek	ADJ	ADJ	_	3	amod	_	_
 3	Kurulu’nu	kurul	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 4	bundan	bu	PRON	PRON	Case=Abl|Number=Sing	6	obl	_	_
@@ -280,7 +280,7 @@
 
 # text = Gürcistan folkloruyla ilgili bir kitap arıyorum.
 # sent_id = GK22-0032
-1	Gürcistan	Gürcistan	PROPN	PROPN	Number=Sing	2	nmod:poss	_	_
+1	Gürcistan	Gürcistan	PROPN	PROPN	Number=Sing	2	nmod	_	_
 2	folkloruyla	folklor	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	ilgili	ilgili	ADP	ADP	_	2	case	_	_
 4	bir	bir	DET	DET	Definite=Ind|Number=Sing	5	det	_	_
@@ -290,7 +290,7 @@
 
 # text = Gürcistan folkloruyla ilgili bir kitabı arıyorum.
 # sent_id = GK22-0033
-1	Gürcistan	Gürcistan	PROPN	PROPN	Number=Sing	2	nmod:poss	_	_
+1	Gürcistan	Gürcistan	PROPN	PROPN	Number=Sing	2	nmod	_	_
 2	folkloruyla	folklor	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	ilgili	ilgili	ADP	ADP	_	2	case	_	_
 4	bir	bir	DET	DET	Definite=Ind|Number=Sing	5	det	_	_
@@ -452,7 +452,7 @@
 
 # text = Oğlumun bütün öğretmenleri kadın.
 # sent_id = GK22-0048
-1	Oğlumun	oğul	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod:poss	_	_
+1	Oğlumun	oğul	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 2	bütün	bütün	DET	DET	Definite=Def|Number=Sing	3	det	_	_
 3	öğretmenleri	öğretmen	NOUN	NOUN	Case=Acc|Number=Plur	4	nsubj	_	_
 4	kadın	kadın	NOUN	NOUN	Number=Sing	0	root	_	SpaceAfter=No
@@ -499,7 +499,7 @@
 
 # text = Bizim apartmanımızda hiç çocuk yok.
 # sent_id = GK22-0054
-1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	apartmanımızda	apartman	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	obl	_	_
 3	hiç	hiç	ADV	ADV	_	5	advmod	_	_
 4	çocuk	çocuk	NOUN	NOUN	Number=Sing	5	obj	_	_
@@ -635,7 +635,7 @@
 
 # text = Para sıkıntısı insana üzüntü verir.
 # sent_id = GK22-0070
-1	Para	para	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Para	para	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	sıkıntısı	sıkıntı	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 3	insana	insan	NOUN	NOUN	Case=Dat|Number=Sing	5	obl	_	_
 4	üzüntü	üzüntü	NOUN	NOUN	Number=Sing	5	obj	_	_
@@ -813,14 +813,14 @@
 # text = Arkadaşım Türk kahvesini sevmiyor.
 # sent_id = GK22-0089
 1	Arkadaşım	arkadaş	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
-2	Türk	Türk	PROPN	PROPN	Number=Sing	3	nmod:poss	_	_
+2	Türk	Türk	PROPN	PROPN	Number=Sing	3	nmod	_	_
 3	kahvesini	kahve	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	sevmiyor	sev	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Kızın ailesi okulu önemsemiyor görünüyor.
 # sent_id = GK22-0090
-1	Kızın	kız	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Kızın	kız	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	ailesi	aile	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	okulu	okul	NOUN	NOUN	Case=Acc|Number=Sing	4	obj	_	_
 4	önemsemiyor	önemse	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	ccomp	_	_
@@ -885,7 +885,7 @@
 # text = Bilgisayar hepimizin işini kolaylaştırdı.
 # sent_id = GK22-0098
 1	Bilgisayar	bilgisayar	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-2	hepimizin	hepimiz	PRON	PRON	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	hepimizin	hepimiz	PRON	PRON	Case=Gen|Number=Sing	3	nmod	_	_
 3	işini	iş	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	kolaylaştırdı	kolaylaş	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -893,7 +893,7 @@
 # text = Bilgisayar Kenan’ın odasına kondu.
 # sent_id = GK22-0099
 1	Bilgisayar	bilgisayar	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-2	Kenan’ın	Kenan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Kenan’ın	Kenan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 3	odasına	oda	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	kondu	koy	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -931,7 +931,7 @@
 
 # text = Hanımelinin kokusu çok güzel.
 # sent_id = GK22-0104
-1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	kokusu	koku	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	çok	çok	ADV	ADV	_	4	advmod	_	_
 4	güzel	güzel	ADJ	ADJ	_	0	root	_	SpaceAfter=No
@@ -939,7 +939,7 @@
 
 # text = Hanımelinin kokusu çok güzeldir.
 # sent_id = GK22-0105
-1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	kokusu	koku	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	çok	çok	ADV	ADV	_	4	advmod	_	_
 4-5	güzeldir	_	_	_	_	_	_	_	SpaceAfter=No
@@ -949,7 +949,7 @@
 
 # text = Hanımelinin kokusu çok güzeldi.
 # sent_id = GK22-0106
-1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Hanımelinin	_	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	kokusu	koku	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	çok	çok	ADV	ADV	_	4	advmod	_	_
 4-5	güzeldi	_	_	_	_	_	_	_	SpaceAfter=No

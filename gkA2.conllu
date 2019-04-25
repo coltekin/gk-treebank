@@ -91,11 +91,11 @@
 
 # text = Cep telefonlarının kullanımı uçağın iletişim sistemini kötü yönde etkilemektedir.
 # sent_id = GKA2-0013
-1	Cep	cep	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Cep	cep	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	telefonlarının	telefon	NOUN	NOUN	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	kullanımı	kullanım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
-4	uçağın	uçak	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	_
-5	iletişim	iletişim	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+4	uçağın	uçak	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod	_	_
+5	iletişim	iletişim	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	sistemini	sistem	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 7	kötü	kötü	ADJ	ADJ	_	8	amod	_	_
 8	yönde	yön	NOUN	NOUN	Case=Loc|Number=Sing	9	obl	_	_
@@ -302,7 +302,7 @@
 
 # text = Aysel’in babası mühendismiş.
 # sent_id = GKA2-0039
-1	Aysel’in	Aysel	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Aysel’in	Aysel	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj:cop	_	_
 3-4	mühendismiş	_	_	_	_	_	_	_	SpaceAfter=No
 3	mühendis	mühendis	NOUN	NOUN	Number=Sing	0	root	_	_

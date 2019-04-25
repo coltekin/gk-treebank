@@ -26,7 +26,7 @@
 # sent_id = GK14-0004
 1	O	o	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	sırada	sıra	NOUN	NOUN	Case=Loc|Number=Sing	4	nmod:tmod	_	_
-3	lise	lise	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	lise	lise	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4-5	öğrencisiydik	_	_	_	_	_	_	_	SpaceAfter=No
 4	öğrencisi	öğrenci	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 5	ydik	i	AUX	-0	Mood=Ind|Number=Plur|Person=1|Tense=Past	4	cop	_	_
@@ -35,7 +35,7 @@
 # text = Bunları Amerika’nın dış politikasını daha iyi anlamak isteyenler için yazıyorum.
 # sent_id = GK14-0005
 1	Bunları	bu	PRON	PRON	Case=Acc|Number=Plur	10	obj	_	_
-2	Amerika’nın	Amerika	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+2	Amerika’nın	Amerika	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod	_	_
 3	dış	dış	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	politikasını	politika	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 5	daha	daha	ADV	ADV	_	6	advmod	_	_
@@ -58,8 +58,8 @@
 
 # text = Mustafa’nın çalışma odası olarak kullandığı oda
 # sent_id = GK14-0008
-1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
-2	çalışma	çalışma	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
+2	çalışma	çalışma	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	odası	oda	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	advcl	_	_
 4	olarak	ol	AUX	AUX	Mood=Ind	3	cop	_	_
 5	kullandığı	kullandık	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	acl	_	_
@@ -104,7 +104,7 @@
 1	Denizin	Deniz	PROPN	PROPN	Case=Gen|Number=Sing	2	nsubj	_	_
 2	sevdiği	sevdik	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	5	acl	_	_
 3	bazı	bazı	DET	DET	Definite=Ind|Number=Sing	5	det	_	_
-4	Türk	Türk	PROPN	PROPN	Number=Sing	5	nmod:poss	_	_
+4	Türk	Türk	PROPN	PROPN	Number=Sing	5	nmod	_	_
 5	yemekleri	yemek	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Bakkaldan birkaç bira al.
@@ -223,7 +223,7 @@
 # text = her Türk vatandaşı
 # sent_id = GK14-0027
 1	her	her	DET	DET	Definite=Def|Number=Sing	3	det	_	_
-2	Türk	Türk	PROPN	PROPN	Number=Sing	3	nmod:poss	_	_
+2	Türk	Türk	PROPN	PROPN	Number=Sing	3	nmod	_	_
 3	vatandaşı	vatandaş	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = kaç kişi
@@ -346,7 +346,7 @@
 
 # text = Bizim Migros’ta güzel şaraplar var.
 # sent_id = GK14-0043
-1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	Migros’ta	Migros	PROPN	PROPN	Case=Loc|Number=Sing	5	nmod	_	_
 3	güzel	güzel	ADJ	ADJ	_	4	amod	_	_
 4	şaraplar	şarap	NOUN	NOUN	Number=Plur	5	nsubj	_	_
@@ -582,42 +582,42 @@
 
 # text = Ders kitabını beğenmedim.
 # sent_id = GK14-0080
-1	Ders	ders	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Ders	ders	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	kitabını	kitap	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 3	beğenmedim	beğen	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Ders kitabını beğenmedim.
 # sent_id = GK14-0081
-1	Ders	ders	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Ders	ders	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	kitabını	kitap	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	obj	_	_
 3	beğenmedim	beğen	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Telefon numaralarını yazdım.
 # sent_id = GK14-0083
-1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	numaralarını	numara	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	3	obj	_	_
 3	yazdım	yaz	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Telefon numaralarını yazdım.
 # sent_id = GK14-0084
-1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	numaralarını	numara	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	3	obj	_	_
 3	yazdım	yaz	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Telefon numaralarını yazdım.
 # sent_id = GK14-0085
-1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	numaralarını	numara	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	3	obj	_	_
 3	yazdım	yaz	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Telefon numaralarını yazdım.
 # sent_id = GK14-0086
-1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	numaralarını	numara	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	3	obj	_	_
 3	yazdım	yaz	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -667,7 +667,7 @@
 
 # text = Hakan’ın karısı mimarmış.
 # sent_id = GK14-0092
-1	Hakan’ın	Hakan	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Hakan’ın	Hakan	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	karısı	karı	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	mimarmış	_	_	_	_	_	_	_	SpaceAfter=No
 3	mimar	mimar	NOUN	NOUN	Number=Sing	0	root	_	_
@@ -681,7 +681,7 @@
 2	ce	-ce	ADV	ADV	_	1	case	_	_
 3	bu	bu	DET	DET	Definite=Def|Number=Sing	4	det	_	_
 4	resim	resim	NOUN	NOUN	Number=Sing	7	nsubj	_	_
-5	sanat	sanat	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	sanat	sanat	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	eseri	eser	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	xcomp	_	_
 7	sayılmaz	say	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -793,7 +793,7 @@
 2	yemekten	yemek	NOUN	NOUN	Case=Abl|Number=Sing	7	obl:tmod	_	_
 3	sonra	sonra	ADP	ADP	_	2	case	_	_
 4	bir	bir	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
-5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod:poss	_	_
+5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod	_	_
 6	kahvesi	kahve	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	içer	iç	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -860,7 +860,7 @@
 # sent_id = GK14-0114
 1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	koltuk	koltuk	NOUN	NOUN	Number=Sing	5	obj	_	_
-3	oturma	oturma	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	oturma	oturma	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	odasına	oda	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	konacak	koy	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -891,7 +891,7 @@
 
 # text = Annemin isteğine uymadım.
 # sent_id = GK14-0118
-1	Annemin	anne	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod:poss	_	_
+1	Annemin	anne	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
 2	isteğine	istek	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	uymadım	uy	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -917,7 +917,7 @@
 # sent_id = GK14-0121
 1	Filiz	Filiz	PROPN	PROPN	Number=Sing	6	nsubj	_	_
 2	bütün	bütün	DET	DET	Definite=Def|Number=Sing	4	det	_	_
-3	ev	ev	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	ev	ev	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	işlerini	iş	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 5	kocasına	koca	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl:agent	_	_
 6	yaptırıyor	yap	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
@@ -1000,7 +1000,7 @@
 # text = Gelirken şehir merkezinden geçtiniz mi?
 # sent_id = GK14-0131
 1	Gelirken	gelirken	VERB	VERB	Mood=Ind	4	advcl	_	_
-2	şehir	şehir	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	şehir	şehir	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	merkezinden	merkez	NOUN	NOUN	Case=Abl|Number=Sing	4	obl	_	_
 4	geçtiniz	geç	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past	0	root	_	_
 5	mi	mi	AUX	AUX	PronType=Int	4	aux:q	_	SpaceAfter=No
@@ -1090,7 +1090,7 @@
 
 # text = Memleketin en iyi ressamlarından biri sayılır.
 # sent_id = GK14-0141
-1	Memleketin	memleket	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+1	Memleketin	memleket	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 2	en	en	ADV	ADV	_	3	advmod	_	_
 3	iyi	iyi	ADJ	ADJ	_	4	amod	_	_
 4	ressamlarından	ressam	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nmod:part	_	_
@@ -1100,7 +1100,7 @@
 
 # text = Memleketin en iyi ressamlarından sayılır.
 # sent_id = GK14-0142
-1	Memleketin	memleket	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+1	Memleketin	memleket	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 2	en	en	ADV	ADV	_	3	advmod	_	_
 3	iyi	iyi	ADJ	ADJ	_	4	amod	_	_
 4	ressamlarından	ressam	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	xcomp	_	_
@@ -1113,7 +1113,7 @@
 2	Vefik	Vefik	PROPN	PROPN	Number=Sing	1	flat	_	_
 3	Paşa’yı	paşa	NOUN	NOUN	Case=Acc|Number=Sing	7	obj	_	_
 4	ilk	ilk	ADJ	ADJ	_	6	amod	_	_
-5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod:poss	_	_
+5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod	_	_
 6	milliyetçilerinden	milliyetçi	NOUN	NOUN	Case=Abl|Number=Plur	7	xcomp	_	_
 7	addetmek	addet	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
 
@@ -1123,14 +1123,14 @@
 2	Vefik	Vefik	PROPN	PROPN	Number=Sing	1	flat	_	_
 3	Paşa’yı	paşa	NOUN	NOUN	Case=Acc|Number=Sing	8	obj	_	_
 4	ilk	ilk	ADJ	ADJ	_	6	amod	_	_
-5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod:poss	_	_
+5	Türk	Türk	PROPN	PROPN	Number=Sing	6	nmod	_	_
 6	milliyetçilerinden	milliyetçi	NOUN	NOUN	Case=Abl|Number=Plur	7	nmod:part	_	_
 7	biri	bir	NUM	NUM	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	xcomp	_	_
 8	addetmek	addet	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
 
 # text = Mustafa’nın evi bundan daha büyük.
 # sent_id = GK14-0145
-1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	evi	ev	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 3	bundan	bu	PRON	PRON	Case=Abl|Number=Sing	5	nmod:comp	_	_
 4	daha	daha	ADV	ADV	_	5	advmod	_	_
@@ -1139,7 +1139,7 @@
 
 # text = Mustafa’nın evi bundan büyük.
 # sent_id = GK14-0146
-1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Mustafa’nın	Mustafa	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	evi	ev	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	bundan	bu	PRON	PRON	Case=Abl|Number=Sing	4	obl	_	_
 4	büyük	büyük	ADJ	ADJ	_	0	root	_	SpaceAfter=No
@@ -1148,7 +1148,7 @@
 # text = Bu çocuğun annesi nerede?
 # sent_id = GK14-0147
 1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
-2	çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	annesi	anne	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	nerede	nere	PRON	PRON	Case=Loc|Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	_	4	punct	_	_
@@ -1164,7 +1164,7 @@
 
 # text = Fotoğraf makinesi benim değil, babamın.
 # sent_id = GK14-0149
-1	Fotoğraf	fotoğraf	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Fotoğraf	fotoğraf	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	makinesi	makine	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	ModifiesHead=Yes
 3	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	0	root	_	_
 4	değil	değil	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	aux	_	SpaceAfter=No
@@ -1215,27 +1215,27 @@
 
 # text = odanın kapısı
 # sent_id = GK14-0155
-1	odanın	oda	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	odanın	oda	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	kapısı	kapı	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = benim evim
 # sent_id = GK14-0156
-1	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	evim	ev	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # text = Bu haberi Ali’nin oğlundan aldım.
 # sent_id = GK14-0157
 1	Bu	bu	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	haberi	haber	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
-3	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod	_	_
 4	oğlundan	oğul	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	aldım	al	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = Ayten’in annesinin ismini biliyor musun?
 # sent_id = GK14-0158
-1	Ayten’in	Ayten	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	annesinin	anne	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	_
+1	Ayten’in	Ayten	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
+2	annesinin	anne	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	ismini	isim	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	biliyor	bil	VERB	VERB	Aspect=Prog|Mood=Ind|Tense=Pres	0	root	_	_
 5	musun	mi	AUX	AUX	Number=Sing|Person=2|PronType=Int	4	aux:q	_	SpaceAfter=No
@@ -1243,14 +1243,14 @@
 
 # text = Çocukların öğretmeni İngiliz.
 # sent_id = GK14-0159
-1	Çocukların	çocuk	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:poss	_	_
+1	Çocukların	çocuk	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod	_	_
 2	öğretmeni	öğretmen	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Çocukların öğretmenleri İngiliz.
 # sent_id = GK14-0160
-1	Çocukların	çocuk	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:poss	_	_
+1	Çocukların	çocuk	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod	_	_
 2	öğretmenleri	öğretmen	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -1258,7 +1258,7 @@
 # text = Burası bizim evden daha sıcak.
 # sent_id = GK14-0161
 1	Burası	bura	PRON	PRON	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-2	bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod:poss	_	_
+2	bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod	_	_
 3	evden	ev	NOUN	NOUN	Case=Abl|Number=Sing	5	nmod:comp	_	_
 4	daha	daha	ADV	ADV	_	5	advmod	_	_
 5	sıcak	sıcak	ADJ	ADJ	_	0	root	_	SpaceAfter=No
@@ -1267,7 +1267,7 @@
 # text = Burası bizim evimizden daha sıcak.
 # sent_id = GK14-0162
 1	Burası	bura	PRON	PRON	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-2	bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod:poss	_	_
+2	bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod	_	_
 3	evimizden	ev	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nmod:comp	_	_
 4	daha	daha	ADV	ADV	_	5	advmod	_	_
 5	sıcak	sıcak	ADJ	ADJ	_	0	root	_	SpaceAfter=No
@@ -1276,13 +1276,13 @@
 # text = Nerede senin çocuklar?
 # sent_id = GK14-0163
 1	Nerede	nere	PRON	PRON	Case=Loc|Number=Sing|PronType=Int	0	root	_	_
-2	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	3	nmod:poss	_	_
+2	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	3	nmod	_	_
 3	çocuklar	çocuk	NOUN	NOUN	Number=Plur	1	nsubj:cop	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	1	punct	_	_
 
 # text = Sizin arabanız var mı?
 # sent_id = GK14-0164
-1	Sizin	siz	PRON	PRON	Case=Gen|Number=Sing|Person=2	2	nmod:poss	_	_
+1	Sizin	siz	PRON	PRON	Case=Gen|Number=Sing|Person=2	2	nmod	_	_
 2	arabanız	araba	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=2	3	nsubj:cop	_	_
 3	var	var	ADJ	ADJ	_	0	root	_	_
 4	mı	mi	AUX	AUX	Number=Sing|Person=3|PronType=Int|Tense=Pres	3	aux:q	_	SpaceAfter=No
@@ -1302,7 +1302,7 @@
 
 # text = Bisikletin motorlusuna motosiklet denir.
 # sent_id = GK14-0166
-1	Bisikletin	bisiklet	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Bisikletin	bisiklet	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2-3	motorlusuna	_	_	_	_	_	_	_	_
 2	motor	motor	NOUN	NOUN	Number=Sing	5	obl	_	_
 3	lusuna	-li	NOUN	NOUN	Case=Dat|Number=Sing	2	case	_	_
@@ -1340,7 +1340,7 @@
 2	kü	ki	ADP	ADP	_	1	case	_	_
 3	konuğumuz	konuk	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	9	nsubj:cop	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	9	punct	_	_
-5	ülkemizin	ülke	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	7	nmod:poss	_	_
+5	ülkemizin	ülke	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	7	nmod	_	_
 6	genç	genç	ADJ	ADJ	_	7	amod	_	_
 7	şairlerinden	şair	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nmod:part	_	_
 8	Küçük	küçük	ADJ	ADJ	_	9	amod	_	_
@@ -1350,7 +1350,7 @@
 # text = Batı Afrika ülkelerinden Sierra Leone’de on yıldan beri iç savaş var.
 # sent_id = GK14-0171
 1	Batı	batı	ADJ	ADJ	_	2	amod	_	_
-2	Afrika	Afrika	PROPN	PROPN	Number=Sing	3	nmod:poss	_	_
+2	Afrika	Afrika	PROPN	PROPN	Number=Sing	3	nmod	_	_
 3	ülkelerinden	ülke	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	nmod:part	_	_
 4	Sierra	Sierra	PROPN	PROPN	Number=Sing	11	obl	_	_
 5	Leone’de	Leone	PROPN	PROPN	Case=Loc|Number=Sing	4	flat	_	_
@@ -1373,8 +1373,8 @@
 # sent_id = GK14-0173
 1	Rehberimiz	rehber	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	10	punct	_	_
-3	Abdülhamit	Abdülhamit	PROPN	PROPN	Number=Sing	4	nmod:poss	_	_
-4	dönemi	dönem	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod:poss	_	_
+3	Abdülhamit	Abdülhamit	PROPN	PROPN	Number=Sing	4	nmod	_	_
+4	dönemi	dönem	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 5	mimari	mimari	ADJ	ADJ	_	6	amod	_	_
 6	eserlerinden	eser	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	nmod:part	_	_
 7	bir	bir	DET	DET	Definite=Ind|Number=Sing	8	det	_	_
@@ -1533,7 +1533,7 @@
 # sent_id = GK14-0188
 1	Öğrencilerin	öğrenci	NOUN	NOUN	Case=Gen|Number=Plur	3	nmod:part	_	_
 2	her	her	DET	DET	Definite=Def|Number=Sing	3	det	_	_
-3	birinin	biri	PRON	PRON	Case=Gen|Number=Sing	6	nmod:poss	_	_
+3	birinin	biri	PRON	PRON	Case=Gen|Number=Sing	6	nmod	_	_
 4	ayrı	ayrı	ADJ	ADJ	_	6	amod	_	_
 5	bir	bir	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
 6	mazereti	mazeret	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
@@ -1545,7 +1545,7 @@
 # text = Güney Amerika ülkelerinden en çok Arjantin’le ticaret yapıyoruz.
 # sent_id = GK14-0189
 1	Güney	güney	ADJ	ADJ	_	2	amod	_	_
-2	Amerika	Amerika	PROPN	PROPN	Number=Sing	3	nmod:poss	_	_
+2	Amerika	Amerika	PROPN	PROPN	Number=Sing	3	nmod	_	_
 3	ülkelerinden	ülke	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nmod:part	_	_
 4	en	en	ADV	ADV	_	5	advmod	_	_
 5	çok	çok	ADV	ADV	_	8	advmod	_	_
@@ -1566,7 +1566,7 @@
 
 # text = Hafta sonlarında çocuklarından bazen biri, bazen iki tanesi geliyor.
 # sent_id = GK14-0191
-1	Hafta	hafta	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Hafta	hafta	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	sonlarında	son	NOUN	NOUN	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obl:tmod	_	_
 3	çocuklarından	çocuk	NOUN	NOUN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nmod:part	_	_
 4	bazen	bazen	ADV	ADV	_	5	advmod	_	_

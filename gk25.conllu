@@ -117,7 +117,7 @@
 
 # text = Oyuncunun rolü büyük değil.
 # sent_id = GK25-0018
-1	Oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	rolü	rol	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	büyük	büyük	ADJ	ADJ	_	0	root	_	_
 4	değil	değil	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	aux	_	SpaceAfter=No
@@ -132,7 +132,7 @@
 
 # text = Köylülerin koyunlarını kurt kaptı.
 # sent_id = GK25-0020
-1	Köylülerin	köylü	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:poss	_	_
+1	Köylülerin	köylü	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod	_	_
 2	koyunlarını	koyun	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	4	obj	_	_
 3	kurt	kurt	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 4	kaptı	kap	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -164,20 +164,20 @@
 
 # text = komşumuzun çalınan arabası
 # sent_id = GK25-0024
-1	komşumuzun	komşu	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nmod:poss	_	_
+1	komşumuzun	komşu	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nmod	_	_
 2	çalınan	çalınan	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	arabası	araba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = oyuncunun büyük olmayan rolü
 # sent_id = GK25-0025
-1	oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+1	oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 2	büyük	büyük	ADJ	ADJ	_	4	acl	_	_
 3	olmayan	ol	AUX	AUX	Mood=Ind|Tense=Pres|VerbForm=Part	2	cop	_	_
 4	rolü	rol	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Oyuncunun rolü büyük değil.
 # sent_id = GK25-0026
-1	Oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Oyuncunun	oyuncu	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	rolü	rol	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	büyük	büyük	ADJ	ADJ	_	0	root	_	_
 4	değil	değil	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	3	aux	_	SpaceAfter=No
@@ -235,13 +235,13 @@
 # sent_id = GK25-0034
 1	bildiğim	bildik	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	4	acl	_	_
 2	bir	bir	DET	DET	Definite=Ind|Number=Sing	4	det	_	_
-3	turizm	turizm	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	turizm	turizm	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	şirketi	şirket	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Bir turizm şirketi biliyorum.
 # sent_id = GK25-0035
 1	Bir	bir	DET	DET	Definite=Ind|Number=Sing	3	det	_	_
-2	turizm	turizm	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	turizm	turizm	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	şirketi	şirket	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	biliyorum	bil	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -350,14 +350,14 @@
 1	ustanın	usta	NOUN	NOUN	Case=Gen|Number=Sing	3	nsubj	_	_
 2	kapısını	kapı	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 3	değiştireceği	değiştirecek	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	5	acl	_	_
-4	çamaşır	çamaşır	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	çamaşır	çamaşır	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	makinası	makina	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Usta çamaşır makinasının kapısını değiştirecek.
 # sent_id = GK25-0051
 1	Usta	usta	NOUN	NOUN	Number=Sing	5	nsubj	_	_
-2	çamaşır	çamaşır	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
-3	makinasının	makina	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:poss	_	_
+2	çamaşır	çamaşır	NOUN	NOUN	Number=Sing	3	nmod	_	_
+3	makinasının	makina	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 4	kapısını	kapı	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	değiştirecek	değiş	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Cau	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -365,7 +365,7 @@
 # text = kızına piyano dersi verdiğim hanım
 # sent_id = GK25-0052
 1	kızına	kız	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
-2	piyano	piyano	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	piyano	piyano	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	dersi	ders	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	verdiğim	verdik	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	5	acl	_	_
 5	hanım	hanım	NOUN	NOUN	Number=Sing	0	root	_	_
@@ -373,9 +373,9 @@
 # text = Bir hanımın kızına piyano dersi veriyorum.
 # sent_id = GK25-0053
 1	Bir	bir	DET	DET	Definite=Ind|Number=Sing	2	det	_	_
-2	hanımın	hanım	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	hanımın	hanım	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	kızına	kız	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
-4	piyano	piyano	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	piyano	piyano	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	dersi	ders	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 6	veriyorum	ver	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -432,7 +432,7 @@
 # text = içine Handan’ın bahçesinden toplanmış birkaç çiçeğin konmuş olduğu bir vazo
 # sent_id = GK25-0060
 1	içine	içine	ADP	ADP	Number[psor]=Sing|Person[psor]=2	7	obl	_	_
-2	Handan’ın	Handan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Handan’ın	Handan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 3	bahçesinden	bahçe	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	toplanmış	topla	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Part	6	acl	_	_
 5	birkaç	birkaç	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
@@ -444,14 +444,14 @@
 
 # text = arabanın kırdığın sol aynası
 # sent_id = GK25-0061
-1	arabanın	araba	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+1	arabanın	araba	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 2	kırdığın	kırdık	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	4	acl	_	_
 3	sol	sol	ADJ	ADJ	_	4	amod	_	_
 4	aynası	ayna	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Arabanın sol aynasını kırdın.
 # sent_id = GK25-0062
-1	Arabanın	araba	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+1	Arabanın	araba	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 2	sol	sol	ADJ	ADJ	_	3	amod	_	_
 3	aynasını	ayna	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	kırdın	kır	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
@@ -459,15 +459,15 @@
 
 # text = ev sahibinin korktuğum köpeği
 # sent_id = GK25-0063
-1	ev	ev	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
-2	sahibinin	sahip	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:poss	_	_
+1	ev	ev	NOUN	NOUN	Number=Sing	2	nmod	_	_
+2	sahibinin	sahip	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 3	korktuğum	korktuk	VERB	VERB	Mood=Ind|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	4	acl	_	_
 4	köpeği	köpek	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = Ev sahibinin köpeğinden korkuyorum.
 # sent_id = GK25-0064
-1	Ev	ev	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
-2	sahibinin	sahip	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	_
+1	Ev	ev	NOUN	NOUN	Number=Sing	2	nmod	_	_
+2	sahibinin	sahip	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	köpeğinden	köpek	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	korkuyorum	kork	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -616,7 +616,7 @@
 6	saat	saat	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	16’da	16	NUM	NUM	Case=Loc|Number=Sing	11	obl:tmod	_	_
 8	bir	bir	DET	DET	Definite=Ind|Number=Sing	10	det	_	_
-9	basın	basın	NOUN	NOUN	Number=Sing	10	nmod:poss	_	_
+9	basın	basın	NOUN	NOUN	Number=Sing	10	nmod	_	_
 10	toplantısı	toplantı	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
 11	düzenleyecek	düzenle	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -735,7 +735,7 @@
 4	nasıl	nasıl	ADV	ADV	PronType=Int	8	advmod	_	_
 5	olsa	ol	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres	4	fixed	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	8	det	_	_
-7	spor	spor	NOUN	NOUN	Number=Sing	8	nmod:poss	_	_
+7	spor	spor	NOUN	NOUN	Number=Sing	8	nmod	_	_
 8	akademisi	akademi	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 9	olacak	ol	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -1128,8 +1128,8 @@
 10	evinde	ev	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 11	sık	sık	ADV	ADV	_	12	compound:redup	_	_
 12	sık	sık	ADV	ADV	_	16	advmod	_	_
-13	oda	oda	NOUN	NOUN	Number=Sing	14	nmod:poss	_	_
-14	müziği	müzik	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nmod:poss	_	_
+13	oda	oda	NOUN	NOUN	Number=Sing	14	nmod	_	_
+14	müziği	müzik	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nmod	_	_
 15	konserleri	konser	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	16	obj	_	_
 16	düzenliyor	düzenle	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	16	punct	_	_
@@ -1138,8 +1138,8 @@
 # sent_id = GK25-0139
 1	Sen	sen	PRON	PRON	Number=Sing|Person=2	12	dislocated	_	_
 2	ki	ki	SCONJ	SCONJ	_	6	mark	_	_
-3	herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
-4	doğum	doğum	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+3	herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	5	nmod	_	_
+4	doğum	doğum	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	gününü	gün	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 6	hatırlarsın	hatırla	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=2|Tense=Pres	1	acl	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	6	punct	_	_
@@ -1167,8 +1167,8 @@
 11	evinde	ev	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	obl	_	_
 12	sık	sık	ADV	ADV	_	13	compound:redup	_	_
 13	sık	sık	ADV	ADV	_	17	advmod	_	_
-14	oda	oda	NOUN	NOUN	Number=Sing	15	nmod:poss	_	_
-15	müziği	müzik	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	nmod:poss	_	_
+14	oda	oda	NOUN	NOUN	Number=Sing	15	nmod	_	_
+15	müziği	müzik	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	nmod	_	_
 16	konserleri	konser	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	17	obj	_	_
 17	düzenliyor	düzenle	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_
@@ -1233,7 +1233,7 @@
 
 # text = Dayımın çocukları, ki biz onlarla her yaz buluşurduk, çok güzel tenis oynuyorlardı.
 # sent_id = GK25-0144
-1	Dayımın	dayı	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod:poss	_	_
+1	Dayımın	dayı	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
 2	çocukları	çocuk	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	9	punct	_	_
 4	ki	ki	SCONJ	SCONJ	_	9	mark	_	_
@@ -1251,7 +1251,7 @@
 
 # text = Dayımın çocukları, ki biz kendileriyle her yaz buluşurduk, çok güzel tenis oynuyorlardı.
 # sent_id = GK25-0145
-1	Dayımın	dayı	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod:poss	_	_
+1	Dayımın	dayı	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod	_	_
 2	çocukları	çocuk	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	9	punct	_	_
 4	ki	ki	SCONJ	SCONJ	_	9	mark	_	_
@@ -1269,7 +1269,7 @@
 
 # text = Bizim okulda hiçbir öğrenci yok ki Bilge Hanım’dan azar işitmemiş olsun.
 # sent_id = GK25-0146
-1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	okulda	okul	NOUN	NOUN	Case=Loc|Number=Sing	5	nmod	_	_
 3	hiçbir	hiçbir	DET	DET	Definite=Ind|Number=Sing|Polarity=Neg	4	det	_	_
 4	öğrenci	öğrenci	NOUN	NOUN	Number=Sing	5	nsubj	_	_

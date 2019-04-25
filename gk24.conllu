@@ -102,7 +102,7 @@
 # text = Herkes kendi yiyeceklerini kendi getirsin diyorum ben.
 # sent_id = GK24-0012
 1	Herkes	herkes	PRON	PRON	Number=Sing|Person=3	5	nsubj	_	_
-2	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	3	nmod:poss	_	_
+2	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	3	nmod	_	_
 3	yiyeceklerini	yiyecek	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 4	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	5	obl	_	_
 5	getirsin	getir	VERB	VERB	Mood=Opt|Number=Sing|Person=3|Tense=Pres	6	ccomp	_	_
@@ -121,7 +121,7 @@
 
 # text = Çocuğun babası kim biliniyor mu?
 # sent_id = GK24-0014
-1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	kim	kim	PRON	PRON	Number=Sing|PronType=Int	4	csubj	_	_
 4	biliniyor	bil	VERB	VERB	Aspect=Prog|Mood=Ind|Tense=Pres|Voice=Pass	0	root	_	_
@@ -269,7 +269,7 @@
 2	diyorum	de	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	ki	ki	SCONJ	SCONJ	_	8	mark	_	_
 4	herkes	herkes	PRON	PRON	Number=Sing|Person=3	8	nsubj	_	_
-5	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	6	nmod:poss	_	_
+5	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	6	nmod	_	_
 6	yiyeceklerini	yiyecek	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 7	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	8	obl	_	_
 8	getirsin	getir	VERB	VERB	Mood=Opt|Number=Sing|Person=3|Tense=Pres	2	ccomp	_	SpaceAfter=No
@@ -694,7 +694,7 @@
 
 # text = Deprem bölgesine gidilmeye çalışılıyor.
 # sent_id = GK24-0069
-1	Deprem	deprem	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Deprem	deprem	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	bölgesine	bölge	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	gidilmeye	git	VERB	VERB	Case=Dat|Number=Sing|VerbForm=Vnoun|Voice=Pass	4	advcl	_	_
 4	çalışılıyor	çalış	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
@@ -704,7 +704,7 @@
 # sent_id = GK24-0070
 1	O	o	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	sıralarda	sıra	NOUN	NOUN	Case=Loc|Number=Plur	15	obl:tmod	_	_
-3	sabahın	sabah	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	sabahın	sabah	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4	köründe	kör	NOUN	NOUN	Case=Loc|Number=Sing	7	obl:tmod	_	_
 5	polis	polis	NOUN	NOUN	Number=Sing	7	obl:agent	_	_
 6	tarafından	tarafından	ADP	ADP	Number[psor]=Sing|Person[psor]=3	5	case	_	_
@@ -814,7 +814,7 @@
 
 # text = Bizim ricamız toplantının haftaya ertelenmesi olacak.
 # sent_id = GK24-0080
-1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	ricamız	rica	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj:cop	_	_
 3	toplantının	toplantı	NOUN	NOUN	Case=Gen|Number=Sing	5	nsubj	_	_
 4	haftaya	hafta	NOUN	NOUN	Case=Dat|Number=Sing	5	obl:tmod	_	_
@@ -833,7 +833,7 @@
 
 # text = Otel müdürü odayı hemen boşaltmalarını söyledi.
 # sent_id = GK24-0082
-1	Otel	otel	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Otel	otel	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	müdürü	müdür	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 3	odayı	oda	NOUN	NOUN	Case=Acc|Number=Sing	5	obj	_	_
 4	hemen	hemen	ADV	ADV	_	5	advmod	_	_
@@ -930,7 +930,7 @@
 
 # text = Ev sahibimiz kedi ya da köpek beslememize izin vermiyordu.
 # sent_id = GK24-0091
-1	Ev	ev	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Ev	ev	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	sahibimiz	sahip	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	9	nsubj	_	_
 3	kedi	kedi	NOUN	NOUN	Number=Sing	7	obj	_	_
 4	ya	ya	CCONJ	CONJ	_	6	cc	_	_
@@ -1089,7 +1089,7 @@
 
 # text = Çocuğun babasının kim olduğu biliniyor mu?
 # sent_id = GK24-0106
-1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babasının	baba	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	kim	kim	PRON	PRON	Number=Sing|PronType=Int	5	ccomp	_	_
 4	olduğu	ol	AUX	AUX	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
@@ -1315,7 +1315,7 @@
 
 # text = Filiz’in odasında yeşil perdeler olduğunu hatırlıyorum.
 # sent_id = GK24-0130
-1	Filiz’in	Filiz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Filiz’in	Filiz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	odasında	oda	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 3	yeşil	yeşil	ADJ	ADJ	_	4	amod	_	_
 4	perdeler	perde	NOUN	NOUN	Number=Plur	5	nsubj	_	_
@@ -1378,7 +1378,7 @@
 5	kendisi	kendi	PRON	PRON	Number=Sing|Person=3|Reflex=Yes	9	obl	_	_
 6	için	için	ADP	ADP	_	5	case	_	_
 7	bir	bir	DET	DET	Definite=Ind|Number=Sing	9	det	_	_
-8	gurur	gurur	NOUN	NOUN	Number=Sing	9	nmod:poss	_	_
+8	gurur	gurur	NOUN	NOUN	Number=Sing	9	nmod	_	_
 9	kaynağı	kaynak	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 10	idi	i	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	cop	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -1431,7 +1431,7 @@
 # text = Tülay’ın hafta sonları Ankara’ya gidiyor olduğunu sanıyorum.
 # sent_id = GK24-0141
 1	Tülay’ın	Tülay	PROPN	PROPN	Case=Gen|Number=Sing	5	nsubj	_	_
-2	hafta	hafta	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	hafta	hafta	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	sonları	son	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl:tmod	_	_
 4	Ankara’ya	Ankara	PROPN	PROPN	Case=Dat|Number=Sing	5	obl	_	_
 5	gidiyor	git	VERB	VERB	Aspect=Prog|Mood=Ind|Tense=Pres	7	ccomp	_	_
@@ -1442,7 +1442,7 @@
 # text = Bazı denetim işlerinin düzenli yapılmamakta olduğu belliydi.
 # sent_id = GK24-0142
 1	Bazı	bazı	DET	DET	Definite=Ind|Number=Sing	2	det	_	_
-2	denetim	denetim	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	denetim	denetim	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	işlerinin	iş	NOUN	NOUN	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 4	düzenli	düzenli	ADV	ADV	_	5	advmod	_	_
 5	yapılmamakta	yap	VERB	VERB	Aspect=Prog|Mood=Ind|Polarity=Neg|Tense=Pres|Voice=Pass	7	csubj:cop	_	_
@@ -1641,7 +1641,7 @@
 
 # text = Herkesin kafasında seçimler ne zaman yapılacak sorusu var.
 # sent_id = GK24-0164
-1	Herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
+1	Herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
 2	kafasında	kafa	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 3	seçimler	seçim	NOUN	NOUN	Number=Plur	6	nsubj	_	_
 4	ne	ne	PRON	PRON	Number=Sing|PronType=Int	6	obl:tmod	_	_
@@ -1682,7 +1682,7 @@
 
 # text = Herkesin kafasında seçimlerin ne zaman yapılacağı sorusu var.
 # sent_id = GK24-0167
-1	Herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
+1	Herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	2	nmod	_	_
 2	kafasında	kafa	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 3	seçimlerin	seçim	NOUN	NOUN	Case=Gen|Number=Plur	6	nsubj	_	_
 4	ne	ne	PRON	PRON	Number=Sing|PronType=Int	6	obl:tmod	_	_
@@ -1768,7 +1768,7 @@
 3	bekleme	bekle	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	4	acl	_	_
 4	alışkanlığı	alışkanlık	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
 5	insanı	insan	NOUN	NOUN	Case=Acc|Number=Sing	8	obj	_	_
-6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	kırıklığına	_	NOUN	NOUN	Case=Dat|Number=Sing	8	obl	_	_
 8	uğratır	uğra	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -1780,7 +1780,7 @@
 3	beklemek	bekle	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	4	acl	_	_
 4	alışkanlığı	alışkanlık	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
 5	insanı	insan	NOUN	NOUN	Case=Acc|Number=Sing	8	obj	_	_
-6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	kırıklığına	_	NOUN	NOUN	Case=Dat|Number=Sing	8	obl	_	_
 8	uğratır	uğra	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -1802,7 +1802,7 @@
 3	bekleme	bekle	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	4	acl	_	_
 4	alışkanlığımız	alışkanlık	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	8	nsubj	_	_
 5	bizi	biz	PRON	PRON	Case=Acc|Number=Sing|Person=1	8	obj	_	_
-6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	kırıklığına	kırıklık	NOUN	NOUN	Case=Dat|Number=Sing	8	obl	_	_
 8	uğratıyor	uğra	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -1814,7 +1814,7 @@
 3	beklemek	bekle	VERB	VERB	Case=Nom|Number=Sing|VerbForm=Vnoun	4	acl	_	_
 4	alışkanlığımız	alışkanlık	NOUN	NOUN	Number=Sing|Number[psor]=Plur|Person[psor]=1	8	nsubj	_	_
 5	bizi	biz	PRON	PRON	Case=Acc|Number=Sing|Person=1	8	obj	_	_
-6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	düş	düş	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	kırıklığına	kırıklık	NOUN	NOUN	Case=Dat|Number=Sing	8	obl	_	_
 8	uğratıyor	uğra	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_

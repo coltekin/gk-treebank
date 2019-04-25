@@ -115,7 +115,7 @@
 # sent_id = GK13-0014
 1	Yazları	yaz	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	6	obl:tmod	_	_
 2	açık	açık	ADJ	ADJ	_	3	amod	_	_
-3	hava	hava	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	hava	hava	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	sinemasında	sinema	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	film	film	NOUN	NOUN	Number=Sing	6	obj	_	_
 6	seyrederlerdi	seyret	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -152,7 +152,7 @@
 # text = Kocası evin renginde ısrar ediyor.
 # sent_id = GK13-0018
 1	Kocası	koca	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-2	evin	ev	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	evin	ev	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	renginde	renk	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 4	ısrar	ısrar	NOUN	NOUN	Number=Sing	5	compound	_	_
 5	ediyor	et	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -377,7 +377,7 @@
 # sent_id = GK13-0047
 1	Adamı	adam	NOUN	NOUN	Case=Acc|Number=Sing	5	obj	_	_
 2	üç	üç	NUM	NUM	NumType=Ord	4	nummod	_	_
-3	bıçak	bıçak	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	bıçak	bıçak	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	darbesiyle	darbe	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	öldürdüler	öl	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -418,7 +418,7 @@
 3	ev	ev	NOUN	NOUN	Number=Sing	4	obj	_	_
 4	yaptırtmış	yap	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=CauCau	0	root	_	_
 5	bir	bir	DET	DET	Definite=Ind|Number=Sing	7	det	_	_
-6	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	7	nmod:poss	_	_
+6	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	7	nmod	_	_
 7	mimarına	mimar	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:agent	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -430,21 +430,21 @@
 4	ev	ev	NOUN	NOUN	Number=Sing	5	obj	_	_
 5	yaptırtmış	yap	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=CauCau	0	root	_	_
 6	bir	bir	DET	DET	Definite=Ind|Number=Sing	8	det	_	_
-7	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	8	nmod:poss	_	_
+7	İngiliz	İngiliz	PROPN	PROPN	Number=Sing	8	nmod	_	_
 8	mimarına	mimar	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl:agent	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # text = Hayvanlar güneş tutulmasından ürküyor.
 # sent_id = GK13-0054
 1	Hayvanlar	hayvan	NOUN	NOUN	Number=Plur	4	nsubj	_	_
-2	güneş	güneş	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	güneş	güneş	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	tutulmasından	tutulma	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	ürküyor	ürk	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # text = Güneş tutulması hayvanları ürkütüyor.
 # sent_id = GK13-0055
-1	Güneş	güneş	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Güneş	güneş	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	tutulması	tutulma	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	hayvanları	hayvan	NOUN	NOUN	Case=Acc|Number=Plur	4	obj	_	_
 4	ürkütüyor	ürk	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
@@ -492,7 +492,7 @@
 2	iyi	iyi	ADJ	ADJ	_	3	amod	_	_
 3	oyun	oyun	NOUN	NOUN	Number=Sing	8	nsubj	_	_
 4	birinci	bir	NUM	NUM	NumType=Ord	5	nummod	_	_
-5	sınıf	sınıf	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	sınıf	sınıf	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	öğrencileri	öğrenci	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obl:agent	_	_
 7	tarafından	tarafından	ADP	ADP	Number[psor]=Sing|Person[psor]=3	6	case	_	_
 8	hazırlanmış	hazırla	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -563,7 +563,7 @@
 # sent_id = GK13-0068
 1	Adalara	Adalar	PROPN	PROPN	Case=Dat|Number=Sing	6	obl	_	_
 2	artık	artık	ADV	ADV	_	6	advmod	_	_
-3	deniz	deniz	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	deniz	deniz	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	otobüsüyle	otobüs	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	mi	mi	AUX	AUX	PronType=Int	4	aux:q	_	_
 6	gidilecek	git	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
@@ -571,7 +571,7 @@
 
 # text = Arnavut kaldırımı üstünde topuklu pabuçla yürünmez.
 # sent_id = GK13-0069
-1	Arnavut	Arnavut	PROPN	PROPN	Number=Sing	2	nmod:poss	_	_
+1	Arnavut	Arnavut	PROPN	PROPN	Number=Sing	2	nmod	_	_
 2	kaldırımı	kaldırım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 3	üstünde	üstünde	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4-5	topuklu	_	_	_	_	_	_	_	_
@@ -613,7 +613,7 @@
 # sent_id = GK13-0073
 1	Okul	okul	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 2	meğer	meğer	ADV	ADV	_	6	discourse	_	_
-3	belediye	belediye	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	belediye	belediye	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	başkanı	başkan	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl:agent	_	_
 5	tarafından	tarafından	ADP	ADP	Number[psor]=Sing|Person[psor]=3	4	case	_	_
 6	kapatılmış	kapat	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -841,7 +841,7 @@
 
 # text = Şan derslerine gidip duruyor ama şarkı söylediği yok.
 # sent_id = GK13-0100
-1	Şan	şan	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Şan	şan	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	derslerine	ders	NOUN	NOUN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	gidip	gidip	VERB	VERB	Mood=Ind	4	advcl	_	_
 4	duruyor	dur	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_

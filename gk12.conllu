@@ -462,7 +462,7 @@
 
 # text = Anadolu halkı denizden çok dağları bilir.
 # sent_id = GK12-0057
-1	Anadolu	Anadolu	PROPN	PROPN	Number=Sing	2	nmod:poss	_	_
+1	Anadolu	Anadolu	PROPN	PROPN	Number=Sing	2	nmod	_	_
 2	halkı	halk	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 3	denizden	deniz	NOUN	NOUN	Case=Abl|Number=Sing	6	obl	_	_
 4	çok	çok	ADP	ADP	_	3	case	_	_
@@ -523,7 +523,7 @@
 4	üç	üç	NUM	NUM	NumType=Ord	3	conj	_	_
 5	kişi	kişi	NOUN	NOUN	Number=Sing	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	11	punct	_	_
-7	jürinin	jüri	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	_
+7	jürinin	jüri	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod	_	_
 8	ısrarına	ısrar	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
 9	rağmen	rağmen	ADP	ADP	_	8	case	_	_
 10	yaşlarını	yaş	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	11	obj	_	_
@@ -549,7 +549,7 @@
 
 # text = Senin çocuklar burada değiller.
 # sent_id = GK12-0066
-1	Senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	2	nmod:poss	_	_
+1	Senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	2	nmod	_	_
 2	çocuklar	çocuk	NOUN	NOUN	Number=Plur	3	nsubj	_	_
 3	burada	bura	PRON	PRON	Case=Loc|Number=Sing	0	root	_	_
 4	değiller	değil	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	3	aux	_	SpaceAfter=No
@@ -651,7 +651,7 @@
 # sent_id = GK12-0078
 1	Hepimiz	hepimiz	PRON	PRON	Number=Sing	5	nsubj	_	_
 2	tatilde	tatil	NOUN	NOUN	Case=Loc|Number=Sing	5	obl	_	_
-3	deniz	deniz	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	deniz	deniz	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	kıyısına	kıyı	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	gidiyoruz	git	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -873,7 +873,7 @@
 
 # text = Çocuğun babası kim bilinmiyor.
 # sent_id = GK12-0102
-1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Çocuğun	çocuk	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	kim	kim	PRON	PRON	Number=Sing|PronType=Int	4	csubj	_	_
 4	bilinmiyor	bil	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
@@ -945,7 +945,7 @@
 # text = Köyde Bayram’ın ailesi zengin sayılıyormuş.
 # sent_id = GK12-0110
 1	Köyde	köy	NOUN	NOUN	Case=Loc|Number=Sing	5	obl	_	_
-2	Bayram’ın	bayram	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Bayram’ın	bayram	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 3	ailesi	aile	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 4	zengin	zengin	ADJ	ADJ	_	5	xcomp	_	_
 5	sayılıyormuş	say	VERB	VERB	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
@@ -953,7 +953,7 @@
 
 # text = Bayram’ın ailesinin diğer köylülerden daha çok toprağı var.
 # sent_id = GK12-0111
-1	Bayram’ın	bayram	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Bayram’ın	bayram	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	ailesinin	aile	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 3	diğer	diğer	DET	DET	Definite=Def|Number=Sing	4	det	_	_
 4	köylülerden	köylü	NOUN	NOUN	Case=Abl|Number=Plur	6	nmod:comp	_	_

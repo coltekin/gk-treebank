@@ -8,7 +8,7 @@
 
 # text = Otobüs durağı nerede?
 # sent_id = GK19-0002
-1	Otobüs	otobüs	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Otobüs	otobüs	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	durağı	durak	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	nerede	nere	PRON	PRON	Case=Loc|Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	3	punct	_	_
@@ -72,7 +72,7 @@
 # text = Esra Handan'ın ablasıymış, öyle mi?
 # sent_id = GK19-0009
 1	Esra	Esra	PROPN	PROPN	Number=Sing	3	nsubj	_	_
-2	Handan'ın	Handan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Handan'ın	Handan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 3-4	ablasıymış	_	_	_	_	_	_	_	SpaceAfter=No
 3	ablası	abla	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 4	ymış	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
@@ -256,7 +256,7 @@
 
 # text = Murat’ın evi mi satılmış?
 # sent_id = GK19-0026
-1	Murat’ın	Murat	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Murat’ın	Murat	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	evi	ev	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	mi	mi	AUX	AUX	PronType=Int	2	aux:q	_	_
 4	satılmış	sat	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -264,7 +264,7 @@
 
 # text = Murat’ın mı evi satılmış?
 # sent_id = GK19-0027
-1	Murat’ın	Murat	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+1	Murat’ın	Murat	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 2	mı	mi	AUX	AUX	PronType=Int	1	aux:q	_	_
 3	evi	ev	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	satılmış	sat	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -437,7 +437,7 @@
 
 # text = Şule’nin babası kimdi?
 # sent_id = GK19-0046
-1	Şule’nin	Şule	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Şule’nin	Şule	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	kimdi	_	_	_	_	_	_	_	SpaceAfter=No
 3	kim	kim	PRON	PRON	Number=Sing|PronType=Int	0	root	_	_
@@ -455,7 +455,7 @@
 # sent_id = GK19-0048
 1	En	en	ADV	ADV	_	2	advmod	_	_
 2	çok	çok	ADV	ADV	_	6	advmod	_	_
-3	kimlerin	kim	PRON	PRON	Case=Gen|Number=Plur|PronType=Int	4	nmod:poss	_	_
+3	kimlerin	kim	PRON	PRON	Case=Gen|Number=Plur|PronType=Int	4	nmod	_	_
 4	çocukları	çocuk	NOUN	NOUN	Number=Plur|Number[psor]=Plur|Person[psor]=3	6	nsubj	_	_
 5	okulda	okul	NOUN	NOUN	Case=Loc|Number=Sing	6	nmod	_	_
 6	başarılı	başarılı	ADJ	ADJ	_	0	root	_	_
@@ -501,7 +501,7 @@
 # sent_id = GK19-0053
 1	O	o	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	adam	adam	NOUN	NOUN	Number=Sing	4	nsubj	_	_
-3	ne	ne	PRON	PRON	Number=Sing|PronType=Int	4	nmod:poss	_	_
+3	ne	ne	PRON	PRON	Number=Sing|PronType=Int	4	nmod	_	_
 4	doktoru	doktor	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -535,7 +535,7 @@
 
 # text = Akdenizin neyi insanları çekiyor?
 # sent_id = GK19-0058
-1	Akdenizin	Akdeniz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Akdenizin	Akdeniz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	neyi	ne	PRON	PRON	Case=Acc|Number=Sing|PronType=Int	4	nsubj	_	_
 3	insanları	insan	NOUN	NOUN	Case=Acc|Number=Plur	4	obj	_	_
 4	çekiyor	çek	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -543,7 +543,7 @@
 
 # text = Akdenizin nesi insanları çekiyor?
 # sent_id = GK19-0059
-1	Akdenizin	Akdeniz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Akdenizin	Akdeniz	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	nesi	ne	PRON	PRON	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Int	4	nsubj	_	_
 3	insanları	insan	NOUN	NOUN	Case=Acc|Number=Plur	4	obj	_	_
 4	çekiyor	çek	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -800,7 +800,7 @@
 # text = Yemeğin altını, kaynadıktan ne kadar zaman sonra kapatıyorsunuz?
 # sent_id = GK19-0089
 # TODO: modified case marker: 'sonra'
-1	Yemeğin	yemek	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Yemeğin	yemek	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	altını	alt	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	9	punct	_	_
 4	kaynadıktan	kayna	VERB	VERB	Mood=Ind|Tense=Past	5	acl	_	_
@@ -813,7 +813,7 @@
 
 # text = Yemeğin altını, kaynadıktan ne kadar sonra kapatıyorsunuz?
 # sent_id = GK19-0090
-1	Yemeğin	yemek	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Yemeğin	yemek	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	altını	alt	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	8	punct	_	_
 4	kaynadıktan	kayna	VERB	VERB	Mood=Ind|Tense=Past	5	acl	_	_
@@ -910,7 +910,7 @@
 
 # text = Semra’nın evine nasıl gidiliyor?
 # sent_id = GK19-0100
-1	Semra’nın	Semra	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Semra’nın	Semra	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	evine	ev	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 3	nasıl	nasıl	ADV	ADV	PronType=Int	4	advmod	_	_
 4	gidiliyor	git	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
@@ -1014,7 +1014,7 @@
 # sent_id = GK19-0111
 1	Bugün	bugün	NOUN	NOUN	Number=Sing	6	obl:tmod	_	_
 2	hastalara	hasta	NOUN	NOUN	Case=Dat|Number=Plur	6	obl	_	_
-3	öğle	öğle	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	öğle	öğle	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	yemeğinde	yemek	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	ne	ne	PRON	PRON	Number=Sing|PronType=Int	6	obj	_	_
 6	verdiler	ver	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -1140,7 +1140,7 @@
 # text = Hani benim payım?
 # sent_id = GK19-0126
 1	Hani	hani	PRON	PRON	Number=Sing|PronType=Int	0	root	_	_
-2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod:poss	_	_
+2	benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	3	nmod	_	_
 3	payım	pay	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	1	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	1	punct	_	_
 

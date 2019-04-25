@@ -5,7 +5,7 @@
 
 # text = çıkış kapısına doğru
 # sent_id = GK17-0002
-1	çıkış	çıkış	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	çıkış	çıkış	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	kapısına	kapı	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 3	doğru	doğru	ADP	ADP	_	2	case	_	_
 
@@ -226,7 +226,7 @@
 
 # text = Hava raporuna göre öğleden sonra yağmur yağacakmış.
 # sent_id = GK17-0028
-1	Hava	hava	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Hava	hava	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	raporuna	rapor	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 3	göre	göre	ADP	ADP	_	2	case	_	_
 4	öğleden	öğle	NOUN	NOUN	Case=Abl|Number=Sing	7	obl:tmod	_	_
@@ -343,7 +343,7 @@
 # text = Mehmet ekim başından beri yurtdışındaydı.
 # sent_id = GK17-0041
 1	Mehmet	Mehmet	PROPN	PROPN	Number=Sing	5	nsubj	_	_
-2	ekim	ekim	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	ekim	ekim	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	başından	baş	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl:tmod	_	_
 4	beri	beri	ADP	ADP	_	3	case	_	_
 5-6	yurtdışındaydı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -461,7 +461,7 @@
 4	mutlaka	mutlaka	ADV	ADV	_	9	advmod	_	_
 5	bir	bir	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
 6	fincan	fincan	NOUN	NOUN	Number=Sing	8	nmod	_	_
-7	Türk	Türk	PROPN	PROPN	Number=Sing	8	nmod:poss	_	_
+7	Türk	Türk	PROPN	PROPN	Number=Sing	8	nmod	_	_
 8	kahvesi	kahve	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 9	içer	iç	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -500,7 +500,7 @@
 
 # text = İdam cezasından yana değilim.
 # sent_id = GK17-0056
-1	İdam	idam	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	İdam	idam	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	cezasından	ceza	NOUN	NOUN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 3	yana	yana	ADP	ADP	_	2	case	_	_
 4	değilim	değil	AUX	AUX	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	2	aux	_	SpaceAfter=No
@@ -625,7 +625,7 @@
 # sent_id = GK17-0070
 1	Bütün	bütün	DET	DET	Definite=Def|Number=Sing	2	det	_	_
 2	okullar	okul	NOUN	NOUN	Number=Plur	6	nsubj	_	_
-3	Bakanlık’ın	bakanlık	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	Bakanlık’ın	bakanlık	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4	denetimi	denetim	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	compound	_	_
 5	altına	altına	ADP	ADP	Number[psor]=Sing|Person[psor]=3	4	case	_	_
 6	alındı	al	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -634,7 +634,7 @@
 # text = Hep babasının etkisi altında yaşadı.
 # sent_id = GK17-0071
 1	Hep	hep	ADV	ADV	_	5	advmod	_	_
-2	babasının	baba	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod:poss	_	_
+2	babasının	baba	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	etkisi	etki	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 4	altında	altında	ADP	ADP	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	yaşadı	yaşa	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -677,7 +677,7 @@
 
 # text = Ali’nin giysileri arasında işine yarayacak bir şey bulabilirsin.
 # sent_id = GK17-0075
-1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	giysileri	giysi	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 3	arasında	arasında	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	işine	iş	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	acl	_	_
@@ -689,7 +689,7 @@
 
 # text = Ali’nin giysileri içinde işine yarayacak bir şey bulabilirsin.
 # sent_id = GK17-0076
-1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ali’nin	Ali	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	giysileri	giysi	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 3	içinde	içinde	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	işine	iş	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	acl	_	_
@@ -720,7 +720,7 @@
 # text = Gençlerde uyuşturucu kullanımı üzerine araştırma yapıyor.
 # sent_id = GK17-0079
 1	Gençlerde	genç	NOUN	NOUN	Case=Loc|Number=Plur	3	nmod	_	_
-2	uyuşturucu	uyuşturucu	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	uyuşturucu	uyuşturucu	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	kullanımı	kullanım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	üzerine	üzerine	ADP	ADP	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	araştırma	araştırma	NOUN	NOUN	Number=Sing	6	compound	_	_
@@ -730,7 +730,7 @@
 # text = Gençlerde uyuşturucu kullanımı üstüne araştırma yapıyor.
 # sent_id = GK17-0080
 1	Gençlerde	genç	NOUN	NOUN	Case=Loc|Number=Plur	3	nmod	_	_
-2	uyuşturucu	uyuşturucu	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	uyuşturucu	uyuşturucu	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	kullanımı	kullanım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	üstüne	üstüne	ADP	ADP	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	araştırma	araştırma	NOUN	NOUN	Number=Sing	6	compound	_	_
@@ -739,10 +739,10 @@
 
 # text = Kocasının ölümü üzerine kendi memleketine döndü.
 # sent_id = GK17-0081
-1	Kocasının	koca	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod:poss	_	_
+1	Kocasının	koca	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
 2	ölümü	ölüm	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	üzerine	üzerine	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
-4	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	5	nmod:poss	_	_
+4	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	5	nmod	_	_
 5	memleketine	memleket	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 6	döndü	dön	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -797,7 +797,7 @@
 
 # text = Benim odamla onunki arasında kalın bir duvar vardı.
 # sent_id = GK17-0087
-1	Benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Benim	ben	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	odamla	oda	NOUN	NOUN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nmod	_	_
 3-4	onunki	_	_	_	_	_	_	_	_
 3	onun	o	PRON	PRON	Case=Gen|Number=Sing|Person=3	4	nmod	_	_
@@ -920,7 +920,7 @@
 # sent_id = GK17-0100
 1	Çocuklar	çocuk	NOUN	NOUN	Number=Plur	6	obl	_	_
 2	sayesinde	sayesinde	ADP	ADP	Number[psor]=Sing|Person[psor]=3	1	case	_	_
-3	alışveriş	alışveriş	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	alışveriş	alışveriş	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	işleri	iş	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	pek	pek	ADV	ADV	_	6	advmod	_	_
 6	sorun	sorun	NOUN	NOUN	Number=Sing	0	root	_	_
@@ -1019,7 +1019,7 @@
 
 # text = Kanunun ilgili maddesi gereğince bir sözleşme hazırlanır.
 # sent_id = GK17-0110
-1	Kanunun	kanun	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+1	Kanunun	kanun	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod	_	_
 2	ilgili	ilgili	ADJ	ADJ	_	3	amod	_	_
 3	maddesi	madde	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 4	gereğince	gereğince	ADV	ADV	_	3	case	_	_
@@ -1066,7 +1066,7 @@
 
 # text = Yazların sıcaklığı nedeniyle bu bölgede muz ve hurma yetişmektedir.
 # sent_id = GK17-0114
-1	Yazların	yaz	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:poss	_	_
+1	Yazların	yaz	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod	_	_
 2	sıcaklığı	sıcaklık	NOUN	NOUN	Number=Sing	9	obl	_	_
 3	nedeniyle	nedeniyle	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	bu	bu	DET	DET	Definite=Def|Number=Sing	5	det	_	_
@@ -1106,7 +1106,7 @@
 
 # text = bahçenin yağmurdan önceki hali
 # sent_id = GK17-0118
-1	bahçenin	bahçe	NOUN	NOUN	Case=Gen|Number=Sing	5	nmod:poss	_	_
+1	bahçenin	bahçe	NOUN	NOUN	Case=Gen|Number=Sing	5	nmod	_	_
 2	yağmurdan	yağmur	NOUN	NOUN	Case=Abl|Number=Sing	5	nmod	_	_
 3-4	önceki	_	_	_	_	_	_	_	_
 3	önce	önce	ADP	ADP	_	2	case	_	_
@@ -1123,7 +1123,7 @@
 
 # text = sendikacılık tarihi konusundaki araştırmalarınız
 # sent_id = GK17-0120
-1	sendikacılık	sendikacılık	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	sendikacılık	sendikacılık	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	tarihi	tarih	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 3-4	konusundaki	_	_	_	_	_	_	_	_
 3	konusunda	konusunda	ADP	ADP	Number[psor]=Sing|Person[psor]=3	2	case	_	_
@@ -1142,7 +1142,7 @@
 
 # text = Can’ın arabası evin önünde.
 # sent_id = GK17-0122
-1	Can’ın	Can	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Can’ın	Can	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	arabası	araba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	evin	ev	NOUN	NOUN	Case=Gen|Number=Sing	0	root	_	_
 4	önünde	önünde	ADP	ADP	Number[psor]=Sing|Person[psor]=3	3	case	_	SpaceAfter=No
@@ -1150,7 +1150,7 @@
 
 # text = Can’ın arabası evin önündeki.
 # sent_id = GK17-0123
-1	Can’ın	Can	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Can’ın	Can	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	arabası	araba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	evin	ev	NOUN	NOUN	Case=Gen|Number=Sing	0	root	_	_
 4-5	önündeki	_	_	_	_	_	_	_	SpaceAfter=No

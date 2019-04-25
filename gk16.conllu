@@ -87,7 +87,7 @@
 # text = Yavaşça Jale’nin koluna dokundu.
 # sent_id = GK16-0011
 1	Yavaşça	yavaşça	ADV	ADV	_	4	advmod	_	_
-2	Jale’nin	Jale	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Jale’nin	Jale	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 3	koluna	kol	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	dokundu	dokun	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -120,7 +120,7 @@
 # sent_id = GK16-0015
 1	Yunus	Yunus	PROPN	PROPN	Number=Sing	8	nsubj:cop	_	_
 2	Emre	Emre	PROPN	PROPN	Number=Sing	1	flat	_	_
-3	Türk	Türk	PROPN	PROPN	Number=Sing	4	nmod:poss	_	_
+3	Türk	Türk	PROPN	PROPN	Number=Sing	4	nmod	_	_
 4-5	halkınca	_	_	_	_	_	_	_	_
 4	halkın	halk	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	ca	ce	ADV	ADV	_	4	case	_	_
@@ -244,7 +244,7 @@
 
 # text = Bizim koğuşta bazısı ağır olmak üzere on beş kadar hasta yatıyordu.
 # sent_id = GK16-0027
-1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	_
+1	Bizim	biz	PRON	PRON	Case=Gen|Number=Sing|Person=1	2	nmod	_	_
 2	koğuşta	koğuş	NOUN	NOUN	Case=Loc|Number=Sing	11	obl	_	_
 3	bazısı	bazısı	PRON	PRON	Number=Sing	4	nsubj	_	_
 4	ağır	ağır	ADJ	ADJ	_	11	advcl	_	_
@@ -259,7 +259,7 @@
 
 # text = Telefon numaram sizde vardır herhalde.
 # sent_id = GK16-0028
-1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Telefon	telefon	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	numaram	numara	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 3	sizde	siz	PRON	PRON	Case=Loc|Number=Sing|Person=2	4	nmod	_	_
 4-5	vardır	_	_	_	_	_	_	_	_
@@ -300,7 +300,7 @@
 # text = Herkesin para katkısında bulunması isteniyor anlaşılan.
 # sent_id = GK16-0032
 1	Herkesin	herkes	PRON	PRON	Case=Gen|Number=Sing|Person=3	5	nsubj	_	_
-2	para	para	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	para	para	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	katkısında	katkı	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound	_	_
 4	bulunması	bulun	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	5	ccomp	_	_
 5	isteniyor	iste	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
@@ -310,7 +310,7 @@
 # text = Sanırım Necla’nın sınavı bugün olacaktı.
 # sent_id = GK16-0033
 1	Sanırım	sanırım	ADV	ADV	_	4	discourse	_	_
-2	Necla’nın	Necla	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
+2	Necla’nın	Necla	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
 3	sınavı	sınav	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	bugün	bugün	NOUN	NOUN	Number=Sing	0	root	_	_
 5	olacaktı	ol	AUX	AUX	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Tense=Fut,Past	4	cop	_	SpaceAfter=No
@@ -342,7 +342,7 @@
 # text = Anahtar paltomun cebindeymiş meğerse.
 # sent_id = GK16-0036
 1	Anahtar	anahtar	NOUN	NOUN	Number=Sing	3	nsubj	_	_
-2	paltomun	palto	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod:poss	_	_
+2	paltomun	palto	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 3-4	cebindeymiş	_	_	_	_	_	_	_	_
 3	cebinde	cep	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 4	ymiş	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
@@ -428,7 +428,7 @@
 
 # text = Çarşamba günü Konya’ya gidiyorum.
 # sent_id = GK16-0051
-1	Çarşamba	çarşamba	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Çarşamba	çarşamba	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	günü	gün	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 3	Konya’ya	Konya	PROPN	PROPN	Case=Dat|Number=Sing	4	obl	_	_
 4	gidiyorum	git	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
@@ -447,7 +447,7 @@
 
 # text = şubat ayında
 # sent_id = GK16-0054
-1	şubat	şubat	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	şubat	şubat	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	ayında	ay	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = on yedi haziranda
@@ -479,7 +479,7 @@
 
 # text = haziran ayının on yedisinde
 # sent_id = GK16-0059
-1	haziran	haziran	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	haziran	haziran	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	ayının	ay	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:tmod	_	_
 3	on	on	NUM	NUM	NumType=Ord	4	compound	_	_
 4	yedisinde	yedi	NUM	NUM	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
@@ -510,7 +510,7 @@
 2	dokuz	dokuz	NUM	NUM	NumType=Ord	5	compound	_	_
 3	yüz	yüz	NUM	NUM	NumType=Ord	5	compound	_	_
 4	seksen	seksen	NUM	NUM	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	6	nmod:poss	_	_
+5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	6	nmod	_	_
 6	kasımında	kasım	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = bin dokuz yüz seksen dördün kasım ayında
@@ -519,8 +519,8 @@
 2	dokuz	dokuz	NUM	NUM	NumType=Ord	5	amod	_	_
 3	yüz	yüz	NUM	NUM	NumType=Ord	5	compound	_	_
 4	seksen	seksen	NUM	NUM	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	7	nmod:poss	_	_
-6	kasım	kasım	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	7	nmod	_	_
+6	kasım	kasım	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	ayında	ay	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = bin dokuz yüz seksen dört yılının kasım ayında
@@ -529,9 +529,9 @@
 2	dokuz	dokuz	NUM	NUM	NumType=Ord	5	compound	_	_
 3	yüz	yüz	NUM	NUM	NumType=Ord	5	compound	_	_
 4	seksen	seksen	NUM	NUM	NumType=Ord	5	compound	_	_
-5	dört	dört	NUM	NUM	NumType=Ord	6	nmod:poss	_	_
-6	yılının	yıl	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod:poss	_	_
-7	kasım	kasım	NOUN	NOUN	Number=Sing	8	nmod:poss	_	_
+5	dört	dört	NUM	NUM	NumType=Ord	6	nmod	_	_
+6	yılının	yıl	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
+7	kasım	kasım	NOUN	NOUN	Number=Sing	8	nmod	_	_
 8	ayında	ay	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = bin dokuz yüz seksen dördün sekiz kasımında
@@ -540,7 +540,7 @@
 2	dokuz	dokuz	NUM	NUM	NumType=Ord	5	compound	_	_
 3	yüz	yüz	NUM	NUM	NumType=Ord	5	compound	_	_
 4	seksen	seksen	NUM	NUM	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	7	nmod:poss	_	_
+5	dördün	dört	NUM	NUM	Case=Gen|Number=Sing	7	nmod	_	_
 6	sekiz	sekiz	NUM	NUM	NumType=Ord	7	nummod	_	_
 7	kasımında	kasım	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
@@ -551,43 +551,43 @@
 3	yüz	yüz	NUM	NUM	NumType=Ord	5	compound	_	_
 4	seksen	seksen	NUM	NUM	NumType=Ord	5	compound	_	_
 5	dört	dört	NUM	NUM	NumType=Ord	6	nummod	_	_
-6	yılının	yıl	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod:poss	_	_
+6	yılının	yıl	NOUN	NOUN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 7	sekiz	sekiz	NUM	NUM	NumType=Ord	8	nmod	_	_
 8	kasımında	kasım	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = eylül başında
 # sent_id = GK16-0068
-1	eylül	eylül	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	eylül	eylül	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	başında	baş	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = eylülün başında
 # sent_id = GK16-0069
-1	eylülün	eylül	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	eylülün	eylül	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	başında	baş	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = nisanın ortasında
 # sent_id = GK16-0070
-1	nisanın	nisan	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	nisanın	nisan	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	ortasında	orta	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = ekimin sonunda
 # sent_id = GK16-0071
-1	ekimin	ekim	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	ekimin	ekim	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	sonunda	son	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = ay ortasında
 # sent_id = GK16-0072
-1	ay	ay	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	ay	ay	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	ortasında	orta	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = ayın ortasında
 # sent_id = GK16-0073
-1	ayın	ay	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	ayın	ay	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	ortasında	orta	NOUN	NOUN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = ayın birinde
 # sent_id = GK16-0074
-1	ayın	ay	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	ayın	ay	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod	_	_
 2	birinde	bir	NUM	NUM	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # text = 1830’larda
@@ -882,7 +882,7 @@
 
 # text = Pazartesi günleri Taksim’deki ofisimizde çalışıyorum.
 # sent_id = GK16-0104
-1	Pazartesi	pazartesi	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Pazartesi	pazartesi	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	günleri	gün	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	6	obl:tmod	_	_
 3-4	Taksim’deki	_	_	_	_	_	_	_	_
 3	Taksim’de	Taksim	PROPN	PROPN	Case=Loc|Number=Sing	5	nmod	_	_
@@ -1096,7 +1096,7 @@
 3-4	buradayken	_	_	_	_	_	_	_	_
 3	burada	bura	PRON	PRON	Case=Loc|Number=Sing	8	advcl	_	_
 4	yken	i	AUX	-0	Mood=Ind	3	cop	_	_
-5	bilgisayar	bilgisayar	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	bilgisayar	bilgisayar	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	sorunumuzu	sorun	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	obj	_	_
 7	ona	o	PRON	PRON	Case=Dat|Number=Sing	8	obl	_	_
 8	soralım	sor	VERB	VERB	Mood=Opt|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
@@ -1196,7 +1196,7 @@
 # sent_id = GK16-0140
 1	İçeriden	içeri	NOUN	NOUN	Case=Abl|Number=Sing	5	obl	_	_
 2	güzel	güzel	ADJ	ADJ	_	4	amod	_	_
-3	yemek	yemek	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	yemek	yemek	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	kokuları	koku	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	geliyordu	gel	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -1205,7 +1205,7 @@
 # sent_id = GK16-0141
 1	İçerden	içeri	NOUN	NOUN	Case=Abl|Number=Sing	5	obl	_	_
 2	güzel	güzel	ADJ	ADJ	_	4	amod	_	_
-3	yemek	yemek	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	yemek	yemek	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	kokuları	koku	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	geliyordu	gel	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -1397,7 +1397,7 @@
 
 # text = Bunun sırrını bir sen biliyorsun.
 # sent_id = GK16-0162
-1	Bunun	bu	PRON	PRON	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Bunun	bu	PRON	PRON	Case=Gen|Number=Sing	2	nmod	_	_
 2	sırrını	sır	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 3	bir	bir	ADV	ADV	_	4	advmod	_	_
 4	sen	sen	PRON	PRON	Number=Sing|Person=2	5	nsubj	_	_
@@ -1406,7 +1406,7 @@
 
 # text = Bunun sırrını bir tek sen biliyorsun.
 # sent_id = GK16-0163
-1	Bunun	bu	PRON	PRON	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Bunun	bu	PRON	PRON	Case=Gen|Number=Sing	2	nmod	_	_
 2	sırrını	sır	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 3	bir	bir	ADV	ADV	_	5	advmod	_	_
 4	tek	tek	ADV	ADV	_	3	fixed	_	_
@@ -1419,7 +1419,7 @@
 1	Buraya	bura	PRON	PRON	Case=Dat|Number=Sing	6	obl	_	_
 2	daha	daha	ADV	ADV	_	6	advmod	_	_
 3	çok	çok	ADV	ADV	_	2	fixed	_	_
-4	üniversite	üniversite	NOUN	NOUN	Number=Sing	5	nmod:poss	_	_
+4	üniversite	üniversite	NOUN	NOUN	Number=Sing	5	nmod	_	_
 5	öğrencileri	öğrenci	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 6	geliyor	gel	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -1427,10 +1427,10 @@
 # text = Özellikle Akdeniz ülkelerinde yetişir zeytin ağacı.
 # sent_id = GK16-0165
 1	Özellikle	özellikle	ADV	ADV	_	4	advmod	_	_
-2	Akdeniz	Akdeniz	PROPN	PROPN	Number=Sing	3	nmod:poss	_	_
+2	Akdeniz	Akdeniz	PROPN	PROPN	Number=Sing	3	nmod	_	_
 3	ülkelerinde	ülke	NOUN	NOUN	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	yetişir	yetiş	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-5	zeytin	zeytin	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	zeytin	zeytin	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	ağacı	ağaç	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -1438,10 +1438,10 @@
 # sent_id = GK16-0166
 1	En	en	ADV	ADV	_	2	advmod	_	_
 2	çok	çok	ADV	ADV	_	5	advmod	_	_
-3	Akdeniz	Akdeniz	PROPN	PROPN	Number=Sing	4	nmod:poss	_	_
+3	Akdeniz	Akdeniz	PROPN	PROPN	Number=Sing	4	nmod	_	_
 4	ülkelerinde	ülke	NOUN	NOUN	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	yetişir	yetiş	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	zeytin	zeytin	NOUN	NOUN	Number=Sing	7	nmod:poss	_	_
+6	zeytin	zeytin	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7	ağacı	ağaç	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -1449,7 +1449,7 @@
 # sent_id = GK16-0167
 1	Bunu	bu	PRON	PRON	Case=Acc|Number=Sing	6	obj	_	_
 2	asıl	asıl	ADV	ADV	_	6	advmod	_	_
-3	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	4	nmod:poss	_	_
+3	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	4	nmod	_	_
 4	amcan	amca	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=2	6	nsubj	_	_
 5	iyi	iyi	ADV	ADV	_	6	advmod	_	_
 6	yapar	yap	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -1458,7 +1458,7 @@
 # text = Başta kamu işçileri olmak üzere bütün işçiler sıkıntıda.
 # sent_id = GK16-0168
 1	Başta	başta	ADV	ADV	_	3	advmod	_	_
-2	kamu	kamu	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+2	kamu	kamu	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	işçileri	işçi	NOUN	NOUN	Number=Plur|Number[psor]=Sing|Person[psor]=3	7	acl	_	_
 4	olmak	ol	AUX	AUX	Case=Nom|Number=Sing|VerbForm=Vnoun	3	cop	_	_
 5	üzere	üzere	ADP	ADP	_	3	mark	_	_

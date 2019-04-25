@@ -60,7 +60,7 @@
 # sent_id = GK23-0008
 1	Rezan	Rezan	PROPN	PROPN	Number=Sing	4	nsubj	_	_
 2	bu	bu	DET	DET	Definite=Def|Number=Sing	3	det	_	_
-3	bankanın	banka	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	bankanın	banka	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
 4-5	müdürüydü	_	_	_	_	_	_	_	SpaceAfter=No
 4	müdürü	müdür	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 5	ydü	i	AUX	-0	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
@@ -99,8 +99,8 @@
 
 # text = Hasan'ın imza yetkisi yok.
 # sent_id = GK23-0012
-1	Hasan'ın	Hasan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	_
-2	imza	imza	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
+1	Hasan'ın	Hasan	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod	_	_
+2	imza	imza	NOUN	NOUN	Number=Sing	3	nmod	_	_
 3	yetkisi	yetki	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	yok	yok	ADJ	ADJ	Polarity=Neg	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -124,8 +124,8 @@
 # text = Bu yemek odası takımı mutfakta iğreti duruyor.
 # sent_id = GK23-0015
 1	Bu	bu	DET	DET	Definite=Def|Number=Sing	4	det	_	_
-2	yemek	yemek	NOUN	NOUN	Number=Sing	3	nmod:poss	_	_
-3	odası	oda	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:poss	_	_
+2	yemek	yemek	NOUN	NOUN	Number=Sing	3	nmod	_	_
+3	odası	oda	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 4	takımı	takım	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 5	mutfakta	mutfak	NOUN	NOUN	Case=Loc|Number=Sing	7	obl	_	_
 6	iğreti	iğreti	ADV	ADV	_	7	advmod	_	_
@@ -146,7 +146,7 @@
 2	bana	ben	PRON	PRON	Case=Dat|Number=Sing|Person=1	7	obl	_	_
 3	başka	başka	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
 4	bir	bir	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
-5	telefon	telefon	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	telefon	telefon	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	numarası	numara	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	vermiştin	ver	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Pqp	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -334,7 +334,7 @@
 # sent_id = GK23-0038
 1	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	5	nsubj	_	_
 2	öğrencilere	öğrenci	NOUN	NOUN	Case=Dat|Number=Plur	5	obl	_	_
-3	sınav	sınav	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	sınav	sınav	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	kağıtlarını	kağıt	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	verdi	ver	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -386,7 +386,7 @@
 5	Ali	Ali	PROPN	PROPN	Number=Sing	11	nsubj	_	_
 6	bu	bu	DET	DET	Definite=Def|Number=Sing	7	det	_	_
 7	yıl	yıl	NOUN	NOUN	Number=Sing	11	obl:tmod	_	_
-8	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	9	nmod:poss	_	_
+8	kendi	kendi	PRON	PRON	Number=Sing|Reflex=Yes	9	nmod	_	_
 9	borçlarını	borç	NOUN	NOUN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
 10	zor	zor	ADV	ADV	_	11	advmod	_	_
 11	ödeyecek	öde	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
@@ -412,7 +412,7 @@
 
 # text = Hafta sonları çocuklar burada olmuyor.
 # sent_id = GK23-0046
-1	Hafta	hafta	NOUN	NOUN	Number=Sing	2	nmod:poss	_	_
+1	Hafta	hafta	NOUN	NOUN	Number=Sing	2	nmod	_	_
 2	sonları	son	NOUN	NOUN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 3	çocuklar	çocuk	NOUN	NOUN	Number=Plur	4	nsubj	_	_
 4	burada	bura	PRON	PRON	Case=Loc|Number=Sing	0	root	_	_
@@ -498,7 +498,7 @@
 
 # text = Ahmet’in babası her gün hasta.
 # sent_id = GK23-0057
-1	Ahmet’in	Ahmet	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod:poss	_	_
+1	Ahmet’in	Ahmet	PROPN	PROPN	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 3	her	her	DET	DET	Definite=Def|Number=Sing	4	det	_	_
 4	gün	gün	NOUN	NOUN	Number=Sing	5	obl:tmod	_	_
@@ -527,7 +527,7 @@
 
 # text = Onların hepsi öğretmen.
 # sent_id = GK23-0060
-1	Onların	o	PRON	PRON	Case=Gen|Number=Plur	2	nmod:poss	_	_
+1	Onların	o	PRON	PRON	Case=Gen|Number=Plur	2	nmod	_	_
 2	hepsi	hepsi	PRON	PRON	Number=Sing	3	nsubj	_	_
 3	öğretmen	öğretmen	NOUN	NOUN	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -600,7 +600,7 @@
 # text = Ayşe senin arkadaşlarınla ne kadar rahat konuşuyordu.
 # sent_id = GK23-0068
 1	Ayşe	Ayşe	PROPN	PROPN	Number=Sing	7	nsubj	_	_
-2	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	3	nmod:poss	_	_
+2	senin	sen	PRON	PRON	Case=Gen|Number=Sing|Person=2	3	nmod	_	_
 3	arkadaşlarınla	arkadaş	NOUN	NOUN	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=2	7	obl	_	_
 4	ne	ne	PRON	PRON	Number=Sing|PronType=Int	6	nmod	_	_
 5	kadar	kadar	ADP	ADP	_	4	case	_	_
@@ -632,9 +632,9 @@
 1-2	Varmış	_	_	_	_	_	_	_	_
 1	Var	var	ADJ	ADJ	_	0	root	_	_
 2	mış	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
-3	sizin	siz	PRON	PRON	Case=Gen|Number=Sing|Person=2	4	nmod:poss	_	_
+3	sizin	siz	PRON	PRON	Case=Gen|Number=Sing|Person=2	4	nmod	_	_
 4	bakkalda	bakkal	NOUN	NOUN	Case=Loc|Number=Sing	1	nmod	_	_
-5	kopya	kopya	NOUN	NOUN	Number=Sing	6	nmod:poss	_	_
+5	kopya	kopya	NOUN	NOUN	Number=Sing	6	nmod	_	_
 6	kağıdı	_	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -650,7 +650,7 @@
 # sent_id = GK23-0073
 1	Erol’a	Erol	PROPN	PROPN	Case=Dat|Number=Sing	7	obl	_	_
 2	sonunda	sonunda	ADV	ADV	_	7	advmod	_	_
-3	Spor	spor	NOUN	NOUN	Number=Sing	4	nmod:poss	_	_
+3	Spor	spor	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4	Birliği	birlik	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 5	bir	bir	DET	DET	Definite=Ind|Number=Sing	6	det	_	_
 6	madalya	madalya	NOUN	NOUN	Number=Sing	7	obj	_	_
