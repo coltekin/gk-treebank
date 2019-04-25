@@ -145,3 +145,5 @@ However, there are two issues:
 - Adjectival verbs with no subordinating suffixes like _anlaşılır_
     _görülmüş_ do not have any morphological indication that they are
     subordinate clauses
+- document cases of coordination with different types of constituents.
+- check/document _felan/falan/filan_
