@@ -437,7 +437,7 @@
 # sent_id = GK12-0053
 1	Ahmet	Ahmet	PROPN	PROPN	Number=Sing	4	nsubj	_	_
 2	hiçbir	hiçbir	DET	DET	Definite=Ind|Number=Sing|Polarity=Neg	3	det	_	_
-3	şey	şey	NOUN	NOUN	Number=Sing	4	obj	_	_
+3	şey	şey	NOUN	NOUN	Case=Nom|Number=Sing	4	obj	_	_
 4	yapmadı	yap	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -661,7 +661,7 @@
 1	Oyuncuların	_	NOUN	NOUN	Case=Gen|Number=Plur	2	nmod:part	_	_
 2	hepsi	hepsi	PRON	PRON	Number=Sing	5	nsubj	_	_
 3	yeni	yeni	ADJ	ADJ	_	4	amod	_	_
-4	kostümler	kostüm	NOUN	NOUN	Number=Plur	5	obj	_	_
+4	kostümler	kostüm	NOUN	NOUN	Case=Nom|Number=Plur	5	obj	_	_
 5	istiyorlar	iste	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -725,7 +725,7 @@
 2	ben	ben	PRON	PRON	Number=Sing|Person=1	1	conj	_	_
 3	bu	bu	DET	DET	Definite=Def|Number=Sing	4	det	_	_
 4	akşam	akşam	NOUN	NOUN	Number=Sing	6	obl:tmod	_	_
-5	dışarı	dışarı	NOUN	NOUN	Number=Sing	6	obj	_	_
+5	dışarı	dışarı	NOUN	NOUN	Case=Nom|Number=Sing	6	obj	_	_
 6	çıkmıyoruz	çık	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -795,7 +795,7 @@
 2	çamaşır	çamaşır	NOUN	NOUN	Number=Sing	1	conj	_	_
 3	mutlaka	mutlaka	ADV	ADV	_	6	advmod	_	_
 4	birer	bir	NUM	NUM	NumType=Dist	5	nummod	_	_
-5	makine	makine	NOUN	NOUN	Number=Sing	6	obj	_	_
+5	makine	makine	NOUN	NOUN	Case=Nom|Number=Sing	6	obj	_	_
 6	ister	iste	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
@@ -920,7 +920,7 @@
 1	Füsun	Füsun	PROPN	PROPN	Number=Sing	6	nsubj	_	_
 2	bu	bu	DET	DET	Definite=Def|Number=Sing	3	det	_	_
 3	kitapları	kitap	NOUN	NOUN	Case=Acc|Number=Plur	6	obj	_	_
-4	öğretmenlik	öğretmenlik	NOUN	NOUN	Number=Sing	5	obj	_	_
+4	öğretmenlik	öğretmenlik	NOUN	NOUN	Case=Nom|Number=Sing	5	obj	_	_
 5	yaparken	yaparken	VERB	VERB	Mood=Ind	6	advcl	_	_
 6	kullanmıştı	kullan	VERB	VERB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -959,7 +959,7 @@
 4	köylülerden	köylü	NOUN	NOUN	Case=Abl|Number=Plur	6	nmod:comp	_	_
 5	daha	daha	ADV	ADV	_	6	advmod	_	_
 6	çok	çok	ADJ	ADJ	_	7	amod	_	_
-7	toprağı	toprak	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
+7	toprağı	toprak	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 8	var	var	ADJ	ADJ	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
@@ -1017,7 +1017,7 @@
 
 # text = Çocuğu öylesine seviyor ki…
 # sent_id = GK12-0118
-1	Çocuğu	çocuk	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+1	Çocuğu	çocuk	NOUN	NOUN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 2	öylesine	öylesine	ADV	ADV	_	3	advmod	_	_
 3	seviyor	sev	VERB	VERB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	ki	ki	ADV	ADV	_	3	advmod:emph	_	SpaceAfter=No

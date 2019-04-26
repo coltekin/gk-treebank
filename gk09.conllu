@@ -3,7 +3,7 @@
 1	Doktor	doktor	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 2	önce	önce	ADV	ADV	_	6	advmod	_	_
 3	hastanın	hasta	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod	_	_
-4	gözüne	göz	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
+4	gözüne	göz	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	mözüne	möz	NOUN	NOUN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound:redup	_	_
 6	baktı	bak	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	6	punct	_	_
@@ -40,7 +40,7 @@
 2	adam	adam	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 3	tarih	tarih	NOUN	NOUN	Number=Sing	4	nmod	_	_
 4-5	hocasıymış	_	_	_	_	_	_	_	_
-4	hocası	hoca	NOUN	NOUN	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	ccomp	_	_
+4	hocası	hoca	NOUN	NOUN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	ccomp	_	_
 5	ymış	i	AUX	-0	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
 6	marih	tarih	NOUN	NOUN	Number=Sing	7	nmod	_	_
 7-8	hocasıymış	_	_	_	_	_	_	_	_
@@ -66,9 +66,9 @@
 
 # text = Kutu kutu kitap taşıdık.
 # sent_id = GK09-0007
-1	Kutu	kutu	NOUN	NOUN	Number=Sing	2	compound:redup	_	_
-2	kutu	kutu	NOUN	NOUN	Number=Sing	3	nmod	_	_
-3	kitap	kitap	NOUN	NOUN	Number=Sing	4	obj	_	_
+1	Kutu	kutu	NOUN	NOUN	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	kutu	kutu	NOUN	NOUN	Case=Nom|Number=Sing	3	nmod	_	_
+3	kitap	kitap	NOUN	NOUN	Case=Nom|Number=Sing	4	obj	_	_
 4	taşıdık	taşı	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 

@@ -108,14 +108,14 @@
 
 # text = Sorun yaratacağı belli.
 # sent_id = GK08-0020
-1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
+1	Sorun	sorun	NOUN	NOUN	Case=Nom|Number=Sing	2	obj	_	_
 2	yaratacağı	yarat	VERB	VERB	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	csubj:cop	_	_
 3	belli	belli	ADJ	ADJ	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Sorun yaratan kuruluşlar uyarıldı.
 # sent_id = GK08-0021
-1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
+1	Sorun	sorun	NOUN	NOUN	Case=Nom|Number=Sing	2	obj	_	_
 2	yaratan	yaratan	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	kuruluşlar	kuruluş	NOUN	NOUN	Number=Plur	4	nsubj	_	_
 4	uyarıldı	uyar	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
@@ -123,7 +123,7 @@
 
 # text = Sorun yaratmaktansa sonuçları kabullendi.
 # sent_id = GK08-0022
-1	Sorun	sorun	NOUN	NOUN	Number=Sing	2	obj	_	_
+1	Sorun	sorun	NOUN	NOUN	Case=Nom|Number=Sing	2	obj	_	_
 2-3	yaratmaktansa	_	_	_	_	_	_	_	_
 2	yaratmaktan	yarat	VERB	VERB	Case=Abl|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
 3	sa	i	AUX	VERB	Mood=Cnd|Number=Sing|Person=3	2	cop	_	_
@@ -134,12 +134,12 @@
 # text = koşmak için
 # sent_id = GK08-0023
 1	koşmak	koş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
-2	için	için	ADP	ADP	_	1	case	_	_
+2	için	için	ADP	ADP	_	1	mark	_	_
 
 # text = koşmam için
 # sent_id = GK08-0024
 1	koşmam	koş	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	0	root	_	_
-2	için	için	ADP	ADP	_	1	case	_	_
+2	için	için	ADP	ADP	_	1	mark	_	_
 
 # text = Gitmeyi bekliyor.
 # sent_id = GK08-0025
@@ -155,14 +155,14 @@
 
 # text = Şarkı söylemene bayılır.
 # sent_id = GK08-0027
-1	Şarkı	şarkı	NOUN	NOUN	_	2	obj	_	_
+1	Şarkı	şarkı	NOUN	NOUN	Case=Nom|Number=Sing	2	obj	_	_
 2	söylemene	söyle	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=2|VerbForm=Vnoun	3	advcl	_	_
 3	bayılır	bayıl	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # text = Şarkı söylemeye bayılır.
 # sent_id = GK08-0028
-1	Şarkı	şarkı	NOUN	NOUN	_	2	obj	_	_
+1	Şarkı	şarkı	NOUN	NOUN	Case=Nom|Number=Sing	2	obj	_	_
 2	söylemeye	söyle	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 3	bayılır	bayıl	VERB	VERB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
