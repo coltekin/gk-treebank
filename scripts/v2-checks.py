@@ -40,8 +40,13 @@ for sent_num, sent in enumerate(tb):
                 print("{} {:04d}-{} {} is not nominatinve or accusative ({})".format(
                     args.input_file, sent_num+1, node.index, node.deprel, case))
         if node.deprel == 'obl' and case in {'Acc', 'Nom'}:
-            print("{} {:04d}-{} {} with {} dependent.".format(
-                args.input_file, sent_num+1, node.index, node.deprel, case))
+            match = True
+            for child in sent.children_of(node):
+                if child.deprel == 'case':
+                    match = False
+            if match:
+                print("{} {:04d}-{} {} with {} dependent.".format(
+                    args.input_file, sent_num+1, node.index, node.deprel, case))
         if node.deprel in {'iobj'}:
             print("{} {:04d}-{} The deprel {} should not be used.".format(
                 args.input_file, sent_num+1, node.index, node.deprel))
