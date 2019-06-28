@@ -1150,7 +1150,7 @@
 
 # sent_id = GK28-0111
 # text = Yok o saate kadar gelmemişse daha fazla bekleyemeyiz.
-1	Yok	_	ADV	_	_	5	discourse	_	_
+1	Yok	yok	ADV	_	_	5	discourse	_	_
 2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
 3	saate	saat	NOUN	_	Case=Dat|Number=Sing	5	obl:tmod	_	_
 4	kadar	kadar	ADP	_	_	3	case	_	_
@@ -1162,7 +1162,7 @@
 
 # sent_id = GK28-0112
 # text = Yok eğer o saate kadar gelmemişse daha fazla bekleyemeyiz.
-1	Yok	_	ADV	_	_	6	discourse	_	_
+1	Yok	yok	ADV	_	_	6	discourse	_	_
 2	eğer	eğer	SCONJ	_	_	6	mark	_	_
 3	o	o	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	saate	saat	NOUN	_	Case=Dat|Number=Sing	6	obl:tmod	_	_
@@ -1235,7 +1235,7 @@
 
 # sent_id = GK28-0117
 # text = Yok hava kötüymüş, yok parası yetmezmiş, yok vakti yokmuş...
-1	Yok	_	ADV	_	_	3	cc	_	_
+1	Yok	yok	ADV	_	_	3	cc	_	_
 2	hava	hava	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3-4	kötüymüş	_	_	_	_	_	_	_	SpaceAfter=No
 3	kötü	kötü	ADJ	_	_	0	root	_	_
@@ -1375,7 +1375,7 @@
 # sent_id = GK28-0129
 # text = Bence başkanlığı en iyi Osman yapar.
 1	Bence	ben	PRON	_	Case=Equ|Number=Sing|Person=1	6	obl	_	_
-2	başkanlığı	_	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+2	başkanlığı	başkanlık	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 3	en	en	ADV	_	_	4	advmod	_	_
 4	iyi	iyi	ADV	_	_	6	advmod	_	_
 5	Osman	Osman	PROPN	_	Number=Sing	6	nsubj	_	_
@@ -1731,7 +1731,7 @@
 1	İşte	işte	ADV	_	_	6	discourse	_	_
 2	cuma	cuma	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	akşamları	akşam	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
-4	toplandığımız	_	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part	5	acl	_	_
+4	toplandığımız	toplan	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part	5	acl	_	_
 5	yer	yer	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	burası	bura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1751,7 +1751,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	çamaşırını	çamaşır	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 6	yıkayıp	yıkayıp	VERB	_	Mood=Ind	7	advcl	_	_
-7	ütülüyor	_	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
+7	ütülüyor	ütüle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	telefonlarına	telefon	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
 10	bakıyor	bak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No

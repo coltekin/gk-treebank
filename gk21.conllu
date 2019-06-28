@@ -1193,7 +1193,7 @@
 # text = O çocuğun yapamayacağı hiçbir şey yok.
 1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	çocuğun	çocuk	NOUN	_	Case=Gen|Number=Sing	3	nsubj	_	_
-3	yapamayacağı	_	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	5	acl	_	_
+3	yapamayacağı	yap	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	5	acl	_	_
 4	hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg	5	det	_	_
 5	şey	şey	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
@@ -1221,7 +1221,7 @@
 
 # sent_id = GK21-0145
 # text = Başkanlık konusunda Coşkun’u ikna edemeyebileceğim için başka kişiler üzerinde de durmamız gerekiyor.
-1	Başkanlık	_	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+1	Başkanlık	başkanlık	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
 2	konusunda	konusunda	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
 3	Coşkun’u	Coşkun	PROPN	_	Case=Acc|Number=Sing	4	obj	_	_
 4	ikna	ikna	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
@@ -1637,7 +1637,7 @@
 
 # sent_id = GK21-0189
 # text = Kardeşin pek tatlıymış.
-1	Kardeşin	_	NOUN	_	Case=Gen|Number=Sing	3	nsubj	_	_
+1	Kardeşin	kardeş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	_
 2	pek	pek	ADV	_	_	3	advmod	_	_
 3-4	tatlıymış	_	_	_	_	_	_	_	SpaceAfter=No
 3	tatlı	tatlı	ADJ	_	_	0	root	_	_

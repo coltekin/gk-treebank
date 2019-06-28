@@ -642,7 +642,7 @@
 # text = Birçok kişi çocukluğunu pek düşünmez.
 1	Birçok	birçok	DET	_	Definite=Ind|Number=Sing	2	det	_	_
 2	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-3	çocukluğunu	_	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+3	çocukluğunu	çocukluk	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 4	pek	pek	ADV	_	_	5	advmod	_	_
 5	düşünmez	düşün	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -658,7 +658,7 @@
 
 # sent_id = GK12-0079
 # text = Oyuncuların hepsi yeni kostümler istiyorlar.
-1	Oyuncuların	_	NOUN	_	Case=Gen|Number=Plur	2	nmod:part	_	_
+1	Oyuncuların	oyuncu	NOUN	_	Case=Gen|Number=Plur	2	nmod:part	_	_
 2	hepsi	hepsi	PRON	_	Case=Nom|Number=Sing	5	nsubj	_	_
 3	yeni	yeni	ADJ	_	_	4	amod	_	_
 4	kostümler	kostüm	NOUN	_	Case=Nom|Number=Plur	5	obj	_	_
