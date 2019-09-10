@@ -113,7 +113,7 @@
 # sent_id = GK12-0014
 # text = Buzdolabında iki şişe bira var.
 1	Buzdolabında	buzdolabı	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	şişe	şişe	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	bira	bira	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 # text = Aytenin İstanbul’da iki arkadaşı var.
 1	Aytenin	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
 2	İstanbul’da	İstanbul	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	arkadaşı	arkadaş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -175,7 +175,7 @@
 # text = İstanbul’da Aytenin iki arkadaşı var.
 1	İstanbul’da	İstanbul	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	Aytenin	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	arkadaşı	arkadaş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -201,7 +201,7 @@
 # sent_id = GK12-0024
 # text = Masanın üç ayağı var.
 1	Masanın	masa	NOUN	_	Case=Gen|Number=Sing	4	obl	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	ayağı	ayak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -225,7 +225,7 @@
 # text = Nejat’ta sadece 10 dolar varmış.
 1	Nejat’ta	Nejat	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	sadece	sadece	ADV	_	_	5	advmod	_	_
-3	10	10	NUM	_	NumType=Ord	4	nummod	_	_
+3	10	10	NUM	_	NumType=Card	4	nummod	_	_
 4	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5-6	varmış	_	_	_	_	_	_	_	SpaceAfter=No
 5	var	var	ADJ	_	_	0	root	_	_
@@ -377,10 +377,10 @@
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
 3	bu	bu	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	kentte	kent	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
-5	iki	iki	NUM	_	NumType=Ord	8	compound	_	_
-6	bin	bin	NUM	_	NumType=Ord	8	compound	_	_
-7	beş	beş	NUM	_	NumType=Ord	8	compound	_	_
-8	yüz	yüz	NUM	_	NumType=Ord	10	nummod	_	_
+5	iki	iki	NUM	_	NumType=Card	8	compound	_	_
+6	bin	bin	NUM	_	NumType=Card	8	compound	_	_
+7	beş	beş	NUM	_	NumType=Card	8	compound	_	_
+8	yüz	yüz	NUM	_	NumType=Card	10	nummod	_	_
 9	yeni	yeni	ADJ	_	_	10	amod	_	_
 10	bina	bina	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	yapılıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -500,8 +500,8 @@
 # text = Bu sınıfta elli iki öğrenci var.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	sınıfta	sınıf	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
-3	elli	elli	NUM	_	NumType=Ord	4	compound	_	_
-4	iki	iki	NUM	_	NumType=Ord	5	nummod	_	_
+3	elli	elli	NUM	_	NumType=Card	4	compound	_	_
+4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 5	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -509,8 +509,8 @@
 # sent_id = GK12-0062
 # text = Dün otuz üç mektup geldi.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
-2	otuz	otuz	NUM	_	NumType=Ord	3	compound	_	_
-3	üç	üç	NUM	_	NumType=Ord	4	nummod	_	_
+2	otuz	otuz	NUM	_	NumType=Card	3	compound	_	_
+3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
 4	mektup	mektup	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -519,8 +519,8 @@
 # text = Yarışmacılar arasından iki üç kişi, jürinin ısrarına rağmen yaşlarını söylememiş.
 1	Yarışmacılar	yarışmacı	NOUN	_	Case=Nom|Number=Plur	5	nmod:part	_	_
 2	arasından	arasından	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
-3	iki	iki	NUM	_	NumType=Ord	5	nummod	_	_
-4	üç	üç	NUM	_	NumType=Ord	3	conj	_	_
+3	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
+4	üç	üç	NUM	_	NumType=Card	3	conj	_	_
 5	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	jürinin	jüri	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_

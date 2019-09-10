@@ -142,7 +142,7 @@
 # sent_id = GK22-0018
 # text = Çekmecede dört defter bulduk.
 1	Çekmecede	çekmece	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
-2	dört	dört	NUM	_	NumType=Ord	3	nummod	_	_
+2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	defter	defter	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	bulduk	bul	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -150,7 +150,7 @@
 # sent_id = GK22-0019
 # text = Çekmecede dört tane defter bulduk.
 1	Çekmecede	çekmece	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
-2	dört	dört	NUM	_	NumType=Ord	3	nummod	_	_
+2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	defter	defter	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	bulduk	bul	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -553,7 +553,7 @@
 # text = Bugün yalnız iki sigara içtim.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 2	yalnız	yalnız	ADV	_	_	3	advmod	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	sigara	sigara	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	içtim	iç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -666,7 +666,7 @@
 
 # sent_id = GK22-0073
 # text = Elli yaşını geçmiş bir insanın bu memlekette iş bulması kolay değil.
-1	Elli	elli	NUM	_	NumType=Ord	2	nummod	_	_
+1	Elli	elli	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşını	yaş	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 3	geçmiş	geç	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	5	acl	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_

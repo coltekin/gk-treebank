@@ -55,7 +55,7 @@
 # sent_id = GK25-0009
 # text = içinde üç top olan kutu
 1	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	top	top	NOUN	_	Case=Nom|Number=Sing	5	acl	_	_
 4	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	cop	_	_
 5	kutu	kutu	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -63,7 +63,7 @@
 # sent_id = GK25-0010
 # text = içinde üç top bulunan kutu
 1	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	top	top	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	bulunan	bulun	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	kutu	kutu	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -72,7 +72,7 @@
 # text = Kutunun içinde üç top var.
 1	Kutunun	kutu	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
 2	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
-3	üç	üç	NUM	_	NumType=Ord	4	nummod	_	_
+3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
 4	top	top	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -688,7 +688,7 @@
 
 # sent_id = GK25-0092
 # text = iki yıldır süren kuraklık
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2-3	yıldır	_	_	_	_	_	_	_	_
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	advcl	_	_
 3	dır	i	AUX	_	_	2	cop	_	_
@@ -993,14 +993,14 @@
 
 # sent_id = GK25-0125
 # text = iki kilometre yüzecek birisi
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	kilometre	kilometre	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	yüzecek	yüzecek	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Part	4	acl	_	_
 4	birisi	biri	PRON	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 
 # sent_id = GK25-0126
 # text = iki kilometre yüzecek olan birisi
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	kilometre	kilometre	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	yüzecek	yüz	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	5	acl	_	_
 4	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	aux	_	_
@@ -1008,7 +1008,7 @@
 
 # sent_id = GK25-0127
 # text = iki kilometre yüzebilecek olan birisi
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	kilometre	kilometre	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	yüzebilecek	yüz	VERB	_	Aspect=Perf|Mood=Pot|Tense=Fut|VerbForm=Fin	5	acl	_	_
 4	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	aux	_	_
@@ -1350,7 +1350,7 @@
 5	ki	ki	SCONJ	_	_	10	mark	_	_
 6	ona	o	PRON	_	Case=Dat|Number=Sing	10	obl	_	_
 7	daha	daha	ADV	_	_	9	advmod	_	_
-8	iki	iki	NUM	_	NumType=Ord	9	nummod	_	_
+8	iki	iki	NUM	_	NumType=Card	9	nummod	_	_
 9	saat	saat	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 10	var	var	ADJ	_	_	3	parataxis	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -1366,7 +1366,7 @@
 5	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
 6	o	o	DET	_	Definite=Def|Number=Sing	7	det	_	_
 7	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	9	obl:tmod	_	_
-8	sekiz	sekiz	NUM	_	NumType=Ord	9	nummod	_	_
+8	sekiz	sekiz	NUM	_	NumType=Card	9	nummod	_	_
 9-10	yaşındaydım	_	_	_	_	_	_	_	SpaceAfter=No
 9	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	parataxis	_	_
 10	ydım	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_

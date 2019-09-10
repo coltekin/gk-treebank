@@ -671,7 +671,7 @@
 # sent_id = GK19-0074
 # text = Günde kaç tane çay içiyorsun?
 1	Günde	gün	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
-2	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	3	nummod	_	_
+2	kaç	kaç	NUM	_	NumType=Card|PronType=Int	3	nummod	_	_
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	çay	çay	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	içiyorsun	iç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -680,7 +680,7 @@
 # sent_id = GK19-0075
 # text = Günde kaç çay içiyorsun?
 1	Günde	gün	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
-2	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	3	nummod	_	_
+2	kaç	kaç	NUM	_	NumType=Card|PronType=Int	3	nummod	_	_
 3	çay	çay	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	içiyorsun	iç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
@@ -690,7 +690,7 @@
 1	Okula	okul	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 2	bu	bu	DET	_	Definite=Def|Number=Sing	3	det	_	_
 3	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
-4	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	5	nummod	_	_
+4	kaç	kaç	NUM	_	NumType=Card|PronType=Int	5	nummod	_	_
 5	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	alacaksınız	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	6	punct	_	_
@@ -721,7 +721,7 @@
 # sent_id = GK19-0080
 # text = Kaçla kaç arasında arayayım seni?
 1	Kaçla	kaç	NUM	_	Case=Ins|Number=Sing	4	obl:tmod	_	_
-2	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	1	conj	_	_
+2	kaç	kaç	NUM	_	NumType=Card|PronType=Int	1	conj	_	_
 3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	arayayım	ara	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2	4	obj	_	SpaceAfter=No
@@ -731,7 +731,7 @@
 # text = O çocuk kaç yaşında?
 1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-3	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	4	nummod	_	_
+3	kaç	kaç	NUM	_	NumType=Card|PronType=Int	4	nummod	_	_
 4	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
 

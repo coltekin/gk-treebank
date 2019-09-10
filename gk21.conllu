@@ -265,14 +265,14 @@
 2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 3	her	her	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	gün	gün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-5	iki	iki	NUM	_	NumType=Ord	6	nummod	_	_
+5	iki	iki	NUM	_	NumType=Card	6	nummod	_	_
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	çalıştım	çalış	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = GK21-0033
 # text = İki saat çalışmışım.
-1	İki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	İki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3	çalışmışım	çalış	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -296,7 +296,7 @@
 # sent_id = GK21-0036
 # text = Genellikle iki saat çalışırdım.
 1	Genellikle	genellikle	ADV	_	_	4	advmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	çalışırdım	çalış	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -454,7 +454,7 @@
 
 # sent_id = GK21-0055
 # text = Sekiz saat uyumuşum.
-1	Sekiz	sekiz	NUM	_	NumType=Ord	2	nummod	_	_
+1	Sekiz	sekiz	NUM	_	NumType=Card	2	nummod	_	_
 2	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3	uyumuşum	uyu	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -681,11 +681,11 @@
 
 # sent_id = GK21-0080
 # text = İki, iki daha dört eder.
-1	İki	iki	NUM	_	NumType=Ord	5	nsubj	_	SpaceAfter=No
+1	İki	iki	NUM	_	NumType=Card	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	iki	iki	NUM	_	NumType=Ord	1	conj	_	_
+3	iki	iki	NUM	_	NumType=Card	1	conj	_	_
 4	daha	daha	ADV	_	_	3	advmod	_	_
-5	dört	dört	NUM	_	NumType=Ord	0	root	_	_
+5	dört	dört	NUM	_	NumType=Card	0	root	_	_
 6	eder	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1043,7 +1043,7 @@
 1	Geçen	geçen	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	2	acl	_	_
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	Bodrum’a	Bodrum	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
-4	dört	dört	NUM	_	NumType=Ord	5	nummod	_	_
+4	dört	dört	NUM	_	NumType=Card	5	nummod	_	_
 5	defa	defa	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
 6	gidebildik	git	VERB	_	Aspect=Perf|Mood=Pot|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1407,7 +1407,7 @@
 # sent_id = GK21-0166
 # text = Zeki’ye yüz dolar vermem gerekti.
 1	Zeki’ye	Zeki	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
-2	yüz	yüz	NUM	_	NumType=Ord	3	nummod	_	_
+2	yüz	yüz	NUM	_	NumType=Card	3	nummod	_	_
 3	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	vermem	ver	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	5	csubj	_	_
 5	gerekti	gerek	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1416,7 +1416,7 @@
 # sent_id = GK21-0167
 # text = Zeki’ye yüz dolar vermek zorunda kaldım.
 1	Zeki’ye	Zeki	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
-2	yüz	yüz	NUM	_	NumType=Ord	3	nummod	_	_
+2	yüz	yüz	NUM	_	NumType=Card	3	nummod	_	_
 3	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	vermek	ver	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
 5	zorunda	zor	NOUN	_	Case=Loc|Number=Sing	6	compound	_	_
@@ -1428,7 +1428,7 @@
 1	Her	her	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	ay	ay	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 3	Zeki’ye	Zeki	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
-4	yüz	yüz	NUM	_	NumType=Ord	5	nummod	_	_
+4	yüz	yüz	NUM	_	NumType=Card	5	nummod	_	_
 5	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	vermek	ver	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
 7	zorunda	zor	NOUN	_	Case=Loc|Number=Sing	8	compound	_	_
@@ -1440,7 +1440,7 @@
 1	Her	her	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	ay	ay	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 3	Zeki’ye	Zeki	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
-4	yüz	yüz	NUM	_	NumType=Ord	5	nummod	_	_
+4	yüz	yüz	NUM	_	NumType=Card	5	nummod	_	_
 5	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	vermek	ver	VERB	_	Mood=Ind|VerbForm=Fin	8	xcomp	_	_
 7	zorunda	zor	NOUN	_	Case=Loc|Number=Sing	8	compound	_	_
@@ -1517,7 +1517,7 @@
 
 # sent_id = GK21-0177
 # text = İki tarafın temsilcileri Hilton Oteli’nde bir araya geldiler.
-1	İki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	İki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	tarafın	taraf	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	temsilcileri	temsilci	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	8	nsubj	_	_
 4	Hilton	Hilton	PROPN	_	Number=Sing	5	nmod	_	_
@@ -1529,7 +1529,7 @@
 
 # sent_id = GK21-0178
 # text = İki tarafın temsilcileri Hilton Oteli’nde bir araya gelmişler.
-1	İki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	İki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	tarafın	taraf	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	temsilcileri	temsilci	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	8	nsubj	_	_
 4	Hilton	Hilton	PROPN	_	Number=Sing	5	nmod	_	_
@@ -1581,7 +1581,7 @@
 
 # sent_id = GK21-0183
 # text = Bir yaşındayken kalp ameliyatı olmuşum.
-1	Bir	bir	NUM	_	NumType=Ord	2	nummod	_	_
+1	Bir	bir	NUM	_	NumType=Card	2	nummod	_	_
 2-3	yaşındayken	_	_	_	_	_	_	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	advcl	_	_
 3	yken	i	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
@@ -1609,7 +1609,7 @@
 # sent_id = GK21-0186
 # text = Ressam iki figürün arasını boş bırakmış.
 1	Ressam	ressam	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	figürün	figür	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	arasını	ara	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 5	boş	boş	ADJ	_	_	6	compound	_	_
@@ -2033,7 +2033,7 @@
 
 # sent_id = GK21-0235
 # text = 6.30’a kadar yola çıkmış olmalıyız.
-1	6.30’a	6.30	NUM	_	Case=Dat|NumType=Ord	4	obl:tmod	_	_
+1	6.30’a	6.30	NUM	_	Case=Dat|NumType=Card	4	obl:tmod	_	_
 2	kadar	kadar	ADP	_	_	1	case	_	_
 3	yola	yol	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	çıkmış	çık	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_

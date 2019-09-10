@@ -29,7 +29,7 @@
 
 # sent_id = GK15-0006
 # text = beş yatak odalı ev
-1	beş	beş	NUM	_	NumType=Ord	3	nummod	_	_
+1	beş	beş	NUM	_	NumType=Card	3	nummod	_	_
 2	yatak	yatak	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3-4	odalı	_	_	_	_	_	_	_	_
 3	oda	oda	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
@@ -38,7 +38,7 @@
 
 # sent_id = GK15-0007
 # text = yedi yaşında çocuk
-1	yedi	yedi	NUM	_	NumType=Ord	2	nummod	_	_
+1	yedi	yedi	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
@@ -59,14 +59,14 @@
 # sent_id = GK15-0010
 # text = Çocuk yedi yaşında.
 1	Çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-2	yedi	yedi	NUM	_	NumType=Ord	3	nummod	_	_
+2	yedi	yedi	NUM	_	NumType=Card	3	nummod	_	_
 3	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK15-0011
 # text = Ev beş yatak odalı sayılır.
 1	Ev	ev	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-2	beş	beş	NUM	_	NumType=Ord	4	nummod	_	_
+2	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
 3	yatak	yatak	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4-5	odalı	_	_	_	_	_	_	_	_
 4	oda	oda	NOUN	_	Case=Nom|Number=Sing	6	xcomp	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = GK15-0018
 # text = dört yaşında bir çocuk
-1	dört	dört	NUM	_	NumType=Ord	2	nummod	_	_
+1	dört	dört	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 3	bir	bir	DET	_	Definite=Ind|Number=Sing	4	det	_	_
 4	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -157,7 +157,7 @@
 
 # sent_id = GK15-0024
 # text = beş metrelik bir kablo
-1	beş	beş	NUM	_	NumType=Ord	2	nummod	_	_
+1	beş	beş	NUM	_	NumType=Card	2	nummod	_	_
 2-3	metrelik	_	_	_	_	_	_	_	_
 2	metre	metre	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	lik	-lik	ADP	_	_	2	case	_	_
@@ -166,7 +166,7 @@
 
 # sent_id = GK15-0025
 # text = iki litrelik bir kova
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2-3	litrelik	_	_	_	_	_	_	_	_
 2	litre	litre	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	lik	-lik	ADP	_	_	2	case	_	_
@@ -177,7 +177,7 @@
 # text = Otobüste sadece iki kişilik yer kalmış.
 1	Otobüste	otobüs	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
 2	sadece	sadece	ADV	_	_	4	advmod	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4-5	kişilik	_	_	_	_	_	_	_	_
 4	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	lik	-lik	ADP	_	_	4	case	_	_
@@ -188,8 +188,8 @@
 # sent_id = GK15-0027
 # text = Demet beş yüz milyonluk bir fotoğraf makinesi almış.
 1	Demet	Demet	PROPN	_	Number=Sing	9	nsubj	_	_
-2	beş	beş	NUM	_	NumType=Ord	4	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	4	compound	_	_
+2	beş	beş	NUM	_	NumType=Card	4	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	4	compound	_	_
 4-5	milyonluk	_	_	_	_	_	_	_	_
 4	milyon	milyon	NUM	_	Number=Sing	8	nmod	_	_
 5	luk	-lik	ADP	_	_	4	case	_	_
@@ -622,46 +622,46 @@
 
 # sent_id = GK15-0079
 # text = on iki
-1	on	on	NUM	_	NumType=Ord	2	compound	_	_
-2	iki	iki	NUM	_	NumType=Ord	0	root	_	_
+1	on	on	NUM	_	NumType=Card	2	compound	_	_
+2	iki	iki	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0080
 # text = yetmiş üç
-1	yetmiş	yetmiş	NUM	_	NumType=Ord	2	compound	_	_
-2	üç	üç	NUM	_	NumType=Ord	0	root	_	_
+1	yetmiş	yetmiş	NUM	_	NumType=Card	2	compound	_	_
+2	üç	üç	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0081
 # text = yüz kırk beş
-1	yüz	yüz	NUM	_	NumType=Ord	3	compound	_	_
-2	kırk	kırk	NUM	_	NumType=Ord	3	compound	_	_
-3	beş	beş	NUM	_	NumType=Ord	0	root	_	_
+1	yüz	yüz	NUM	_	NumType=Card	3	compound	_	_
+2	kırk	kırk	NUM	_	NumType=Card	3	compound	_	_
+3	beş	beş	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0082
 # text = bin yüz doksan dokuz
-1	bin	bin	NUM	_	NumType=Ord	4	compound	_	_
-2	yüz	yüz	NUM	_	NumType=Ord	4	compound	_	_
-3	doksan	doksan	NUM	_	NumType=Ord	4	compound	_	_
-4	dokuz	dokuz	NUM	_	NumType=Ord	0	root	_	_
+1	bin	bin	NUM	_	NumType=Card	4	compound	_	_
+2	yüz	yüz	NUM	_	NumType=Card	4	compound	_	_
+3	doksan	doksan	NUM	_	NumType=Card	4	compound	_	_
+4	dokuz	dokuz	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0083
 # text = üç yüz
-1	üç	üç	NUM	_	NumType=Ord	2	compound	_	_
-2	yüz	yüz	NUM	_	NumType=Ord	0	root	_	_
+1	üç	üç	NUM	_	NumType=Card	2	compound	_	_
+2	yüz	yüz	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0084
 # text = kırk iki bin
-1	kırk	kırk	NUM	_	NumType=Ord	3	compound	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	compound	_	_
-3	bin	bin	NUM	_	NumType=Ord	0	root	_	_
+1	kırk	kırk	NUM	_	NumType=Card	3	compound	_	_
+2	iki	iki	NUM	_	NumType=Card	3	compound	_	_
+3	bin	bin	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0085
 # text = dokuz milyon altı yüz altmış bin
-1	dokuz	dokuz	NUM	_	NumType=Ord	6	compound	_	_
-2	milyon	milyon	NUM	_	NumType=Ord	6	compound	_	_
-3	altı	altı	NUM	_	NumType=Ord	6	compound	_	_
-4	yüz	yüz	NUM	_	NumType=Ord	6	compound	_	_
-5	altmış	altmış	NUM	_	NumType=Ord	6	compound	_	_
-6	bin	bin	NUM	_	NumType=Ord	0	root	_	_
+1	dokuz	dokuz	NUM	_	NumType=Card	6	compound	_	_
+2	milyon	milyon	NUM	_	NumType=Card	6	compound	_	_
+3	altı	altı	NUM	_	NumType=Card	6	compound	_	_
+4	yüz	yüz	NUM	_	NumType=Card	6	compound	_	_
+5	altmış	altmış	NUM	_	NumType=Card	6	compound	_	_
+6	bin	bin	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0086
 # text = yirminin sekizde yedisi
@@ -673,8 +673,8 @@
 # text = paramızın yüzde doksan beşi
 1	paramızın	para	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	4	nmod:part	_	_
 2	yüzde	yüz	NUM	_	Case=Loc|Number=Sing	4	nummod	_	_
-3	doksan	doksan	NUM	_	NumType=Ord	4	compound	_	_
-4	beşi	beş	NUM	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+3	doksan	doksan	NUM	_	NumType=Card	4	compound	_	_
+4	beşi	beş	NUM	_	Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	0	root	_	_
 
 # sent_id = GK15-0088
 # text = paramızın % 95’i
@@ -703,11 +703,11 @@
 # sent_id = GK15-0092
 # text = üçer yüz
 1	üçer	üç	NUM	_	NumType=Dist	2	compound	_	_
-2	yüz	yüz	NUM	_	NumType=Ord	0	root	_	_
+2	yüz	yüz	NUM	_	NumType=Card	0	root	_	_
 
 # sent_id = GK15-0093
 # text = üç yüzer
-1	üç	üç	NUM	_	NumType=Ord	2	compound	_	_
+1	üç	üç	NUM	_	NumType=Card	2	compound	_	_
 2	yüzer	yüz	NUM	_	NumType=Dist	0	root	_	_
 
 # sent_id = GK15-0094
@@ -731,13 +731,13 @@
 
 # sent_id = GK15-0096
 # text = on tane tabak
-1	on	on	NUM	_	NumType=Ord	2	nummod	_	_
+1	on	on	NUM	_	NumType=Card	2	nummod	_	_
 2	tane	tane	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	tabak	tabak	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0097
 # text = sekiz bardak su
-1	sekiz	sekiz	NUM	_	NumType=Ord	2	nummod	_	_
+1	sekiz	sekiz	NUM	_	NumType=Card	2	nummod	_	_
 2	bardak	bardak	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	su	su	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
@@ -751,7 +751,7 @@
 # text = Limonun tanesi 20 peni.
 1	Limonun	limon	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
-3	20	20	NUM	_	NumType=Ord	4	nummod	_	_
+3	20	20	NUM	_	NumType=Card	4	nummod	_	_
 4	peni	peni	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -774,13 +774,13 @@
 # sent_id = GK15-0102
 # text = Şişesi 100 sterlin.
 1	Şişesi	şişe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-2	100	100	NUM	_	NumType=Ord	3	nummod	_	_
+2	100	100	NUM	_	NumType=Card	3	nummod	_	_
 3	sterlin	sterlin	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK15-0103
 # text = iki oda dolusu eski gazete
-1	iki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	iki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	oda	oda	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	dolusu	dolu	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	eski	eski	ADJ	_	_	5	amod	_	_
@@ -790,7 +790,7 @@
 # text = Aşağı yukarı 100 sayfa okudum.
 1	Aşağı	aşağı	ADV	_	_	3	advmod	_	_
 2	yukarı	yukarı	ADV	_	_	1	fixed	_	_
-3	100	100	NUM	_	NumType=Ord	4	nummod	_	_
+3	100	100	NUM	_	NumType=Card	4	nummod	_	_
 4	sayfa	sayfa	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	okudum	oku	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -798,26 +798,26 @@
 # sent_id = GK15-0105
 # text = aynı üç konuşmacı
 1	aynı	aynı	DET	_	Definite=Def|Number=Sing	3	det	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	konuşmacı	konuşmacı	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0106
 # text = bu yedi iskemle
 1	bu	bu	DET	_	Definite=Def|Number=Sing	3	det	_	_
-2	yedi	yedi	NUM	_	NumType=Ord	3	nummod	_	_
+2	yedi	yedi	NUM	_	NumType=Card	3	nummod	_	_
 3	iskemle	iskemle	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0107
 # text = bu yedi tane iskemle
 1	bu	bu	DET	_	Definite=Def|Number=Sing	4	det	_	_
-2	yedi	yedi	NUM	_	NumType=Ord	3	nummod	_	_
+2	yedi	yedi	NUM	_	NumType=Card	3	nummod	_	_
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	iskemle	iskemle	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0108
 # text = Her dört daireyi beğendik.
 1	Her	her	DET	_	Definite=Def|Number=Sing	3	det	_	_
-2	dört	dört	NUM	_	NumType=Ord	3	nummod	_	_
+2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	daireyi	daire	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 4	beğendik	beğen	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -825,7 +825,7 @@
 # sent_id = GK15-0109
 # text = Her dört daireyi de beğendik.
 1	Her	her	DET	_	Definite=Def|Number=Sing	3	det	_	_
-2	dört	dört	NUM	_	NumType=Ord	3	nummod	_	_
+2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	daireyi	daire	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 4	de	de	ADV	_	_	3	advmod:emph	_	_
 5	beğendik	beğen	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -834,7 +834,7 @@
 # sent_id = GK15-0110
 # text = Her iki çocuk da uyumuş.
 1	Her	her	DET	_	Definite=Def|Number=Sing	3	det	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 4	da	da	ADV	_	_	3	advmod:emph	_	_
 5	uyumuş	uyu	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -842,7 +842,7 @@
 
 # sent_id = GK15-0111
 # text = İki çocuk da uyumuş.
-1	İki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	İki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	da	da	ADV	_	_	2	advmod:emph	_	_
 4	uyumuş	uyu	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -862,7 +862,7 @@
 
 # sent_id = GK15-0114
 # text = üç tarihi şehir
-1	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+1	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 2	tarihi	tarihi	ADJ	_	_	3	amod	_	_
 3	şehir	şehir	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
@@ -973,7 +973,7 @@
 
 # sent_id = GK15-0129
 # text = on tane üçer dörder metrelik heykel
-1	on	on	NUM	_	NumType=Ord	2	nummod	_	_
+1	on	on	NUM	_	NumType=Card	2	nummod	_	_
 2	tane	tane	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 3	üçer	üç	NUM	_	NumType=Dist	5	nummod	_	_
 4	dörder	dört	NUM	_	NumType=Dist	3	conj	_	_
@@ -989,7 +989,7 @@
 3-4	metrelik	_	_	_	_	_	_	_	_
 3	metre	metre	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 4	lik	lik	ADJ	_	_	3	amod	_	_
-5	on	on	NUM	_	NumType=Ord	6	nummod	_	_
+5	on	on	NUM	_	NumType=Card	6	nummod	_	_
 6	tane	tane	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 7	heykel	heykel	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
@@ -1000,7 +1000,7 @@
 3-4	tirajlı	_	_	_	_	_	_	_	_
 3	tiraj	tiraj	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 4	lı	li	ADP	_	_	3	case	_	_
-5	beş	beş	NUM	_	NumType=Ord	7	nummod	_	_
+5	beş	beş	NUM	_	NumType=Card	7	nummod	_	_
 6	Türk	Türk	PROPN	_	Number=Sing	7	nmod	_	_
 7	gazetesi	gazete	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
@@ -1016,7 +1016,7 @@
 # text = orta büyüklükte dört patates
 1	orta	orta	ADJ	_	_	2	amod	_	_
 2	büyüklükte	büyüklük	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
-3	dört	dört	NUM	_	NumType=Ord	4	nummod	_	_
+3	dört	dört	NUM	_	NumType=Card	4	nummod	_	_
 4	patates	patates	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0134
@@ -1072,7 +1072,7 @@
 # sent_id = GK15-0140
 # text = bütün yedi yaşındaki çocuklar
 1	bütün	bütün	DET	_	Definite=Def|Number=Sing	5	det	_	_
-2	yedi	yedi	NUM	_	NumType=Ord	3	nummod	_	_
+2	yedi	yedi	NUM	_	NumType=Card	3	nummod	_	_
 3-4	yaşındaki	_	_	_	_	_	_	_	_
 3	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 4	ki	ki	ADP	_	_	3	case	_	_
@@ -1080,7 +1080,7 @@
 
 # sent_id = GK15-0141
 # text = yedi yaşındaki bütün çocuklar
-1	yedi	yedi	NUM	_	NumType=Ord	2	nummod	_	_
+1	yedi	yedi	NUM	_	NumType=Card	2	nummod	_	_
 2-3	yaşındaki	_	_	_	_	_	_	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 3	ki	ki	ADP	_	_	2	case	_	_
@@ -1099,7 +1099,7 @@
 # text = Jale’nin sevdiği iki yer
 1	Jale’nin	Jale	PROPN	_	Case=Gen|Number=Sing	2	nsubj	_	_
 2	sevdiği	sevdik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	4	acl	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	yer	yer	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0144

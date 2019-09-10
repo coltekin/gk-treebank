@@ -69,7 +69,7 @@
 # sent_id = GK23-0009
 # text = Rezan on yıldır pilot.
 1	Rezan	Rezan	PROPN	_	Number=Sing	5	nsubj	_	_
-2	on	on	NUM	_	NumType=Ord	3	nummod	_	_
+2	on	on	NUM	_	NumType=Card	3	nummod	_	_
 3-4	yıldır	_	_	_	_	_	_	_	_
 3	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	dır	i	AUX	_	_	3	cop	_	_
@@ -423,7 +423,7 @@
 # text = Her gün 14.30’da uçak kalkıyormuş.
 1	Her	her	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	14.30’da	14.30	NUM	_	Case=Loc|NumType=Ord	5	obl:tmod	_	_
+3	14.30’da	14.30	NUM	_	Case=Loc|NumType=Card	5	obl:tmod	_	_
 4	uçak	uçak	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	kalkıyormuş	kalk	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -491,7 +491,7 @@
 # sent_id = GK23-0056
 # text = Ahmet’in iki arabası var.
 1	Ahmet’in	Ahmet	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -837,8 +837,8 @@
 4-5	vardır	_	_	_	_	_	_	_	_
 4	var	var	ADJ	_	_	0	root	_	_
 5	dır	i	AUX	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-6	bir	bir	NUM	_	NumType=Ord	8	nummod	_	_
-7	iki	iki	NUM	_	NumType=Ord	6	conj	_	_
+6	bir	bir	NUM	_	NumType=Card	8	nummod	_	_
+7	iki	iki	NUM	_	NumType=Card	6	conj	_	_
 8	kaşık	kaşık	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 

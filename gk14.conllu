@@ -121,8 +121,8 @@
 2	memleketin	memleket	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
 3	en	en	ADV	_	_	4	advmod	_	_
 4	az	az	ADV	_	_	5	advmod	_	ModifiesHead=Yes
-5	beş	beş	NUM	_	NumType=Ord	7	nummod	_	_
-6	altı	altı	NUM	_	NumType=Ord	5	conj	_	_
+5	beş	beş	NUM	_	NumType=Card	7	nummod	_	_
+6	altı	altı	NUM	_	NumType=Card	5	conj	_	_
 7	müziği	müzik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
 8	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -144,7 +144,7 @@
 # sent_id = GK14-0017
 # text = Dün üç şeftali yedim.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	şeftali	şeftali	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	yedim	ye	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -212,12 +212,12 @@
 
 # sent_id = GK14-0025
 # text = Üç Silahşörler
-1	Üç	üç	NUM	_	NumType=Ord	2	nummod	_	_
+1	Üç	üç	NUM	_	NumType=Card	2	nummod	_	_
 2	Silahşörler	silahşör	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
 # sent_id = GK14-0026
 # text = Yedi Cüceler
-1	Yedi	yedi	NUM	_	NumType=Ord	2	nummod	_	_
+1	Yedi	yedi	NUM	_	NumType=Card	2	nummod	_	_
 2	Cüceler	cüce	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
 # sent_id = GK14-0027
@@ -228,7 +228,7 @@
 
 # sent_id = GK14-0028
 # text = kaç kişi
-1	kaç	kaç	NUM	_	NumType=Ord|PronType=Int	2	nummod	_	_
+1	kaç	kaç	NUM	_	NumType=Card|PronType=Int	2	nummod	_	_
 2	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK14-0029
@@ -406,7 +406,7 @@
 
 # sent_id = GK14-0053
 # text = 1995 ortalarında
-1	1995	1995	NUM	_	NumType=Ord	2	nummod	_	_
+1	1995	1995	NUM	_	NumType=Card	2	nummod	_	_
 2	ortalarında	orta	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK14-0054
@@ -441,7 +441,7 @@
 
 # sent_id = GK14-0060
 # text = kırkbeş yaşlarında bir adam
-1	kırkbeş	kırkbeş	NUM	_	NumType=Ord	2	nummod	_	_
+1	kırkbeş	kırkbeş	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşlarında	yaş	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 3	bir	bir	DET	_	Definite=Ind|Number=Sing	4	det	_	_
 4	adam	adam	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -810,7 +810,7 @@
 
 # sent_id = GK14-0107
 # text = İki kitabı göndermemişler galiba.
-1	İki	iki	NUM	_	NumType=Ord	2	nummod	_	_
+1	İki	iki	NUM	_	NumType=Card	2	nummod	_	_
 2	kitabı	kitap	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
 3	göndermemişler	gönder	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 4	galiba	galiba	ADV	_	_	3	discourse	_	SpaceAfter=No
@@ -869,9 +869,9 @@
 # text = Bu bisikleti iki yüz milyona almıştım.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	bisikleti	bisiklet	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
-3	iki	iki	NUM	_	NumType=Ord	5	compound	_	_
-4	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-5	milyona	milyon	NUM	_	Case=Dat|Number=Sing	6	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	5	compound	_	_
+4	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+5	milyona	milyon	NUM	_	Case=Dat|Number=Sing|NumType=Card	6	nummod	_	_
 6	almıştım	al	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -976,7 +976,7 @@
 
 # sent_id = GK14-0127
 # text = otuz metre derinliğinde bir kuyu
-1	otuz	otuz	NUM	_	NumType=Ord	2	nummod	_	_
+1	otuz	otuz	NUM	_	NumType=Card	2	nummod	_	_
 2	metre	metre	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	derinliğinde	derinlik	NOUN	_	Case=Loc|Number=Sing	5	nmod	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
@@ -1066,7 +1066,7 @@
 1	Çikolata	çikolata	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	lı	-li	ADP	_	_	1	case	_	_
 3	pastadan	pasta	NOUN	_	Case=Abl|Number=Sing	5	nmod:part	_	_
-4	iki	iki	NUM	_	NumType=Ord	5	nummod	_	_
+4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 5	dilim	dilim	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	yedi	ye	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1156,7 +1156,7 @@
 # sent_id = GK14-0147
 # text = Ayten’in iki kız kardeşi var.
 1	Ayten’in	Ayten	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 3	kız	kız	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	kardeşi	kardeş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1321,7 +1321,7 @@
 # text = erkek öğrencilerden bir tanesi
 1	erkek	erkek	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
 2	öğrencilerden	öğrenci	NOUN	_	Case=Abl|Number=Plur	4	nmod:part	_	_
-3	bir	bir	NUM	_	NumType=Ord	4	nummod	_	_
+3	bir	bir	NUM	_	NumType=Card	4	nummod	_	_
 4	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK14-0168
@@ -1354,7 +1354,7 @@
 3	ülkelerinden	ülke	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	nmod:part	_	_
 4	Sierra	Sierra	PROPN	_	Number=Sing	11	obl	_	_
 5	Leone’de	Leone	PROPN	_	Case=Loc|Number=Sing	4	flat	_	_
-6	on	on	NUM	_	NumType=Ord	7	nummod	_	_
+6	on	on	NUM	_	NumType=Card	7	nummod	_	_
 7	yıldan	yıl	NOUN	_	Case=Abl|Number=Sing	11	nmod:tmod	_	_
 8	beri	beri	ADP	_	_	7	case	_	_
 9	iç	iç	ADJ	_	_	10	amod	_	_
@@ -1390,8 +1390,8 @@
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
 3	ki	-ki	ADP	_	_	2	case	_	_
 4	misafirlerimizden	misafir	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Plur|Person[psor]=1	7	nmod:part	_	_
-5	yirmi	yirmi	NUM	_	NumType=Ord	7	nummod	_	_
-6	otuz	otuz	NUM	_	NumType=Ord	5	conj	_	_
+5	yirmi	yirmi	NUM	_	NumType=Card	7	nummod	_	_
+6	otuz	otuz	NUM	_	NumType=Card	5	conj	_	_
 7	aile	aile	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 8	şimdiden	şimdiden	ADV	_	_	13	advmod	_	_
 9	gelecek	gelecek	ADJ	_	_	10	amod	_	_
@@ -1413,8 +1413,8 @@
 # sent_id = GK14-0175
 # text = İçlerinden yirmi otuz aile de şimdiden gelecek yıl için rezervasyon yaptılar.
 1	İçlerinden	içlerinden	ADP	_	Number[psor]=Plur|Person[psor]=3	4	nmod:part	_	_
-2	yirmi	yirmi	NUM	_	NumType=Ord	4	nummod	_	_
-3	otuz	otuz	NUM	_	NumType=Ord	2	conj	_	_
+2	yirmi	yirmi	NUM	_	NumType=Card	4	nummod	_	_
+3	otuz	otuz	NUM	_	NumType=Card	2	conj	_	_
 4	aile	aile	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 5	de	de	ADV	_	_	4	advmod:emph	_	_
 6	şimdiden	şimdiden	ADV	_	_	11	advmod	_	_
@@ -1448,7 +1448,7 @@
 # sent_id = GK14-0178
 # text = Küçüklerden on tane yeter mi?
 1	Küçüklerden	küçük	NOUN	_	Case=Abl|Number=Plur	3	nmod:part	_	_
-2	on	on	NUM	_	NumType=Ord	3	nummod	_	_
+2	on	on	NUM	_	NumType=Card	3	nummod	_	_
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	yeter	yet	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	mi	mi	AUX	_	Number=Sing|Person=3|PronType=Int	4	aux:q	_	SpaceAfter=No
@@ -1462,7 +1462,7 @@
 3	çiçek	çiçek	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	li	-li	ADP	_	_	3	case	_	_
 5	kumaştan	kumaş	NOUN	_	Case=Abl|Number=Sing	7	nmod:part	_	_
-6	on	on	NUM	_	NumType=Ord	7	nummod	_	_
+6	on	on	NUM	_	NumType=Card	7	nummod	_	_
 7	metre	metre	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 8	alalım	al	VERB	_	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -1573,7 +1573,7 @@
 5	biri	bir	NUM	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	bazen	bazen	ADV	_	_	9	advmod	_	_
-8	iki	iki	NUM	_	NumType=Ord	9	nummod	_	_
+8	iki	iki	NUM	_	NumType=Card	9	nummod	_	_
 9	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
 10	geliyor	gel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_

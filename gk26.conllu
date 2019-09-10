@@ -6,7 +6,7 @@
 4	ki	ki	SCONJ	_	_	10	mark	_	_
 5	masasında	masa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
 6	onun	o	PRON	_	Case=Gen|Number=Sing	9	nmod	_	_
-7	üç	üç	NUM	_	NumType=Ord	8	nummod	_	_
+7	üç	üç	NUM	_	NumType=Card	8	nummod	_	_
 8	tane	tane	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	resmi	resim	NOUN	_	Case=Acc|Number=Sing	10	nsubj	_	_
 10	var	var	ADJ	_	_	2	advcl	_	SpaceAfter=No
@@ -16,7 +16,7 @@
 # text = Masasında kocasının üç tane resmi olduğuna göre ona düşkün olmalı.
 1	Masasında	masa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 2	kocasının	koca	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
-3	üç	üç	NUM	_	NumType=Ord	4	nummod	_	_
+3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
 4	tane	tane	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	resmi	resim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 6	olduğuna	ol	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	9	advcl	_	_
@@ -42,7 +42,7 @@
 1	Kalabalık	kalabalık	ADJ	_	_	7	advcl	_	_
 2	olacağız	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	cop	_	_
 3	diye	diye	SCONJ	_	_	1	mark	_	_
-4	bir	bir	NUM	_	NumType=Ord	5	nummod	_	_
+4	bir	bir	NUM	_	NumType=Card	5	nummod	_	_
 5	ekmek	ekmek	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 6	daha	daha	ADV	_	_	5	advmod	_	_
 7	almıştım	al	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -183,7 +183,7 @@
 # sent_id = GK26-0017
 # text = Mademki seksen yaşındaki komşum bilgisayar kullanmayı öğrenmiş, ben de öğrenebilirim.
 1	Mademki	mademki	SCONJ	_	_	8	mark	_	_
-2	seksen	seksen	NUM	_	NumType=Ord	3	nummod	_	_
+2	seksen	seksen	NUM	_	NumType=Card	3	nummod	_	_
 3-4	yaşındaki	_	_	_	_	_	_	_	_
 3	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 4	ki	ki	ADP	_	_	3	case	_	_
@@ -706,13 +706,13 @@
 # text = Biz size iki ay içinde geri ödemek şartıyla on milyarlık borç verebiliriz.
 1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
 2	size	siz	PRON	_	Case=Dat|Number=Sing|Person=2	12	obl	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	ay	ay	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
 6	geri	geri	ADV	_	_	7	advmod	_	_
 7	ödemek	öde	VERB	_	Mood=Ind|VerbForm=Fin	8	acl	_	_
 8	şartıyla	şart	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
-9	on	on	NUM	_	NumType=Ord	10	compound	_	_
+9	on	on	NUM	_	NumType=Card	10	compound	_	_
 10	milyarlık	milyar	NUM	_	Case=Nom|Number=Sing	11	nmod	_	_
 11	borç	borç	NOUN	_	Case=Nom|Number=Sing	12	obj	_	_
 12	verebiliriz	ver	VERB	_	Aspect=Hab|Mood=GenPot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1273,7 +1273,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	öldükten	öl	VERB	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
-5	iki	iki	NUM	_	NumType=Ord	6	nummod	_	_
+5	iki	iki	NUM	_	NumType=Card	6	nummod	_	_
 6	ay	ay	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	sonra	sonra	ADP	_	_	4	mark	_	_
 8	doğdu	doğ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No

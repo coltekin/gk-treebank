@@ -704,7 +704,7 @@
 # sent_id = GK18-0075
 # text = Birbirlerini iki yıldır görmüyorlar.
 1	Birbirlerini	birbir	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Rcp	5	obj	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3-4	yıldır	_	_	_	_	_	_	_	_
 3	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	dır	-dir	ADV	_	_	3	case	_	_
@@ -1189,7 +1189,7 @@
 
 # sent_id = GK18-0129
 # text = On dakika sonra dükkanlar kapanıyor ve evde kahve yok.
-1	On	on	NUM	_	NumType=Ord	2	nummod	_	_
+1	On	on	NUM	_	NumType=Card	2	nummod	_	_
 2	dakika	dakika	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	dükkanlar	dükkan	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
@@ -1219,7 +1219,7 @@
 4	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	şu	şu	PRON	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	11	punct	_	_
-7	on	on	NUM	_	NumType=Ord	8	nummod	_	_
+7	on	on	NUM	_	NumType=Card	8	nummod	_	_
 8	dakika	dakika	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
 9	sonra	sonra	ADP	_	_	8	case	_	_
 10	dükkanlar	dükkan	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
@@ -1311,7 +1311,7 @@
 # sent_id = GK18-0139
 # text = Şuranıza bir düğme daha lazım.
 1	Şuranıza	şura	PRON	_	Case=Dat|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	obl	_	_
-2	bir	bir	NUM	_	NumType=Ord	3	nummod	_	_
+2	bir	bir	NUM	_	NumType=Card	3	nummod	_	_
 3	düğme	düğme	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 4	daha	daha	ADV	_	_	3	advmod	_	_
 5	lazım	lazım	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1397,7 +1397,7 @@
 3	kayboldu	kaybol	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
 4	sanmıştım	san	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin	0	root	_	_
 5	ama	ama	CCONJ	_	_	8	cc	_	_
-6	iki	iki	NUM	_	NumType=Ord	7	nummod	_	_
+6	iki	iki	NUM	_	NumType=Card	7	nummod	_	_
 7	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 8	burada	bura	PRON	_	Case=Loc|Number=Sing	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -1405,7 +1405,7 @@
 # sent_id = GK18-0150
 # text = Kilosunu on milyon liradan satacaklar.
 1	Kilosunu	kilo	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
-2	on	on	NUM	_	NumType=Ord	3	compound	_	_
+2	on	on	NUM	_	NumType=Card	3	compound	_	_
 3	milyon	milyon	NUM	_	NumType=Ord	4	nummod	_	_
 4	liradan	lira	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
 5	satacaklar	sat	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No

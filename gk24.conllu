@@ -93,7 +93,7 @@
 # sent_id = GK24-0011
 # text = Tören bir saat sürer diyelim.
 1	Tören	tören	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-2	bir	bir	NUM	_	NumType=Ord	3	nummod	_	_
+2	bir	bir	NUM	_	NumType=Card	3	nummod	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	sürer	sür	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 5	diyelim	de	VERB	_	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -537,7 +537,7 @@
 # text = Amacım, beş yıl içinde zengin olmaktı.
 1	Amacım	amaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	nsubj:cop	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	beş	beş	NUM	_	NumType=Ord	4	nummod	_	_
+3	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
 4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
 6	zengin	zengin	ADJ	_	_	7	xcomp	_	_
@@ -550,7 +550,7 @@
 # text = Amaç, beş yıl içinde zengin olmaktı.
 1	Amaç	amaç	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	beş	beş	NUM	_	NumType=Ord	4	nummod	_	_
+3	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
 4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
 6	zengin	zengin	ADJ	_	_	7	xcomp	_	_
@@ -598,7 +598,7 @@
 # text = Her gün beş sayfa yazmaya çalışıyorum.
 1	Her	her	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
-3	beş	beş	NUM	_	NumType=Ord	4	nummod	_	_
+3	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
 4	sayfa	sayfa	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	yazmaya	yaz	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	6	advcl	_	_
 6	çalışıyorum	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -647,7 +647,7 @@
 # sent_id = GK24-0065
 # text = Babana bir kere daha sormakta yarar var.
 1	Babana	baba	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	obl	_	_
-2	bir	bir	NUM	_	NumType=Ord	3	nummod	_	_
+2	bir	bir	NUM	_	NumType=Card	3	nummod	_	_
 3	kere	kere	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
 4	daha	daha	ADV	_	_	3	advmod	_	_
 5	sormakta	sor	VERB	_	Case=Loc|Number=Sing|VerbForm=Vnoun	7	advcl	_	_
@@ -753,7 +753,7 @@
 # text = Fatma Hanımın üç kat merdiven çıkması çok zor.
 1	Fatma	Fatma	PROPN	_	Number=Sing	2	nmod	_	_
 2	Hanımın	hanım	NOUN	_	Case=Gen|Number=Sing	6	nsubj	_	_
-3	üç	üç	NUM	_	NumType=Ord	4	nummod	_	_
+3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
 4	kat	kat	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	merdiven	merdiven	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	çıkması	çık	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	8	csubj:cop	_	_
@@ -763,7 +763,7 @@
 
 # sent_id = GK24-0075
 # text = 8.30’da havalimanında olmamız gerekiyor.
-1	8.30’da	8.30	NUM	_	Case=Loc|NumType=Ord	2	obl:tmod	_	_
+1	8.30’da	8.30	NUM	_	Case=Loc|NumType=Card	2	obl:tmod	_	_
 2	havalimanında	havalimanı	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	csubj	_	_
 3	olmamız	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	2	cop	_	_
 4	gerekiyor	gerek	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1044,7 +1044,7 @@
 # text = Bu işin iki günde bitmeyebileceğinin farkındayım.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	işin	iş	NOUN	_	Case=Gen|Number=Sing	5	nsubj	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	günde	gün	NOUN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 5	bitmeyebileceğinin	bit	VERB	_	Case=Gen|Mood=Pot|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part	6	advcl	_	_
 6-7	farkındayım	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1159,7 +1159,7 @@
 # text = Adana’ya geldiğimin ikinci günü Turhan’la görüştük.
 1	Adana’ya	Adana	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	geldiğimin	gel	VERB	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	4	acl	_	_
-3	ikinci	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	ikinci	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl:tmod	_	_
 5	Turhan’la	Turhan	PROPN	_	Case=Ins|Number=Sing	6	obl	_	_
 6	görüştük	görüş	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1351,8 +1351,8 @@
 # text = Bu konuda bir iki sayfa yazılması isteniyormuş.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	konuda	konu	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
-3	bir	bir	NUM	_	NumType=Ord	5	nummod	_	_
-4	iki	iki	NUM	_	NumType=Ord	3	conj	_	_
+3	bir	bir	NUM	_	NumType=Card	5	nummod	_	_
+4	iki	iki	NUM	_	NumType=Card	3	conj	_	_
 5	sayfa	sayfa	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	yazılması	yaz	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun|Voice=Pass	7	csubj	_	_
 7	isteniyormuş	iste	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -1362,8 +1362,8 @@
 # text = Bu konuda bir iki sayfanın yazılması isteniyormuş.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	konuda	konu	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
-3	bir	bir	NUM	_	NumType=Ord	5	nummod	_	_
-4	iki	iki	NUM	_	NumType=Ord	3	conj	_	_
+3	bir	bir	NUM	_	NumType=Card	5	nummod	_	_
+4	iki	iki	NUM	_	NumType=Card	3	conj	_	_
 5	sayfanın	sayfa	NOUN	_	Case=Gen|Number=Sing	6	nsubj	_	_
 6	yazılması	yaz	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun|Voice=Pass	7	csubj	_	_
 7	isteniyormuş	iste	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No

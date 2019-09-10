@@ -72,7 +72,7 @@
 
 # sent_id = GK16-0009
 # text = Beş kilometre yürümüşüz.
-1	Beş	beş	NUM	_	NumType=Ord	2	nummod	_	_
+1	Beş	beş	NUM	_	NumType=Card	2	nummod	_	_
 2	kilometre	kilometre	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	yürümüşüz	yürü	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -228,7 +228,7 @@
 # sent_id = GK16-0025
 # text = Biz üç arkadaş konuşuyoruz.
 1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	arkadaş	arkadaş	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 4	konuşuyoruz	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -236,7 +236,7 @@
 # sent_id = GK16-0026
 # text = Biz üç arkadaş olarak konuşuyoruz.
 1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
-2	üç	üç	NUM	_	NumType=Ord	3	nummod	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	arkadaş	arkadaş	NOUN	_	Case=Nom|Number=Sing	1	acl	_	_
 4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
 5	konuşuyoruz	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -250,8 +250,8 @@
 4	ağır	ağır	ADJ	_	_	11	advcl	_	_
 5	olmak	ol	AUX	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	cop	_	_
 6	üzere	üzere	ADP	_	_	4	mark	_	_
-7	on	on	NUM	_	NumType=Ord	8	compound	_	_
-8	beş	beş	NUM	_	NumType=Ord	10	nummod	_	_
+7	on	on	NUM	_	NumType=Card	8	compound	_	_
+8	beş	beş	NUM	_	NumType=Card	10	nummod	_	_
 9	kadar	kadar	ADP	_	_	8	case	_	_
 10	hasta	hasta	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	yatıyordu	yat	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -273,7 +273,7 @@
 1	Hızlı	hızlı	ADV	_	_	2	advmod	_	_
 2	yürüseydik	yürü	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	advcl	_	_
 3-4	19.10’daki	_	_	_	_	_	_	_	_
-3	19.10’da	19.10	NUM	_	Case=Loc|NumType=Ord	5	nummod	_	_
+3	19.10’da	19.10	NUM	_	Case=Loc|NumType=Card	5	nummod	_	_
 4	ki	ki	ADP	_	_	3	case	_	_
 5	trene	tren	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	yetişebilirdik	yetiş	VERB	_	Aspect=Hab|Mood=GenPot|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -381,43 +381,43 @@
 # sent_id = GK16-0043
 # text = saat dörde yirmi kala
 1	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-2	dörde	dört	NUM	_	Case=Dat|Number=Sing	3	nummod	_	_
-3	yirmi	yirmi	NUM	_	NumType=Ord	0	root	_	_
+2	dörde	dört	NUM	_	Case=Dat|Number=Sing|NumType=Card	3	nummod	_	_
+3	yirmi	yirmi	NUM	_	NumType=Card	0	root	_	_
 4	kala	kala	ADP	_	_	3	case	_	_
 
 # sent_id = GK16-0044
 # text = dörde yirmi kala
-1	dörde	dört	NUM	_	Case=Dat|Number=Sing	2	nummod	_	_
-2	yirmi	yirmi	NUM	_	NumType=Ord	0	root	_	_
+1	dörde	dört	NUM	_	Case=Dat|Number=Sing|NumType=Card	2	nummod	_	_
+2	yirmi	yirmi	NUM	_	NumType=Card	0	root	_	_
 3	kala	kala	ADP	_	_	2	case	_	_
 
 # sent_id = GK16-0045
 # text = saat yediyi çeyrek geçe
 1	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-2	yediyi	yedi	NUM	_	Case=Acc|Number=Sing	3	nummod	_	_
+2	yediyi	yedi	NUM	_	Case=Acc|Number=Sing|NumType=Card	3	nummod	_	_
 3	çeyrek	çeyrek	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 4	geçe	geçe	ADP	_	_	3	case	_	_
 
 # sent_id = GK16-0046
 # text = yediyi çeyrek geçe
-1	yediyi	yedi	NUM	_	Case=Acc|Number=Sing	2	nummod	_	_
+1	yediyi	yedi	NUM	_	Case=Acc|Number=Sing|NumType=Card	2	nummod	_	_
 2	çeyrek	çeyrek	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 3	geçe	geçe	ADP	_	_	2	case	_	_
 
 # sent_id = GK16-0047
 # text = saat yirmi otuzda
 1	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-2	yirmi	yirmi	NUM	_	NumType=Ord	3	nummod	_	_
-3	otuzda	otuz	NUM	_	Case=Loc|Number=Sing	0	root	_	_
+2	yirmi	yirmi	NUM	_	NumType=Card	3	nummod	_	_
+3	otuzda	otuz	NUM	_	Case=Loc|Number=Sing|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0048
 # text = yirmi otuzda
-1	yirmi	yirmi	NUM	_	NumType=Ord	2	nummod	_	_
-2	otuzda	otuz	NUM	_	Case=Loc|Number=Sing	0	root	_	_
+1	yirmi	yirmi	NUM	_	NumType=Card	2	nummod	_	_
+2	otuzda	otuz	NUM	_	Case=Loc|Number=Sing|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0049
 # text = 20:30’da
-1	20:30’da	20:30	NUM	_	Case=Loc|NumType=Ord	0	root	_	_
+1	20:30’da	20:30	NUM	_	Case=Loc|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0050
 # text = Çarşamba Konya’ya gidiyorum.
@@ -452,107 +452,107 @@
 
 # sent_id = GK16-0055
 # text = on yedi haziranda
-1	on	on	NUM	_	NumType=Ord	2	compound	_	_
-2	yedi	yedi	NUM	_	NumType=Ord	3	nummod	_	_
+1	on	on	NUM	_	NumType=Card	2	compound	_	_
+2	yedi	yedi	NUM	_	NumType=Card	3	nummod	_	_
 3	haziranda	haziran	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 
 # sent_id = GK16-0056
 # text = 17 Haziran’da
-1	17	17	NUM	_	NumType=Ord	2	nummod	_	_
+1	17	17	NUM	_	NumType=Card	2	nummod	_	_
 2	Haziran’da	haziran	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 
 # sent_id = GK16-0057
 # text = sekiz kasım bin dokuz yüz seksen dörtte
-1	sekiz	sekiz	NUM	_	NumType=Ord	2	nummod	_	_
+1	sekiz	sekiz	NUM	_	NumType=Card	2	nummod	_	_
 2	kasım	kasım	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
-3	bin	bin	NUM	_	NumType=Ord	7	compound	_	_
-4	dokuz	dokuz	NUM	_	NumType=Ord	7	compound	_	_
-5	yüz	yüz	NUM	_	NumType=Ord	7	compound	_	_
-6	seksen	seksen	NUM	_	NumType=Ord	7	compound	_	_
-7	dörtte	dört	NUM	_	Case=Loc|Number=Sing	0	root	_	_
+3	bin	bin	NUM	_	NumType=Card	7	compound	_	_
+4	dokuz	dokuz	NUM	_	NumType=Card	7	compound	_	_
+5	yüz	yüz	NUM	_	NumType=Card	7	compound	_	_
+6	seksen	seksen	NUM	_	NumType=Card	7	compound	_	_
+7	dörtte	dört	NUM	_	Case=Loc|Number=Sing|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0058
 # text = 8 Kasım 1984’te
-1	8	8	NUM	_	NumType=Ord	2	nummod	_	_
+1	8	8	NUM	_	NumType=Card	2	nummod	_	_
 2	Kasım	kasım	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
-3	1984’te	1984	NUM	_	Case=Loc|Number=Sing	0	root	_	_
+3	1984’te	1984	NUM	_	Case=Loc|Number=Sing|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0059
 # text = haziran ayının on yedisinde
 1	haziran	haziran	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:tmod	_	_
-3	on	on	NUM	_	NumType=Ord	4	compound	_	_
-4	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+3	on	on	NUM	_	NumType=card	4	compound	_	_
+4	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0060
 # text = haziranın on yedisinde
 1	haziranın	haziran	NOUN	_	Case=Gen|Number=Sing	3	nmod:tmod	_	_
-2	on	on	NUM	_	NumType=Ord	3	compound	_	_
-3	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+2	on	on	NUM	_	NumType=Card	3	compound	_	_
+3	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0061
 # text = bin dokuz yüz seksen dört kasımında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dört	dört	NUM	_	NumType=Ord	6	nummod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
 6	kasımında	kasım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0062
 # text = 1984 kasımında
-1	1984	1984	NUM	_	NumType=Ord	2	nummod	_	_
+1	1984	1984	NUM	_	NumType=Card	2	nummod	_	_
 2	kasımında	kasım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0063
 # text = bin dokuz yüz seksen dördün kasımında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	_	Case=Gen|Number=Sing	6	nmod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dördün	dört	NUM	_	Case=Gen|Number=Sing|NumType=Card	6	nmod	_	_
 6	kasımında	kasım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0064
 # text = bin dokuz yüz seksen dördün kasım ayında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	amod	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	_	Case=Gen|Number=Sing	7	nmod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	amod	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dördün	dört	NUM	_	Case=Gen|Number=Sing|NumType=Card	7	nmod	_	_
 6	kasım	kasım	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 7	ayında	ay	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0065
 # text = bin dokuz yüz seksen dört yılının kasım ayında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dört	dört	NUM	_	NumType=Ord	6	nmod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dört	dört	NUM	_	NumType=Card	6	nmod	_	_
 6	yılının	yıl	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 7	kasım	kasım	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 8	ayında	ay	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0066
 # text = bin dokuz yüz seksen dördün sekiz kasımında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dördün	dört	NUM	_	Case=Gen|Number=Sing	7	nmod	_	_
-6	sekiz	sekiz	NUM	_	NumType=Ord	7	nummod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dördün	dört	NUM	_	Case=Gen|Number=Sing|NumType=Card	7	nmod	_	_
+6	sekiz	sekiz	NUM	_	NumType=Card	7	nummod	_	_
 7	kasımında	kasım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0067
 # text = bin dokuz yüz seksen dört yılının sekiz kasımında
-1	bin	bin	NUM	_	NumType=Ord	5	compound	_	_
-2	dokuz	dokuz	NUM	_	NumType=Ord	5	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	5	compound	_	_
-4	seksen	seksen	NUM	_	NumType=Ord	5	compound	_	_
-5	dört	dört	NUM	_	NumType=Ord	6	nummod	_	_
+1	bin	bin	NUM	_	NumType=Card	5	compound	_	_
+2	dokuz	dokuz	NUM	_	NumType=Card	5	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	5	compound	_	_
+4	seksen	seksen	NUM	_	NumType=Card	5	compound	_	_
+5	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
 6	yılının	yıl	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
-7	sekiz	sekiz	NUM	_	NumType=Ord	8	nmod	_	_
+7	sekiz	sekiz	NUM	_	NumType=Card	8	nmod	_	_
 8	kasımında	kasım	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK16-0068
@@ -596,25 +596,25 @@
 
 # sent_id = GK16-0076
 # text = bin sekiz yüz otuzlarda
-1	bin	bin	NUM	_	NumType=Ord	4	compound	_	_
-2	sekiz	sekiz	NUM	_	NumType=Ord	4	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	4	compound	_	_
+1	bin	bin	NUM	_	NumType=Card	4	compound	_	_
+2	sekiz	sekiz	NUM	_	NumType=Card	4	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	4	compound	_	_
 4	otuzlarda	otuz	NUM	_	Case=Loc|Number=Plur	0	root	_	_
 
 # sent_id = GK16-0077
 # text = 1830’lu yıllarda
 1-2	1830’lu	_	_	_	_	_	_	_	_
-1	1830’	1830	NUM	_	Number=Sing	3	nummod	_	_
+1	1830’	1830	NUM	_	Number=Sing|NumType=Card	3	nummod	_	_
 2	lu	li	ADP	_	_	1	case	_	_
 3	yıllarda	yıl	NOUN	_	Case=Loc|Number=Plur	0	root	_	_
 
 # sent_id = GK16-0078
 # text = bin sekiz yüz otuzlu yıllarda
-1	bin	bin	NUM	_	NumType=Ord	4	compound	_	_
-2	sekiz	sekiz	NUM	_	NumType=Ord	4	compound	_	_
-3	yüz	yüz	NUM	_	NumType=Ord	4	compound	_	_
+1	bin	bin	NUM	_	NumType=Card	4	compound	_	_
+2	sekiz	sekiz	NUM	_	NumType=Card	4	compound	_	_
+3	yüz	yüz	NUM	_	NumType=Card	4	compound	_	_
 4-5	otuzlu	_	_	_	_	_	_	_	_
-4	otuz	otuz	NUM	_	Number=Sing	6	nummod	_	_
+4	otuz	otuz	NUM	_	Number=Sing|NumType=Card	6	nummod	_	_
 5	lu	li	ADP	_	_	4	case	_	_
 6	yıllarda	yıl	NOUN	_	Case=Loc|Number=Plur	0	root	_	_
 
@@ -707,7 +707,7 @@
 
 # sent_id = GK16-0087
 # text = Yirmi yıl önce burası tarlaydı.
-1	Yirmi	yirmi	NUM	_	NumType=Ord	2	nummod	_	_
+1	Yirmi	yirmi	NUM	_	NumType=Card	2	nummod	_	_
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
 3	önce	önce	ADP	_	_	2	case	_	_
 4	burası	bura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
@@ -727,7 +727,7 @@
 # sent_id = GK16-0089
 # text = Kocası yirmi yıl önce ölmüştü.
 1	Kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-2	yirmi	yirmi	NUM	_	NumType=Ord	3	nmod	_	_
+2	yirmi	yirmi	NUM	_	NumType=Card	3	nmod	_	_
 3	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	önce	önce	ADP	_	_	3	case	_	_
 5	ölmüştü	öl	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -735,7 +735,7 @@
 
 # sent_id = GK16-0090
 # text = Beş gün sonra sınavım var.
-1	Beş	beş	NUM	_	NumType=Ord	2	nummod	_	_
+1	Beş	beş	NUM	_	NumType=Card	2	nummod	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	sınavım	sınav	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
@@ -744,7 +744,7 @@
 
 # sent_id = GK16-0091
 # text = Beş gün sonra sınava girdim.
-1	Beş	beş	NUM	_	NumType=Ord	2	nummod	_	_
+1	Beş	beş	NUM	_	NumType=Card	2	nummod	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	sınava	sınav	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
@@ -843,12 +843,12 @@
 
 # sent_id = GK16-0100
 # text = Üç hafta içinde bu kavşakta iki defa kaza oldu.
-1	Üç	üç	NUM	_	NumType=Ord	2	nummod	_	_
+1	Üç	üç	NUM	_	NumType=Card	2	nummod	_	_
 2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 3	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	bu	bu	DET	_	Definite=Def|Number=Sing	5	det	_	_
 5	kavşakta	kavşak	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
-6	iki	iki	NUM	_	NumType=Ord	7	nummod	_	_
+6	iki	iki	NUM	_	NumType=Card	7	nummod	_	_
 7	defa	defa	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 8	kaza	kaza	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 9	oldu	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
@@ -856,11 +856,11 @@
 
 # sent_id = GK16-0101
 # text = Üç haftada bu kavşakta iki defa kaza oldu.
-1	Üç	üç	NUM	_	NumType=Ord	2	nummod	_	_
+1	Üç	üç	NUM	_	NumType=Card	2	nummod	_	_
 2	haftada	hafta	NOUN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
 3	bu	bu	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	kavşakta	kavşak	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
-5	iki	iki	NUM	_	NumType=Ord	6	nummod	_	_
+5	iki	iki	NUM	_	NumType=Card	6	nummod	_	_
 6	defa	defa	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
 7	kaza	kaza	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 8	oldu	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	SpaceAfter=No
@@ -917,7 +917,7 @@
 
 # sent_id = GK16-0108
 # text = Üç yıldan beri burada çalışıyorum.
-1	Üç	üç	NUM	_	NumType=Ord	2	nummod	_	_
+1	Üç	üç	NUM	_	NumType=Card	2	nummod	_	_
 2	yıldan	yıl	NOUN	_	Case=Abl|Number=Sing	5	obl:tmod	_	_
 3	beri	beri	ADP	_	_	2	case	_	_
 4	burada	bura	PRON	_	Case=Loc|Number=Sing	5	obl	_	_
@@ -926,7 +926,7 @@
 
 # sent_id = GK16-0109
 # text = Üç yıldır burada çalışıyorum.
-1	Üç	üç	NUM	_	NumType=Ord	2	nummod	_	_
+1	Üç	üç	NUM	_	NumType=Card	2	nummod	_	_
 2-3	yıldır	_	_	_	_	_	_	_	_
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	dır	-dir	ADV	_	_	2	case	_	_
@@ -957,7 +957,7 @@
 # text = Şükran’la ayda bir görüşmeye çalışıyoruz.
 1	Şükran’la	şükran	NOUN	_	Case=Ins|Number=Sing	5	nsubj	_	_
 2	ayda	ay	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
-3	bir	bir	NUM	_	NumType=Ord	4	nmod:tmod	_	_
+3	bir	bir	NUM	_	NumType=Card	4	nmod:tmod	_	_
 4	görüşmeye	görüşme	NOUN	_	Case=Dat|Number=Sing	5	advcl	_	_
 5	çalışıyoruz	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -967,8 +967,8 @@
 1	Artık	artık	ADV	_	_	7	advmod	_	_
 2	makine	makine	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 3	yılda	yıl	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
-4	dört	dört	NUM	_	NumType=Ord	6	nummod	_	_
-5	beş	beş	NUM	_	NumType=Ord	4	conj	_	_
+4	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
+5	beş	beş	NUM	_	NumType=Card	4	conj	_	_
 6	kere	kere	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	arızalanıyor	arızalan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -978,8 +978,8 @@
 1	Artık	artık	ADV	_	_	7	advmod	_	_
 2	makine	makine	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 3	yılda	yıl	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
-4	dört	dört	NUM	_	NumType=Ord	6	nummod	_	_
-5	beş	beş	NUM	_	NumType=Ord	4	conj	_	_
+4	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
+5	beş	beş	NUM	_	NumType=Card	4	conj	_	_
 6	defa	defa	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	arızalanıyor	arızalan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -989,8 +989,8 @@
 1	Artık	artık	ADV	_	_	7	advmod	_	_
 2	makine	makine	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 3	yılda	yıl	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
-4	dört	dört	NUM	_	NumType=Ord	6	nummod	_	_
-5	beş	beş	NUM	_	NumType=Ord	4	conj	_	_
+4	dört	dört	NUM	_	NumType=Card	6	nummod	_	_
+5	beş	beş	NUM	_	NumType=Card	4	conj	_	_
 6	kez	kez	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	arızalanıyor	arızalan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -1072,7 +1072,7 @@
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 3	daha	daha	ADV	_	_	5	advmod	_	_
-4	iki	iki	NUM	_	NumType=Ord	5	nummod	_	_
+4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 5	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
 6	önce	önce	ADP	_	_	5	case	_	_
 7-8	vardı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1364,7 +1364,7 @@
 # sent_id = GK16-0158
 # text = Ancak iki defa geldiler.
 1	Ancak	ancak	ADV	_	_	4	advmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	defa	defa	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	geldiler	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1372,7 +1372,7 @@
 # sent_id = GK16-0159
 # text = Yalnız iki defa geldiler.
 1	Yalnız	yalnız	ADV	_	_	4	advmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	defa	defa	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	geldiler	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1380,7 +1380,7 @@
 # sent_id = GK16-0160
 # text = Sadece iki defa geldiler.
 1	Sadece	sadece	ADV	_	_	4	advmod	_	_
-2	iki	iki	NUM	_	NumType=Ord	3	nummod	_	_
+2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	defa	defa	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	geldiler	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_

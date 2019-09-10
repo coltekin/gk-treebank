@@ -217,7 +217,7 @@
 # text = Sana bugün iki mektup geldi. Semra’ya da bir paket.
 1	Sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2	5	obl	_	_
 2	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
-3	iki	iki	NUM	_	NumType=Ord	4	nummod	_	_
+3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	mektup	mektup	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -333,7 +333,7 @@
 
 # sent_id = GK28-0035
 # text = 80 yaşında Almanca öğrenmeye başladı ve de bundan çok memnun.
-1	80	80	NUM	_	NumType=Ord	2	nummod	_	_
+1	80	80	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 3	Almanca	Almanca	PROPN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	öğrenmeye	öğren	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
@@ -1550,7 +1550,7 @@
 # text = Derken saat beş olmuş.
 1	Derken	derken	ADV	_	_	4	discourse	_	_
 2	saat	saat	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-3	beş	beş	NUM	_	NumType=Ord	4	obj	_	_
+3	beş	beş	NUM	_	NumType=Card	4	obj	_	_
 4	olmuş	ol	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1824,7 +1824,7 @@
 # text = Neyse, 8.50 trenine yetişebildim.
 1	Neyse	neyse	ADV	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	8.50	8.50	NUM	_	NumType=Ord	4	nummod	_	_
+3	8.50	8.50	NUM	_	NumType=Card	4	nummod	_	_
 4	trenine	tren	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	yetişebildim	yetiş	VERB	_	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
