@@ -633,3 +633,19 @@ div.bordered-char span {
     height: 32px;
     background: url(http://universaldependencies.org/img/stars.png) 0 -320px;
 }
+
+ul.menuitem {
+    display: flex;  
+	width: 100%;
+	background: #fafafa;
+	margin: 0;
+	padding: 0;
+	align-items: stretch;
+	justify-content: space-between;
+    white-space: nowrap;
+}
+li.menuitem {
+	display: block;
+	list-style-type: none;
+	background: #fafafa;
+}

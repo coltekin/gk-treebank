@@ -6,8 +6,13 @@
   <body>
     {% include embedding.html %}
     {% include header.html %}
+    {% include nav.html nav=site.data.menu %}
+
 
     <div class="page-content">
+      <div class="wrapper">
+          <h1>{{ page.title }} {% if page.shortdef %}: {{ page.shortdef}}{% endif %}</h1>
+      </div>
       <div class="wrapper">
         {{ content }}
       </div>

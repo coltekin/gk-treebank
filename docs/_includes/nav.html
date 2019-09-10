@@ -1,0 +1,19 @@
+{% assign navurl = page.url %}
+<div class="wrapper">
+  <ul class="menuitem">
+  {% for item in include.nav %}
+      <li class="menuitem">
+          <a href="{{ item.url | prepend: site.baseurl}}">
+              {% if item.url == navurl %}
+                  <b>{{ item.text }}</b>
+              {% else %}
+                  {{ item.text }}
+              {% endif %}
+          </a>
+      </li>
+      {% if item.subitems and navurl contains item.url %}
+          {% include nav.html nav=item.subitems %}
+      {% endif %}
+  {% endfor %}
+  </ul>
+</div>
