@@ -5,12 +5,12 @@
 3	hastanın	hasta	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	gözüne	göz	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	mözüne	möz	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound:redup	_	_
-6	baktı	bak	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	parataxis	_	SpaceAfter=No
+6	baktı	bak	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	sonra	sonra	ADV	_	_	11	advmod	_	_
 9	sorunu	sorun	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 10	anlamadığını	anla	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	11	ccomp	_	_
-11	söyledi	söyle	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+11	söyledi	söyle	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = GK09-0002
@@ -20,18 +20,18 @@
 3	kapı	kapı	NOUN	_	Case=Nom|Number=Sing	2	fixed	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
 5	alıcı	alıcı	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-6	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	parataxis	_	SpaceAfter=No
+6	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	odaları	oda	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
 9	modaları	moda	NOUN	_	Case=Acc|Number=Plur	8	compound:redup	_	_
-10	dolaştı	dolaş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+10	dolaştı	dolaş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = GK09-0003
 # text = Soner’i moneri görmedim.
 1	Soner’i	Soner	PROPN	_	Case=Acc|Number=Sing	3	obj	_	_
 2	moneri	moner	PROPN	_	Case=Acc|Number=Sing	1	compound:redup	_	_
-3	görmedim	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
+3	görmedim	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK09-0004
@@ -41,19 +41,19 @@
 3	tarih	tarih	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4-5	hocasıymış	_	_	_	_	_	_	_	_
 4	hocası	hoca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	ccomp	_	_
-5	ymış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
+5	ymış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	marih	tarih	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 7-8	hocasıymış	_	_	_	_	_	_	_	_
 7	hocası	hoca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound:redup	_	_
-8	ymış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
-9	anlamam	anla	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+8	ymış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+9	anlamam	anla	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = GK09-0005
 # text = Yavaş yavaş gel.
 1	Yavaş	yavaş	ADV	_	_	2	compound:redup	_	_
 2	yavaş	yavaş	ADV	_	_	3	advmod	_	_
-3	gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK09-0006
@@ -61,7 +61,7 @@
 1	Koca	koca	ADJ	_	_	2	compound:redup	_	_
 2	koca	koca	ADJ	_	_	3	amod	_	_
 3	ağaçları	ağaç	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
-4	kesiyorlar	kes	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	kesiyorlar	kes	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK09-0007
@@ -69,7 +69,7 @@
 1	Kutu	kutu	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
 2	kutu	kutu	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
-4	taşıdık	taşı	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+4	taşıdık	taşı	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK09-0008
@@ -94,7 +94,7 @@
 1	Yavaş	yavaş	ADV	_	_	3	compound:redup	_	_
 2	mı	mı	ADV	_	_	1	advmod:emph	_	_
 3	yavaş	yavaş	ADV	_	_	4	advmod	_	_
-4	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK09-0011
@@ -102,7 +102,7 @@
 1	Konu	konu	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	komşu	komşu	NOUN	_	Case=Nom|Number=Sing	1	fixed	_	_
 3	yardıma	yardım	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
-4	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK09-0012
@@ -116,6 +116,6 @@
 # text = Paldır küldür gittiler.
 1	Paldır	paldır	ADV	_	_	3	advmod	_	_
 2	küldür	küldür	ADV	_	_	1	fixed	_	_
-3	gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+3	gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 

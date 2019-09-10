@@ -9,19 +9,19 @@
 
 # sent_id = GK06-0003
 # text = yapılaştırılmamış
-1	yapılaştırılmamış	yapılaş	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=CauPass	0	root	_	Stem=yapılaş
+1	yapılaştırılmamış	yapılaş	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=CauPass	0	root	_	Stem=yapılaş
 
 # sent_id = GK06-0004
 # text = Gidebilirim de.
-1	Gidebilirim	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres	0	root	_	Stem=git
+1	Gidebilirim	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Stem=git
 2	de	de	ADV	_	_	1	advmod:emph	_	SpaceAfter=No|Stem=de
 3	.	.	PUNCT	_	_	1	punct	_	Stem=.
 
 # sent_id = GK06-0005
 # text = Görüştürülemeye de biliyor muydunuz?
-1	Görüştürülemeye	gör	VERB	_	Mood=Pot|Polarity=Neg|Voice=CauPassRcp	0	root	_	Stem=gör
+1	Görüştürülemeye	gör	VERB	_	Mood=Pot|Polarity=Neg|VerbForm=Fin|Voice=CauPassRcp	0	root	_	Stem=gör
 2	de	de	ADV	_	_	1	advmod:emph	_	Stem=de
-3	biliyor	bil	AUX	_	Aspect=Prog|Mood=Ind|Tense=Pres	1	aux	_	Stem=bil
+3	biliyor	bil	AUX	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	1	aux	_	Stem=bil
 4	muydunuz	mi	AUX	_	Number=Plur|Person=2|PronType=Int|Tense=Past	1	aux:q	_	SpaceAfter=No|Stem=mu
 5	?	?	PUNCT	_	_	1	punct	_	Stem=?
 
