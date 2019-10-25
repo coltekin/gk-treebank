@@ -26,7 +26,11 @@ A few in-text examples are also included.
 Some of the examples (currently 409) are not sentences
 but sentence fragments, typically phrases.
 The full sentences in the treebank always end with a punctuation mark,
-while sentence fragmetns are are without a final punctuation.
+while sentence fragments are are without a final punctuation.
+The ungrammatical examples are skipped.
+The "borderline acceptable" examples (marked with _?_ or _??_)
+were included, with a sentence-level comment `# acceptability = ?`
+(the value is as indicated in the grammar book).
 
 
 # References
