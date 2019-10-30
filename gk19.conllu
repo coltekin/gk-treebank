@@ -625,7 +625,7 @@
 # text = Asistanlardan hangisi bugün görevli?
 1	Asistanlardan	asistan	NOUN	_	Case=Abl|Number=Plur	2	nmod:part	_	_
 2	hangisi	hangisi	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
-3	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+3	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4-5	görevli	_	_	_	_	_	_	_	SpaceAfter=No
 4	görev	görev	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 5	li	li	ADP	_	_	4	case	_	_
@@ -634,7 +634,7 @@
 # sent_id = GK19-0071
 # text = Hangisi bugün görevli?
 1	Hangisi	hangisi	PRON	_	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
-2	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3-4	görevli	_	_	_	_	_	_	_	SpaceAfter=No
 3	görev	görev	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 4	li	li	ADP	_	_	3	case	_	_

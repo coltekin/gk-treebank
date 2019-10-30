@@ -61,7 +61,7 @@
 # text = Ben o sırada öğretmendim.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
-3	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+3	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 4-5	öğretmendim	_	_	_	_	_	_	_	SpaceAfter=No
 4	öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 5	dim	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -105,7 +105,7 @@
 
 # sent_id = GK12-0013
 # text = Dün evde değildik.
-1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	değildik	değil	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -276,7 +276,7 @@
 
 # sent_id = GK12-0033
 # text = Bugün işte olacağım.
-1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olacağım	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
@@ -291,28 +291,28 @@
 
 # sent_id = GK12-0035
 # text = Bugün işte olmalıydım.
-1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olmalıydım	ol	AUX	_	Mood=Nec|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK12-0036
 # text = Bugün işte olabilirdim.
-1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olabilirdim	ol	AUX	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK12-0037
 # text = Bugün işte olurum.
-1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olurum	ol	AUX	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK12-0038
 # text = bugün işte olan kadın
-1	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	4	acl	_	_
 3	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	2	cop	_	_
 4	kadın	kadın	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -489,7 +489,7 @@
 
 # sent_id = GK12-0060
 # text = Dün çok yorgundular.
-1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	çok	çok	ADV	_	_	3	advmod	_	_
 3-4	yorgundular	_	_	_	_	_	_	_	SpaceAfter=No
 3	yorgun	yorgun	ADJ	_	_	0	root	_	_
@@ -802,7 +802,7 @@
 # sent_id = GK12-0094
 # text = Ahmet’le dün deniz kenarında yürüyüş yaptık.
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	6	nmod	_	_
-2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
+2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
@@ -813,7 +813,7 @@
 # text = Ahmet’le ben dün deniz kenarında yürüyüş yaptık.
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	1	conj	_	_
-3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
+3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
 6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
@@ -823,7 +823,7 @@
 # sent_id = GK12-0096
 # text = Ahmet’le dün deniz kenarında yürüyüş yaptık.
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	6	nmod	_	_
-2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
+2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 4	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
@@ -834,7 +834,7 @@
 # text = Ben Ahmet’le dün deniz kenarında yürüyüş yaptım.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
 2	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
-3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
+3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
 6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_

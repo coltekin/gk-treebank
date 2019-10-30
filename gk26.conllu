@@ -515,7 +515,7 @@
 # sent_id = GK26-0047
 # text = Sen cumartesi burada olmadığın için Mehmet’le tanışamadın.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
-2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3	burada	bura	PRON	_	Case=Loc|Number=Sing	7	advcl	_	_
 4	olmadığın	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part	3	cop	_	_
 5	için	için	ADP	_	_	3	mark	_	_
@@ -537,7 +537,7 @@
 # sent_id = GK26-0049
 # text = Sen cumartesi burada olmayacağın için Mehmet pazar günü gelmeyi kabul etti.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
-2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3	burada	bura	PRON	_	Case=Loc|Number=Sing	11	advcl	_	_
 4	olmayacağın	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Fut|VerbForm=Part	3	cop	_	_
 5	için	için	ADP	_	_	3	case	_	_
@@ -575,7 +575,7 @@
 # text = Misafirler geldiği zaman onlara önce kahve ikram edeceğiz.
 1	Misafirler	misafir	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	geldiği	geldik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	3	acl	_	_
-3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	8	nmod:tmod	_	_
+3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
 4	onlara	o	PRON	_	Case=Dat|Number=Plur	8	obl	_	_
 5	önce	önce	ADV	_	_	8	advmod	_	_
 6	kahve	kahve	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
@@ -789,7 +789,7 @@
 
 # sent_id = GK26-0069
 # text = Bayramda ofis kapalı olacağına göre sen bu işi nasıl bitireceksin?
-1	Bayramda	bayram	NOUN	_	Case=Loc|Number=Sing	3	nmod:tmod	_	_
+1	Bayramda	bayram	NOUN	_	Case=Loc|Number=Sing	3	obl:tmod	_	_
 2	ofis	ofis	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	kapalı	kapalı	ADJ	_	_	10	advcl	_	_
 4	olacağına	ol	AUX	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	cop	_	_

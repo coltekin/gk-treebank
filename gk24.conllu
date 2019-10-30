@@ -916,7 +916,7 @@
 7	yol	yol	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	açtı	aç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	bu	bu	DET	_	Definite=Def|Number=Sing	10	det	_	_
-10	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	8	nmod:tmod	_	SpaceAfter=No
+10	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = GK24-0090
@@ -1655,7 +1655,7 @@
 # text = “Saat altıda hazır olun” komutunu aldık.
 1	“	“	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Saat	saat	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	altıda	altı	NUM	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+3	altıda	altı	NUM	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 4	hazır	hazır	ADJ	_	_	7	acl	_	_
 5	olun	ol	AUX	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	”	”	PUNCT	_	_	4	punct	_	_
@@ -1695,7 +1695,7 @@
 # sent_id = GK24-0168
 # text = Saat altıda hazır olma komutunu aldık.
 1	Saat	saat	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	altıda	altı	NUM	_	Case=Loc|Number=Sing	3	nmod:tmod	_	_
+2	altıda	altı	NUM	_	Case=Loc|Number=Sing	3	obl:tmod	_	_
 3	hazır	hazır	ADJ	_	_	5	acl	_	_
 4	olma	ol	AUX	_	Case=Nom|Number=Sing|VerbForm=Vnoun	3	cop	_	_
 5	komutunu	komut	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
