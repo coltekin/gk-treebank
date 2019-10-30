@@ -53,7 +53,7 @@
 1	Bizler	bizler	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 2	kırık	kırık	ADJ	_	_	3	amod	_	_
 3	not	not	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
-4	alınca	alınca	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+4	alınca	alınca	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	çok	çok	ADV	_	_	6	advmod	_	_
 6	üzülürdük	üzül	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -215,7 +215,7 @@
 1	Kendi	kendi	PRON	_	Case=Nom|Number=Sing|Reflex=Yes	2	nsubj	_	_
 2	istemiş	iste	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sınava	sınav	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
-4	girmeyi	gir	VERB	_	Mood=Ind|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+4	girmeyi	gir	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	2	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK18-0023
@@ -385,7 +385,7 @@
 # text = Semra aday olarak kendini öne sürecekmiş.
 1	Semra	Semra	PROPN	_	Number=Sing	6	nsubj	_	_
 2	aday	aday	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	kendini	kendi	PRON	_	Case=Acc|Number=Sing|Reflex=Yes	6	obj	_	_
 5	öne	ön	NOUN	_	Case=Dat|Number=Sing	6	compound	_	_
 6	sürecekmiş	sür	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -395,7 +395,7 @@
 # text = Semra aday olarak kendisini öne sürecekmiş.
 1	Semra	Semra	PROPN	_	Number=Sing	6	nsubj	_	_
 2	aday	aday	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	kendisini	kendi	PRON	_	Case=Acc|Number=Sing|Person=3|Reflex=Yes	6	obj	_	_
 5	öne	ön	NOUN	_	Case=Dat|Number=Sing	6	compound	_	_
 6	sürecekmiş	sür	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -680,7 +680,7 @@
 6-7	haklı	_	_	_	_	_	_	_	_
 6	hak	hak	NOUN	_	Case=Nom|Number=Sing	9	advcl	_	_
 7	lı	li	ADP	_	_	6	case	_	_
-8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	6	cop	_	_
+8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	6	cop	_	_
 9	korkuyorlar	kork	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1291,7 +1291,7 @@
 # sent_id = GK18-0137
 # text = Şurası dinlenmek için ideal bir yer.
 1	Şurası	şura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj:cop	_	_
-2	dinlenmek	dinlen	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+2	dinlenmek	dinlen	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 3	için	için	ADP	_	_	2	mark	_	_
 4	ideal	ideal	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|Number=Sing	6	det	_	_
@@ -1601,7 +1601,7 @@
 3-4	Ahmet’inkiyle	_	_	_	_	_	_	_	_
 3	Ahmet’in	Ahmet	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	kiyle	-ki	NOUN	_	Case=Ins|Number=Sing	5	nsubj	_	_
-5	karşılaştırılınca	karşılaştırılınca	VERB	_	Mood=Ind|VerbForm=Fin	8	advcl	_	_
+5	karşılaştırılınca	karşılaştırılınca	VERB	_	Mood=Ind|VerbForm=Conv	8	advcl	_	_
 6	çok	çok	ADV	_	_	7	advmod	_	_
 7	yeni	yeni	ADJ	_	_	8	compound	_	_
 8	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1711,7 +1711,7 @@
 6	sana	san	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 7	bir	bir	DET	_	Definite=Ind|Number=Sing	8	det	_	_
 8	şey	şey	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
-9	sormak	sor	VERB	_	Mood=Ind|VerbForm=Fin	10	xcomp	_	_
+9	sormak	sor	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	10	xcomp	_	_
 10	istiyorum	iste	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	1	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 

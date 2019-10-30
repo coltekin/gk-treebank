@@ -1,10 +1,7 @@
 ### TODO
 
-- Fix: there are still instances of nmod:tmod
 - Add PronType and VerbType (verbtype done)
 - Add gloss and translation
-- Fix: Some converbs are marked 'finite'
-        grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
 
 ### Open issues question
 - Posessive adjectivals - PRON or not
@@ -13,7 +10,7 @@
 - POS tag of "special" connectives like "yok ... yok", "ya ... ya":
   should it be CCONJ or keep their usual pos tags?
 - If an ADP is dependent of 'mark', should the upostag be changed?
-- Fixed candidates
+- `fixed` candidates
     - hem de
     - ya da
     - bir de
@@ -26,3 +23,7 @@
 ### Done
 
 - Replace POS of ordinal nouns to ADJ
+- Fix: there are still instances of nmod:tmod [fixed 2019-10-30]
+- Fix: Some converbs are marked 'finite'
+        grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
+    [fixed 2019-10-30, may need more attention]

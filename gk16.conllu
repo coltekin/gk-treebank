@@ -36,7 +36,7 @@
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	sorunu	sorun	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 3	bilimsel	bilimsel	ADJ	_	_	5	advcl	_	_
-4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
+4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	3	cop	_	_
 5	araştırmalıyız	ara	VERB	_	Mood=Nec|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=CauRcp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -180,7 +180,7 @@
 # text = Raporu yazılı olarak sunmuşlardı.
 1	Raporu	rapor	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 2	yazılı	yazılı	ADJ	_	_	4	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	sunmuşlardı	sun	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -189,11 +189,11 @@
 1	Bunu	bu	PRON	_	Case=Acc|Number=Sing	9	obj	_	_
 2	sana	san	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 3	avukat	avukat	NOUN	_	Case=Nom|Number=Sing	9	advcl	_	_
-4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
+4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	3	cop	_	_
 5	değil	değil	AUX	_	PronType=Neg	3	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	arkadaş	arkadaş	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
-8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	7	cop	_	_
+8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	7	cop	_	_
 9	söylüyorum	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -203,14 +203,14 @@
 2	bu	bu	DET	_	Definite=Def|Number=Sing	3	det	_	_
 3	sandığı	sandık	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 4	masa	masa	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-5	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	4	cop	_	_
+5	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	4	cop	_	_
 6	kullanıyoruz	kullan	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK16-0023
 # text = Meyva olarak ne var?
 1	Meyva	meyva	NOUN	_	Case=Nom|Number=Sing	4	advcl	_	_
-2	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	1	cop	_	_
+2	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	1	cop	_	_
 3	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
@@ -218,7 +218,7 @@
 # sent_id = GK16-0024
 # text = Aile olarak müziğe meraklılar.
 1	Aile	aile	NOUN	_	Case=Nom|Number=Sing	4	advcl	_	_
-2	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	1	cop	_	_
+2	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	1	cop	_	_
 3	müziğe	müzik	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4-5	meraklılar	_	_	_	_	_	_	_	SpaceAfter=No
 4	meraklı	meraklı	ADJ	_	_	0	root	_	_
@@ -238,7 +238,7 @@
 1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
 2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	arkadaş	arkadaş	NOUN	_	Case=Nom|Number=Sing	1	acl	_	_
-4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
+4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	3	cop	_	_
 5	konuşuyoruz	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1041,7 +1041,7 @@
 # sent_id = GK16-0121
 # text = Binayı yıkıp yeniden yapacaklarmış.
 1	Binayı	bina	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
-2	yıkıp	yıkıp	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+2	yıkıp	yıkıp	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 3	yeniden	yeniden	ADV	_	_	4	advmod	_	_
 4	yapacaklarmış	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1095,7 +1095,7 @@
 2	Ali	Ali	PROPN	_	Number=Sing	3	nsubj	_	_
 3-4	buradayken	_	_	_	_	_	_	_	_
 3	burada	bura	PRON	_	Case=Loc|Number=Sing	8	advcl	_	_
-4	yken	i	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
+4	yken	i	AUX	_	Mood=Ind|VerbForm=Conv	3	cop	_	_
 5	bilgisayar	bilgisayar	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	sorunumuzu	sorun	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	obj	_	_
 7	ona	o	PRON	_	Case=Dat|Number=Sing	8	obl	_	_
@@ -1281,7 +1281,7 @@
 # text = Bu dersi yaparken biraz zorlandım.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	dersi	ders	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
-3	yaparken	yaparken	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+3	yaparken	yaparken	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 4	biraz	biraz	ADV	_	_	5	advmod	_	_
 5	zorlandım	zorlan	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1389,7 +1389,7 @@
 # text = Sırf üstünlüğünü kanıtlamak amacıyla yapıyor bunları.
 1	Sırf	sırf	ADV	_	_	3	advmod	_	_
 2	üstünlüğünü	üstünlük	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
-3	kanıtlamak	kanıtla	VERB	_	Mood=Ind|VerbForm=Fin	4	acl	_	_
+3	kanıtlamak	kanıtla	VERB	_	Mood=Ind|VerbForm=Vnoun	4	acl	_	_
 4	amacıyla	amaç	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	bunları	bu	PRON	_	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No

@@ -84,7 +84,7 @@
 # text = Tülin İstanbul’a gelince yeniden buluşuruz diye ayrılmışlar o gün.
 1	Tülin	Tülin	PROPN	_	Number=Sing	3	nsubj	_	_
 2	İstanbul’a	İstanbul	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
-3	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+3	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 4	yeniden	yeniden	ADV	_	_	5	advmod	_	_
 5	buluşuruz	buluş	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 6	diye	diye	SCONJ	_	_	5	mark	_	_
@@ -325,7 +325,7 @@
 # text = Zehra torununu görmek istediği için Bursa’ya uğradık.
 1	Zehra	Zehra	PROPN	_	Number=Sing	4	nsubj	_	_
 2	torununu	torun	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
-3	görmek	gör	VERB	_	Mood=Ind|VerbForm=Fin	4	xcomp	_	_
+3	görmek	gör	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
 4	istediği	iste	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
 5	için	için	ADP	_	_	4	mark	_	_
 6	Bursa’ya	Bursa	PROPN	_	Case=Dat|Number=Sing	7	obl	_	_
@@ -419,7 +419,7 @@
 1	Paltosunun	palto	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
 2	etekleri	etek	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	yerlere	yer	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
-4	sürünerek	sürünerek	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+4	sürünerek	sürünerek	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 5	yürüyordu	yürü	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -466,7 +466,7 @@
 
 # sent_id = GK26-0043
 # text = Çalışırken radyoyu hep açık tutarım.
-1	Çalışırken	çalışırken	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+1	Çalışırken	çalışırken	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 2	radyoyu	radyo	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 3	hep	hep	ADV	_	_	5	advmod	_	_
 4	açık	açık	ADJ	_	_	5	compound	_	_
@@ -478,7 +478,7 @@
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	2	nsubj	_	_
 2-3	Türkiye’deyken	_	_	_	_	_	_	_	_
 2	Türkiye’de	Türkiye	PROPN	_	Case=Loc|Number=Sing	8	advcl	_	_
-3	yken	i	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	yken	i	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4-5	Londra’daki	_	_	_	_	_	_	_	_
 4	Londra’da	Londra	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
 5	ki	ki	ADP	_	_	4	case	_	_
@@ -635,7 +635,7 @@
 # text = Tülin İstanbul’a gelince yeniden buluşmak üzere ayrılmışlar o gün.
 1	Tülin	Tülin	PROPN	_	Number=Sing	3	nsubj	_	_
 2	İstanbul’a	İstanbul	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
-3	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+3	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 4	yeniden	yeniden	ADV	_	_	5	advmod	_	_
 5	buluşmak	buluş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	7	advcl	_	_
 6	üzere	üzere	ADP	_	_	5	mark	_	_
@@ -679,7 +679,7 @@
 3	konuda	konu	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 4	çok	çok	ADJ	_	_	5	amod	_	_
 5	şey	şey	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
-6	bilmekle	bil	VERB	_	Mood=Ind|VerbForm=Fin	10	advcl	_	_
+6	bilmekle	bil	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
 7	birlikte	birlikte	ADP	_	_	6	mark	_	_
 8	bütün	bütün	DET	_	Definite=Def|Number=Sing	9	det	_	_
 9	ayrıntıları	ayrıntı	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
@@ -693,7 +693,7 @@
 2	Nazlı’nın	Nazlı	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 3	son	son	ADJ	_	_	4	amod	_	_
 4	resimlerine	resim	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
-5	bayılırken	bayılırken	VERB	_	Mood=Ind|VerbForm=Fin	10	advcl	_	_
+5	bayılırken	bayılırken	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
 6	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
 7	onları	o	PRON	_	Case=Acc|Number=Plur	10	obj	_	_
 8-9	ruhsuz	_	_	_	_	_	_	_	_
@@ -710,7 +710,7 @@
 4	ay	ay	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
 6	geri	geri	ADV	_	_	7	advmod	_	_
-7	ödemek	öde	VERB	_	Mood=Ind|VerbForm=Fin	8	acl	_	_
+7	ödemek	öde	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	acl	_	_
 8	şartıyla	şart	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
 9	on	on	NUM	_	NumType=Card	10	compound	_	_
 10	milyarlık	milyar	NUM	_	Case=Nom|Number=Sing	11	nmod	_	_
@@ -750,7 +750,7 @@
 # sent_id = GK26-0066
 # text = – Konuşmasına konuşacağım da, bakalım o dinleyecek mi?
 1	–	–	PUNCT	_	_	3	punct	_	_
-2	Konuşmasına	konuşmasına	VERB	_	Mood=Ind|VerbForm=Fin	3	advcl	_	_
+2	Konuşmasına	konuşmasına	VERB	_	Mood=Ind|VerbForm=Conv	3	advcl	_	_
 3	konuşacağım	konuş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	da	da	CCONJ	_	_	8	cc	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -813,8 +813,8 @@
 # text = Genç kadın ağlaya ağlaya hikayesini anlattı.
 1	Genç	genç	ADJ	_	_	2	amod	_	_
 2	kadın	kadın	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-3	ağlaya	ağlaya	VERB	_	Mood=Ind|VerbForm=Fin	4	compound:redup	_	_
-4	ağlaya	ağlaya	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+3	ağlaya	ağlaya	VERB	_	Mood=Ind|VerbForm=Conv	4	compound:redup	_	_
+4	ağlaya	ağlaya	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	hikayesini	hikaye	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 6	anlattı	anlat	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -822,8 +822,8 @@
 # sent_id = GK26-0072
 # text = Adam ite kaka öne geçmeye çalışıyordu.
 1	Adam	adam	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-2	ite	ite	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
-3	kaka	kaka	VERB	_	Mood=Ind|VerbForm=Fin	2	conj	_	_
+2	ite	ite	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
+3	kaka	kaka	VERB	_	Mood=Ind|VerbForm=Conv	2	conj	_	_
 4	öne	ön	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	geçmeye	geç	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	6	advcl	_	_
 6	çalışıyordu	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -863,8 +863,8 @@
 # text = Demet dediklerimi duymamışçasına konuşup duruyordu.
 1	Demet	Demet	PROPN	_	Number=Sing	4	nsubj	_	_
 2	dediklerimi	de	VERB	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	3	ccomp	_	_
-3	duymamışçasına	duymamışçasına	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
-4	konuşup	konuşup	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+3	duymamışçasına	duymamışçasına	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
+4	konuşup	konuşup	VERB	_	Mood=Ind|VerbForm=Conv	0	root	_	_
 5	duruyordu	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -881,14 +881,14 @@
 # sent_id = GK26-0078
 # text = Turhan’ın kızıp ofisi birbirine katması gibi Ahmet de düşünmeden istifa etti.
 1	Turhan’ın	Turhan	PROPN	_	Case=Gen|Number=Sing	5	nsubj	_	_
-2	kızıp	kızıp	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+2	kızıp	kızıp	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 3	ofisi	ofis	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 4	birbirine	birbir	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Rcp	5	compound	_	_
 5	katması	kat	VERB	_	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	11	advcl	_	_
 6	gibi	gibi	ADP	_	_	5	mark	_	_
 7	Ahmet	Ahmet	PROPN	_	Number=Sing	11	nsubj	_	_
 8	de	de	ADV	_	_	7	advmod	_	_
-9	düşünmeden	düşünmeden	VERB	_	Mood=Ind|VerbForm=Fin	11	advcl	_	_
+9	düşünmeden	düşünmeden	VERB	_	Mood=Ind|VerbForm=Conv	11	advcl	_	_
 10	istifa	istifa	NOUN	_	Case=Nom|Number=Sing	11	compound	_	_
 11	etti	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
@@ -897,7 +897,7 @@
 # text = Çocuklar, bağırmadan oynayın!
 1	Çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	4	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	bağırmadan	bağırmadan	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+3	bağırmadan	bağırmadan	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 4	oynayın	oyna	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -1088,7 +1088,7 @@
 1	Düzenli	düzenli	ADV	_	_	2	advmod	_	_
 2	yemek	ye	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	advcl	_	_
 3	yerine	yerine	ADP	_	Number[psor]=Sing|Person[psor]=3	2	mark	_	_
-4	durmadan	durmadan	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+4	durmadan	durmadan	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 5	atıştırmak	atıştır	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	csubj:cop	_	_
 6	hiç	hiç	ADV	_	_	8	advmod	_	_
 7	akıl	akıl	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -1100,7 +1100,7 @@
 # text = Yağmur yağmaya başlayınca içeri girdik.
 1	Yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	yağmaya	yağ	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
-3	başlayınca	başlayınca	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+3	başlayınca	başlayınca	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 4	içeri	içeri	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
 5	girdik	gir	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1151,7 +1151,7 @@
 3	kitabı	kitap	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 4-5	öğrenciyken	_	_	_	_	_	_	_	_
 4	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-5	yken	i	AUX	_	Mood=Ind|VerbForm=Fin	4	cop	_	_
+5	yken	i	AUX	_	Mood=Ind|VerbForm=Conv	4	cop	_	_
 6	okumuş	oku	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1160,7 +1160,7 @@
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	4	nsubj	_	_
 2	ormanda	orman	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 3	onu	o	PRON	_	Case=Acc|Number=Sing	4	obj	_	_
-4	ararken	ararken	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+4	ararken	ararken	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	Bahri	Bahri	PROPN	_	Number=Sing	6	nsubj	_	_
 6-7	buradaydı	_	_	_	_	_	_	_	SpaceAfter=No
 6	burada	bura	PRON	_	Case=Loc|Number=Sing	0	root	_	_
@@ -1171,7 +1171,7 @@
 # text = Adana’dayken Şule ile sık sık görüşürdük.
 1-2	Adana’dayken	_	_	_	_	_	_	_	_
 1	Adana’da	Adana	PROPN	_	Case=Loc|Number=Sing	7	advcl	_	_
-2	yken	i	AUX	_	Mood=Ind|VerbForm=Fin	1	cop	_	_
+2	yken	i	AUX	_	Mood=Ind|VerbForm=Conv	1	cop	_	_
 3	Şule	Şule	PROPN	_	Number=Sing	7	obl	_	_
 4	ile	ile	ADP	_	_	3	case	_	_
 5	sık	sık	ADV	_	_	6	compound:redup	_	_
@@ -1284,7 +1284,7 @@
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	haber	haber	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 3	mektuplar	mektup	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
-4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 5	gelmişti	gel	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1293,7 +1293,7 @@
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	haber	haber	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	mektuplar	mektup	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
-4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	önce	önce	ADP	_	_	4	mark	_	_
 6	gelmişti	gel	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1361,7 +1361,7 @@
 3	hakkında	hakkında	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
 5	şeyler	şey	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
-6	soruldukça	soruldukça	VERB	_	Mood=Ind|VerbForm=Fin	10	advcl	_	_
+6	soruldukça	soruldukça	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
 7	kafası	kafa	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 8	daha	daha	ADV	_	_	10	advmod	_	_
 9	da	da	ADV	_	_	8	advmod:emph	_	_
