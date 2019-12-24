@@ -8,7 +8,7 @@ treebank.
 __This document is currently only an unorganized set of notes.__
 The treebank described here was the basis for firt [UD annotation
 guidelines](http://universaldependencies.org/tr/) for Turkish.
-Although the some parts of the annotations may have diverged from the
+Although some parts of the annotations may have diverged from the
 official UD documentation.
 
 

@@ -123,7 +123,7 @@
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	5	nsubj	_	_
 2	mesajı	mesaj	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
 3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
-4	da	da	ADV	_	_	3	advmod:emph	_	_
+4	da	de	ADV	_	_	3	advmod:emph	_	_
 5	anlamamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 6	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	5	aux:q	_	_
 7	acaba	acaba	ADV	_	_	5	discourse	_	SpaceAfter=No
@@ -143,7 +143,7 @@
 # text = Yemek yiyip de geldim.
 1	Yemek	yemek	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	yiyip	yiyip	VERB	_	VerbForm=Conv	4	advcl	_	_
-3	de	de	CCONJ	_	_	2	advmod:emph	_	_
+3	de	de	ADV	_	_	2	advmod:emph	_	_
 4	geldim	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -222,7 +222,7 @@
 5	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 7	Semra’ya	Semra	PROPN	_	Case=Dat|Number=Sing	5	orphan	_	_
-8	da	da	ADV	_	_	7	advmod:emph	_	_
+8	da	de	ADV	_	_	7	advmod:emph	_	_
 9	bir	bir	DET	_	Definite=Ind|Number=Sing	10	det	_	_
 10	paket	paket	NOUN	_	Case=Nom|Number=Sing	5	orphan	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -234,7 +234,7 @@
 3	.	.	PUNCT	_	_	7	punct	_	_
 4	Biraz	biraz	ADV	_	_	5	advmod	_	_
 5	sonra	sonra	ADV	_	_	7	advmod	_	_
-6	da	da	ADV	_	_	5	advmod	_	_
+6	da	de	ADV	_	_	5	advmod:emph	_	_
 7	yiyeceğim	ye	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -248,7 +248,7 @@
 # text = Biraz sonra da yiyeceğim.
 1	Biraz	biraz	ADV	_	_	2	advmod	_	_
 2	sonra	sonra	ADV	_	_	4	advmod	_	_
-3	da	da	ADV	_	_	2	advmod	_	_
+3	da	de	ADV	_	_	2	advmod:emph	_	_
 4	yiyeceğim	ye	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -283,7 +283,7 @@
 3	tatlı	tatlı	ADJ	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	7	punct	_	_
 5	Çok	çok	ADV	_	_	7	advmod	_	_
-6	da	da	ADV	_	_	5	advmod:emph	_	_
+6	da	de	ADV	_	_	5	advmod:emph	_	_
 7	uslu	uslu	ADJ	_	_	3	parataxis	_	_
 8	maşallah	maşallah	INTJ	_	_	7	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -298,7 +298,7 @@
 # sent_id = GK28-0031
 # text = Çok da uslu maşallah.
 1	Çok	çok	ADV	_	_	3	advmod	_	_
-2	da	da	ADV	_	_	1	advmod:emph	_	_
+2	da	de	ADV	_	_	1	advmod:emph	_	_
 3	uslu	uslu	ADJ	_	_	0	root	_	_
 4	maşallah	maşallah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -339,7 +339,7 @@
 4	öğrenmeye	öğren	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
 5	başladı	başla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ve	ve	CCONJ	_	_	10	cc	_	_
-7	de	de	CCONJ	_	_	10	advmod:emph	_	_
+7	de	de	ADV	_	_	10	advmod:emph	_	_
 8	bundan	bu	PRON	_	Case=Abl|Number=Sing	10	nmod	_	_
 9	çok	çok	ADV	_	_	10	advmod	_	_
 10	memnun	memnun	ADJ	_	_	5	conj	_	SpaceAfter=No
@@ -485,11 +485,11 @@
 # text = Dünya Kupasında Güney Kore de Türkiye de yarı finale kaldı.
 1	Dünya	Dünya	PROPN	_	Number=Sing	2	nmod	_	_
 2	Kupasında	kupa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
-3	Güney	güney	ADJ	_	_	4	amod	_	_
+3	Güney	güney	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	Kore	Kore	PROPN	_	Number=Sing	10	nsubj	_	_
-5	de	de	CCONJ	_	_	4	advmod:emph	_	_
+5	de	de	CCONJ	_	_	4	cc	_	_
 6	Türkiye	Türkiye	PROPN	_	Number=Sing	4	conj	_	_
-7	de	de	CCONJ	_	_	6	advmod:emph	_	_
+7	de	de	CCONJ	_	_	6	cc	_	_
 8	yarı	yarı	ADJ	_	_	9	amod	_	_
 9	finale	final	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 10	kaldı	kal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -547,7 +547,7 @@
 1	Evde	ev	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 2	meyva	meyva	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	ya	ya	CCONJ	_	_	5	cc	_	_
-4	da	da	CCONJ	_	_	5	cc	_	_
+4	da	de	CCONJ	_	_	5	cc	_	_
 5	tatlı	tatlı	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
 6	var	var	ADJ	_	_	0	root	_	_
 7	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Pres	6	aux:q	_	SpaceAfter=No
@@ -571,7 +571,7 @@
 4	istemiyor	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 6	Ya	ya	ADV	_	_	9	cc	_	_
-7	da	da	ADV	_	_	6	fixed	_	_
+7	da	de	ADV	_	_	6	fixed	_	_
 8	öyle	öyle	ADV	_	_	9	advmod	_	_
 9	söylüyor	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -586,13 +586,13 @@
 6	Öyle	öyle	ADV	_	_	7	advmod	_	_
 7	söylüyor	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 8	ya	ya	ADV	_	_	7	cc	_	_
-9	da	da	ADV	_	_	8	fixed	_	SpaceAfter=No
+9	da	de	ADV	_	_	8	fixed	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = GK28-0059
 # text = Ya da öyle söylüyor.
 1	Ya	ya	ADV	_	_	4	cc	_	_
-2	da	da	ADV	_	_	1	fixed	_	_
+2	da	de	ADV	_	_	1	fixed	_	_
 3	öyle	öyle	ADV	_	_	4	advmod	_	_
 4	söylüyor	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -602,7 +602,7 @@
 1	Öyle	öyle	ADV	_	_	2	advmod	_	_
 2	söylüyor	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ya	ya	ADV	_	_	2	cc	_	_
-4	da	da	ADV	_	_	3	fixed	_	SpaceAfter=No
+4	da	de	ADV	_	_	3	fixed	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK28-0061
@@ -612,7 +612,7 @@
 3	ya	ya	CCONJ	_	_	4	cc	_	_
 4	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	8	obl	_	_
 5	ya	ya	CCONJ	_	_	7	cc	_	_
-6	da	da	CCONJ	_	_	5	fixed	_	_
+6	da	de	CCONJ	_	_	5	fixed	_	_
 7	karısıyla	karı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	conj	_	_
 8	konuşabilirsin	konuş	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -624,7 +624,7 @@
 3	ya	ya	CCONJ	_	_	4	cc	_	_
 4	Ahmet	Ahmet	PROPN	_	Number=Sing	8	obl	_	_
 5	ya	ya	CCONJ	_	_	7	cc	_	_
-6	da	da	CCONJ	_	_	5	fixed	_	_
+6	da	de	CCONJ	_	_	5	fixed	_	_
 7	karısıyla	karı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	conj	_	_
 8	konuşabilirsin	konuş	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -635,7 +635,7 @@
 2	konuyu	konu	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
 3	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
 4	ya	ya	CCONJ	_	_	6	cc	_	_
-5	da	da	CCONJ	_	_	4	fixed	_	_
+5	da	de	CCONJ	_	_	4	fixed	_	_
 6	karısıyla	karı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
 7	konuşabilirsin	konuş	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -646,7 +646,7 @@
 2	konuyu	konu	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
 3	Ahmet	Ahmet	PROPN	_	Number=Sing	7	obl	_	_
 4	ya	ya	CCONJ	_	_	6	cc	_	_
-5	da	da	CCONJ	_	_	4	fixed	_	_
+5	da	de	CCONJ	_	_	4	fixed	_	_
 6	karısıyla	karı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	conj	_	_
 7	konuşabilirsin	konuş	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -866,7 +866,7 @@
 6	miş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	gene	gene	ADV	_	_	12	advmod	_	_
-9	de	de	ADV	_	_	8	advmod	_	_
+9	de	de	ADV	_	_	8	advmod:emph	_	_
 10	onu	o	PRON	_	Case=Acc|Number=Sing	11	obj	_	_
 11	öğrenmeye	öğren	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	12	obl	_	_
 12-13	kararlıyım	_	_	_	_	_	_	_	SpaceAfter=No
@@ -985,7 +985,7 @@
 2	hepsinin	hepsi	PRON	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	adlarını	ad	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	4	obj	_	_
 4	bilmiyorum	bil	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	da	da	CCONJ	_	_	7	cc	_	_
+5	da	de	CCONJ	_	_	7	cc	_	_
 6	yüzleri	yüz	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	obj	_	_
 7	tanıyorum	tanı	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -1004,7 +1004,7 @@
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	6	nsubj	_	_
 2	mesajı	mesaj	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
 3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
-4	da	da	ADV	_	_	3	advmod:emph	_	_
+4	da	de	ADV	_	_	3	advmod:emph	_	_
 5	yanlış	yanlış	ADV	_	_	6	advmod	_	_
 6	anlamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	meğerse	meğerse	ADV	_	_	6	discourse	_	SpaceAfter=No
@@ -1289,7 +1289,7 @@
 2	Afrika’yı	Afrika	PROPN	_	Case=Acc|Number=Sing	8	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	özellikle	özellikle	ADV	_	_	6	advmod	_	_
-5	güney	güney	NOUN	_	Case=Nom|Number=Sing	6	amod	_	_
+5	güney	güney	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	Afrika’yı	Afrika	PROPN	_	Case=Acc|Number=Sing	2	appos	_	_
 7	çok	çok	ADV	_	_	8	advmod	_	_
 8	seviyor	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1313,7 +1313,7 @@
 13	sağlık	sağlık	NOUN	_	Case=Nom|Number=Sing	14	nmod	_	_
 14	personelinin	personel	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nmod	_	_
 15	sayısı	sayı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	nsubj	_	_
-16	da	da	ADV	_	_	15	advmod:emph	_	_
+16	da	de	ADV	_	_	15	advmod:emph	_	_
 17	yetersiz	yetersiz	ADJ	_	_	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -1516,7 +1516,7 @@
 # sent_id = GK28-0144
 # text = Onlar da bunun üzerine grev yapmaya karar verdiler.
 1	Onlar	o	PRON	_	Case=Nom|Number=Plur	8	nsubj	_	_
-2	da	da	ADV	_	_	1	advmod:emph	_	_
+2	da	de	ADV	_	_	1	advmod:emph	_	_
 3	bunun	bu	PRON	_	Case=Gen|Number=Sing	8	obl	_	_
 4	üzerine	üzerine	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
 5	grev	grev	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
@@ -1700,7 +1700,7 @@
 1	Bir	bir	DET	_	Definite=Ind|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	9	obl:tmod	_	_
 3	önce	önce	ADP	_	_	2	case	_	_
-4	de	de	CCONJ	_	_	2	advmod:emph	_	_
+4	de	de	ADV	_	_	2	advmod:emph	_	_
 5	evde	ev	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
 6	kızkardeşimin	kızkardeş	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nmod	_	_
 7	doğum	doğum	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -2082,7 +2082,7 @@
 # text = kitap ya da deftersiz
 1	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	ya	ya	CCONJ	_	_	4	cc	_	_
-3	da	da	CCONJ	_	_	2	fixed	_	_
+3	da	de	CCONJ	_	_	2	fixed	_	_
 4-5	deftersiz	_	_	_	_	_	_	_	_
 4	defter	defter	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
 5	siz	-siz	ADP	_	_	4	case	_	_
@@ -2151,7 +2151,7 @@
 2	bir	bir	DET	_	Definite=Ind|Number=Sing	3	det	_	_
 3	atkı	atkı	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 4	ya	ya	CCONJ	_	_	6	cc	_	_
-5	da	da	CCONJ	_	_	4	fixed	_	_
+5	da	de	CCONJ	_	_	4	fixed	_	_
 6	şapka	şapka	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
 
 # sent_id = GK28-0210
