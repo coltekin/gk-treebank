@@ -180,7 +180,7 @@
 # sent_id = GK21-0023
 # text = Geldiğiniz zaman anahtar kapıcıda olacak.
 1	Geldiğiniz	geldik	VERB	_	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	2	acl	_	_
-2	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+2	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	anahtar	anahtar	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	kapıcıda	kapıcı	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 5	olacak	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	SpaceAfter=No
@@ -474,7 +474,7 @@
 
 # sent_id = GK21-0058
 # text = 1994’te Ahmet derneğin başkanı oldu.
-1	1994’te	1994	NUM	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+1	1994’te	1994	NUM	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 2	Ahmet	Ahmet	PROPN	_	Number=Sing	4	nsubj	_	_
 3	derneğin	dernek	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	başkanı	başkan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
@@ -495,7 +495,7 @@
 # text = Geçen haftaki toplantı çok sıkıcı oldu.
 1	Geçen	geçen	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	2	acl	_	_
 2-3	haftaki	_	_	_	_	_	_	_	_
-2	hafta	haf	NOUN	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+2	hafta	haf	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 3	ki	ki	ADP	_	_	2	case	_	_
 4	toplantı	toplantı	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	çok	çok	ADV	_	_	6	advmod	_	_
@@ -510,7 +510,7 @@
 3	bu	bu	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	olaydan	olay	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
 5	bahseden	bahseden	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	7	acl	_	_
-6	üçüncü	üç	ADJ	_	NumType=Ord	7	nummod	_	_
+6	üçüncü	üç	ADJ	_	NumType=Ord	7	amod	_	_
 7	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 8	oldu	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
@@ -960,7 +960,7 @@
 # sent_id = GK21-0113
 # text = - İkinci çekmecede olacaklar.
 1	-	-	PUNCT	_	_	3	punct	_	_
-2	İkinci	iki	ADJ	_	NumType=Ord	3	nummod	_	_
+2	İkinci	iki	ADJ	_	NumType=Ord	3	amod	_	_
 3	çekmecede	çekmece	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 4	olacaklar	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -968,7 +968,7 @@
 # sent_id = GK21-0114
 # text = Bu saatte Ali’nin işte olması lazım.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	saatte	saat	NOUN	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+2	saatte	saat	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 3	Ali’nin	Ali	PROPN	_	Case=Gen|Number=Sing	4	nsubj	_	_
 4	işte	iş	NOUN	_	Case=Loc|Number=Sing	6	csubj:cop	_	_
 5	olması	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	4	cop	_	_
@@ -1395,7 +1395,7 @@
 # sent_id = GK21-0165
 # text = Dünkü toplantıda bu konuyu konuşmamız gerekiyordu.
 1-2	Dünkü	_	_	_	_	_	_	_	_
-1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	kü	-ki	ADP	_	_	1	case	_	_
 3	toplantıda	toplantı	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 4	bu	bu	DET	_	Definite=Def|Number=Sing	5	det	_	_
@@ -1646,7 +1646,7 @@
 
 # sent_id = GK21-0190
 # text = Bugün dolar ne kadarmış?
-1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	dolar	dolar	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	0	root	_	_
 4-5	kadarmış	_	_	_	_	_	_	_	SpaceAfter=No
@@ -2054,13 +2054,13 @@
 
 # sent_id = GK21-0237
 # text = Dördüncü bölümün bitmesiyle kitabın yarısı yazılmış oldu.
-1	Dördüncü	dört	ADJ	_	NumType=Ord	2	nummod	_	_
+1	Dördüncü	dört	ADJ	_	NumType=Ord	2	amod	_	_
 2	bölümün	bölüm	NOUN	_	Case=Gen|Number=Sing	3	nsubj	_	_
 3	bitmesiyle	bit	VERB	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	advcl	_	_
 4	kitabın	kitap	NOUN	_	Case=Gen|Number=Sing	5	nmod:part	_	_
 5	yarısı	yarı	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 6	yazılmış	yaz	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-7	oldu	ol	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+7	oldu	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK21-0238

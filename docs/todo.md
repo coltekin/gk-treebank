@@ -1,6 +1,5 @@
 ### TODO
 
-- Fix: there are still instances of nmod:tmod
 - Add PronType and VerbType (verbtype done)
 - Add gloss and translation
 - Fix: Some converbs are marked 'finite'
@@ -26,7 +25,7 @@
   should it be CCONJ or keep their usual pos tags?
 - If an ADP is dependent of 'mark', should the upostag be changed?
 - In some cases 'ki' looks like coordination: GK24-0033
-- Fixed candidates
+- `fixed` candidates
     - hem de
     - ya da
     - bir de
@@ -50,3 +49,7 @@
 ### Done
 
 - Replace POS of ordinal nouns to ADJ
+- Fix: there are still instances of nmod:tmod [fixed 2019-10-30]
+- Fix: Some converbs are marked 'finite'
+        grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
+    [fixed 2019-10-30, may need more attention]

@@ -4,7 +4,7 @@
 
 # sent_id = GK08-0002
 # text = Evlerimizdeymişler.
-1-2	Evlerimizdeymişler	_	_	_	_	_	_	_	_
+1-2	Evlerimizdeymişler	_	_	_	_	_	_	_	SpaceAfter=No
 1	Evlerimizde	ev	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 2	ymişler	i	AUX	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
@@ -34,7 +34,7 @@
 
 # sent_id = GK08-0007
 # text = Döğüştürülmeyebiliyor.
-1	Döğüştürülmeyebiliyor	döğüş	VERB	_	Aspect=Prog|Mood=Pot|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=CauPassRcp	0	root	_	_
+1	Döğüştürülmeyebiliyor	döğüş	VERB	_	Aspect=Prog|Mood=Pot|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=CauPassRcp	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0008
@@ -62,7 +62,7 @@
 
 # sent_id = GK08-0013
 # text = Yazın Paris'teydik.
-1	Yazın	yaz	NOUN	_	Case=Gen|Number=Sing	2	nmod:tmod	_	_
+1	Yazın	yaz	NOUN	_	Case=Gen|Number=Sing	2	obl:tmod	_	_
 2-3	Paris'teydik	_	_	_	_	_	_	_	SpaceAfter=No
 2	Paris'te	Paris	PROPN	_	Case=Loc|Number=Sing	0	root	_	_
 3	ydik	i	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	_

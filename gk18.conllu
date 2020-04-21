@@ -53,7 +53,7 @@
 1	Bizler	bizler	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
 2	kırık	kırık	ADJ	_	_	3	amod	_	_
 3	not	not	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
-4	alınca	alınca	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+4	alınca	alınca	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	çok	çok	ADV	_	_	6	advmod	_	_
 6	üzülürdük	üzül	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -215,7 +215,7 @@
 1	Kendi	kendi	PRON	_	Case=Nom|Number=Sing|Reflex=Yes	2	nsubj	_	_
 2	istemiş	iste	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	sınava	sınav	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
-4	girmeyi	gir	VERB	_	Mood=Ind|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+4	girmeyi	gir	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	2	ccomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK18-0023
@@ -385,7 +385,7 @@
 # text = Semra aday olarak kendini öne sürecekmiş.
 1	Semra	Semra	PROPN	_	Number=Sing	6	nsubj	_	_
 2	aday	aday	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	kendini	kendi	PRON	_	Case=Acc|Number=Sing|Reflex=Yes	6	obj	_	_
 5	öne	ön	NOUN	_	Case=Dat|Number=Sing	6	compound	_	_
 6	sürecekmiş	sür	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -395,7 +395,7 @@
 # text = Semra aday olarak kendisini öne sürecekmiş.
 1	Semra	Semra	PROPN	_	Number=Sing	6	nsubj	_	_
 2	aday	aday	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	kendisini	kendi	PRON	_	Case=Acc|Number=Sing|Person=3|Reflex=Yes	6	obj	_	_
 5	öne	ön	NOUN	_	Case=Dat|Number=Sing	6	compound	_	_
 6	sürecekmiş	sür	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -680,7 +680,7 @@
 6-7	haklı	_	_	_	_	_	_	_	_
 6	hak	hak	NOUN	_	Case=Nom|Number=Sing	9	advcl	_	_
 7	lı	li	ADP	_	_	6	case	_	_
-8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	6	cop	_	_
+8	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	6	cop	_	_
 9	korkuyorlar	kork	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -800,7 +800,7 @@
 # sent_id = GK18-0086
 # text = O zaman öğrenciydik.
 1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3-4	öğrenciydik	_	_	_	_	_	_	_	SpaceAfter=No
 3	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 4	ydik	i	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
@@ -1291,7 +1291,7 @@
 # sent_id = GK18-0137
 # text = Şurası dinlenmek için ideal bir yer.
 1	Şurası	şura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj:cop	_	_
-2	dinlenmek	dinlen	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+2	dinlenmek	dinlen	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 3	için	için	ADP	_	_	2	mark	_	_
 4	ideal	ideal	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|Number=Sing	6	det	_	_
@@ -1406,7 +1406,7 @@
 # text = Kilosunu on milyon liradan satacaklar.
 1	Kilosunu	kilo	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 2	on	on	NUM	_	NumType=Card	3	compound	_	_
-3	milyon	milyon	ADJ	_	NumType=Ord	4	nummod	_	_
+3	milyon	milyon	ADJ	_	NumType=Ord	4	amod	_	_
 4	liradan	lira	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
 5	satacaklar	sat	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1429,7 +1429,7 @@
 
 # sent_id = GK18-0153
 # text = İki kilo versene.
-1	İki	iki	ADJ	_	NumType=Ord	2	nmod	_	_
+1	İki	iki	ADJ	_	NumType=Ord	2	amod	_	_
 2	kilo	kilo	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	versene	ver	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1551,7 +1551,7 @@
 # text = Bu sabahkinde okudum.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2-3	sabahkinde	_	_	_	_	_	_	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	kinde	-ki	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 4	okudum	oku	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1560,7 +1560,7 @@
 # text = Bu sabahki gazetede okudum.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2-3	sabahki	_	_	_	_	_	_	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 3	ki	ki	ADP	_	_	2	case	_	_
 4	gazetede	gazete	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 5	okudum	oku	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1601,7 +1601,7 @@
 3-4	Ahmet’inkiyle	_	_	_	_	_	_	_	_
 3	Ahmet’in	Ahmet	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	kiyle	-ki	NOUN	_	Case=Ins|Number=Sing	5	nsubj	_	_
-5	karşılaştırılınca	karşılaştırılınca	VERB	_	Mood=Ind|VerbForm=Fin	8	advcl	_	_
+5	karşılaştırılınca	karşılaştırılınca	VERB	_	Mood=Ind|VerbForm=Conv	8	advcl	_	_
 6	çok	çok	ADV	_	_	7	advmod	_	_
 7	yeni	yeni	ADJ	_	_	8	compound	_	_
 8	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1685,7 +1685,7 @@
 # sent_id = GK18-0181
 # text = Bazı günler her şey zor geliyor insana.
 1	Bazı	bazı	DET	_	Definite=Ind|Number=Sing	2	det	_	_
-2	günler	gün	NOUN	_	Case=Nom|Number=Plur	6	nmod:tmod	_	_
+2	günler	gün	NOUN	_	Case=Nom|Number=Plur	6	obl:tmod	_	_
 3	her	her	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	şey	şey	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	zor	zor	ADJ	_	_	6	compound	_	_
@@ -1711,7 +1711,7 @@
 6	sana	san	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
 7	bir	bir	DET	_	Definite=Ind|Number=Sing	8	det	_	_
 8	şey	şey	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
-9	sormak	sor	VERB	_	Mood=Ind|VerbForm=Fin	10	xcomp	_	_
+9	sormak	sor	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	10	xcomp	_	_
 10	istiyorum	iste	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	1	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 

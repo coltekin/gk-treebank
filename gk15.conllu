@@ -207,7 +207,7 @@
 3	bazı	bazı	DET	_	Definite=Ind|Number=Sing	4	det	_	_
 4	ağaçlar	ağaç	NOUN	_	Case=Nom|Number=Plur	7	nsubj	_	_
 5	yapraklarını	yaprak	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	6	obj	_	_
-6	dökmeye	dök	VERB	_	Mood=Ind|VerbForm=Fin	7	advcl	_	_
+6	dökmeye	dök	VERB	_	Mood=Ind|VerbForm=Conv	7	advcl	_	_
 7	başladı	başla	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -270,7 +270,7 @@
 1	Mehmet’in	Mehmet	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
 2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
 3-4	günkü	_	_	_	_	_	_	_	_
-3	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	kü	-ki	ADP	_	_	3	case	_	_
 5	halini	hal	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 6	çok	çok	ADV	_	_	7	advmod	_	_
@@ -684,12 +684,12 @@
 
 # sent_id = GK15-0089
 # text = ikinci öneri
-1	ikinci	iki	ADJ	_	NumType=Ord	2	nummod	_	_
+1	ikinci	iki	ADJ	_	NumType=Ord	2	amod	_	_
 2	öneri	öneri	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0090
 # text = 18. Uluslararası Tıp Kongresi
-1	18.	18	ADJ	_	NumType=Ord	4	nummod	_	_
+1	18.	18	ADJ	_	NumType=Ord	4	amod	_	_
 2	Uluslararası	uluslararası	ADJ	_	_	4	amod	_	_
 3	Tıp	tıp	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	Kongresi	kongre	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_

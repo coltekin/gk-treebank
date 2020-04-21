@@ -10,7 +10,7 @@
 1	Her	her	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	oraya	ora	PRON	_	Case=Dat|Number=Sing	4	obl	_	_
-4	gidip	gidip	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+4	gidip	gidip	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 5	gelmek	gel	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	6	nsubj	_	_
 6	zor	zor	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -25,7 +25,7 @@
 # sent_id = GK14-0004
 # text = O sırada lise öğrencisiydik.
 1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	nmod:tmod	_	_
+2	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 3	lise	lise	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4-5	öğrencisiydik	_	_	_	_	_	_	_	SpaceAfter=No
 4	öğrencisi	öğrenci	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
@@ -61,7 +61,7 @@
 1	Mustafa’nın	Mustafa	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
 2	çalışma	çalışma	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	odası	oda	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	advcl	_	_
-4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	_
+4	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	3	cop	_	_
 5	kullandığı	kullandık	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	acl	_	_
 6	oda	oda	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
@@ -202,7 +202,7 @@
 # sent_id = GK14-0024
 # text = Bu yıl bütün sınıflar daha kalabalık olacak.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
+2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	bütün	bütün	DET	_	Definite=Def|Number=Sing	4	det	_	_
 4	sınıflar	sınıf	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 5	daha	daha	ADV	_	_	6	advmod	_	_
@@ -411,13 +411,13 @@
 
 # sent_id = GK14-0054
 # text = mayıs başlarında
-1	mayıs	mayıs	NOUN	_	Case=Nom|Number=Sing	2	nmod:tmod	_	_
+1	mayıs	mayıs	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	başlarında	baş	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK14-0055
 # text = bu haftanın sonlarına doğru
 1	bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	haftanın	hafta	NOUN	_	Case=Gen|Number=Sing	3	nmod:tmod	_	_
+2	haftanın	hafta	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	sonlarına	son	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 4	doğru	doğru	ADP	_	_	3	case	_	_
 
@@ -644,7 +644,7 @@
 # sent_id = GK14-0088
 # text = Ahmet gelince ona sorabiliriz.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	2	nsubj	_	_
-2	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+2	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 3	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	sorabiliriz	sor	VERB	_	Aspect=Hab|Mood=GenPot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -999,7 +999,7 @@
 
 # sent_id = GK14-0130
 # text = Gelirken şehir merkezinden geçtiniz mi?
-1	Gelirken	gelirken	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+1	Gelirken	gelirken	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 2	şehir	şehir	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	merkezinden	merkez	NOUN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	geçtiniz	geç	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1355,7 +1355,7 @@
 4	Sierra	Sierra	PROPN	_	Number=Sing	11	obl	_	_
 5	Leone’de	Leone	PROPN	_	Case=Loc|Number=Sing	4	flat	_	_
 6	on	on	NUM	_	NumType=Card	7	nummod	_	_
-7	yıldan	yıl	NOUN	_	Case=Abl|Number=Sing	11	nmod:tmod	_	_
+7	yıldan	yıl	NOUN	_	Case=Abl|Number=Sing	11	obl:tmod	_	_
 8	beri	beri	ADP	_	_	7	case	_	_
 9	iç	iç	ADJ	_	_	10	amod	_	_
 10	savaş	savaş	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
@@ -1387,7 +1387,7 @@
 # text = Bu yılki misafirlerimizden yirmi otuz aile şimdiden gelecek yıl için rezervasyon yaptılar.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2-3	yılki	_	_	_	_	_	_	_	_
-2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 3	ki	-ki	ADP	_	_	2	case	_	_
 4	misafirlerimizden	misafir	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Plur|Person[psor]=1	7	nmod:part	_	_
 5	yirmi	yirmi	NUM	_	NumType=Card	7	nummod	_	_
@@ -1395,7 +1395,7 @@
 7	aile	aile	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 8	şimdiden	şimdiden	ADV	_	_	13	advmod	_	_
 9	gelecek	gelecek	ADJ	_	_	10	amod	_	_
-10	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	13	nmod:tmod	_	_
+10	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	13	obl:tmod	_	_
 11	için	için	ADP	_	_	10	case	_	_
 12	rezervasyon	rezervasyon	NOUN	_	Case=Nom|Number=Sing	13	compound	_	_
 13	yaptılar	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1404,7 +1404,7 @@
 # sent_id = GK14-0174
 # text = Bu yıl bol misafirimiz oldu.
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
-2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
+2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	bol	bol	ADJ	_	_	4	amod	_	_
 4	misafirimiz	misafir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 5	oldu	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
@@ -1419,7 +1419,7 @@
 5	de	de	ADV	_	_	4	advmod:emph	_	_
 6	şimdiden	şimdiden	ADV	_	_	11	advmod	_	_
 7	gelecek	gelecek	ADJ	_	_	8	amod	_	_
-8	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	11	nmod:tmod	_	_
+8	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
 9	için	için	ADP	_	_	8	case	_	_
 10	rezervasyon	rezervasyon	NOUN	_	Case=Nom|Number=Sing	11	compound	_	_
 11	yaptılar	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No

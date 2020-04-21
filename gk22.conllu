@@ -185,7 +185,7 @@
 # sent_id = GK22-0023
 # text = Yarınki toplantıya birkaç kişi gelemeyecekmiş.
 1-2	Yarınki	_	_	_	_	_	_	_	_
-1	Yarın	yarın	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+1	Yarın	yarın	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	ki	ki	ADP	_	_	1	case	_	_
 3	toplantıya	toplantı	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 4	birkaç	birkaç	DET	_	Definite=Ind|Number=Sing	5	det	_	_
@@ -959,7 +959,7 @@
 
 # sent_id = GK22-0107
 # text = 1920’lerde otomobil yaygın değildi.
-1	1920’lerde	1920	NUM	_	Case=Loc|Number=Plur	3	nmod:tmod	_	_
+1	1920’lerde	1920	NUM	_	Case=Loc|Number=Plur	3	obl:tmod	_	_
 2	otomobil	otomobil	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	yaygın	yaygın	ADJ	_	_	0	root	_	_
 4	değildi	değil	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No

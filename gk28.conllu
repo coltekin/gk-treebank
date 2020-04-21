@@ -15,7 +15,7 @@
 
 # sent_id = GK28-0003
 # text = Gece gündüz çalışıyoruz.
-1	Gece	gece	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+1	Gece	gece	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	gündüz	gündüz	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
 3	çalışıyoruz	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -52,7 +52,7 @@
 # sent_id = GK28-0006
 # text = Sinemaya gidip güzel bir film seyretsek.
 1	Sinemaya	sinema	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
-2	gidip	gidip	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+2	gidip	gidip	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 3	güzel	güzel	ADJ	_	_	5	amod	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
 5	film	film	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
@@ -74,7 +74,7 @@
 # text = Başbakan İzmir’e giderek bazı işadamlarıyla görüştü.
 1	Başbakan	başbakan	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	İzmir’e	İzmir	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
-3	giderek	giderek	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+3	giderek	giderek	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 4	bazı	bazı	DET	_	Definite=Ind|Number=Sing	5	det	_	_
 5	işadamlarıyla	işadamı	NOUN	_	Case=Ins|Number=Plur	6	obl	_	_
 6	görüştü	görüş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -83,17 +83,17 @@
 # sent_id = GK28-0009
 # text = Kendin gelip görünce anlayacaksın.
 1	Kendin	kendi	PRON	_	Case=Nom|Number=Sing|Person=2|Reflex=Yes	3	nsubj	_	_
-2	gelip	gelip	VERB	_	Mood=Ind|VerbForm=Fin	3	advcl	_	_
-3	görünce	görünce	VERB	_	Mood=Ind|VerbForm=Fin	4	advcl	_	_
+2	gelip	gelip	VERB	_	Mood=Ind|VerbForm=Conv	3	advcl	_	_
+3	görünce	görünce	VERB	_	Mood=Ind|VerbForm=Conv	4	advcl	_	_
 4	anlayacaksın	anla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK28-0010
 # text = Kendin gelince ve görünce anlayacaksın.
 1	Kendin	kendi	PRON	_	Case=Nom|Number=Sing|Person=2|Reflex=Yes	2	nsubj	_	_
-2	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+2	gelince	gelince	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 3	ve	ve	CCONJ	_	_	4	cc	_	_
-4	görünce	görünce	VERB	_	Mood=Ind|VerbForm=Fin	2	conj	_	_
+4	görünce	görünce	VERB	_	Mood=Ind|VerbForm=Conv	2	conj	_	_
 5	anlayacaksın	anla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -113,7 +113,7 @@
 2	havada	hava	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
 3	herhalde	herhalde	ADV	_	_	7	advmod	_	_
 4	evde	ev	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
-5	oturup	oturup	VERB	_	Mood=Ind|VerbForm=Fin	7	advcl	_	_
+5	oturup	oturup	VERB	_	Mood=Ind|VerbForm=Conv	7	advcl	_	_
 6	televizyon	televizyon	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 7	seyretmeyeceğiz	seyret	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	7	punct	_	_
@@ -122,8 +122,8 @@
 # text = Ahmet mesajı bulup da anlamamış mı acaba?
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	5	nsubj	_	_
 2	mesajı	mesaj	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
-3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
-4	da	de	ADV	_	_	3	advmod:emph	_	_
+3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
+4	da	da	ADV	_	_	3	advmod:emph	_	_
 5	anlamamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 6	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	5	aux:q	_	_
 7	acaba	acaba	ADV	_	_	5	discourse	_	SpaceAfter=No
@@ -134,7 +134,7 @@
 1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
 2	havada	hava	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 3	evde	ev	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
-4	oturmayıp	oturmayıp	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+4	oturmayıp	oturmayıp	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	yürüyüşe	yürüyüş	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	çıkmalıyız	çık	VERB	_	Mood=Nec|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -154,7 +154,7 @@
 3	saatte	saat	NOUN	_	Case=Loc|Number=Sing	9	obl:tmod	_	_
 4	Semra	Semra	PROPN	_	Number=Sing	6	nsubj	_	_
 5	işi	iş	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
-6	bırakıp	bırakıp	VERB	_	Mood=Ind|VerbForm=Fin	9	advcl	_	_
+6	bırakıp	bırakıp	VERB	_	Mood=Ind|VerbForm=Conv	9	advcl	_	_
 7	Ahmet	Ahmet	PROPN	_	Number=Sing	9	nsubj	_	_
 8	işbaşı	işbaşı	NOUN	_	Case=Nom|Number=Sing	9	compound	_	_
 9	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -359,7 +359,7 @@
 # sent_id = GK28-0037
 # text = İtalya’ya gitmek istiyorum, İspanya’ya bir de.
 1	İtalya’ya	İtalya	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
-2	gitmek	git	VERB	_	Mood=Ind|VerbForm=Fin	3	xcomp	_	_
+2	gitmek	git	VERB	_	Mood=Ind|VerbForm=Conv	3	xcomp	_	_
 3	istiyorum	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	İspanya’ya	İspanya	PROPN	_	Case=Dat|Number=Sing	1	conj	_	_
@@ -471,7 +471,7 @@
 # sent_id = GK28-0050
 # text = Diplomasını almak şöyle dursun, tezini bile daha yazmamış.
 1	Diplomasını	diploma	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	_
-2	almak	al	VERB	_	Mood=Ind|VerbForm=Fin	9	advcl	_	_
+2	almak	al	VERB	_	Mood=Ind|VerbForm=Conv	9	advcl	_	_
 3	şöyle	şöyle	ADV	_	_	4	advmod	_	_
 4	dursun	dur	VERB	_	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -502,7 +502,7 @@
 3	Boğaziçi	Boğaziçi	PROPN	_	Number=Sing	4	nmod	_	_
 4	Üniversitesi	üniversite	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nmod	_	_
 5	hem	hem	CCONJ	_	_	7	cc	_	_
-6	de	de	CCONJ	_	_	5	advmod:emph	_	_
+6	de	de	CCONJ	_	_	5	fixed	_	_
 7	Bilkent’e	Bilkent	PROPN	_	Case=Dat|Number=Sing	4	conj	_	_
 8	girebiliyormuş	gir	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -771,7 +771,7 @@
 # text = Semra hep gezmek istiyor fakat zamanı yok.
 1	Semra	Semra	PROPN	_	Number=Sing	4	nsubj	_	_
 2	hep	hep	ADV	_	_	3	advmod	_	_
-3	gezmek	gez	VERB	_	Mood=Ind|VerbForm=Fin	4	xcomp	_	_
+3	gezmek	gez	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
 4	istiyor	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fakat	fakat	CCONJ	_	_	7	cc	_	_
 6	zamanı	zaman	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
@@ -1003,8 +1003,8 @@
 # text = Ahmet mesajı bulup da yanlış anlamış meğerse.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	6	nsubj	_	_
 2	mesajı	mesaj	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
-3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
-4	da	de	ADV	_	_	3	advmod:emph	_	_
+3	bulup	bulup	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
+4	da	da	ADV	_	_	3	advmod:emph	_	_
 5	yanlış	yanlış	ADV	_	_	6	advmod	_	_
 6	anlamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	meğerse	meğerse	ADV	_	_	6	discourse	_	SpaceAfter=No
@@ -1121,7 +1121,7 @@
 1	–	–	PUNCT	_	_	6	punct	_	_
 2	Bütün	bütün	DET	_	Definite=Def|Number=Sing	3	det	_	_
 3	yazı	yaz	NOUN	_	Case=Acc|Number=Sing	4	obl:tmod	_	_
-4	çalışarak	çalışarak	VERB	_	Mood=Ind|VerbForm=Fin	5	advcl	_	_
+4	çalışarak	çalışarak	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 5	geçirmem	geçir	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	6	csubj	_	_
 6	gerekiyor	gerek	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1214,7 +1214,7 @@
 2	mış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
 4-5	yüzmekmiş	_	_	_	_	_	_	_	SpaceAfter=No
-4	yüzmek	yüz	VERB	_	Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	yüzmek	yüz	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	1	conj	_	_
 5	miş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	hiç	hiç	ADV	_	_	12	advmod	_	_
@@ -1478,7 +1478,7 @@
 # text = Görgü şahidi olarak mahkemeye çağırılmışsın.
 1	Görgü	görgü	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	şahidi	şahit	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	advcl	_	_
-3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Fin	2	cop	_	_
+3	olarak	ol	AUX	_	Mood=Ind|VerbForm=Conv	2	cop	_	_
 4	mahkemeye	mahkeme	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
 5	çağırılmışsın	çağır	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1542,7 +1542,7 @@
 5	Mecidiyeköy	Mecidiyeköy	PROPN	_	Number=Sing	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	Beşiktaş’ta	Beşiktaş	PROPN	_	Case=Loc|Number=Sing	1	conj	_	_
-8	dolaşıp	dolaşıp	VERB	_	Mood=Ind|VerbForm=Fin	9	compound	_	_
+8	dolaşıp	dolaşıp	VERB	_	Mood=Ind|VerbForm=Conv	9	compound	_	_
 9	durduk	dur	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1720,7 +1720,7 @@
 # text = İşte karışıklık derken bundan söz ediyorum.
 1	İşte	işte	ADV	_	_	6	discourse	_	_
 2	karışıklık	karışıklık	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
-3	derken	derken	VERB	_	Mood=Ind|VerbForm=Fin	6	advcl	_	_
+3	derken	derken	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 4	bundan	bu	PRON	_	Case=Abl|Number=Sing	6	obl	_	_
 5	söz	söz	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
 6	ediyorum	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1750,7 +1750,7 @@
 3	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	çamaşırını	çamaşır	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
-6	yıkayıp	yıkayıp	VERB	_	Mood=Ind|VerbForm=Fin	7	advcl	_	_
+6	yıkayıp	yıkayıp	VERB	_	Mood=Ind|VerbForm=Conv	7	advcl	_	_
 7	ütülüyor	ütüle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	telefonlarına	telefon	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
@@ -2039,7 +2039,7 @@
 2	sinemaya	sinema	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	gitmiş	git	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	hem	hem	CCONJ	_	_	7	cc	_	_
-5	de	de	CCONJ	_	_	4	advmod:emph	_	_
+5	de	de	CCONJ	_	_	4	fixed	_	_
 6	biraz	biraz	ADV	_	_	7	advmod	_	_
 7	gezmiştim	gez	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -2115,7 +2115,7 @@
 2	küçük	küçük	ADJ	_	_	0	root	_	_
 3	ve	ve	CCONJ	_	_	5	cc	_	_
 4	daha	daha	ADV	_	_	5	advmod	_	_
-5	konuşmazken	konuşmazken	VERB	_	Mood=Ind|VerbForm=Fin	2	conj	_	_
+5	konuşmazken	konuşmazken	VERB	_	Mood=Ind|VerbForm=Conv	2	conj	_	_
 
 # sent_id = GK28-0206
 # text = Dersini çalışmış ve odanı toplamışsan bile sokağa çıkamazsın.
@@ -2157,13 +2157,13 @@
 # sent_id = GK28-0210
 # text = yavaşça oturup kalk
 1	yavaşça	yavaşça	ADV	_	_	2	advmod	_	_
-2	oturup	oturup	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
+2	oturup	oturup	VERB	_	Mood=Ind|VerbForm=Conv	0	root	_	_
 3	kalk	kalk	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
 
 # sent_id = GK28-0211
 # text = çok şeker ve cana yakın bir çocuk
 1	çok	çok	ADV	_	_	2	advmod	_	_
-2	şeker	şeker	ADJ	_	_	7	nmod	_	_
+2	şeker	şeker	ADJ	_	_	7	amod	_	_
 3	ve	ve	CCONJ	_	_	4	cc	_	_
 4	cana	can	NOUN	_	Case=Dat|Number=Sing	2	conj	_	_
 5	yakın	yakın	ADP	_	_	4	case	_	_
