@@ -187,7 +187,7 @@
 # text = Kezban gelmezse onu bir daha çağırmayalım.
 1	Kezban	Kezban	PROPN	_	Number=Sing	2	nsubj	_	_
 2	gelmezse	gel	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-3	onu	o	PRON	_	Case=Acc|Number=Sing|PronType=Dem	6	obj	_	_
+3	onu	o	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	obj	_	_
 4	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	6	advmod	_	_
 5	daha	daha	ADV	_	_	4	fixed	_	_
 6	çağırmayalım	çağır	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -207,7 +207,7 @@
 1	Amerika’ya	Amerika	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	giderse	git	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 3	Jale	Jale	PROPN	_	Number=Sing	5	nsubj	_	_
-4	onunla	o	PRON	_	Case=Ins|Number=Sing|PronType=Dem	5	obl	_	_
+4	onunla	o	PRON	_	Case=Ins|Number=Sing|PronType=Prs	5	obl	_	_
 5	gitmeyebilirdi	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -258,7 +258,7 @@
 3	vezirinden	vezir	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 4	memnun	memnun	ADJ	_	_	5	compound	_	_
 5	kalmazsa	kal	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	advcl	_	_
-6	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
+6	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 7	idam	idam	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	ettirirdi	et	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -479,7 +479,7 @@
 4	şeyi	şey	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 5	yanlış	yanlış	ADV	_	_	6	advmod	_	_
 6	yazmışsak	yaz	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Cnd|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
-7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	düzeltiyordu	düzel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -492,7 +492,7 @@
 5	yanlış	yanlış	ADV	_	_	6	advmod	_	_
 6	yazmış	yaz	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
 7	olursak	ol	AUX	_	Aspect=Hab|Mood=CndGen|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-8	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+8	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	düzeltiyordu	düzel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -614,7 +614,7 @@
 1	Temmuzda	temmuz	NOUN	_	Case=Loc|Number=Sing	2	obl:tmod	_	_
 2	gelebilselerdi	gel	VERB	_	Mood=CndPot|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
 3	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-4	onları	o	PRON	_	Case=Acc|Number=Plur|PronType=Dem	7	obj	_	_
+4	onları	o	PRON	_	Case=Acc|Number=Plur|PronType=Prs	7	obj	_	_
 5	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 6	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 7	gezdirecektik	gez	VERB	_	Aspect=Prosp|Mood=Ind|Number=Plur|Person=1|Tense=Fut,Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
@@ -791,7 +791,7 @@
 3	kazanmış	kazan	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
 4	olsaydı	ol	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
 5	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
-6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
+6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 7	Ankara’da	Ankara	PROPN	_	Case=Loc|Number=Sing	9	obl	_	_
 8	ev	ev	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
 9	tutacaktı	tut	VERB	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Tense=Fut,Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -803,7 +803,7 @@
 2	üniversiteyi	üniversite	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
 3	kazansaydı	kazan	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
 4	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
-5	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	8	obl	_	_
+5	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
 6	Ankara’da	Ankara	PROPN	_	Case=Loc|Number=Sing	8	obl	_	_
 7	ev	ev	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 8	tutacaktı	tut	VERB	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Tense=Fut,Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -815,7 +815,7 @@
 2	şapka	şapka	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	giyecek	giy	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	7	advcl	_	_
 4	olsaymışım	ol	AUX	_	Evident=Nfh|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
-5	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+5	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	da	de	ADV	_	_	5	advmod:emph	_	_
 7	giyecekmiş	giy	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -868,7 +868,7 @@
 4	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	9	advcl	_	_
 5	idiyse	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	neden	neden	ADV	_	PronType=Int	9	advmod	_	_
-7	ondan	o	PRON	_	Case=Abl|Number=Sing|PronType=Dem	9	obl	_	_
+7	ondan	o	PRON	_	Case=Abl|Number=Sing|PronType=Prs	9	obl	_	_
 8	yardım	yardım	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
 9	istemedin	iste	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	9	punct	_	_

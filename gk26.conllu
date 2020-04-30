@@ -5,7 +5,7 @@
 3	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	ki	ki	SCONJ	_	_	10	mark	_	_
 5	masasında	masa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
-6	onun	o	PRON	_	Case=Gen|Number=Sing|PronType=Dem	9	nmod	_	_
+6	onun	o	PRON	_	Case=Gen|Number=Sing|PronType=Prs	9	nmod	_	_
 7	üç	üç	NUM	_	NumType=Card	8	nummod	_	_
 8	tane	tane	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	resmi	resim	NOUN	_	Case=Acc|Number=Sing	10	nsubj	_	_
@@ -21,7 +21,7 @@
 5	resmi	resim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 6	olduğuna	ol	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	9	advcl	_	_
 7	göre	göre	ADP	_	_	6	mark	_	_
-8	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	9	nmod	_	_
+8	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
 9	düşkün	düşkün	ADJ	_	_	0	root	_	_
 10	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -233,7 +233,7 @@
 3	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	8	obl	_	_
+6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
 7	kötü	kötü	ADV	_	_	8	advmod	_	_
 8	davranıyormuşuz	davran	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 9	gibi	gibi	ADP	_	_	8	mark	_	SpaceAfter=No
@@ -247,7 +247,7 @@
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	sanki	sanki	ADV	_	_	9	advmod	_	_
 6	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-7	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
+7	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 8	kötü	kötü	ADV	_	_	9	advmod	_	_
 9	davranıyormuşuz	davran	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 10	gibi	gibi	ADP	_	_	9	mark	_	SpaceAfter=No
@@ -576,7 +576,7 @@
 1	Misafirler	misafir	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	geldiği	geldik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	3	acl	_	_
 3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
-4	onlara	o	PRON	_	Case=Dat|Number=Plur|PronType=Dem	8	obl	_	_
+4	onlara	o	PRON	_	Case=Dat|Number=Plur|PronType=Prs	8	obl	_	_
 5	önce	önce	ADV	_	_	8	advmod	_	_
 6	kahve	kahve	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 7	ikram	ikram	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
@@ -755,7 +755,7 @@
 4	da	de	CCONJ	_	_	8	cc	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	bakalım	bakalım	ADV	_	_	8	discourse	_	_
-7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	dinleyecek	dinle	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	3	conj	_	_
 9	mi	mi	AUX	_	Number=Sing|Person=3|PronType=Int	8	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	8	punct	_	_
@@ -1159,7 +1159,7 @@
 # text = Sen ormanda onu ararken Bahri buradaydı.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	ormanda	orman	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
-3	onu	o	PRON	_	Case=Acc|Number=Sing|PronType=Dem	4	obj	_	_
+3	onu	o	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	_
 4	ararken	ararken	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	Bahri	Bahri	PROPN	_	Number=Sing	6	nsubj	_	_
 6-7	buradaydı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1223,7 +1223,7 @@
 2	Almanya’ya	Almanya	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	taşındığından	taşın	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	8	advcl	_	_
 4	beri	beri	ADP	_	_	3	mark	_	_
-5	ondan	o	PRON	_	Case=Abl|Number=Sing|PronType=Dem	8	obl	_	_
+5	ondan	o	PRON	_	Case=Abl|Number=Sing|PronType=Prs	8	obl	_	_
 6	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	haber	haber	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 8	alamadım	al	VERB	_	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
