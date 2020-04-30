@@ -32,7 +32,7 @@
 
 # sent_id = GKA2-0006
 # text = O hafta çok yağmur yağmıştı.
-1	O	o	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	çok	çok	ADV	_	_	5	advmod	_	_
 4	yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -41,7 +41,7 @@
 
 # sent_id = GKA2-0007
 # text = Şu anda Ahmet futbol oynuyor.
-1	Şu	şu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	anda	an	NOUN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 3	Ahmet	Ahmet	PROPN	_	Number=Sing	5	nsubj	_	_
 4	futbol	futbol	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
@@ -83,7 +83,7 @@
 
 # sent_id = GKA2-0012
 # text = Şu sıralarda konferansımı hazırlamaktayım.
-1	Şu	şu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	sıralarda	sıra	NOUN	_	Case=Loc|Number=Plur	4	obl:tmod	_	_
 3	konferansımı	konferans	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	_
 4	hazırlamaktayım	hazırla	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -203,7 +203,7 @@
 
 # sent_id = GKA2-0026
 # text = Bu ceket senin olmalı.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	ceket	ceket	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	0	root	_	_
 4	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
@@ -213,14 +213,14 @@
 # text = Daha büyük bir arabamız olsa.
 1	Daha	daha	ADV	_	_	2	advmod	_	_
 2	büyük	büyük	ADJ	_	_	4	amod	_	_
-3	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
+3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	arabamız	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj	_	_
 5	olsa	ol	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GKA2-0028
 # text = Bu akşam ne yapsak acaba?
-1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	obj	_	_
 4	yapsak	yap	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -229,7 +229,7 @@
 
 # sent_id = GKA2-0029
 # text = Bu parayı Kaya’ya ver.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	parayı	para	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 3	Kaya’ya	Kaya	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	ver	ver	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -250,7 +250,7 @@
 # sent_id = GKA2-0032
 # text = Ayşe bu akşam bana telefon etsin.
 1	Ayşe	Ayşe	PROPN	_	Number=Sing	6	nsubj	_	_
-2	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 4	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 5	telefon	telefon	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
@@ -287,7 +287,7 @@
 # sent_id = GKA2-0037
 # text = Sen bu işi daha güzel yapardın.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-2	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	işi	iş	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 4	daha	daha	ADV	_	_	5	advmod	_	_
 5	güzel	güzel	ADV	_	_	6	advmod	_	_
@@ -311,7 +311,7 @@
 
 # sent_id = GKA2-0040
 # text = Her yaz Amerika’ya gidiyorlarmış.
-1	Her	her	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	yaz	yaz	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	Amerika’ya	Amerika	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	gidiyorlarmış	git	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
