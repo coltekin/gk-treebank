@@ -5,7 +5,7 @@
 3	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	ki	ki	SCONJ	_	_	10	mark	_	_
 5	masasında	masa	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
-6	onun	o	PRON	_	Case=Gen|Number=Sing	9	nmod	_	_
+6	onun	o	PRON	_	Case=Gen|Number=Sing|PronType=Dem	9	nmod	_	_
 7	üç	üç	NUM	_	NumType=Card	8	nummod	_	_
 8	tane	tane	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	resmi	resim	NOUN	_	Case=Acc|Number=Sing	10	nsubj	_	_
@@ -21,7 +21,7 @@
 5	resmi	resim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 6	olduğuna	ol	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	9	advcl	_	_
 7	göre	göre	ADP	_	_	6	mark	_	_
-8	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3	9	nmod	_	_
+8	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	9	nmod	_	_
 9	düşkün	düşkün	ADJ	_	_	0	root	_	_
 10	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
@@ -64,7 +64,7 @@
 3	görüşemezsek	görüş	VERB	_	Aspect=Hab|Mood=CndGenPot|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 4	diye	diye	SCONJ	_	_	3	mark	_	_
 5	anahtarları	anahtar	NOUN	_	Case=Acc|Number=Plur	8	obj	_	_
-6	sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2	8	obl	_	_
+6	sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
 7	şimdiden	şimdiden	ADV	_	_	8	advmod	_	_
 8	veriyorum	ver	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -72,7 +72,7 @@
 # sent_id = GK26-0007
 # text = Ali o işe geceleri çalışılmıyor diye girmişti.
 1	Ali	Ali	PROPN	_	Number=Sing	7	nsubj	_	_
-2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
+2	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	işe	iş	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 4	geceleri	gece	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl:tmod	_	_
 5	çalışılmıyor	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	_
@@ -89,7 +89,7 @@
 5	buluşuruz	buluş	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 6	diye	diye	SCONJ	_	_	5	mark	_	_
 7	ayrılmışlar	ayrıl	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	o	o	DET	_	Definite=Def|Number=Sing	9	det	_	_
+8	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	gün	gün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -120,7 +120,7 @@
 2	dolaba	dolap	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	koydum	koy	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ki	ki	SCONJ	_	_	6	mark	_	_
-5	kimse	kimse	PRON	_	Case=Nom|Number=Sing	6	nsubj	_	_
+5	kimse	kimse	PRON	_	Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	_
 6	almasın	al	VERB	_	Mood=Opt|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -130,7 +130,7 @@
 2	dolaba	dolap	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	koydum	koy	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ki	ki	SCONJ	_	_	6	mark	_	_
-5	kimse	kimse	PRON	_	Case=Nom|Number=Sing	6	nsubj	_	_
+5	kimse	kimse	PRON	_	Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	_
 6	almasın	al	VERB	_	Mood=Opt|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 7	diye	diye	SCONJ	_	_	6	mark	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -139,7 +139,7 @@
 # text = Ali’nin odası o kadar dağınıktı ki oturacak yer bulamadık.
 1	Ali’nin	Ali	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	odası	oda	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-3	o	o	PRON	_	Case=Nom|Number=Sing	5	obl	_	_
+3	o	o	PRON	_	Case=Nom|Number=Sing|PronType=Dem	5	obl	_	_
 4	kadar	kadar	ADP	_	_	3	case	_	_
 5-6	dağınıktı	_	_	_	_	_	_	_	_
 5	dağınık	dağınık	ADJ	_	_	0	root	_	_
@@ -167,7 +167,7 @@
 3	olmalı	ol	AUX	_	Mood=Nec|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 4	ki	ki	SCONJ	_	_	8	mark	_	_
 5	odasında	oda	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
-6	hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg	7	det	_	_
+6	hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg|PronType=Art	7	det	_	_
 7	şey	şey	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	kalmamış	kal	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
@@ -192,7 +192,7 @@
 7	kullanmayı	kullan	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	8	ccomp	_	_
 8	öğrenmiş	öğren	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
+10	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 11	de	de	ADV	_	_	10	advmod:emph	_	_
 12	öğrenebilirim	öğren	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
@@ -206,12 +206,12 @@
 5	garsonluk	garsonluk	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	15	nsubj	_	_
+8	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 9	de	de	ADV	_	_	8	advmod:emph	_	_
 10	derslerine	ders	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	nmod	_	_
 11	engel	engel	NOUN	_	Case=Nom|Number=Sing	14	acl	_	_
 12	olmayacak	ol	AUX	_	Mood=Ind|Tense=Fut|VerbForm=Part	11	cop	_	_
-13	bir	bir	DET	_	Definite=Ind|Number=Sing	14	det	_	_
+13	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
 14	iş	iş	NOUN	_	Case=Nom|Number=Sing	15	obj	_	_
 15	bulabilirsin	bul	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
@@ -232,8 +232,8 @@
 2	küskün	küskün	ADJ	_	_	3	compound	_	_
 3	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
-5	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
-6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3	8	obl	_	_
+5	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	8	obl	_	_
 7	kötü	kötü	ADV	_	_	8	advmod	_	_
 8	davranıyormuşuz	davran	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 9	gibi	gibi	ADP	_	_	8	mark	_	SpaceAfter=No
@@ -246,8 +246,8 @@
 3	duruyor	dur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	sanki	sanki	ADV	_	_	9	advmod	_	_
-6	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
-7	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3	9	obl	_	_
+6	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
 8	kötü	kötü	ADV	_	_	9	advmod	_	_
 9	davranıyormuşuz	davran	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 10	gibi	gibi	ADP	_	_	9	mark	_	SpaceAfter=No
@@ -255,8 +255,8 @@
 
 # sent_id = GK26-0022
 # text = Sen o anda hayalet görmüş gibi sapsarı kesildin.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	8	nsubj	_	_
-2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+2	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	anda	an	NOUN	_	Case=Loc|Number=Sing	8	obl:tmod	_	_
 4	hayalet	hayalet	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	görmüş	gör	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	_
@@ -267,8 +267,8 @@
 
 # sent_id = GK26-0023
 # text = Sen o anda hayalet görmüşsün gibi sapsarı kesildin.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	8	nsubj	_	_
-2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+2	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	anda	an	NOUN	_	Case=Loc|Number=Sing	8	obl:tmod	_	_
 4	hayalet	hayalet	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	görmüşsün	gör	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	advcl	_	_
@@ -368,7 +368,7 @@
 1	Haberi	haber	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 2	duyduğunuz	duyduk	VERB	_	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	3	acl	_	_
 3	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
-4	burada	bura	PRON	_	Case=Loc|Number=Sing	0	root	_	_
+4	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 5	mıydınız	mi	AUX	_	Number=Plur|Person=2|PronType=Int|Tense=Past	4	aux:q	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -378,7 +378,7 @@
 2	duyduğunuz	duyduk	VERB	_	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	3	acl	_	_
 3	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 4	Filiz	filiz	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-5	burada	bura	PRON	_	Case=Loc|Number=Sing	0	root	_	_
+5	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 6	mıydı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Past	5	aux:q	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -389,7 +389,7 @@
 3	dondurma	dondurma	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	almak	al	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	advcl	_	_
 5	için	için	ADP	_	_	4	mark	_	_
-6	bizden	biz	PRON	_	Case=Abl|Number=Sing|Person=1	8	obl	_	_
+6	bizden	biz	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
 7	para	para	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 8	istedi	iste	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -454,12 +454,12 @@
 # text = Musa dün bütün gün çalışıyor olduğu için bizimle plaja gelemedi.
 1	Musa	Musa	PROPN	_	Number=Sing	10	nsubj	_	_
 2	dün	dün	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
-3	bütün	bütün	DET	_	Definite=Def|Number=Sing	4	det	_	_
+3	bütün	bütün	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 5	çalışıyor	çalış	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 6	olduğu	ol	AUX	_	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
 7	için	için	ADP	_	_	5	mark	_	_
-8	bizimle	biz	PRON	_	Case=Ins|Number=Sing|Person=1	10	obl	_	_
+8	bizimle	biz	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
 9	plaja	plaj	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
 10	gelemedi	gel	VERB	_	Aspect=Perf|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -489,7 +489,7 @@
 
 # sent_id = GK26-0045
 # text = Bunca çaba göstermişken projeden kolay kolay vazgeçemiyorlar tabii.
-1	Bunca	bunca	DET	_	Definite=Ind|Number=Sing	2	det	_	_
+1	Bunca	bunca	DET	_	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
 2	çaba	çaba	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	göstermişken	göstermişken	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Conv	7	advcl	_	_
 4	projeden	proje	NOUN	_	Case=Abl|Number=Sing	7	obl	_	_
@@ -514,9 +514,9 @@
 
 # sent_id = GK26-0047
 # text = Sen cumartesi burada olmadığın için Mehmet’le tanışamadın.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
-3	burada	bura	PRON	_	Case=Loc|Number=Sing	7	advcl	_	_
+3	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	7	advcl	_	_
 4	olmadığın	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part	3	cop	_	_
 5	için	için	ADP	_	_	3	mark	_	_
 6	Mehmet’le	Mehmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
@@ -525,9 +525,9 @@
 
 # sent_id = GK26-0048
 # text = Sen cumartesileri burada olmadığın için Mehmet’le tanışamadın.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	cumartesileri	cumartesi	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl:tmod	_	_
-3	burada	bura	PRON	_	Case=Loc|Number=Sing	7	advcl	_	_
+3	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	7	advcl	_	_
 4	olmadığın	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part	3	cop	_	_
 5	için	için	ADP	_	_	3	mark	_	_
 6	Mehmet’le	Mehmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
@@ -536,9 +536,9 @@
 
 # sent_id = GK26-0049
 # text = Sen cumartesi burada olmayacağın için Mehmet pazar günü gelmeyi kabul etti.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	cumartesi	cumartesi	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
-3	burada	bura	PRON	_	Case=Loc|Number=Sing	11	advcl	_	_
+3	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	11	advcl	_	_
 4	olmayacağın	ol	AUX	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Fut|VerbForm=Part	3	cop	_	_
 5	için	için	ADP	_	_	3	case	_	_
 6	Mehmet	Mehmet	PROPN	_	Number=Sing	11	nsubj	_	_
@@ -576,7 +576,7 @@
 1	Misafirler	misafir	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2	geldiği	geldik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	3	acl	_	_
 3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	8	obl:tmod	_	_
-4	onlara	o	PRON	_	Case=Dat|Number=Plur	8	obl	_	_
+4	onlara	o	PRON	_	Case=Dat|Number=Plur|PronType=Dem	8	obl	_	_
 5	önce	önce	ADV	_	_	8	advmod	_	_
 6	kahve	kahve	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 7	ikram	ikram	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
@@ -596,10 +596,10 @@
 # sent_id = GK26-0054
 # text = Hakan beni sinirlendirmekten başka bir de çalışmamı engelliyordu.
 1	Hakan	Hakan	PROPN	_	Number=Sing	8	nsubj	_	_
-2	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1	3	obj	_	_
+2	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 3	sinirlendirmekten	sinirlen	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun|Voice=Cau	8	advcl	_	_
 4	başka	başka	ADP	_	Number=Sing	3	mark	_	_
-5	bir	bir	DET	_	Definite=Ind|Number=Sing	8	advmod	_	_
+5	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	advmod	_	_
 6	de	de	ADV	_	_	5	fixed	_	_
 7	çalışmamı	çalış	VERB	_	Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	8	ccomp	_	_
 8	engelliyordu	engelle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -614,7 +614,7 @@
 5	çocukların	çocuk	NOUN	_	Case=Gen|Number=Plur	6	nsubj	_	_
 6	koşuşması	koşuş	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	10	csubj	_	_
 7	da	de	ADV	_	_	6	advmod:emph	_	_
-8	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1	10	obj	_	_
+8	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 9	deli	deli	ADJ	_	_	10	compound	_	_
 10	ediyordu	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -640,7 +640,7 @@
 5	buluşmak	buluş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	7	advcl	_	_
 6	üzere	üzere	ADP	_	_	5	mark	_	_
 7	ayrılmışlar	ayrıl	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	o	o	DET	_	Definite=Def|Number=Sing	9	det	_	_
+8	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	gün	gün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -653,7 +653,7 @@
 5	etmesi	et	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	csubj	_	_
 6	gerektiği	gerek	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	10	advcl	_	_
 7	halde	halde	ADP	_	_	6	mark	_	_
-8	hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg	9	det	_	_
+8	hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg|PronType=Art	9	det	_	_
 9	şey	şey	NOUN	_	Case=Nom|Number=Sing	10	obj	_	_
 10	yapmadı	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -661,7 +661,7 @@
 # sent_id = GK26-0059
 # text = Hayatında bazı çok kötü şeyler yapmış olmasına rağmen Şule’yi severim.
 1	Hayatında	hayat	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
-2	bazı	bazı	DET	_	Definite=Ind|Number=Sing	5	det	_	_
+2	bazı	bazı	DET	_	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 3	çok	çok	ADV	_	_	4	advmod	_	_
 4	kötü	kötü	ADJ	_	_	5	amod	_	_
 5	şeyler	şey	NOUN	_	Case=Nom|Number=Plur	6	obj	_	_
@@ -675,13 +675,13 @@
 # sent_id = GK26-0060
 # text = Ahmet bu konuda çok şey bilmekle birlikte bütün ayrıntıları anlamış değil.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	10	nsubj	_	_
-2	bu	bu	DET	_	Definite=Def|Number=Sing	3	det	_	_
+2	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	konuda	konu	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 4	çok	çok	ADJ	_	_	5	amod	_	_
 5	şey	şey	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	bilmekle	bil	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
 7	birlikte	birlikte	ADP	_	_	6	mark	_	_
-8	bütün	bütün	DET	_	Definite=Def|Number=Sing	9	det	_	_
+8	bütün	bütün	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	ayrıntıları	ayrıntı	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
 10	anlamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	değil	değil	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
@@ -689,13 +689,13 @@
 
 # sent_id = GK26-0061
 # text = Herkes Nazlı’nın son resimlerine bayılırken ben onları ruhsuz buldum.
-1	Herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+1	Herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	Nazlı’nın	Nazlı	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 3	son	son	ADJ	_	_	4	amod	_	_
 4	resimlerine	resim	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	bayılırken	bayılırken	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
-6	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
-7	onları	o	PRON	_	Case=Acc|Number=Plur	10	obj	_	_
+6	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	onları	o	PRON	_	Case=Acc|Number=Plur|PronType=Dem	10	obj	_	_
 8-9	ruhsuz	_	_	_	_	_	_	_	_
 8	ruh	ruh	NOUN	_	Case=Nom|Number=Sing	10	compound	_	_
 9	suz	-siz	ADP	_	_	8	case	_	_
@@ -704,8 +704,8 @@
 
 # sent_id = GK26-0062
 # text = Biz size iki ay içinde geri ödemek şartıyla on milyarlık borç verebiliriz.
-1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
-2	size	siz	PRON	_	Case=Dat|Number=Sing|Person=2	12	obl	_	_
+1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	size	siz	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
 3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	ay	ay	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
@@ -713,7 +713,7 @@
 7	ödemek	öde	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	acl	_	_
 8	şartıyla	şart	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
 9	on	on	NUM	_	NumType=Card	10	compound	_	_
-10	milyarlık	milyar	NUM	_	Case=Nom|Number=Sing	11	nmod	_	_
+10	milyarlık	milyar	NUM	_	Case=Nom|Number=Sing|NumType=Card	11	nmod	_	_
 11	borç	borç	NOUN	_	Case=Nom|Number=Sing	12	obj	_	_
 12	verebiliriz	ver	VERB	_	Aspect=Hab|Mood=GenPot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
@@ -755,7 +755,7 @@
 4	da	de	CCONJ	_	_	8	cc	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	bakalım	bakalım	ADV	_	_	8	discourse	_	_
-7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
+7	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 8	dinleyecek	dinle	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	3	conj	_	_
 9	mi	mi	AUX	_	Number=Sing|Person=3|PronType=Int	8	aux:q	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	8	punct	_	_
@@ -767,8 +767,8 @@
 3	gitmek	git	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
 4	istemediğine	iste	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	9	advcl	_	_
 5	göre	göre	ADP	_	_	4	mark	_	_
-6	başka	başka	DET	_	Definite=Ind|Number=Sing	8	det	_	_
-7	bir	bir	DET	_	Definite=Ind|Number=Sing	8	det	_	_
+6	başka	başka	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
 8	planı	plan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
 9	var	var	ADJ	_	_	0	root	_	_
 10	demek	demek	ADV	_	_	9	discourse	_	SpaceAfter=No
@@ -781,8 +781,8 @@
 3	gitmek	git	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
 4	istemediğine	iste	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	9	advcl	_	_
 5	göre	göre	ADP	_	_	4	mark	_	_
-6	başka	başka	DET	_	Definite=Ind|Number=Sing	8	det	_	_
-7	bir	bir	DET	_	Definite=Ind|Number=Sing	8	det	_	_
+6	başka	başka	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+7	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
 8	yer	yer	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
 9	düşünmeliyiz	düşün	VERB	_	Mood=Nec|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -794,8 +794,8 @@
 3	kapalı	kapalı	ADJ	_	_	10	advcl	_	_
 4	olacağına	ol	AUX	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	cop	_	_
 5	göre	göre	ADP	_	_	3	mark	_	_
-6	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	10	nsubj	_	_
-7	bu	bu	DET	_	Definite=Def|Number=Sing	8	det	_	_
+6	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
+7	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	işi	iş	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 9	nasıl	nasıl	ADV	_	PronType=Int	10	advmod	_	_
 10	bitireceksin	bit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
@@ -835,7 +835,7 @@
 2	gezer	gez	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 3	gibi	gibi	ADP	_	_	2	mark	_	_
 4	dolaştım	dolaş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-5	birkaç	birkaç	DET	_	Definite=Ind|Number=Sing	6	det	_	_
+5	birkaç	birkaç	DET	_	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 6	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -846,13 +846,13 @@
 3	gezer	gez	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 4	gibi	gibi	ADP	_	_	3	mark	_	_
 5	dolaştım	dolaş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
-6	birkaç	birkaç	DET	_	Definite=Ind|Number=Sing	7	det	_	_
+6	birkaç	birkaç	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GK26-0075
 # text = Hiçbir şey anlamamış gibi konuşuyorsun.
-1	Hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg	2	det	_	_
+1	Hiçbir	hiçbir	DET	_	Definite=Ind|Number=Sing|Polarity=Neg|PronType=Art	2	det	_	_
 2	şey	şey	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	anlamamış	anla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	5	advcl	_	_
 4	gibi	gibi	ADP	_	_	3	mark	_	_
@@ -905,8 +905,8 @@
 # text = Kemal Bey bütün bir günü televizyon seyretmeden geçirebilmiş.
 1	Kemal	Kemal	PROPN	_	Number=Sing	2	nmod	_	_
 2	Bey	bey	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
-3	bütün	bütün	DET	_	Definite=Def|Number=Sing	5	det	_	_
-4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
+3	bütün	bütün	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 5	günü	gün	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
 6	televizyon	televizyon	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 7	seyretmeden	seyret	VERB	_	VerbForm=Conv	8	advcl	_	_
@@ -916,7 +916,7 @@
 # sent_id = GK26-0081
 # text = Ayten her gün yürüyüş yaparak kilo verdi.
 1	Ayten	Ayten	PROPN	_	Number=Sing	7	nsubj	_	_
-2	her	her	DET	_	Definite=Def|Number=Sing	3	det	_	_
+2	her	her	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	yaparak	yaparak	VERB	_	VerbForm=Conv	7	advcl	_	_
@@ -927,7 +927,7 @@
 # sent_id = GK26-0082
 # text = Ayten her gün yürüyüş yapmak suretiyle kilo verdi.
 1	Ayten	Ayten	PROPN	_	Number=Sing	8	nsubj	_	_
-2	her	her	DET	_	Definite=Def|Number=Sing	3	det	_	_
+2	her	her	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	yapmak	yap	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	advcl	_	_
@@ -949,7 +949,7 @@
 # text = Öyle söylemekle bana hakaret etmiş oluyorsun.
 1	Öyle	öyle	ADV	_	_	2	advmod	_	_
 2	söylemekle	söyle	VERB	_	Case=Ins|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
-3	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	5	obl	_	_
+3	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 4	hakaret	hakaret	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
 5	etmiş	et	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	oluyorsun	ol	AUX	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
@@ -957,9 +957,9 @@
 
 # sent_id = GK26-0085
 # text = Kimsenin beğenmediği bir filmi seyretmektense evde kalmayı tercih ederim.
-1	Kimsenin	kimse	PRON	_	Case=Gen|Number=Sing	2	nsubj	_	_
+1	Kimsenin	kimse	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	beğenmediği	beğenmedik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	4	acl	_	_
-3	bir	bir	DET	_	Definite=Ind|Number=Sing	4	det	_	_
+3	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
 4	filmi	film	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 5-6	seyretmektense	_	_	_	_	_	_	_	_
 5	seyretmekten	seyret	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	10	advcl	_	_
@@ -1029,7 +1029,7 @@
 # sent_id = GK26-0092
 # text = Sevim hepimizi şaşırtacak derecede güzel konuştu.
 1	Sevim	Sevim	PROPN	_	Number=Sing	6	nsubj	_	_
-2	hepimizi	hepimiz	PRON	_	Case=Acc|Number=Sing	3	nsubj	_	_
+2	hepimizi	hepimiz	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	nsubj	_	_
 3	şaşırtacak	şaşırtacak	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Part	4	acl	_	_
 4	derecede	derece	NOUN	_	Case=Loc|Number=Sing	5	nmod	_	_
 5	güzel	güzel	ADV	_	_	6	advmod	_	_
@@ -1038,7 +1038,7 @@
 
 # sent_id = GK26-0093
 # text = Burada istediğin kadar kalabilirsin.
-1	Burada	bura	PRON	_	Case=Loc|Number=Sing	4	obl	_	_
+1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	obl	_	_
 2	istediğin	istedik	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	4	advcl	_	_
 3	kadar	kadar	ADP	_	_	2	mark	_	_
 4	kalabilirsin	kal	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1047,7 +1047,7 @@
 # sent_id = GK26-0094
 # text = Su herkesin güvenle kullanabileceği kadar temiz olmalı.
 1	Su	su	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-2	herkesin	herkes	PRON	_	Case=Gen|Number=Sing|Person=3	4	nsubj	_	_
+2	herkesin	herkes	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	güvenle	güven	NOUN	_	Case=Ins|Number=Sing	4	obl	_	_
 4	kullanabileceği	kullan	VERB	_	Case=Nom|Mood=Pot|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	6	advcl	_	_
 5	kadar	kadar	ADP	_	_	4	mark	_	_
@@ -1057,7 +1057,7 @@
 
 # sent_id = GK26-0095
 # text = Bana kızdığın için öyle söylüyorsun.
-1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	2	obl	_	_
+1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 2	kızdığın	kız	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	5	advcl	_	_
 3	için	için	ADP	_	_	2	mark	_	_
 4	öyle	öyle	ADV	_	_	5	advmod	_	_
@@ -1066,7 +1066,7 @@
 
 # sent_id = GK26-0096
 # text = Bu para yetmeyeceği için Gürkan’dan borç isteyeceğim.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	para	para	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	yetmeyeceği	yet	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part	7	advcl	_	_
 4	için	için	ADP	_	_	3	mark	_	_
@@ -1077,7 +1077,7 @@
 
 # sent_id = GK26-0097
 # text = Seni azarlayacağına rahatlatmaya çalışmalıydı.
-1	Seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2	2	obj	_	_
+1	Seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
 2	azarlayacağına	azarla	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	4	advcl	_	_
 3	rahatlatmaya	rahatla	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun|Voice=Cau	4	advcl	_	_
 4	çalışmalıydı	çalış	VERB	_	Mood=Nec|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1139,7 +1139,7 @@
 # text = Ormanda dolaşırken bir tilki gördüm.
 1	Ormanda	orman	NOUN	_	Case=Loc|Number=Sing	2	obl	_	_
 2	dolaşırken	dolaşırken	VERB	_	VerbForm=Conv	5	advcl	_	_
-3	bir	bir	DET	_	Definite=Ind|Number=Sing	4	det	_	_
+3	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
 4	tilki	tilki	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	gördüm	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1147,7 +1147,7 @@
 # sent_id = GK26-0104
 # text = Ahmet o kitabı öğrenciyken okumuş.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	6	nsubj	_	_
-2	o	o	DET	_	Definite=Def|Number=Sing	3	det	_	_
+2	o	o	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	kitabı	kitap	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 4-5	öğrenciyken	_	_	_	_	_	_	_	_
 4	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	_
@@ -1157,13 +1157,13 @@
 
 # sent_id = GK26-0105
 # text = Sen ormanda onu ararken Bahri buradaydı.
-1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	4	nsubj	_	_
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	ormanda	orman	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
-3	onu	o	PRON	_	Case=Acc|Number=Sing	4	obj	_	_
+3	onu	o	PRON	_	Case=Acc|Number=Sing|PronType=Dem	4	obj	_	_
 4	ararken	ararken	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 5	Bahri	Bahri	PROPN	_	Number=Sing	6	nsubj	_	_
 6-7	buradaydı	_	_	_	_	_	_	_	SpaceAfter=No
-6	burada	bura	PRON	_	Case=Loc|Number=Sing	0	root	_	_
+6	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 7	ydı	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1223,15 +1223,15 @@
 2	Almanya’ya	Almanya	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	taşındığından	taşın	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	8	advcl	_	_
 4	beri	beri	ADP	_	_	3	mark	_	_
-5	ondan	o	PRON	_	Case=Abl|Number=Sing	8	obl	_	_
-6	bir	bir	DET	_	Definite=Ind|Number=Sing	7	det	_	_
+5	ondan	o	PRON	_	Case=Abl|Number=Sing|PronType=Dem	8	obl	_	_
+6	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	haber	haber	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
 8	alamadım	al	VERB	_	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = GK26-0112
 # text = O köpeği aldık alalı hiç rahat yüzü görmedik.
-1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	O	o	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	köpeği	köpek	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 3	aldık	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	compound:redup	_	_
 4	alalı	al	VERB	_	VerbForm=Conv	8	advcl	_	_
@@ -1244,7 +1244,7 @@
 # sent_id = GK26-0113
 # text = Sorunlar ben gelmeden başlamış.
 1	Sorunlar	sorun	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
-2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	gelmeden	gel	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	4	advcl	_	_
 4	başlamış	başla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1252,7 +1252,7 @@
 # sent_id = GK26-0114
 # text = Sorunlar ben gelmeden önce başlamış.
 1	Sorunlar	sorun	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
-2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	gelmeden	gel	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
 4	önce	önce	ADP	_	_	3	mark	_	_
 5	başlamış	başla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1261,7 +1261,7 @@
 # sent_id = GK26-0115
 # text = Sorunlar sen gittikten sonra başladı.
 1	Sorunlar	sorun	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
-2	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2	3	obj	_	_
+2	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 3	gittikten	git	VERB	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
 4	sonra	sonra	ADP	_	_	3	mark	_	_
 5	başladı	başla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1281,7 +1281,7 @@
 
 # sent_id = GK26-0117
 # text = Bu haber mektuplar postalanmadan gelmişti.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	haber	haber	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 3	mektuplar	mektup	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
@@ -1290,7 +1290,7 @@
 
 # sent_id = GK26-0118
 # text = Bu haber mektuplar postalanmadan önce gelmişti.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	haber	haber	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	mektuplar	mektup	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	postalanmadan	postalanmadan	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
@@ -1300,7 +1300,7 @@
 
 # sent_id = GK26-0119
 # text = Bu haber mektupların postalanmasından önce gelmişti.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	haber	haber	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 3	mektupların	mektup	NOUN	_	Case=Gen|Number=Plur	4	nsubj	_	_
 4	postalanmasından	postala	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun|Voice=Pass	6	advcl	_	_
@@ -1315,7 +1315,7 @@
 3	yürürlüğe	yürürlük	NOUN	_	Case=Dat|Number=Sing	4	compound	_	_
 4	girmesinden	gir	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	8	advcl	_	_
 5	sonra	sonra	ADP	_	_	4	mark	_	_
-6	bu	bu	DET	_	Definite=Def|Number=Sing	7	det	_	_
+6	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	sorunlar	sorun	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
 8	yaşanmayacaktır	yaşa	VERB	_	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -1327,7 +1327,7 @@
 3	yürürlüğe	yürürlük	NOUN	_	Case=Dat|Number=Sing	4	compound	_	_
 4	girmesinden	gir	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	8	advcl	_	_
 5	itibaren	itibaren	ADP	_	_	4	mark	_	_
-6	bu	bu	DET	_	Definite=Def|Number=Sing	7	det	_	_
+6	bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	sorunlar	sorun	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
 8	yaşanmayacaktır	yaşa	VERB	_	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -1338,18 +1338,18 @@
 2	artık	artık	ADV	_	_	6	advmod	_	_
 3	ölünceye	ölünce	VERB	_	Case=Dat|Mood=Ind|Number=Sing|VerbForm=Fin	6	advcl	_	_
 4	dek	dek	ADP	_	_	3	mark	_	_
-5	burada	bura	PRON	_	Case=Loc|Number=Sing	6	obl	_	_
+5	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	6	obl	_	_
 6	kalmak	kal	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	7	xcomp	_	_
 7	istiyordu	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = GK26-0123
 # text = Bu iş bitinceye kadar hepimiz yaşlanmış olacağız.
-1	Bu	bu	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	Bu	bu	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	iş	iş	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	bitinceye	bitince	VERB	_	Case=Dat|Mood=Ind|Number=Sing|VerbForm=Fin	6	advcl	_	_
 4	kadar	kadar	ADP	_	_	3	mark	_	_
-5	hepimiz	hepimiz	PRON	_	Case=Nom|Number=Sing	6	nsubj	_	_
+5	hepimiz	hepimiz	PRON	_	Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	_
 6	yaşlanmış	yaşlan	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	olacağız	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -1359,7 +1359,7 @@
 1	Osman’a	Osman	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 2	kaza	kaza	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	hakkında	hakkında	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
-4	bir	bir	DET	_	Definite=Ind|Number=Sing	5	det	_	_
+4	bir	bir	DET	_	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 5	şeyler	şey	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 6	soruldukça	soruldukça	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_
 7	kafası	kafa	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
@@ -1370,14 +1370,14 @@
 
 # sent_id = GK26-0125
 # text = O evde kaldığım sürece kimse benimle tek kelime konuşmadı.
-1	O	o	DET	_	Definite=Def|Number=Sing	2	det	_	_
+1	O	o	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	evde	ev	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 3	kaldığım	kaldık	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	4	acl	_	_
 4-5	sürece	_	_	_	_	_	_	_	_
 4	süre	süre	NOUN	_	Case=Nom|Number=Sing	10	obl:tmod	_	_
 5	ce	ce	ADV	_	_	4	case	_	_
-6	kimse	kimse	PRON	_	Case=Nom|Number=Sing	10	nsubj	_	_
-7	benimle	ben	PRON	_	Case=Ins|Number=Sing|Person=1	10	obl	_	_
+6	kimse	kimse	PRON	_	Case=Nom|Number=Sing|PronType=Prs	10	nsubj	_	_
+7	benimle	ben	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
 8	tek	tek	ADJ	_	_	9	amod	_	_
 9	kelime	kelime	NOUN	_	Case=Nom|Number=Sing	10	obj	_	_
 10	konuşmadı	konuş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
