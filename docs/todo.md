@@ -1,9 +1,6 @@
 ### TODO
 
-- Add PronType and VerbType (verbtype done)
 - Add gloss and translation
-- Fix: Some converbs are marked 'finite'
-        grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
 - Revise/rethink the cases of '-si derived' pronouns
 - Revise/document `advmod`s of `ADP` (biraz sonra)
 - GK14-0190: 'bazen .. bazen' coordination?
@@ -11,8 +8,16 @@
 - değil...
 - 'bir kere' should probably not be fixed (see below the list of
   candidates for 'fixed')
+- Revision/decsion on postpositions derived from nouns: 'ikisinin
+  arasında'
+- Copula - non-copula analysis of ol-
 
 ### Open issues question
+- PronType does not really fit in all pronouns and determiners. For
+    most determiners. Fitting determiners in Turkish into one of the
+    PronType categories does not seem trivial. The same is true for
+    pronouns. Currently (2020-05-01) the cases difficult to fit into
+    one of UD categories are marked with `PronType=Ind`.
 - Do we need `advmod:emph`?  Lemma should tell enough, and the
   relation is not necessarily emphasis.
 - Annotate the interal structure of numbers? E.g., [bin [dokuz yüz]
@@ -48,6 +53,9 @@
 
 ### Done
 
+- Fix: Some converbs are marked 'finite'
+        grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
+- Add PronType and VerbType
 - Replace POS of ordinal nouns to ADJ
 - Fix: there are still instances of nmod:tmod [fixed 2019-10-30]
 - Fix: Some converbs are marked 'finite'

@@ -145,7 +145,7 @@
 1	Bazı	bazı	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	insanlar	insan	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 3	tatsızlık	tatsızlık	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
-4	çıkarmaya	çık	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun|Voice=Cau	5	obl	_	_
+4	çıkarmaya	çık	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun|Voice=Cau	5	advcl	_	_
 5	bayılıyor	bayıl	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -162,7 +162,7 @@
 # text = Çocuk okula gitmemekte diretiyor.
 1	Çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	okula	okul	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
-3	gitmemekte	git	VERB	_	Case=Loc|Number=Sing|Polarity=Neg|VerbForm=Vnoun	4	obl	_	_
+3	gitmemekte	git	VERB	_	Case=Loc|Number=Sing|Polarity=Neg|VerbForm=Vnoun	4	advcl	_	_
 4	diretiyor	diret	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -183,8 +183,8 @@
 4	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ki	ki	SCONJ	_	_	8	mark	_	_
 6	yemek	yemek	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
-7	yapmaktan	yap	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	8	obl	_	_
-8	bıktı	bık	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	obl	_	SpaceAfter=No
+7	yapmaktan	yap	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	8	advcl	_	_
+8	bıktı	bık	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = GK13-0022
@@ -218,7 +218,7 @@
 
 # sent_id = GK13-0025
 # text = Konuşmaktan bile utanıyor.
-1	Konuşmaktan	konuş	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	3	obl	_	_
+1	Konuşmaktan	konuş	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 2	bile	bile	ADV	_	_	1	advmod:emph	_	_
 3	utanıyor	utan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_

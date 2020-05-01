@@ -11,7 +11,7 @@
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	oraya	ora	PRON	_	Case=Dat|Number=Sing|PronType=Dem	4	obl	_	_
 4	gidip	gidip	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
-5	gelmek	gel	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	6	nsubj	_	_
+5	gelmek	gel	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	6	csubj:cop	_	_
 6	zor	zor	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -878,14 +878,14 @@
 # sent_id = GK14-0115
 # text = Seni görmeye geldim.
 1	Seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
-2	görmeye	gör	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	obl	_	_
+2	görmeye	gör	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 3	geldim	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK14-0116
 # text = Ayşe’nin geleceğine sevindik.
 1	Ayşe’nin	Ayşe	PROPN	_	Case=Gen|Number=Sing	2	nsubj	_	_
-2	geleceğine	gel	VERB	_	Aspect=Perf|Case=Dat|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Fin	3	obl	_	_
+2	geleceğine	gel	VERB	_	Aspect=Perf|Case=Dat|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
 3	sevindik	sevin	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -947,7 +947,7 @@
 # sent_id = GK14-0123
 # text = Hepsini denemekte ısrar etti.
 1	Hepsini	hepsi	PRON	_	Case=Acc|Number=Sing|PronType=Ind	2	obj	_	_
-2	denemekte	dene	VERB	_	Case=Loc|Number=Sing|VerbForm=Vnoun	4	obl	_	_
+2	denemekte	dene	VERB	_	Case=Loc|Number=Sing|VerbForm=Vnoun	4	advcl	_	_
 3	ısrar	ısrar	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	etti	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1028,7 +1028,7 @@
 # text = Zerrin tenis oynamaktan vazgeçti.
 1	Zerrin	Zerrin	PROPN	_	Number=Sing	4	nsubj	_	_
 2	tenis	tenis	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
-3	oynamaktan	oyna	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	4	obl	_	_
+3	oynamaktan	oyna	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	4	advcl	_	_
 4	vazgeçti	vazgeç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
