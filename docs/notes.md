@@ -111,6 +111,54 @@ However, there are two issues:
 - If a determiner (pro)nomilized this way, it is at odds with UD since
   it becomes head in some cases _politikacıların çoğ-u_ 'most of the politicians''
 
+## `discourse` vs. `advmod` vs. `cc` vs. `mark`
+
+Followign G&K, the earlier versions of this treebank marked many
+adverbials with discourse functions as `discourse`.
+However, the `discourse` depenency in UD is quite restricted
+(mainly to interjections).
+
+The following words are considered `discourse` markers:
+
+- _maşallah_ (but not _inşallah_)
+- _ya_ if used as an interjection _çok şirin ya!_,
+    but not in _ya gelirse_ (`advmod`) or 
+    _ya okul ya (da) evde_ (`cc`).
+- _ya_ if used as an interjection _çok şirin ya!_,
+- _yok_ clearly discourse in _yok bu kadar olmaz_
+    but maybe some sort of connective (`mark`?)
+    in _yok orada degilse ne yapacaksın?_
+- _hadi_ / _haydi_ 
+
+We mark the discourse connectives with `cc` or `mark`
+when they clearly connect the sentence with another
+(unspoken) sentence from the context.
+
+- _ama_ (`cc`) _Ahmet akıllı. Ama, nazı çekilmez_
+- _fakat_ (`cc`) _(Ahmet akıllı.) Fakat, nazı çekilmez_
+- _yalnız_ (`cc`) _(Ahmet akıllı.) Yalnız, nazı çekilmez_
+    but not in _Okula yalnız gitti_ (`advmod`)
+- _ancak_ (`cc`) _(Ahmet akıllı.) Ancak, nazı çekilmez_
+    but not in _Okula ancak vardı_ (`advmod`)
+- _halbuki_ (`cc`) _(Ahmet akıllı sanıyorlar.) Halbuki, okumayı bile beceremez_.
+- _oysa_ (`cc`) _(Ahmet akıllı sanıyorlar.) Oysa, okumayı bile beceremez_.
+- _ya_  (`mark`) _Getirdim ya. (Daha ne istiyorsun)_
+- _ki_ (`mark`) _dükkanlar açılmamıştir ki (alışverişe gidelim)_
+    
+
+Cases of `advmod`:
+
+- _hani_ although in some cases it is a connective:
+      _Hani hastaydın? (Burada ne işin var?)_
+- _örneğin_ / _mesela_
+- _nitekim_
+- _yani_
+- _meğer_ / _meğerse_
+- _gerçi_ 
+- _aslında_  (`cc`) 
+    English EWT marks _in fact_ as obl.
+    It is more parallel to `advmod`, but clearly it is also a connective.
+
 ## TODO
 
 - Instances of dislocated need a revision.

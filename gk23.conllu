@@ -240,7 +240,7 @@
 # sent_id = GK23-0028
 # text = Necla galiba artık bankada değil.
 1	Necla	Necla	PROPN	_	Number=Sing	4	nsubj	_	_
-2	galiba	galiba	ADV	_	_	4	discourse	_	_
+2	galiba	galiba	ADV	_	_	4	advmod	_	_
 3	artık	artık	ADV	_	_	4	advmod	_	_
 4	bankada	banka	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 5	değil	değil	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
@@ -535,14 +535,14 @@
 # sent_id = GK23-0061
 # text = Cevapları tabii ki bilecekler.
 1	Cevapları	cevap	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
-2	tabii	tabii	ADV	_	_	4	discourse	_	_
+2	tabii	tabii	ADV	_	_	4	advmod	_	_
 3	ki	ki	ADV	_	_	2	fixed	_	_
 4	bilecekler	bil	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK23-0062
 # text = Ama ben bütün mektupları dün yırttım.
-1	Ama	ama	ADV	_	_	6	discourse	_	_
+1	Ama	ama	ADV	_	_	6	advmod	_	_
 2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 3	bütün	bütün	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	mektupları	mektup	NOUN	_	Case=Acc|Number=Plur	6	obj	_	_

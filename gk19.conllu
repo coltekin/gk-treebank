@@ -105,7 +105,7 @@
 
 # sent_id = GK19-0012
 # text = Demek Cemal bugün okula gitmedi, öyle mi?
-1	Demek	demek	ADV	_	_	5	discourse	_	_
+1	Demek	demek	ADV	_	_	5	advmod	_	_
 2	Cemal	Cemal	PROPN	_	Number=Sing	5	nsubj	_	_
 3	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 4	okula	okul	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
@@ -251,7 +251,7 @@
 1	Kediden	kedi	NOUN	_	Case=Abl|Number=Sing	3	obl	_	_
 2	mi	mi	AUX	_	PronType=Int	1	aux:q	_	_
 3	korkuyorsun	kork	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	yoksa	yoksa	ADV	_	_	3	discourse	_	SpaceAfter=No
+4	yoksa	yoksa	ADV	_	_	3	advmod	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK19-0026
@@ -756,7 +756,7 @@
 # text = Yeni bürosu acaba ne kadar büyük?
 1	Yeni	yeni	ADJ	_	_	2	amod	_	_
 2	bürosu	büro	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
-3	acaba	acaba	ADV	_	_	6	discourse	_	_
+3	acaba	acaba	ADV	_	_	6	advmod	_	_
 4	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	6	obl	_	_
 5	kadar	kadar	ADP	_	_	4	case	_	_
 6	büyük	büyük	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1157,13 +1157,13 @@
 1	Semra’ya	Semra	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	aldığın	aldık	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	3	acl	_	_
 3	hediye	hediye	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-4	hani	hani	ADV	_	_	5	discourse	_	_
+4	hani	hani	ADV	_	_	5	advmod	_	_
 5	nerede	nere	PRON	_	Case=Loc|Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GK19-0129
 # text = Hani bana vereceğin para nerede?
-1	Hani	hani	ADV	_	_	5	discourse	_	_
+1	Hani	hani	ADV	_	_	5	advmod	_	_
 2	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
 3	vereceğin	verecek	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=2|Tense=Fut|VerbForm=Part	4	acl	_	_
 4	para	para	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -1172,7 +1172,7 @@
 
 # sent_id = GK19-0130
 # text = Hani ne zaman yaptın dersini?
-1	Hani	hani	ADV	_	_	4	discourse	_	_
+1	Hani	hani	ADV	_	_	4	advmod	_	_
 2	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	obl:tmod	_	_
 3	zaman	zaman	ADP	_	_	2	fixed	_	_
 4	yaptın	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1181,7 +1181,7 @@
 
 # sent_id = GK19-0131
 # text = Hani kim görmüş çocukların camlara taş attığını?
-1	Hani	hani	ADV	_	_	3	discourse	_	_
+1	Hani	hani	ADV	_	_	3	advmod	_	_
 2	kim	kim	PRON	_	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
 3	görmüş	gör	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	çocukların	çocuk	NOUN	_	Case=Gen|Number=Plur	7	nsubj	_	_
@@ -1192,7 +1192,7 @@
 
 # sent_id = GK19-0132
 # text = Acaba misafirler saat kaçta gelecek?
-1	Acaba	acaba	ADV	_	_	5	discourse	_	_
+1	Acaba	acaba	ADV	_	_	5	advmod	_	_
 2	misafirler	misafir	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
 3	saat	saat	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	kaçta	kaç	NUM	_	Case=Loc|Number=Sing|NumType=Card	5	obl:tmod	_	_
@@ -1205,12 +1205,12 @@
 2	hediye	hediye	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	alsam	al	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	mı	mi	AUX	_	PronType=Int	3	aux:q	_	_
-5	acaba	acaba	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	acaba	acaba	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK19-0134
 # text = Yoksa çocuklara daha yemek vermedin mi?
-1	Yoksa	yoksa	ADV	_	_	5	discourse	_	_
+1	Yoksa	yoksa	ADV	_	_	5	advmod	_	_
 2	çocuklara	çocuk	NOUN	_	Case=Dat|Number=Plur	5	obl	_	_
 3	daha	daha	ADV	_	_	5	advmod	_	_
 4	yemek	yemek	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
@@ -1224,12 +1224,12 @@
 2	halılarını	halı	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	3	obj	_	_
 3	satıyor	sat	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	musun	mi	AUX	_	Number=Sing|Person=2|PronType=Int	3	aux:q	_	_
-5	yoksa	yoksa	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	yoksa	yoksa	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK19-0136
 # text = Bakalım doktorlardan hangisi o hastayı ameliyat edecek.
-1	Bakalım	bakalım	ADV	_	_	6	discourse	_	_
+1	Bakalım	bakalım	ADV	_	_	6	advmod	_	_
 2	doktorlardan	doktor	NOUN	_	Case=Abl|Number=Plur	3	nmod:part	_	_
 3	hangisi	hangisi	PRON	_	Case=Nom|Number=Sing|PronType=Int	6	nsubj	_	_
 4	o	o	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -1244,7 +1244,7 @@
 2	zamanında	zaman	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	bitirebilecek	bit	VERB	_	Aspect=Perf|Mood=Pot|Tense=Fut|VerbForm=Fin|Voice=Cau	0	root	_	_
 4	misin	mi	AUX	_	Number=Sing|Person=2|PronType=Int	3	aux:q	_	_
-5	bakalım	bakalım	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	bakalım	bakalım	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK19-0138

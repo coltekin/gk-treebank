@@ -95,7 +95,7 @@
 
 # sent_id = GK27-0011
 # text = Eğer çocuk yaşasaydı çok iyi bir mimar olacaktı.
-1	Eğer	eğer	SCONJ	_	_	3	discourse	_	_
+1	Eğer	eğer	SCONJ	_	_	3	advmod	_	_
 2	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	yaşasaydı	yaşa	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
 4	çok	çok	ADV	_	_	5	advmod	_	_
@@ -506,7 +506,7 @@
 5	uçağa	uçak	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 6	yetişir	yetiş	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	miyiz	mi	AUX	_	Number=Plur|Person=1|PronType=Int	6	aux:q	_	_
-8	acaba	acaba	ADV	_	_	6	discourse	_	SpaceAfter=No
+8	acaba	acaba	ADV	_	_	6	advmod	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK27-0049
@@ -892,7 +892,7 @@
 4	yedek	yedek	ADJ	_	_	5	amod	_	_
 5	biletimiz	bilet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
 6	var	var	ADJ	_	_	0	root	_	_
-7	demek	demek	ADV	_	_	6	discourse	_	SpaceAfter=No
+7	demek	demek	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK27-0082
@@ -1180,6 +1180,7 @@
 
 # sent_id = GK27-0107
 # text = Her ne kadar Banu toplantılarımıza geliyorsa da pek bir şey söylemiyor.
+# TODO: check - "her ne kadar"
 1	Her	her	DET	_	Definite=Def|PronType=Art	6	discourse	_	_
 2	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	1	fixed	_	_
 3	kadar	kadar	ADP	_	_	1	fixed	_	_

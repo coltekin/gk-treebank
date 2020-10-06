@@ -265,7 +265,7 @@
 4-5	vardır	_	_	_	_	_	_	_	_
 4	var	var	ADJ	_	_	0	root	_	_
 5	dır	i	AUX	_	Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-6	herhalde	herhalde	ADV	_	_	4	discourse	_	SpaceAfter=No
+6	herhalde	herhalde	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK16-0029
@@ -304,12 +304,12 @@
 3	katkısında	katkı	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	compound	_	_
 4	bulunması	bulun	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	5	ccomp	_	_
 5	isteniyor	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-6	anlaşılan	anlaşılan	ADV	_	_	5	discourse	_	SpaceAfter=No
+6	anlaşılan	anlaşılan	VERB	_	Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GK16-0033
 # text = Sanırım Necla’nın sınavı bugün olacaktı.
-1	Sanırım	sanırım	ADV	_	_	4	discourse	_	_
+1	Sanırım	sanırım	ADV	_	_	4	advmod	_	_
 2	Necla’nın	Necla	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	sınavı	sınav	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -328,7 +328,7 @@
 # sent_id = GK16-0035
 # text = Doğrusunu isterseniz ben hiçbir zaman Osman’ı o mevkiye layık görmemiştim.
 1	Doğrusunu	doğru	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
-2	isterseniz	iste	VERB	_	Aspect=Hab|Mood=CndGen|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	discourse	_	_
+2	isterseniz	iste	VERB	_	Aspect=Hab|Mood=CndGen|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 4	hiçbir	hiçbir	DET	_	Definite=Ind|Polarity=Neg|PronType=Art	5	det	_	_
 5	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	10	obl:tmod	_	_
@@ -346,7 +346,7 @@
 3-4	cebindeymiş	_	_	_	_	_	_	_	_
 3	cebinde	cep	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 4	ymiş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
-5	meğerse	meğerse	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	meğerse	meğerse	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK16-0037
