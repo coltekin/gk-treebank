@@ -1,5 +1,7 @@
 # sent_id = GK05-0001
 # text = O her zaman yemeklerini lokantada yer.
+# gloss = s/he every time meal-PL-3SG.POSS-ACC restaurant-LOC eats
+# en = S/he always eats in a restaurant.
 1	O	o	PRON	_	Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	_
 2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
@@ -10,6 +12,8 @@
 
 # sent_id = GK05-0002
 # text = Dün çocuklar okula gitti mi?
+# gloss = yesterday child-PL school-DAT go-PF INT
+# en = Did the children go to school yesterday?
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 3	okula	okul	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
@@ -19,6 +23,8 @@
 
 # sent_id = GK05-0003
 # text = Her gün nereye gidiyorsun?
+# gloss = every day where go-IMPF-2SG
+# en = Where do you go everyday?
 1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	nereye	nere	PRON	_	Case=Dat|Number=Sing|PronType=Int	4	obl	_	_
@@ -27,6 +33,8 @@
 
 # sent_id = GK05-0004
 # text = Eğer sokağa çıkmak istiyorsan…
+# gloss = if street-DAT go.out-VN want-IMPF-COND.COP-2SG
+# en = If you want to go out...
 1	Eğer	eğer	SCONJ	_	_	4	mark	_	_
 2	sokağa	sokak	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	çıkmak	çık	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
@@ -35,6 +43,8 @@
 
 # sent_id = GK05-0005
 # text = Bugün Ziya’yla buluştuğun zaman…
+# gloss = today Ziya-COM meet-CV-2SG.POSS time
+# en = When you meet Ziya today...
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	Ziya’yla	Ziya	PROPN	_	Case=Ins|Number=Sing	3	obl	_	_
 3	buluştuğun	buluş	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	4	acl	_	_
@@ -43,6 +53,7 @@
 
 # sent_id = GK05-0006
 # text = Eve gittim, çantamı aldım…
+# en = I went home, took my bag...
 1	Eve	ev	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	gittim	git	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -52,6 +63,8 @@
 
 # sent_id = GK05-0007
 # text = Aydın bana çiçek getirdi.
+# gloss = Aydın I(DAT) flower bring-PF
+# en = Aydın brought me flowers.
 1	Aydın	Aydın	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	bana	ben	PRON	_	Case=Dat|Number=Sing|PronType=Prs	4	obl	_	_
 3	çiçek	çiçek	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -60,6 +73,7 @@
 
 # sent_id = GK05-0008
 # text = Şu anahtarı hanginize vereyim?
+# en = Which of you shall I give this key to?
 1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	anahtarı	anahtar	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 3	hanginize	hanginiz	PRON	_	Case=Dat|Number=Sing|PronType=Int	4	obl	_	_
@@ -68,6 +82,7 @@
 
 # sent_id = GK05-0009
 # text = Dışarda bir köpek var.
+# en = There’s a dog outside.
 1	Dışarda	dışarı	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	köpek	köpek	NOUN	_	Case=Nom|Number=Sing	4	nsubj:cop	_	_
@@ -76,6 +91,8 @@
 
 # sent_id = GK05-0010
 # text = Londra’ya mı gideceksiniz?
+# gloss = London-DAT INT go-FUT-2PL
+# en = Are you going to go to London? (i.e. ‘Is it London you’re going to go to?’)
 1	Londra’ya	Londra	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 2	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	1	aux:q	_	_
 3	gideceksiniz	git	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -83,6 +100,7 @@
 
 # sent_id = GK05-0011
 # text = Londra’ya gidecek misiniz?
+# en = Are you going to go to London?
 1	Londra’ya	Londra	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	gidecek	git	VERB	_	Case=Nom|Number=Sing|Tense=Fut|VerbForm=Part	0	root	_	_
 3	misiniz	mi	AUX	_	Number=Plur|Person=2|PronType=Int	2	aux:q	_	SpaceAfter=No
@@ -90,6 +108,7 @@
 
 # sent_id = GK05-0012
 # text = Ahmet’te de bunlardan bir tane var.
+# en = There’s one of these in Ahmet’s office too.
 1	Ahmet’te	Ahmet	PROPN	_	Case=Loc|Number=Sing	6	nmod	_	_
 2	de	de	ADV	_	_	1	advmod:emph	_	_
 3	bunlardan	bu	PRON	_	Case=Abl|Number=Plur|PronType=Dem	5	nmod:part	_	_
@@ -100,6 +119,7 @@
 
 # sent_id = GK05-0013
 # text = Turgut nasıl bilsin ki?
+# en = How on earth should Turgut know?
 1	Turgut	Turgut	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	nasıl	nasıl	ADV	_	PronType=Int	3	advmod	_	_
 3	bilsin	bil	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
@@ -108,6 +128,7 @@
 
 # sent_id = GK05-0014
 # text = Herkesin burada olduğunu bilmiyordum.
+# en = I didn’t know everyone was here.
 1	Herkesin	herkes	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	ccomp	_	_
 3	olduğunu	ol	AUX	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	2	cop	_	_
@@ -116,6 +137,7 @@
 
 # sent_id = GK05-0015
 # text = Zeki babasını onbeş yıldır görmüyormuş, annesini değil.
+# en = Zeki hasn’t seen his father for 15 years, not his mother.
 1	Zeki	Zeki	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	babasını	baba	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	_
 3	onbeş	onbeş	NUM	_	NumType=Card	4	nummod	_	_
@@ -130,6 +152,8 @@
 
 # sent_id = GK05-0016
 # text = Dün Zeki’nin ablası işten ayrılmış.
+# gloss = yesterday Zeki-GEN sister-3SG.POSS work-ABL leave-EV/PF
+# en = Zeki’s sister left her job yesterday.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 2	Zeki’nin	Zeki	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	ablası	abla	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
@@ -139,6 +163,8 @@
 
 # sent_id = GK05-0017
 # text = Arkadaşlarımızla burada buluşacağız.
+# gloss = friend-PL-1PL.POSS-COM here meet-FUT-1PL
+# end = We’re going to meet our friends here.
 1	Arkadaşlarımızla	arkadaş	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Plur|Person[psor]=1	3	obl	_	_
 2	burada	bura	PRON	_	Case=Loc|Number=Sing|Polarity=Pos|PronType=Dem	3	obl	_	_
 3	buluşacağız	buluş	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -146,6 +172,8 @@
 
 # sent_id = GK05-0018
 # text = Çamaşırları gene makinanın içinde bırakmışım.
+# gloss = laundry-PL-ACC again machine-GEN inside-3SG.POSS-LOC leave-EV/PF-1SG
+# en = I seem to have left the laundry in the washing machine again.
 1	Çamaşırları	çamaşır	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
 2	gene	gene	ADV	_	_	5	advmod	_	_
 3	makinanın	makina	NOUN	_	Case=Gen|Number=Sing	5	obl	_	_
@@ -155,6 +183,7 @@
 
 # sent_id = GK05-0019
 # text = Kitapları hep yerde bırakıyorsun.
+# en = You always leave the books on the floor.
 1	Kitapları	kitap	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
 2	hep	hep	ADV	_	_	4	advmod	_	_
 3	yerde	yer	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
@@ -163,6 +192,7 @@
 
 # sent_id = GK05-0020
 # text = Bundan daha uygun bir sözcük düşünemiyorum.
+# en = I can’t think of a more appropriate word.
 1	Bundan	bu	PRON	_	Case=Abl|Number=Sing|Polarity=Pos|PronType=Dem	3	nmod:comp	_	_
 2	daha	daha	ADV	_	_	3	advmod	_	_
 3	uygun	uygun	ADJ	_	_	5	amod	_	_
@@ -173,6 +203,7 @@
 
 # sent_id = GK05-0021
 # text = Bu hayvanların arasında en vahşisi kaplanmış.
+# en = Apparently the most savage these animals is the tiger.
 1	Bu	bu	DET	_	Definite=Def|Polarity=Pos|PronType=Art	2	det	_	_
 2	hayvanların	hayvan	NOUN	_	Case=Gen|Number=Plur	6	obl	_	_
 3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
@@ -185,6 +216,7 @@
 
 # sent_id = GK05-0022
 # text = Halk politikacıların çoğuna güvenmiyor.
+# en = The people don’t trust most politicians.
 1	Halk	halk	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	politikacıların	politikacı	NOUN	_	Case=Gen|Number=Plur	3	nmod:part	_	_
 3	çoğuna	çok	PRON	_	Case=Dat|Number=Sing|PronType=Ind	4	obl	_	_
@@ -193,6 +225,8 @@
 
 # sent_id = GK05-0023
 # text = Bugün Ziya’yla buluştuğunuz zaman bana telefon edin.
+# gloss = today Ziya-COM meet-CV-2PL.POSS time I(DAT) telephone make-2PL.IMP
+# en = When you meet up with Ziya today give me a ring.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	Ziya’yla	Ziya	PROPN	_	Case=Ins|Number=Sing	3	obl	_	_
 3	buluştuğunuz	buluştuk	VERB	_	Mood=Ind|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	6	obl:tmod	_	_
@@ -204,6 +238,7 @@
 
 # sent_id = GK05-0024
 # text = Biletleri aldıysan içeri girelim.
+# en = If you’ve got the tickets, let’s go in.
 1	Biletleri	bilet	NOUN	_	Case=Acc|Number=Plur	2	obj	_	_
 2	aldıysan	al	VERB	_	Aspect=Perf|Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	4	advcl	_	_
 3	içeri	içeri	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
