@@ -1,9 +1,13 @@
 # sent_id = GK08-0001
 # text = çocuklarına
+# gl = child-PL-2SG.POSS-DAT
+# en = to your children
 1	çocuklarına	çocuk	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=2	0	root	_	_
 
 # sent_id = GK08-0002
 # text = Evlerimizdeymişler.
+# gl = home-PL-1PL.POSS-LOC-EV.COP-3PL
+# en = Apparently they are/were at our homes.
 1-2	Evlerimizdeymişler	_	_	_	_	_	_	_	SpaceAfter=No
 1	Evlerimizde	ev	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 2	ymişler	i	AUX	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
@@ -11,11 +15,14 @@
 
 # sent_id = GK08-0003
 # text = Oturacağım.
+# gl = sit.down-FUT-1SG
+# en = I’m going to sit down.
 1	Oturacağım	otur	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0004
 # text = Şu anda evden çıktı.
+# en = S/he has just left the house.
 1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	anda	an	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
 3	evden	ev	NOUN	_	Case=Abl|Number=Sing	4	obl	_	_
@@ -24,44 +31,62 @@
 
 # sent_id = GK08-0005
 # text = Yüzüyoruz.
+# gl = swim-IMPF-1PL
+# n = We’re swimming.
 1	Yüzüyoruz	yüz	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0006
 # text = Yıkılmamıştı.
+# gl = demolish-PASS-NEG-PF-P.COP
+# en = It had not been demolished.
 1	Yıkılmamıştı	yık	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pqp|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0007
-# text = Döğüştürülmeyebiliyor.
-1	Döğüştürülmeyebiliyor	döğüş	VERB	_	Aspect=Prog|Mood=Pot|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=CauPassRcp	0	root	_	SpaceAfter=No
+# text = Döğüştürülmeyebiliyormuşsunuzdur.
+# gl = beat-REC-CAUS-CAUS-PASS-NEG-PSB-IMPF-EV.COP-2PL-GM
+# en = It is presumably the case that you sometimes were not made to fight.
+1	Döğüştürülmeyebiliyor	döğüş	VERB	_	Aspect=Prog|Evident=Nfh|Mood=GenIndPot|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|Voice=CauPassRcp	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0008
 # text = sevmekle
+# gl = like-SUB-INS
+# en = by loving [him/her/it]
 1	sevmekle	sev	VERB	_	Case=Ins|Number=Sing|VerbForm=Vnoun	0	root	_	_
 
 # sent_id = GK08-0009
 # text = baktırmadığından
+# gl = check -CAUS-NEG-SUB-2SG.POSS-ABL
+# en = because you haven’t had [it] checked  / from the one you didn’t have checked
 1	baktırmadığından	bak	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Cau	0	root	_	_
 
 # sent_id = GK08-0010
 # text = Geçtin.
+# gl = pass-PF-2SG
+# en = You’ve passed.
 1	Geçtin	geç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0011
 # text = Bitirememiştir.
+# gl = finish-PSB-NEG-PF-GM
+# en = S/he has probably not been able to finish [it]
 1	Bitirememiştir	bit	VERB	_	Aspect=Perf|Evident=Nfh|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0012
 # text = Okuyabilecekmiş.
+# gl = read-PSB-FUT-EV.COP
+# en = Apparently s/he will be able to read [it]
 1	Okuyabilecekmiş	oku	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0013
 # text = Yazın Paris'teydik.
+# gl = summer Paris-LOC-P.COP-1PL
+# en = We were in Paris during the summer.
 1	Yazın	yaz	NOUN	_	Case=Gen|Number=Sing	2	obl:tmod	_	_
 2-3	Paris'teydik	_	_	_	_	_	_	_	SpaceAfter=No
 2	Paris'te	Paris	PROPN	_	Case=Loc|Number=Sing	0	root	_	_
@@ -70,6 +95,9 @@
 
 # sent_id = GK08-0014
 # text = Mutlaka zamanı vardır.
+# gl = definitely time-3SG.POSS existent-GM
+# en = I’m sure s/he has the time.
+#
 1	Mutlaka	mutlaka	ADV	_	_	3	advmod	_	_
 2	zamanı	zaman	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	vardır	_	_	_	_	_	_	_	SpaceAfter=No
@@ -79,22 +107,27 @@
 
 # sent_id = GK08-0015
 # text = oturabilmek
+# gl = sit-PSB-VN
+# en = to be able to sit [down]
 1	oturabilmek	otur	VERB	_	Case=Nom|Mood=Pot|Number=Sing|VerbForm=Vnoun	0	root	_	_
 
 # sent_id = GK08-0016
 # text = Sever idi.
+# en = He used to (like [it])
 1	Sever	sev	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	idi	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0017
 # text = öğrenci değillerdi.
+# en = they were not students
 1	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	değillerdi	değil	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK08-0018
 # text = evde yoklarmış.
+# en = apparently they are/were not at home
 1	evde	ev	NOUN	_	Case=Loc|Number=Sing	2	nmod	_	_
 2-3	yoklarmış	_	_	_	_	_	_	_	SpaceAfter=No
 2	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	_
@@ -103,6 +136,7 @@
 
 # sent_id = GK08-0019
 # text = Öğretmenler.
+# en = They are teachers.
 1-2	Öğretmenler	_	_	_	_	_	_	_	SpaceAfter=No
 1	Öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	ler	i	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -110,6 +144,8 @@
 
 # sent_id = GK08-0020
 # text = Sorun yaratacağı belli.
+# gl = problem create-VN-3SG.POSS clear
+# en = It is clear that s/he will create problems.
 1	Sorun	sorun	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	yaratacağı	yarat	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Part	3	csubj:cop	_	_
 3	belli	belli	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -117,6 +153,8 @@
 
 # sent_id = GK08-0021
 # text = Sorun yaratan kuruluşlar uyarıldı.
+# gl = problem create-PART organization-PL admonish-PASS-PF
+# en = The organizations that were creating problems were admonished.
 1	Sorun	sorun	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	yaratan	yaratan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	kuruluşlar	kuruluş	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
@@ -125,6 +163,8 @@
 
 # sent_id = GK08-0022
 # text = Sorun yaratmaktansa sonuçları kabullendi.
+# gl = problem create-CV consequence-PL-ACC accept-PF
+# en = Instead of creating problems, s/he accepted the consequences
 1	Sorun	sorun	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2-3	yaratmaktansa	_	_	_	_	_	_	_	_
 2	yaratmaktan	yarat	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
@@ -135,42 +175,49 @@
 
 # sent_id = GK08-0023
 # text = koşmak için
+# en = (in order) to run
 1	koşmak	koş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
 2	için	için	ADP	_	_	1	mark	_	_
 
 # sent_id = GK08-0024
 # text = koşmam için
+# en = koşmam (için)
 1	koşmam	koş	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	0	root	_	_
 2	için	için	ADP	_	_	1	mark	_	_
 
 # sent_id = GK08-0025
 # text = Gitmeyi bekliyor.
+# en = s/he expects to leave
 1	Gitmeyi	git	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
 2	bekliyor	bekle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK08-0026
 # text = Gitmenizi bekliyor.
+# en = s/he expects you to leave
 1	Gitmenizi	git	VERB	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=2|VerbForm=Vnoun	2	ccomp	_	_
 2	bekliyor	bekle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK08-0027
-# text = Şarkı söylemene bayılır.
+# text = Şarkı söylemene bayılıyor.
+# en = s/he loves [the way] you sing
 1	Şarkı	şarkı	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	söylemene	söyle	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=2|VerbForm=Vnoun	3	advcl	_	_
-3	bayılır	bayıl	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	bayılır	bayıl	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK08-0028
-# text = Şarkı söylemeye bayılır.
+# text = Şarkı söylemeye bayılıyor.
+# en = s/he loves singing
 1	Şarkı	şarkı	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	söylemeye	söyle	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
-3	bayılır	bayıl	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	bayılır	bayıl	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK08-0029
 # text = Konuşmamda ısrar etti.
+# en = s/he insisted that I run/ran
 1	Konuşmamda	konuş	VERB	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	3	advcl	_	_
 2	ısrar	ısrar	NOUN	_	Case=Nom	3	compound	_	_
 3	etti	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -178,6 +225,7 @@
 
 # sent_id = GK08-0030
 # text = Konuşmakta ısrar etti.
+# en = s/he insisted on running
 1	Konuşmakta	konuş	VERB	_	Case=Loc|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 2	ısrar	ısrar	NOUN	_	Case=Nom	3	compound	_	_
 3	etti	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -185,12 +233,14 @@
 
 # sent_id = GK08-0031
 # text = Konuşmamdan korkuyor.
+# en = s/he is scared that I might talk
 1	Konuşmamdan	konuş	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	2	advcl	_	_
 2	korkuyor	kork	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK08-0032
 # text = Konuşmaktan korkuyor.
+# en = s/he is scared of talking
 1	Konuşmaktan	konuş	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	2	advcl	_	_
 2	korkuyor	kork	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_

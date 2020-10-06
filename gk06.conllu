@@ -1,24 +1,34 @@
 # sent_id = GK06-0001
 # text = suçlulukla mı
+# gl = crime-N.DER-N.DER-INS INT
+# en = in a guilty manner?
 1	suçlulukla	suçluluk	NOUN	_	Case=Ins|Number=Sing	0	root	_	Stem=suçluluk
 2	mı	mi	AUX	_	PronType=Int	1	aux:q	_	Stem=mı
 
 # sent_id = GK06-0002
 # text = dizgelerimde
+# gl = arrange-N.DER-PL-1SG.POSS-LOC
+# en = on my lists
 1	dizgelerimde	dizge	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=1	0	root	_	Stem=dizge
 
 # sent_id = GK06-0003
 # text = yapılaştırılmamış
+# gl = build-N.DER-V.DER-CAUS-PASS-NEG-EV/PF
+# en = has not been built up
 1	yapılaştırılmamış	yapılaş	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=CauPass	0	root	_	Stem=yapılaş
 
 # sent_id = GK06-0004
 # text = Gidebilirim de.
+# gl = go-PSB-AOR-1SG also
+# en = And I can [indeed] go.
 1	Gidebilirim	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Stem=git
 2	de	de	ADV	_	_	1	advmod:emph	_	SpaceAfter=No|Stem=de
 3	.	.	PUNCT	_	_	1	punct	_	Stem=.
 
 # sent_id = GK06-0005
 # text = Görüştürülemeye de biliyor muydunuz?
+# gl = see-REC-CAUS-PASS-PSB-NEG-PSB also PSB-IMPF INT-P.COP-2PL
+# en = Did it also sometimes happen that you were not allowed to see each other?
 1	Görüştürülemeye	gör	VERB	_	Mood=Pot|Polarity=Neg|VerbForm=Fin|Voice=CauPassRcp	0	root	_	Stem=gör
 2	de	de	ADV	_	_	1	advmod:emph	_	Stem=de
 3	biliyor	bil	AUX	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	1	aux	_	Stem=bil
