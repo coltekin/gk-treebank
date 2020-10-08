@@ -129,6 +129,7 @@ The following words are considered `discourse` markers:
     but maybe some sort of connective (`mark`?)
     in _yok orada degilse ne yapacaksın?_
 - _hadi_ / _haydi_ 
+- _işte_
 
 We mark the discourse connectives with `cc` or `mark`
 when they clearly connect the sentence with another

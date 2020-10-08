@@ -1,29 +1,46 @@
 # sent_id = GK11-0001
 # text = Yolladım bile.
+# en = I have already sent it.
 1	Yolladım	yolla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	bile	bile	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GK11-0002
+# text = ev bile
+# en = even a/the house
+1	ev	ev	VERB	_	Case=Nom|Number=Sing	0	root	_	_
+2	bile	bile	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
+
+# sent_id = GK11-0003
 # text = annem de
 1	annem	anne	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 2	de	de	ADV	_	_	1	advmod:emph	_	_
 
-# sent_id = GK11-0003
+# sent_id = GK11-0004
+# text = Yaparım da.
+# en = I will do [it], too.
+1	Yaparım	yap	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+2	da	de	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GK11-0005
 # text = Bakabilirim de.
+# en = I can also look.
 1	Bakabilirim	bak	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	de	de	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0004
+# sent_id = GK11-0006
 # text = Baka da bilirim.
+# en = I can also look.
 1	Baka	bak	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	da	de	ADV	_	_	1	advmod:emph	_	_
 3	bilirim	bil	AUX	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0005
+# sent_id = GK11-0007
 # text = Bakabilirim de, beklemesi gerek.
+# en = I can look at it, but it has to wait.
 1	Bakabilirim	bak	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 2	de	de	CCONJ	_	_	1	cc	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -31,8 +48,9 @@
 5	gerek	gerek	ADJ	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0006
+# sent_id = GK11-0008
 # text = Bu hediyeyi de Enver aldı.
+# en = As for this present, Enver bought it.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	hediyeyi	hediye	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 3	de	de	ADV	_	_	2	advmod:emph	_	_
@@ -40,33 +58,45 @@
 5	aldı	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0007
+# sent_id = GK11-0009
 # text = Seyretmedim de anlattılar.
+# en = I didn’t watch [it], but they told me.
 1	Seyretmedim	seyret	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 2	de	de	CCONJ	_	_	1	cc	_	_
 3	anlattılar	anlat	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0008
+# sent_id = GK11-0010
 # text = Ayşe de Semra da
+# en = both Ayşe and Semra
 1	Ayşe	Ayşe	PROPN	_	Number=Sing	0	root	_	_
 2	de	de	CCONJ	_	_	1	cc	_	_
 3	Semra	Semra	PROPN	_	Number=Sing	1	conj	_	_
 4	da	de	CCONJ	_	_	3	cc	_	_
 
-# sent_id = GK11-0009
+# sent_id = GK11-0011
 # text = bense
+# en = as for me
 1-2	bense	_	_	_	_	_	_	_	_
 1	ben	ben	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	se	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 
-# sent_id = GK11-0010
+# sent_id = GK11-0012
 # text = ben ise
+# en = as for me
 1	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 2	ise	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 
-# sent_id = GK11-0011
+# sent_id = GK11-0013
+# text = Zehra’yıysa
+# en = as for Zehra (ACC)
+1	Zehra’yı	Zehra	PRON	_	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No
+2	ysa	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+
+# sent_id = GK11-0014
 # text = Onlarınsa hiç parası yok.
+# en = As for them, they don‘t have any money.
+# TODO: this analysis probably is wrong: 'onlar' is subject here.
 1-2	Onlarınsa	_	_	_	_	_	_	_	_
 1	Onların	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	advcl	_	_
 2	sa	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -75,8 +105,9 @@
 5	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0012
+# sent_id = GK11-0015
 # text = Öğleden sonraysa yürüyüşe çıktık.
+# en = Öğleden sonraysa yürüyüşe çıktık.
 1	Öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	5	advcl	_	_
 2-3	sonraysa	_	_	_	_	_	_	_	_
 2	sonra	sonra	ADV	_	_	1	case	_	_
@@ -85,16 +116,18 @@
 5	çıktık	çık	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0013
+# sent_id = GK11-0016
 # text = İnanıyorum ki herşey düzelecek.
+# en = I believe that everything will come right.
 1	İnanıyorum	inan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ki	ki	SCONJ	_	_	4	mark	_	_
 3	herşey	herşey	PRON	_	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	_
 4	düzelecek	düzel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	advcl	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0014
+# sent_id = GK11-0017
 # text = Sana bunu söylüyorum ki sonradan şaşırmayasın.
+# en = I’m tell ing you this so that you won’t be surprised later.
 1	Sana	san	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 2	bunu	bu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	3	obj	_	_
 3	söylüyorum	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -103,14 +136,16 @@
 6	şaşırmayasın	şaşır	VERB	_	Mood=Opt|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0015
+# sent_id = GK11-0018
 # text = Anlayamıyorum ki!
+# en = I just can’t understand.
 1	Anlayamıyorum	anla	VERB	_	Aspect=Prog|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ki	ki	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
 3	!	!	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0016
+# sent_id = GK11-0019
 # text = Londra sonbaharda o kadar güzel olur ki!
+# en = London is so beautiful in autumn!
 1	Londra	Londra	PROPN	_	Number=Sing	5	nsubj	_	_
 2	sonbaharda	sonbahar	NOUN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 3	o	o	PRON	_	Case=Nom|Number=Sing|PronType=Dem	5	nmod	_	_
@@ -120,8 +155,9 @@
 7	ki	ki	ADV	_	_	5	advmod:emph	_	SpaceAfter=No
 8	!	!	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0017
+# sent_id = GK11-0020
 # text = Bugün hava açarsa, ki açacağını pek sanmıyorum, bahçede mangal yakacaklarmış.
+# en = If the weather brightens up today, which I don’t really think it will, apparently they’re going to have a barbecue in the garden.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	hava	hava	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	açarsa	aç	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
@@ -136,8 +172,9 @@
 12	yakacaklarmış	yak	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = GK11-0018
+# sent_id = GK11-0021
 # text = Semra ki partileri sevmez, o bile eğlendi.
+# en = Even Semra, who doesn’t like parties, had fun.
 1	Semra	Semra	PROPN	_	Number=Sing	8	dislocated	_	_
 2	ki	ki	SCONJ	_	_	4	mark	_	_
 3	partileri	parti	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
@@ -148,8 +185,9 @@
 8	eğlendi	eğlen	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = GK11-0019
+# sent_id = GK11-0022
 # text = Bir şöför ki park etmeyi bilmesin, ona güvenip arabasına binilmez.
+# en = A driver who doesn’t know how to park a car isn’t to be trusted to drive one around.
 1	Bir	bir	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	şöför	şöför	NOUN	_	Case=Nom|Number=Sing	11	dislocated	_	_
 3	ki	ki	SCONJ	_	_	6	mark	_	_
@@ -163,8 +201,9 @@
 11	binilmez	bin	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = GK11-0020
+# sent_id = GK11-0023
 # text = Bildiğim şu ki, herkesin tatile ihtiyacı var.
+# en = All I know is that everyone needs a holiday.
 1	Bildiğim	bil	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	2	csubj:cop	_	_
 2	şu	şu	PRON	_	Case=Nom|Number=Sing|PronType=Dem	0	root	_	_
 3	ki	ki	SCONJ	_	_	8	mark	_	SpaceAfter=No
@@ -175,133 +214,161 @@
 8	var	var	ADJ	_	_	2	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = GK11-0021
+# sent_id = GK11-0024
 # text = Gitse miydik?
+# en = Should we have gone?
 1	Gitse	git	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	miydik	mi	AUX	_	Number=Plur|Person=1|PronType=Int|Tense=Past	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0022
+# sent_id = GK11-0025
 # text = Başlamış mıydınız?
+# en = Had you started?
 1	Başlamış	başla	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mıydınız	mi	AUX	_	Number=Plur|Person=2|PronType=Int|Tense=Past	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0023
+# sent_id = GK11-0026
 # text = Burada mıymış?
+# en = Was it here?
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 2	mıymış	mi	AUX	_	Evident=Nfh|Number=Sing|Person=3|PronType=Int|Tense=Past	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0024
+# sent_id = GK11-0027
 # text = Gidiyor musun?
+# en = Are you going?
 1	Gidiyor	git	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	musun	mi	AUX	_	Number=Sing|Person=2|PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0025
+# sent_id = GK11-0028
 # text = İster miyiz?
+# en = Would we want to?
 1	İster	iste	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	miyiz	mi	AUX	_	Number=Plur|Person=1|PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0026
+# sent_id = GK11-0029
 # text = Hazır mısınız?
+# en = Are you ready?
 1	Hazır	hazır	ADJ	_	_	0	root	_	_
 2	mısınız	mi	AUX	_	Number=Plur|Person=2|PronType=Int|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0027
+# sent_id = GK11-0030
 # text = Unutmuş mudurlar?
+# en = Do you think they have forgotten?
 1	Unutmuş	unut	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mudurlar	mi	AUX	_	Mood=Gen|Number=Plur|Person=3|PronType=Int|VerbForm=Fin	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0028
+# sent_id = GK11-0031
 # text = Unutmuşlar mıdır?
+# en = Do you think they have forgotten?
 1	Unutmuşlar	unut	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mıdır	mi	AUX	_	Mood=Gen|PronType=Int|VerbForm=Fin	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0029
+# sent_id = GK11-0032
 # text = Evde midir?
+# en = Do you think s/he/it’s at home? / Is s/he at home?
 1	Evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 2	midir	mi	AUX	_	Mood=Gen|Number=Sing|Person=3|PronType=Int|Tense=Pres|VerbForm=Fin	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0030
+# sent_id = GK11-0033
+# text = Geçmiş miyimdir?
+# en = I wonder if I have passed.
+1	Geçmiş	geç	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	miyimdir	mi	AUX	_	Mood=Gen|Number=Sing|Person=1|PronType=Int|VerbForm=Fin	1	aux:q	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GK11-0034
 # text = Acaba geçmiş miyimdir?
+# en = I wonder if I have passed.
 1	Acaba	acaba	ADV	_	_	2	advmod	_	_
 2	geçmiş	geç	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	miyimdir	mi	AUX	_	Mood=Gen|Number=Sing|Person=1|PronType=Int|VerbForm=Fin	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK11-0031
+# sent_id = GK11-0035
 # text = Gördün mü?
+# en = Did you see?
 1	Gördün	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mü	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0032
+# sent_id = GK11-0036
 # text = Gitsek mi?
+# en = Should we go?
 1	Gitsek	git	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	mi	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0033
+# sent_id = GK11-0037
 # text = Yürüdünüz mü?
+# en = Did you walk?
 1	Yürüdünüz	yürü	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mü	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0034
+# sent_id = GK11-0038
 # text = Kalayım mı?
+# en = Shall/should I stay?
 1	Kalayım	kal	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	mı	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0035
+# sent_id = GK11-0039
 # text = Başlasın mı?
+# en = Should s/he start?
 1	Başlasın	başla	VERB	_	Mood=Opt|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0036
+# sent_id = GK11-0040
 # text = Gittiler mi?
+# en = Have they left?
 1	Gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	mi	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0037
+# sent_id = GK11-0041
 # text = Uyanırlar mı?
+# en = Will they wake up?
 1	Uyanırlar	uyan	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	mı	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0038
+# sent_id = GK11-0042
 # text = Okuldalar mı?
+# en = Are they at school?
 1-2	Okuldalar	_	_	_	_	_	_	_	_
 1	Okulda	okul	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 2	lar	i	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	mı	mi	AUX	_	PronType=Int	1	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0039
+# sent_id = GK11-0043
 # text = Akıllı mı?
+# en = Is s/he intelligent?
 1	Akıllı	akıllı	ADJ	_	_	0	root	_	_
 2	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Pres	1	aux:q	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK11-0040
+# sent_id = GK11-0044
 # text = Benimki mi?
+# en = Is it mine?
 1-2	Benimki	_	_	_	_	_	_	_	_
 1	Benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2	ki	-ki	ADJ	_	Case=Nom|Number=Sing	0	root	_	_
 3	mi	mi	AUX	_	PronType=Int	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK11-0041
+# sent_id = GK11-0045
 # text = Gittin mi, hemen yerine yenisi gelir.
+# en = As soon as you go, someone would replace you.
 1	Gittin	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	advcl	_	_
 2	mi	mi	SCONJ	_	_	1	mark	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -311,8 +378,9 @@
 7	gelir	gel	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = GK11-0042
+# sent_id = GK11-0046
 # text = Evini sattın mı, gerisi önemli değil.
+# en = Once you’ve sold your house, the rest is not important.
 1	Evini	ev	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	obj	_	_
 2	sattın	sat	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	advcl	_	_
 3	mı	mı	SCONJ	_	_	2	mark	_	SpaceAfter=No
@@ -322,47 +390,53 @@
 7	değil	değil	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK11-0043
+# sent_id = GK11-0047
 # text = ilginç mi ilginç
+# en = very interesting
 1	ilginç	ilginç	ADJ	_	_	3	compound:redup	_	_
 2	mi	mi	ADV	_	_	1	advmod:emph	_	_
 3	ilginç	ilginç	ADJ	_	_	0	root	_	_
 
-# sent_id = GK11-0044
+# sent_id = GK11-0048
 # text = hızlı mı hızlı
+# en = very fast
 1	hızlı	hızlı	ADV	_	_	3	compound:redup	_	_
 2	mı	mı	ADV	_	_	1	advmod:emph	_	_
 3	hızlı	hızlı	ADV	_	_	0	root	_	_
 
-# sent_id = GK11-0045
+# sent_id = GK11-0049
 # text = Gittim ya onu göremedim.
+# en = I went there but couldn’t see her/him.
 1	Gittim	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	advcl	_	_
 2	ya	ya	SCONJ	_	_	1	mark	_	_
 3	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	göremedim	gör	VERB	_	Aspect=Perf|Mood=Pot|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK11-0046
+# sent_id = GK11-0050
 # text = Görmedim dedim ya!
+# en = I told you I didn’t see him/her!
 1	Görmedim	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 2	dedim	de	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ya	ya	ADV	_	_	2	advmod:emph	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK11-0047
+# sent_id = GK11-0051
 # text = Hani sana göstermiştim ya, işte o elbise.
+# en = Remember the dress I showed you? That one.
 1	Hani	hani	ADV	_	_	3	advmod	_	_
 2	sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
 3	göstermiştim	göster	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin	8	parataxis	_	_
 4	ya	ya	ADV	_	_	3	advmod:emph	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	işte	işte	ADV	_	_	8	discourse	_	_
+6	işte	işte	INTJ	_	_	8	discourse	_	_
 7	o	o	DET	_	Definite=Def|PronType=Art	8	det	_	_
 8	elbise	elbise	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = GK11-0048
+# sent_id = GK11-0052
 # text = Ya parası yoksa?
+# en = What if s/he doesn’t have any money?
 1	Ya	ya	ADV	_	_	3	advmod	_	_
 2	parası	para	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	yoksa	_	_	_	_	_	_	_	SpaceAfter=No
@@ -370,8 +444,9 @@
 4	sa	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	cop	_	_
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0049
+# sent_id = GK11-0053
 # text = Tohumları soğukta mı bırakmıştın ki?
+# en = Had you left the seeds in the cold, then?
 1	Tohumları	tohum	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
 2	soğukta	soğuk	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 3	mı	mi	AUX	_	PronType=Int	2	aux:q	_	_
@@ -379,24 +454,27 @@
 5	ki	ki	ADV	_	_	4	advmod:emph	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK11-0050
+# sent_id = GK11-0054
 # text = Kağıtları da okumuş mu?
+# en = Has s/he read the papers too (i.e. in addition to doing other things)?
 1	Kağıtları	kağıt	NOUN	_	Case=Acc|Number=Plur	3	obj	_	_
 2	da	de	ADV	_	_	1	advmod:emph	_	_
 3	okumuş	oku	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	mu	mi	AUX	_	Number=Sing|Person=3|PronType=Int	3	aux:q	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0051
+# sent_id = GK11-0055
 # text = Çerçeveleri bile temizlemişsin ya!
+# en = But you have even cleaned the frames!
 1	Çerçeveleri	çerçeve	NOUN	_	Case=Acc|Number=Plur	3	obj	_	_
 2	bile	bile	ADV	_	_	3	advmod:emph	_	_
 3	temizlemişsin	temizle	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ya	ya	ADV	_	_	3	advmod:emph	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0052
+# sent_id = GK11-0056
 # text = Bu gözlükle sahneyi mi göremiyormuş?
+# en = Can’t s/he see the stage with these glasses?
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gözlükle	gözlük	NOUN	_	Case=Ins|Number=Sing	5	obl	_	_
 3	sahneyi	sahne	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
@@ -404,8 +482,9 @@
 5	göremiyormuş	gör	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK11-0053
+# sent_id = GK11-0057
 # text = Yeni öğrencilerini daha görmedin mi?
+# en = Haven’t you seen your new students yet?
 1	Yeni	yeni	ADJ	_	_	2	amod	_	_
 2	öğrencilerini	öğrenci	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	4	obj	_	_
 3	daha	daha	ADV	_	_	4	advmod	_	_
@@ -413,30 +492,34 @@
 5	mi	mi	AUX	_	PronType=Int	4	aux:q	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK11-0054
+# sent_id = GK11-0058
 # text = Ben de içmeyeceğim.
+# en = I’m not going to drink [any] either.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	de	de	ADV	_	_	1	advmod:emph	_	_
 3	içmeyeceğim	iç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0055
+# sent_id = GK11-0059
 # text = Semra ücretini alamamış bile.
+# en = Semra couldn’t even succeed in getting her wages.
 1	Semra	Semra	PROPN	_	Number=Sing	3	nsubj	_	_
 2	ücretini	ücret	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 3	alamamış	al	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Pot|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 4	bile	bile	ADV	_	_	3	advmod:emph	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK11-0056
+# sent_id = GK11-0060
 # text = Kimseyi görmedim ki!
+# en = But I didn’t see anyone!
 1	Kimseyi	kimse	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obj	_	_
 2	görmedim	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ki	ki	ADV	_	_	2	advmod:emph	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK11-0057
+# sent_id = GK11-0061
 # text = Hani eski gazeteleri atmamıştım ya…
+# en = Remember I hadn’t thrown away the old newspapers?...
 1	Hani	hani	ADV	_	_	4	advmod	_	_
 2	eski	eski	ADJ	_	_	3	amod	_	_
 3	gazeteleri	gazete	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
