@@ -1,258 +1,418 @@
 # sent_id = GK10-0001
-# text = erkek kardeş
-1	erkek	erkek	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+# text = kız kardeş
+# en = sister
+1	kız	kız	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kardeş	kardeş	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK10-0002
-# text = kızarkadaş
-1	kızarkadaş	kızarkadaş	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+# text = naylon torba
+# en = plastic bag
+1	naylon	naylon	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	torba	torba	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK10-0003
+# text = Yeşilbahar Sokak
+# en = Yeşilbahar Street
+1	Yeşilbahar	Yeşilbahar	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Sokak	sokak	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0004
+# text = büyükbaba
+# en = grandfather
+1	büyükbaba	büyükbaba	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0005
+# text = at arabası
+# en = horse-drawn carriage
+1	at	at	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0006
+# text = gaz sobası
+# gas stove
+1	gaz	gaz	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	sobası	soba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0007
+# text = Atatürk Bulvarı
+# en = Atatürk Boulevard
+1	Atatürk	Atatürk	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Bulvarı	bulvar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0008
+# text = buzdolabı
+# en = refrigerator
+1	buzdolabı	buzdolabı	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0009
+# text = buzdolabı
+# en = his/her refrigerator
+1	buzdolabı	buzdolabı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0010
+# text = erkek kardeş
+# en = brother
+1	erkek	erkek	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	kardeş	kardeş	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0011
+# text = kızarkadaş
+# en = girlfriend
+1	kızarkadaş	kızarkadaş	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0012
 # text = kadın doktor
+# en = woman doctor
 1	kadın	kadın	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	doktor	doktor	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0004
+# sent_id = GK10-0013
 # text = avukat kadın
+# en = woman who is a lawyer
 1	avukat	avukat	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kadın	kadın	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0005
+# sent_id = GK10-0014
 # text = Alman mimar
+# en = German architect
 1	Alman	Alman	PROPN	_	Number=Sing	2	nmod	_	_
 2	mimar	mimar	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0006
+# sent_id = GK10-0015
 # text = Türk çocuklar
+# en = Turkish children
 1	Türk	Türk	PROPN	_	Number=Sing	2	nmod	_	_
 2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK10-0007
+# sent_id = GK10-0016
 # text = çelik kapı
+# en = steel door
 1	çelik	çelik	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kapı	kapı	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0008
+# sent_id = GK10-0017
 # text = taş duvar
+# en = stone wall
 1	taş	taş	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	duvar	duvar	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0009
+# sent_id = GK10-0018
 # text = yün çorap
+# en = wool sock(s)
 1	yün	yün	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	çorap	çorap	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0010
+# sent_id = GK10-0019
 # text = şiş kebap
+# en = shish kebab
 1	şiş	şiş	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kebap	kebap	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0011
+# sent_id = GK10-0020
 # text = kuzu fırın
+# en = oven-cooked lamb
 1	kuzu	kuzu	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	fırın	fırın	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0012
+# sent_id = GK10-0021
 # text = Akgül Sokak
+# en = Akgül Street
 1	Akgül	Akgül	PROPN	_	Number=Sing	2	nmod	_	_
 2	Sokak	sokak	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0013
+# sent_id = GK10-0022
 # text = karabiber
+# en = pepper
 1	karabiber	karabiber	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0014
+# sent_id = GK10-0023
+# text = karafatma
+# en = ‘cockroach’
+1	karafatma	karafatma	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0024
+# text = darboğaz
+# en = (economic) bottle-neck
+1	darboğaz	darboğaz	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0025
+# text = kabakulak
+# en = mumps
+1	kabakulak	kabakulak	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0026
+# text = akciğer
+# en = lung(s)
+1	akciğer	akciğer	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = GK10-0027
 # text = sarı humma
+# en = yellow fever
 1	sarı	sarı	ADJ	_	_	2	amod	_	_
 2	humma	humma	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0015
+# sent_id = GK10-0028
 # text = otobüs bileti
+# en = bus ticket
 1	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	bileti	bilet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0016
+# sent_id = GK10-0029
 # text = el çantası
+# en = handbag
 1	el	el	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	çantası	çanta	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0017
+# sent_id = GK10-0030
 # text = masa örtüsü
+# en = tablecloth
 1	masa	masa	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	örtüsü	örtü	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0018
+# sent_id = GK10-0031
 # text = çay bardağı
+# en = tea glass
 1	çay	çay	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	bardağı	bardak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0019
+# sent_id = GK10-0032
 # text = çocuk bahçesi
+# en = children’s playground
 1	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	bahçesi	bahçe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0020
+# sent_id = GK10-0033
 # text = otobüs biletleri
+# en = bus tickets
 1	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	biletleri	bilet	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0021
+# sent_id = GK10-0034
 # text = el çantaları
+# en = handbags
 1	el	el	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	çantaları	çanta	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0022
+# sent_id = GK10-0035
 # text = çay bardakları
+# en = tea glasses
 1	çay	çay	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	bardakları	bardak	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0023
+# sent_id = GK10-0036
 # text = buzdolapları
+# en = refrigerators
 1	buzdolapları	buzdolabı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK10-0024
+# sent_id = GK10-0037
 # text = yayınevleri
+# en = publishing houses
 1	yayınevleri	yayınevi	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK10-0025
+# sent_id = GK10-0038
 # text = ayakkabılar
+# en = shoes
 1	ayakkabılar	ayakkabı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK10-0026
+# sent_id = GK10-0039
+# text = yüzbaşılar
+# en = (army) captains
+1	yüzbaşılar	yüzbaşı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = GK10-0040
+# text = binbaşılar
+# en = (army) majors
+1	binbaşılar	binbaşı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = GK10-0041
+# text = kasımpatılar
+# en = chrysanthemums
+1	kasımpatılar	kasımpatı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = GK10-0042
+# text = kasımpatları
+# en = chrysanthemums
+1	kasımpatları	kasımpatı	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+
+# sent_id = GK10-0043
 # text = Ağrı Dağı
+# en = Mount Ararat
 1	Ağrı	Ağrı	PROPN	_	Number=Sing	2	nmod	_	_
 2	Dağı	dağ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0027
+# sent_id = GK10-0044
 # text = Van Gölü
+# en = Lake Van
 1	Van	Van	PROPN	_	Number=Sing	2	nmod	_	_
 2	Gölü	göl	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0028
+# sent_id = GK10-0045
 # text = Efes Lokantası
+# en = Ephesus Restaurant
 1	Efes	Efes	PROPN	_	Number=Sing	2	nmod	_	_
 2	Lokantası	lokanta	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0029
+# sent_id = GK10-0046
 # text = Türkiye Cumhuriyeti
+# en = Republic of Turkey
 1	Türkiye	Türkiye	PROPN	_	Number=Sing	2	nmod	_	_
 2	Cumhuriyeti	cumhuriyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0030
+# sent_id = GK10-0047
 # text = 1912 yılı
+# en = the year 1912
 1	1912	1912	NUM	_	NumType=Card	2	nummod	_	_
 2	yılı	yıl	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0031
+# sent_id = GK10-0048
 # text = cuma günü
+# en = Friday
 1	cuma	cuma	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0032
+# sent_id = GK10-0049
 # text = ocak ayı
+# en = the month of January
 1	ocak	ocak	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	ayı	ay	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0033
+# sent_id = GK10-0050
 # text = Türk kahvesi
+# en = Turkish coffee
 1	Türk	Türk	PROPN	_	Number=Sing	2	nmod	_	_
 2	kahvesi	kahve	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0034
-# text = Alman ekmeği
-1	Alman	Alman	PROPN	_	Number=Sing	2	nmod	_	_
-2	ekmeği	ekmek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
-
-# sent_id = GK10-0035
+# sent_id = GK10-0051
 # text = Türk Lirası
+# en = Turkish Lira
 1	Türk	Türk	PROPN	_	Number=Sing	2	nmod	_	_
 2	Lirası	lira	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0036
+# sent_id = GK10-0052
+# text = Alman ekmeği
+# en = German bread
+1	Alman	Alman	PROPN	_	Number=Sing	2	nmod	_	_
+2	ekmeği	ekmek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0053
 # text = Fransız edebiyatı
+# en = French literature
 1	Fransız	Fransız	PROPN	_	Number=Sing	2	nmod	_	_
 2	edebiyatı	edebiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0037
+# sent_id = GK10-0054
 # text = Yunan müziği
+# en = Greek music
 1	Yunan	Yunan	PROPN	_	Number=Sing	2	nmod	_	_
 2	müziği	müzik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0038
+# sent_id = GK10-0055
 # text = Hint dilleri
+# en = Indian languages
 1	Hint	Hint	PROPN	_	Number=Sing	2	nmod	_	_
 2	dilleri	dil	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0039
+# sent_id = GK10-0056
 # text = Yunanlı doktor
+# en = Greek doctor
 1-2	Yunanlı	_	_	_	_	_	_	_	_
 1	Yunan	Yunan	PROPN	_	Number=Sing	3	nmod	_	_
 2	lı	li	ADP	_	_	1	case	_	_
 3	doktor	doktor	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0040
+# sent_id = GK10-0057
 # text = Hintli müzisyen
+# en = Indian musician
 1-2	Hintli	_	_	_	_	_	_	_	_
 1	Hint	Hint	PROPN	_	Number=Sing	3	nmod	_	_
 2	li	li	ADP	_	_	1	case	_	_
 3	müzisyen	müzisyen	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0041
+# sent_id = GK10-0058
 # text = Çin feneri
+# en = Chinese lantern
 1	Çin	Çin	PROPN	_	Number=Sing	2	nmod	_	_
 2	feneri	fener	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0042
+# sent_id = GK10-0059
 # text = Brezilya takımı
+# en = the Brazilian team
 1	Brezilya	Brezilya	PROPN	_	Number=Sing	2	nmod	_	_
 2	takımı	takım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0043
+# sent_id = GK10-0060
 # text = bir Afrika ülkesi
+# en = an African country
 1	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 2	Afrika	Afrika	PROPN	_	Number=Sing	3	nmod	_	_
 3	ülkesi	ülke	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0044
+# sent_id = GK10-0061
 # text = Ortadoğu siyaseti
+# en = Middle East(ern) politics
 1	Ortadoğu	Ortadoğu	PROPN	_	Number=Sing	2	nmod	_	_
 2	siyaseti	siyaset	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0045
+# sent_id = GK10-0062
 # text = Akdeniz iklimi
+# en = Mediterranean climate
 1	Akdeniz	Akdeniz	PROPN	_	Number=Sing	2	nmod	_	_
 2	iklimi	iklim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0046
+# sent_id = GK10-0063
 # text = Uşak halısı
+# en = Uşak carpet (carpet made in Uşak, or in that style)
 1	Uşak	Uşak	PROPN	_	Number=Sing	2	nmod	_	_
 2	halısı	halı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0047
+# sent_id = GK10-0064
+# text = İngiliz çocukları
+# en = English/British children
+1	İngiliz	İngiliz	PROPN	_	Number=Sing	2	nmod	_	_
+2	çocukları	çocuk	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0065
+# text = Türk işçileri
+# en = Turkish workers
+1	Türk	Türk	PROPN	_	Number=Sing	2	nmod	_	_
+2	işçileri	işçi	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0066
+# text = Japon askerleri
+# en = Japanese soldiers
+1	Japon	Japon	PROPN	_	Number=Sing	2	nmod	_	_
+2	askerleri	asker	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+
+# sent_id = GK10-0067
 # text = Bir Rus sporcusu
+# en = a Russian athlete
 1	Bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 2	Rus	Rus	PROPN	_	Number=Sing	3	nmod	_	_
 3	sporcusu	sporcu	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK10-0048
+# sent_id = GK10-0068
 # text = Yunan başbakanı
+# en = the Greek prime minister
 1	Yunan	Yunan	PROPN	_	Number=Sing	2	nmod	_	_
 2	başbakanı	başbakan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0049
+# sent_id = GK10-0069
 # text = İngiliz Edebiyatı Bölümü
+# en = Department of English Literature
 1	İngiliz	İngiliz	PROPN	_	Number=Sing	2	nmod	_	_
 2	Edebiyatı	edebiyat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	Bölümü	bölüm	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0050
+# sent_id = GK10-0070
 # text = göz hastalıkları hastanesi
+# en = hospital for diseases of the eye
 1	göz	göz	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	hastalıkları	hastalık	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	hastanesi	hastane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0051
+# sent_id = GK10-0071
 # text = Türkiye Cumhuriyeti Milli Eğitim Bakanlığı Kadıköy Kız Yüksek Meslek Okulu Müdürlüğü
+# en = The Directorate of the Kadıköy Technical College for Girls under the Ministry of National Education of the Republic of Turkey
 1	Türkiye	Türkiye	PROPN	_	Number=Sing	2	nmod	_	_
 2	Cumhuriyeti	cumhuriyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 3	Milli	milli	ADJ	_	_	4	amod	_	_
@@ -265,8 +425,9 @@
 10	Okulu	okul	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nmod	_	_
 11	Müdürlüğü	müdürlük	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0052
+# sent_id = GK10-0072
 # text = Türkiye Cumhuriyeti Milli Eğitim Bakanlığı Kadıköy Kız Yüksek Meslek Okulu
+# en = Kadıköy Technical College for Girls under the Ministry of National Education of the Republic of Turkey
 1	Türkiye	Türkiye	PROPN	_	Number=Sing	2	nmod	_	_
 2	Cumhuriyeti	cumhuriyet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 3	Milli	milli	ADJ	_	_	4	amod	_	_
@@ -278,63 +439,72 @@
 9	Meslek	meslek	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	Okulu	okul	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0053
+# sent_id = GK10-0073
 # text = Kadıköy Kız Yüksek Meslek Okulu
+# en = Kadıköy Technical College for Girls
 1	Kadıköy	Kadıköy	PROPN	_	Number=Sing	5	nmod	_	_
 2	Kız	kız	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Yüksek	yüksek	ADJ	_	_	4	amod	_	_
 4	Meslek	meslek	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	Okulu	okul	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0054
+# sent_id = GK10-0074
 # text = Polonya gölge tiyatrosu
+# en = Polish shadow theatre
 1	Polonya	Polonya	PROPN	_	Number=Sing	3	nmod	_	_
 2	gölge	gölge	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	tiyatrosu	tiyatro	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0055
+# sent_id = GK10-0075
 # text = kız ve erkek çocuklar
+# en = female and male children
 1	kız	kız	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	erkek	erkek	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
 4	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK10-0056
+# sent_id = GK10-0076
 # text = İngiliz ve Alman sineması
+# en = (the) British and German cinema(s)
 1	İngiliz	İngiliz	PROPN	_	Number=Sing	4	nmod	_	_
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	Alman	Alman	PROPN	_	Number=Sing	1	conj	_	_
 4	sineması	sinema	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0057
+# sent_id = GK10-0077
 # text = İngiliz ve Alman sinemaları
+# en = (the) British and German cinemas
 1	İngiliz	İngiliz	PROPN	_	Number=Sing	4	nmod	_	_
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	Alman	Alman	PROPN	_	Number=Sing	1	conj	_	_
 4	sinemaları	sinema	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0058
+# sent_id = GK10-0078
 # text = güzel bir masa örtüsü
+# en = a beautiful tablecloth
 1	güzel	güzel	ADJ	_	_	4	amod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 3	masa	masa	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	örtüsü	örtü	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0059
+# sent_id = GK10-0079
 # text = birtakım ilginç çocuk kitapları
+# en = some interesting children’s books
 1	birtakım	birtakım	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 2	ilginç	ilginç	ADJ	_	_	4	amod	_	_
 3	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	kitapları	kitap	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0060
+# sent_id = GK10-0080
 # text = eski dışişleri bakanı
+# en = the former Foreign Secretary
 1	eski	eski	ADJ	_	_	3	amod	_	_
 2	dışişleri	dışişleri	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	bakanı	bakan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
-# sent_id = GK10-0061
+# sent_id = GK10-0081
 # text = dışişleri eski bakanı
+# en = the former Foreign Secretary
 1	dışişleri	dışişleri	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	eski	eski	ADJ	_	_	3	amod	_	_
 3	bakanı	bakan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_

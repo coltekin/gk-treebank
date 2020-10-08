@@ -1,5 +1,6 @@
 # sent_id = GK09-0001
 # text = Doktor önce hastanın gözüne mözüne baktı, sonra sorunu anlamadığını söyledi.
+# en = The doctor first checked the patient’s eyes, etc., then said that s/he didn’t understand the problem.
 1	Doktor	doktor	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 2	önce	önce	ADV	_	_	6	advmod	_	_
 3	hastanın	hasta	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
@@ -15,6 +16,7 @@
 
 # sent_id = GK09-0002
 # text = Eve çat kapı bir alıcı geldi, odaları modaları dolaştı.
+# en = Today a prospective buyer came unannounced, [and] looked around the rooms, etc.
 1	Eve	ev	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 2	çat	çat	X	_	_	6	obl	_	_
 3	kapı	kapı	NOUN	_	Case=Nom|Number=Sing	2	fixed	_	_
@@ -29,6 +31,7 @@
 
 # sent_id = GK09-0003
 # text = Soner’i moneri görmedim.
+# en = I didn’t see Soner or anyone.
 1	Soner’i	Soner	PROPN	_	Case=Acc|Number=Sing	3	obj	_	_
 2	moneri	moner	PROPN	_	Case=Acc|Number=Sing	1	compound:redup	_	_
 3	görmedim	gör	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -36,6 +39,7 @@
 
 # sent_id = GK09-0004
 # text = Ben adam tarih hocasıymış marih hocasıymış anlamam.
+# en = I don’t care if he is a history teacher or whatever. I know more about French history than he does.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 2	adam	adam	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	tarih	tarih	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
@@ -51,37 +55,135 @@
 
 # sent_id = GK09-0005
 # text = Yavaş yavaş gel.
+# en = Come (here) slowly.
 1	Yavaş	yavaş	ADV	_	_	2	compound:redup	_	_
 2	yavaş	yavaş	ADV	_	_	3	advmod	_	_
 3	gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK09-0006
+# text = Çabuk çabuk yürüdük.
+# en = We walked quickly.
+1	Çabuk	çabuk	ADV	_	_	2	compound:redup	_	_
+2	çabuk	çabuk	ADV	_	_	3	advmod	_	_
+3	yürüdük	yürü	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0007
+# text = Kapı kapı dolaşıyor.
+# en = S/he is going from door to door.
+1	Kapı	yavaş	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	kapı	yavaş	NOUN	_	Case=Nom|Number=Sing	3	obl	_	_
+3	dolaşıyor	dolaş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0010
+# text = Sabah sabah aradı.
+# en = S/he called early in the morning.
+1	Sabah	yavaş	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	sabah	yavaş	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
+3	aradı	ara	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0011
+# text = Usul usul yapmışlar.
+# en = They did slowly and quietly (withough anyone noticing).
+1	Usul	usul	ADV	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	usul	usul	ADV	_	Case=Nom|Number=Sing	3	advmod	_	_
+3	yapmışlar	ara	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0012
+# text = Rahat rahat yetişiriz.
+# en = We can catch up easily/comfortably.
+1	Rahat	rahat	ADV	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	rahat	rahat	ADV	_	Case=Nom|Number=Sing	3	advmod	_	_
+3	yetişiriz	yetiş	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0013
+# text = Birer birer gelin!
+# en = Come one by one!
+1	Birer	birer	NUM	_	NumType=Dist	2	compound:redup	_	_
+2	birer	birer	NUM	_	NumType=Dist	3	nummod	_	_
+3	gelin	gel	VERB	_	Mood=Imp|Number=Plur|Person=2	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0014
 # text = Koca koca ağaçları kesiyorlar.
+# en = They are cutting many huge trees.
 1	Koca	koca	ADJ	_	_	2	compound:redup	_	_
 2	koca	koca	ADJ	_	_	3	amod	_	_
 3	ağaçları	ağaç	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
 4	kesiyorlar	kes	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK09-0007
+# sent_id = GK09-0015
+# text = Sarı sarı evler var.
+# en = There are many (brigh/remarkably) yellow houses.
+1	Sarı	sarı	ADJ	_	_	2	compound:redup	_	_
+2	sarı	sarı	ADJ	_	_	3	amod	_	_
+3	evler	ev	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GK09-0016
+# text = Boy boy kutular almış.
+# en = S/he bought all kinds of boxes.
+1	Boy	boy	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	boy	boy	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	kutular	kutu	NOUN	_	Case=Nom|Number=Plur	4	obj	_	_
+4	almış	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GK09-0017
+# text = Boy boy kutu almış.
+# en = S/he bought all kinds of boxes.
+1	Boy	boy	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	boy	boy	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	kutu	kutu	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+4	almış	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GK09-0018
+# text = Çeşit çeşit yiyecekler getirdiler.
+# en = They brought all kinds of food.
+1	Çeşit	çeşit	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	çeşit	çeşit	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	yiyecekler	yiyecek	NOUN	_	Case=Nom|Number=Plur	4	obj	_	_
+4	getirdiler	getir	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GK09-0019
+# text = Çeşit çeşit yiyecek getirdiler.
+# en = They brought all kinds of food.
+1	Çeşit	çeşit	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
+2	çeşit	çeşit	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	yiyecek	yiyecek	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+4	getirdiler	getir	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = GK09-0020
 # text = Kutu kutu kitap taşıdık.
+# en = We carried many boxes of books.
 1	Kutu	kutu	NOUN	_	Case=Nom|Number=Sing	2	compound:redup	_	_
 2	kutu	kutu	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	taşıdık	taşı	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK09-0008
+# sent_id = GK09-0021
 # text = Adam kurnaz mı kurnaz.
+# en = The man is extremely sly.
 1	Adam	adam	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	kurnaz	kurnaz	ADJ	_	_	4	compound:redup	_	_
 3	mı	mı	ADV	_	_	2	advmod:emph	_	_
 4	kurnaz	kurnaz	ADJ	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK09-0009
+# sent_id = GK09-0022
 # text = Güzel mi güzel bir kız.
+# en = A remarkably pretty girl.
 1	Güzel	güzel	ADJ	_	_	3	compound:redup	_	_
 2	mi	mi	ADV	_	_	1	advmod:emph	_	_
 3	güzel	güzel	ADJ	_	_	5	amod	_	_
@@ -89,33 +191,54 @@
 5	kız	kız	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK09-0010
+# sent_id = GK09-0023
 # text = Yavaş mı yavaş okuyor.
+# en = S/he reads very slowly.
 1	Yavaş	yavaş	ADV	_	_	3	compound:redup	_	_
 2	mı	mı	ADV	_	_	1	advmod:emph	_	_
 3	yavaş	yavaş	ADV	_	_	4	advmod	_	_
 4	okuyor	oku	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK09-0011
+# sent_id = GK09-0024
 # text = Konu komşu yardıma geldi.
+# en = Neighbors came for help.
 1	Konu	konu	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	komşu	komşu	NOUN	_	Case=Nom|Number=Sing	1	fixed	_	_
 3	yardıma	yardım	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK09-0012
+# sent_id = GK09-0025
 # text = ufak tefek bir çocuk
+# en = a tiny child
 1	ufak	ufak	ADJ	_	_	4	amod	_	_
 2	tefek	tefek	ADJ	_	_	1	fixed	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK09-0013
+# sent_id = GK09-0026
 # text = Paldır küldür gittiler.
+# en = They went with an enourmous noise.
 1	Paldır	paldır	ADV	_	_	3	advmod	_	_
 2	küldür	küldür	ADV	_	_	1	fixed	_	_
 3	gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0027
+# text = Çoluk çocuk geldiler.
+# en = They came ‘wife and children’ (altogether)
+1	Çoluk	çoluk	NOUN	_	Case=Nom|Number=Sing	3	obl	_	_
+2	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	1	fixed	_	_
+3	geldiler	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GK09-0028
+# text = Önünde süklüm püklüm duruyordu.
+# en = S/he was standing in front of him/her in a crestfallen manner.
+1	Önünde	ön	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+2	süklüm	süklüm	ADV	_	Case=Nom|Number=Sing	4	advmod	_	_
+3	püklüm	püklüm	ADV	_	Case=Nom|Number=Sing	2	fixed	_	_
+4	duruyordu	dur	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
