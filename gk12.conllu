@@ -1,5 +1,6 @@
 # sent_id = GK12-0001
 # text = Dün okullar açıldı.
+# en = The schools opened yesterday.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	okullar	okul	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
 3	açıldı	aç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -7,6 +8,7 @@
 
 # sent_id = GK12-0002
 # text = Dün yolda giderken yıllardır görmediğim bir arkadaşıma rastladım.
+# en = Yesterday, as I was walking along the street, I ran into a friend whom I hadn’t seen for years.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	yolda	yol	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 3	giderken	giderken	VERB	_	Mood=Ind|VerbForm=Conv	9	advcl	_	_
@@ -21,6 +23,7 @@
 
 # sent_id = GK12-0003
 # text = Necla bir hafta içinde projeyi bitirecek.
+# en = Necla will complete the project within a week.
 1	Necla	Necla	PROPN	_	Number=Sing	6	nsubj	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
@@ -31,6 +34,7 @@
 
 # sent_id = GK12-0004
 # text = Bu çocuk hasta.
+# en = This child is ill.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	hasta	hasta	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -38,6 +42,8 @@
 
 # sent_id = GK12-0005
 # text = Bu gün evde kalamam.
+# gloss = _ _ _ stay-PSB-NEG.AOR-1SG
+# en = I can’t stay at home today.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	evde	ev	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
@@ -46,19 +52,42 @@
 
 # sent_id = GK12-0006
 # text = Necla öğretmen.
+# en = Necla is a teacher.
 1	Necla	Necla	PROPN	_	Number=Sing	2	nsubj	_	_
 2	öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GK12-0007
+# text = Necla öğretmendi.
+# en = Necla was a teacher.
+1	Necla	Necla	PROPN	_	Number=Sing	2	nsubj	_	_
+2-3	öğretmendi	_	_	_	_	_	_	_	SpaceAfter=No
+2	öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+3	di	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GK12-0008
+# text = Necla evdeymiş.
+# en = Apparently Necla is/was at home.
+1	Necla	Necla	PROPN	_	Number=Sing	2	nsubj	_	_
+2-3	evdeymiş	_	_	_	_	_	_	_	SpaceAfter=No
+2	evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	ymiş	i	AUX	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GK12-0009
 # text = Necla öğretmen olacaktı.
+# gloss = _ _ teacher be-FUT-P.COP
+# en = Necla was going to be a teacher.
 1	Necla	Necla	PROPN	_	Number=Sing	2	nsubj	_	_
 2	öğretmen	öğretmen	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 3	olacaktı	ol	AUX	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Tense=Fut,Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0008
+# sent_id = GK12-0010
 # text = Ben o sırada öğretmendim.
+# gloss = I at.that.time teacher-P.COP-1SG
+# en = I was a teacher at the time.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	o	o	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	sırada	sıra	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
@@ -67,16 +96,18 @@
 5	dim	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0009
+# sent_id = GK12-0011
 # text = Biraz yorgundum.
+# en = I was rather tired.
 1	Biraz	biraz	ADV	_	_	2	advmod	_	_
 2-3	yorgundum	_	_	_	_	_	_	_	SpaceAfter=No
 2	yorgun	yorgun	ADJ	_	_	0	root	_	_
 3	dum	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0010
+# sent_id = GK12-0012
 # text = Siz çok iyi bir doktorsunuz.
+# en = You’re a very good doctor
 1	Siz	siz	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 2	çok	çok	ADV	_	_	3	advmod	_	_
 3	iyi	iyi	ADJ	_	_	5	amod	_	_
@@ -86,16 +117,18 @@
 6	sunuz	i	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0011
+# sent_id = GK12-0013
 # text = Sözüm sanaydı.
+# en = My words were for you.
 1	Sözüm	söz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
 2-3	sanaydı	_	_	_	_	_	_	_	SpaceAfter=No
 2	sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	0	root	_	_
 3	ydı	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0012
+# sent_id = GK12-0014
 # text = Herkes ona karşıymış.
+# en = Apparently, everyone is/was against him/her.
 1	Herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 3-4	karşıymış	_	_	_	_	_	_	_	SpaceAfter=No
@@ -103,15 +136,19 @@
 4	ymış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0013
+# sent_id = GK12-0015
 # text = Dün evde değildik.
+# gloss = _ home-LOC not-P.COP-1PL
+# en = We weren’t at home yesterday.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	değildik	değil	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0014
+# sent_id = GK12-0016
 # text = Buzdolabında iki şişe bira var.
+# gloss = fridge-LOC two bottle beer existent
+# en = There are two bottles of beer in the fridge.
 1	Buzdolabında	buzdolabı	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	şişe	şişe	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
@@ -119,8 +156,10 @@
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0015
+# sent_id = GK12-0017
 # text = O gün ben yoktum.
+# gloss = that day I non.existent-P.COP-1SG
+# en = I wasn’t there on that day.
 1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -129,24 +168,28 @@
 5	tum	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0016
+# sent_id = GK12-0018
 # text = Bende bir kitap var.
+# gloss = I-LOC _ _ _
+# en = I have a book.
 1	Bende	ben	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0017
+# sent_id = GK12-0019
 # text = Bu kitap bende var.
+# en = I have this book.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	bende	ben	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0018
+# sent_id = GK12-0020
 # text = Banyoda Murat vardı.
+# en = Murat was in the bathroom.
 1	Banyoda	banyo	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 2	Murat	Murat	PROPN	_	Number=Sing	3	nsubj	_	_
 3-4	vardı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -154,16 +197,19 @@
 4	dı	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0019
+# sent_id = GK12-0021
 # text = Murat banyodaydı.
+# en = Murat was in the bathroom.
 1	Murat	Murat	PROPN	_	Number=Sing	2	nsubj	_	_
 2-3	banyodaydı	_	_	_	_	_	_	_	SpaceAfter=No
 2	banyoda	banyo	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	ydı	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0020
+# sent_id = GK12-0022
 # text = Aytenin İstanbul’da iki arkadaşı var.
+# gloss = Ayten-GEN _  two friend-3SG.POSS
+# en = Ayten has two friends in Istanbul.
 1	Aytenin	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
 2	İstanbul’da	İstanbul	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
@@ -171,8 +217,10 @@
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0021
+# sent_id = GK12-0023
 # text = İstanbul’da Aytenin iki arkadaşı var.
+# gloss = _ Ayten-GEN two friend-3SG.POSS _ 
+# en = Ayten has two friends in Istanbul.
 1	İstanbul’da	İstanbul	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	Aytenin	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
 3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
@@ -180,8 +228,9 @@
 5	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0022
+# sent_id = GK12-0024
 # text = O gün paramız yoktu.
+# en = We had no money that day.
 1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	paramız	para	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	4	nsubj	_	_
@@ -190,39 +239,44 @@
 5	tu	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0023
+# sent_id = GK12-0025
 # text = Benim bir kitabım var.
+# en = I have a book.
 1	Benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	kitabım	kitap	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0024
+# sent_id = GK12-0026
 # text = Masanın üç ayağı var.
+# en = The table has three legs.
 1	Masanın	masa	NOUN	_	Case=Gen|Number=Sing	4	obl	_	_
 2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
 3	ayağı	ayak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0025
+# sent_id = GK12-0027
 # text = Shakespeare’in birçok oyunu var.
+# en = Shakespeare has [written] many plays.
 1	Shakespeare’in	Shakespeare	PROPN	_	Case=Gen|Number=Sing	4	obl	_	_
 2	birçok	birçok	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	oyunu	oyun	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0026
+# sent_id = GK12-0028
 # text = Murat’ın yatı var.
+# en = Murat has a yacht.
 1	Murat’ın	Murat	PROPN	_	Case=Gen|Number=Sing	3	obl	_	_
 2	yatı	yat	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0027
+# sent_id = GK12-0029
 # text = Nejat’ta sadece 10 dolar varmış.
+# en = It seems Nejat only has 10 dollars [on him].
 1	Nejat’ta	Nejat	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	sadece	sadece	ADV	_	_	5	advmod	_	_
 3	10	10	NUM	_	NumType=Card	4	nummod	_	_
@@ -232,24 +286,28 @@
 6	mış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0028
+# sent_id = GK12-0030
 # text = Murat’ta bu resim var.
+# en = Murat has this picture.
 1	Murat’ta	murat	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	resim	resim	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0029
+# sent_id = GK12-0031
 # text = Murat’ta bir resim var.
+# en = Murat has a picture.
 1	Murat’ta	murat	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	resim	resim	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	var	var	ADJ	_	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0030
+# sent_id = GK12-0032
 # text = Buranın adı Koyundere’ymiş.
+# gloss = _ _ Koyundere-EV.COP
+# en = I am told that this place is called Koyundere.
 1	Buranın	bura	PRON	_	Case=Gen|Number=Sing|PronType=Dem	2	nmod	_	_
 2	adı	ad	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	Koyundere’ymiş	_	_	_	_	_	_	_	SpaceAfter=No
@@ -257,15 +315,18 @@
 4	’ymiş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0031
+# sent_id = GK12-0033
 # text = Ahmet eve gittiyse…
+# gloss = _ _ go-PF-COND.COP
+# en = If Ahmet has gone home...
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	3	nsubj	_	_
 2	eve	ev	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	gittiyse	git	VERB	_	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	…	…	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0032
+# sent_id = GK12-0034
 # text = Bu bina eskiden okulmuş.
+# en = This building used to be a school.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	bina	bina	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	eskiden	eskiden	ADV	_	_	4	advmod	_	_
@@ -274,51 +335,65 @@
 5	muş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0033
+# sent_id = GK12-0035
 # text = Bugün işte olacağım.
+# gloss = today work-LOC be-FUT-1SG
+# en = I shall be at work today.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olacağım	ol	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0034
+# sent_id = GK12-0036
 # text = Her gün işte oluyorum.
+# gloss = every day work-LOC be-IMPF-1SG
+# I am at work every day.
 1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	gün	gün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
 3	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 4	oluyorum	ol	AUX	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0035
+# sent_id = GK12-0037
 # text = Bugün işte olmalıydım.
+# gloss = _ work-LOC be-OBLG-P.COP-1SG
+# en = I should have been at work today.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olmalıydım	ol	AUX	_	Mood=Nec|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0036
+# sent_id = GK12-0038
 # text = Bugün işte olabilirdim.
+# gloss = _ work-LOC be-PSB-AOR-P.COP-1SG
+# en = I could have been at work today.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olabilirdim	ol	AUX	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0037
+# sent_id = GK12-0039
 # text = Bugün işte olurum.
+# glosss = _ work-LOC be-AOR-1SG
+# en = I will be at work today.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 3	olurum	ol	AUX	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0038
+# sent_id = GK12-0040
 # text = bugün işte olan kadın
+# gloss = _ work-LOC be-PART woman
+# en = the woman who is/was at work today
 1	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	2	obl:tmod	_	_
 2	işte	iş	NOUN	_	Case=Loc|Number=Sing	4	acl	_	_
 3	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	2	cop	_	_
 4	kadın	kadın	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK12-0039
+# sent_id = GK12-0041
 # text = Eskiden bütün otobüslerde biletçi olurdu.
+# gloss = _ _ _ _ be-AOR-P.COP
+# en = There used to be a conductor on all the buses.
 1	Eskiden	eskiden	ADV	_	_	5	advmod	_	_
 2	bütün	bütün	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	otobüslerde	otobüs	NOUN	_	Case=Loc|Number=Plur	5	obl	_	_
@@ -326,8 +401,10 @@
 5	olurdu	ol	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0040
+# sent_id = GK12-0042
 # text = Daha büyük bir arabamız olsa keşke.
+# gloss = _ _ _ _ be-COND _
+# en = If only we had a larger car.
 1	Daha	daha	ADV	_	_	2	advmod	_	_
 2	büyük	büyük	ADJ	_	_	4	amod	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
@@ -336,43 +413,51 @@
 6	keşke	keşke	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0041
+# sent_id = GK12-0043
 # text = evde su olmadığı zaman
+# gloss = house-LOC water exist-NEG-CV-3SG.POSS time
+# en = when there isn’t any water in the house
 1	evde	ev	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 2	su	su	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	olmadığı	olmadık	VERB	_	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	4	acl	_	_
 4	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK12-0042
+# sent_id = GK12-0044
 # text = Evde su yok.
+# en = There is no water in the house.
 1	Evde	ev	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 2	su	su	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0043
+# sent_id = GK12-0045
 # text = bahçesi olan ev
+# gloss = garden-3SG.POSS exist-PART house
+# en = the house that has a garden
 1	bahçesi	bahçe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	acl	_	_
 2	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Part	1	cop	_	_
 3	ev	ev	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
-# sent_id = GK12-0044
+# sent_id = GK12-0046
 # text = Evin bahçesi var.
+# en = The house has a garden.
 1	Evin	ev	NOUN	_	Case=Gen|Number=Sing	3	obl	_	_
 2	bahçesi	bahçe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0045
+# sent_id = GK12-0047
 # text = Ben o adamı sevmiyorum.
+# en = I don’t like that man.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	o	o	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	adamı	adam	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 4	sevmiyorum	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0046
+# sent_id = GK12-0048
 # text = Her yıl bu kentte iki bin beş yüz yeni bina yapılıyor.
+# en = Every year two thousand five hundred new buildings are constructed in this town.
 1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
 3	bu	bu	DET	_	Definite=Def|PronType=Art	4	det	_	_
@@ -386,8 +471,9 @@
 11	yapılıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = GK12-0047
+# sent_id = GK12-0049
 # text = Jale’nin işten çıkartıldığı doğru değilmiş.
+# en =Apparently it’s not true that Jale has been dismissed from her job.
 1	Jale’nin	Jale	PROPN	_	Case=Gen|Number=Sing	3	nsubj	_	_
 2	işten	iş	NOUN	_	Case=Abl|Number=Sing	3	obl	_	_
 3	çıkartıldığı	çık	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part|Voice=CauPass	4	ccomp	_	_
@@ -395,23 +481,28 @@
 5	değilmiş	değil	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0048
+# sent_id = GK12-0050
 # text = Ben yorgunum.
+# gloss = I tired-1SG
+# en = I’m tired.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2-3	yorgunum	_	_	_	_	_	_	_	SpaceAfter=No
 2	yorgun	yorgun	ADJ	_	_	0	root	_	_
 3	um	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0049
+# sent_id = GK12-0051
 # text = Yorgunum.
+# gloss = tired-1SG
+# en = I’m tired.
 1-2	Yorgunum	_	_	_	_	_	_	_	SpaceAfter=No
 1	Yorgun	yorgun	ADJ	_	_	0	root	_	_
 2	um	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK12-0050
+# sent_id = GK12-0052
 # text = Siz yeni komşularımızla tanıştınız mı?
+# en = Have you met our new neighbours?
 1	Siz	siz	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	yeni	yeni	ADJ	_	_	3	amod	_	_
 3	komşularımızla	komşu	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Plur|Person[psor]=1	4	obl	_	_
@@ -419,49 +510,56 @@
 5	mı	mi	AUX	_	PronType=Int	4	aux:q	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0051
+# sent_id = GK12-0053
 # text = Yeni komşularımızla tanıştınız mı?
+# en = Have you met our new neighbours?
 1	Yeni	yeni	ADJ	_	_	2	amod	_	_
 2	komşularımızla	komşu	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Plur|Person[psor]=1	3	obl	_	_
 3	tanıştınız	tanı	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	_
 4	mı	mi	AUX	_	PronType=Int	3	aux:q	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0052
+# sent_id = GK12-0054
 # text = Annem yorgun.
+# en = My mother’s tired.
 1	Annem	anne	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
 2	yorgun	yorgun	ADJ	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0053
+# sent_id = GK12-0055
 # text = Ahmet hiçbir şey yapmadı.
+# en = Ahmet hasn’t done anything at all.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	4	nsubj	_	_
 2	hiçbir	hiçbir	DET	_	Definite=Ind|Polarity=Neg|PronType=Art	3	det	_	_
 3	şey	şey	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	yapmadı	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0054
+# sent_id = GK12-0056
 # text = Öğleden sonra bize gelsin.
+# en = Let him/her come round to us this afternoon.
 1	Öğleden	öğle	NOUN	_	Case=Abl|Number=Sing	4	obl:tmod	_	_
 2	sonra	sonra	ADP	_	_	1	case	_	_
 3	bize	biz	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 4	gelsin	gel	VERB	_	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0055
+# sent_id = GK12-0057
 # text = Annen nasıl?
+# en = How’s your mother?
 1	Annen	anne	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 2	nasıl	nasıl	ADJ	_	Case=Nom|PronType=Int	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0056
+# sent_id = GK12-0058
 # text = Yorgun.
+# en = (She’s) tired.
 1	Yorgun	yorgun	ADJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = GK12-0057
+# sent_id = GK12-0059
 # text = Anadolu halkı denizden çok dağları bilir.
+# en = The people of Anatolia are more familiar with mountains than with the sea.
 1	Anadolu	Anadolu	PROPN	_	Number=Sing	2	nmod	_	_
 2	halkı	halk	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 3	denizden	deniz	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
@@ -470,8 +568,9 @@
 6	bilir	bil	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0058
+# sent_id = GK12-0060
 # text = Selim Bey evdeler mi acaba?
+# en = Is Selim Bey at home, I wonder?
 1	Selim	Selim	PROPN	_	Number=Sing	2	nmod	_	_
 2	Bey	bey	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3-4	evdeler	_	_	_	_	_	_	_	_
@@ -481,14 +580,16 @@
 6	acaba	acaba	ADV	_	_	3	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0059
+# sent_id = GK12-0061
 # text = Bodrum’a gittiler.
+# en = They’ve gone to Bodrum.
 1	Bodrum’a	Bodrum	PROPN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0060
+# sent_id = GK12-0062
 # text = Dün çok yorgundular.
+# en = Yesterday they were very tired.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	çok	çok	ADV	_	_	3	advmod	_	_
 3-4	yorgundular	_	_	_	_	_	_	_	SpaceAfter=No
@@ -496,8 +597,9 @@
 4	dular	i	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0061
+# sent_id = GK12-0063
 # text = Bu sınıfta elli iki öğrenci var.
+# en = There are fifty-two pupils in this class.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	sınıfta	sınıf	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
 3	elli	elli	NUM	_	NumType=Card	4	compound	_	_
@@ -506,8 +608,9 @@
 6	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0062
+# sent_id = GK12-0064
 # text = Dün otuz üç mektup geldi.
+# Yesterday thirty-three letters came.
 1	Dün	dün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 2	otuz	otuz	NUM	_	NumType=Card	3	compound	_	_
 3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
@@ -515,8 +618,9 @@
 5	geldi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0063
+# sent_id = GK12-0065
 # text = Yarışmacılar arasından iki üç kişi, jürinin ısrarına rağmen yaşlarını söylememiş.
+# en = Two or three of the competitors, despite insistent requests from the judges, have apparently not stated their ages.
 1	Yarışmacılar	yarışmacı	NOUN	_	Case=Nom|Number=Plur	5	nmod:part	_	_
 2	arasından	arasından	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
 3	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
@@ -530,16 +634,18 @@
 11	söylememiş	söyle	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = GK12-0064
+# sent_id = GK12-0066
 # text = İki kızkardeş seyahate gittiler.
+# em = They went on holiday, [just] two sisters [together].
 1	İki	iki	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	kızkardeş	kızkardeş	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 3	seyahate	seyahat	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	gittiler	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0065
+# sent_id = GK12-0067
 # text = Bazı arkadaşlarımız bu fikre katılmadı.
+# en = Some of our colleagues didn’t agree with this idea.
 1	Bazı	bazı	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	arkadaşlarımız	arkadaş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	5	nsubj	_	_
 3	bu	bu	DET	_	Definite=Def|PronType=Art	4	det	_	_
@@ -547,64 +653,72 @@
 5	katılmadı	katıl	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0066
+# sent_id = GK12-0068
 # text = Senin çocuklar burada değiller.
+# en = Your children are not here.
 1	Senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
 2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
 3	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 4	değiller	değil	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0067
+# sent_id = GK12-0069
 # text = Öğrenciler sürekli aralarında konuşuyorlardı.
+# en = The students were talking among themselves all the time.
 1	Öğrenciler	öğrenci	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	sürekli	sürekli	ADV	_	_	4	advmod	_	_
 3	aralarında	aralarında	ADP	_	Number[psor]=Plur|Person[psor]=3	4	obl	_	_
 4	konuşuyorlardı	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0068
+# sent_id = GK12-0070
 # text = Köpekler geceleri hep havlarlardı.
+# en = At night the dogs would always bark.
 1	Köpekler	köpek	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	geceleri	gece	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 3	hep	hep	ADV	_	_	4	advmod	_	_
 4	havlarlardı	havla	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0069
+# sent_id = GK12-0071
 # text = Köpekler geceleri hep havlardı.
+# en = At night the dogs would always bark.
 1	Köpekler	köpek	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	geceleri	gece	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 3	hep	hep	ADV	_	_	4	advmod	_	_
 4	havlardı	havla	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0070
+# sent_id = GK12-0072
 # text = Ağaçlar artık yapraklarını döküyordu.
+# en = By now the trees were shedding their leaves.
 1	Ağaçlar	ağaç	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	artık	artık	ADV	_	_	4	advmod	_	_
 3	yapraklarını	yaprak	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	4	obj	_	_
 4	döküyordu	dök	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0071
+# sent_id = GK12-0073
 # text = Ağaçlar artık yapraklarını döküyorlardı.
+# en = By now the trees were shedding their leaves.
 1	Ağaçlar	ağaç	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	artık	artık	ADV	_	_	4	advmod	_	_
 3	yapraklarını	yaprak	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	4	obj	_	_
 4	döküyorlardı	dök	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0072
+# sent_id = GK12-0074
 # text = Arabalar çok hızlı geçiyordu.
+# en = The cars were speeding past.
 1	Arabalar	araba	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	çok	çok	ADV	_	_	3	advmod	_	_
 3	hızlı	hızlı	ADV	_	_	4	advmod	_	_
 4	geçiyordu	geç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0073
+# sent_id = GK12-0075
 # text = Buradaki odalar banyoluymuş.
+# en = Apparently the rooms here have ensuite facilities.
 1-2	Buradaki	_	_	_	_	_	_	_	_
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	3	nmod	_	_
 2	ki	ki	ADP	_	_	1	case	_	_
@@ -615,31 +729,35 @@
 6	ymuş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 7	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0074
+# sent_id = GK12-0076
 # text = Anahtarlar buraya bırakılıyor.
+# en = The keys are left here.
 1	Anahtarlar	anahtar	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
 2	buraya	bura	PRON	_	Case=Dat|Number=Sing|PronType=Dem	3	obl	_	_
 3	bırakılıyor	bırak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0075
+# sent_id = GK12-0077
 # text = Bu resimleri çocuklar yapmış.
+# en = (The) children painted these pictures.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	resimleri	resim	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
 3	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	yapmış	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0076
+# sent_id = GK12-0078
 # text = Bu resimleri çocuklar yapmışlar.
+# en = The children painted these pictures.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	resimleri	resim	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
 3	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 4	yapmışlar	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0077
+# sent_id = GK12-0079
 # text = Birçok kişi çocukluğunu pek düşünmez.
+# en = Many people don’t think much about their childhood.
 1	Birçok	birçok	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 3	çocukluğunu	çocukluk	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
@@ -647,8 +765,9 @@
 5	düşünmez	düşün	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0078
+# sent_id = GK12-0080
 # text = Hepimiz tatilde deniz kıyısına gidiyoruz.
+# en = All of us go to the seaside in the vacation.
 1	Hepimiz	hepimiz	PRON	_	Case=Nom|Number=Sing|PronType=Prs	5	nsubj	_	_
 2	tatilde	tatil	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
@@ -656,8 +775,9 @@
 5	gidiyoruz	git	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0079
+# sent_id = GK12-0081
 # text = Oyuncuların hepsi yeni kostümler istiyorlar.
+# en = All the actors want new costumes.
 1	Oyuncuların	oyuncu	NOUN	_	Case=Gen|Number=Plur	2	nmod:part	_	_
 2	hepsi	hepsi	PRON	_	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	_
 3	yeni	yeni	ADJ	_	_	4	amod	_	_
@@ -665,53 +785,60 @@
 5	istiyorlar	iste	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0080
+# sent_id = GK12-0082
 # text = Hiçbirimiz bugün sokağa çıkmadı.
+# en = None of us went out today.
 1	Hiçbirimiz	hiçbirimiz	PRON	_	Case=Nom|Number=Sing|Polarity=Neg|PronType=Prs	4	nsubj	_	_
 2	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	sokağa	sokak	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	çıkmadı	çık	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0081
+# sent_id = GK12-0083
 # text = Hiçbirimiz bugün sokağa çıkmadık.
+# en = None of us went out today.
 1	Hiçbirimiz	hiçbirimiz	PRON	_	Case=Nom|Number=Sing|Polarity=Neg|PronType=Prs	4	nsubj	_	_
 2	bugün	bugün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	sokağa	sokak	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	çıkmadık	çık	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0082
+# sent_id = GK12-0084
 # text = Neden hiçbiriniz evde değilsiniz?
+# en = Why are none of you at home today?
 1	Neden	neden	ADV	_	PronType=Int	3	advmod	_	_
 2	hiçbiriniz	hiçbiriniz	PRON	_	Case=Nom|Number=Sing|Polarity=Neg|PronType=Prs	3	nsubj	_	_
 3	evde	ev	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 4	değilsiniz	değil	AUX	_	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0083
+# sent_id = GK12-0085
 # text = Hiçbiri gelmeyecek.
+# en = None of them is going to come.
 1	Hiçbiri	hiçbiri	PRON	_	Case=Nom|Number=Sing|Polarity=Neg|PronType=Ind	2	nsubj	_	_
 2	gelmeyecek	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0084
+# sent_id = GK12-0086
 # text = Bazılarımız bu konudan hoşlanmıyoruz.
+# en = Some of us don’t like this topic.
 1	Bazılarımız	bazılarımız	PRON	_	Case=Nom|Number=Sing|PronType=Prs	4	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	konudan	konu	NOUN	_	Case=Abl|Number=Sing	4	obl	_	_
 4	hoşlanmıyoruz	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0085
+# sent_id = GK12-0087
 # text = Kiminiz burada değildiniz.
+# en = Some of you weren’t here.
 1	Kiminiz	kiminiz	PRON	_	Case=Nom|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	0	root	_	_
 3	değildiniz	değil	AUX	_	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Past|VerbForm=Fin	2	aux	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0086
+# sent_id = GK12-0088
 # text = Bazıları evde yoktu.
+# en = Some of them weren’t at home.
 1	Bazıları	bazıları	PRON	_	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	evde	ev	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 3-4	yoktu	_	_	_	_	_	_	_	SpaceAfter=No
@@ -719,8 +846,9 @@
 4	tu	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 5	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0087
+# sent_id = GK12-0089
 # text = Arkadaşlarımla ben bu akşam dışarı çıkmıyoruz.
+# en = My friends and I aren’t going out tonight.
 1	Arkadaşlarımla	arkadaş	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
 2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 3	bu	bu	DET	_	Definite=Def|PronType=Art	4	det	_	_
@@ -729,8 +857,9 @@
 6	çıkmıyoruz	çık	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0088
+# sent_id = GK12-0090
 # text = Sen ve arkadaşların Almanya’ya hangi yıl gittiniz?
+# en = What year did you and your friends go to Germany?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 2	ve	ve	CCONJ	_	_	3	cc	_	_
 3	arkadaşların	arkadaş	NOUN	_	Case=Gen|Number=Plur	1	conj	_	_
@@ -740,8 +869,9 @@
 7	gittiniz	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	7	punct	_	_
 
-# sent_id = GK12-0089
+# sent_id = GK12-0091
 # text = Ya Ahmet ya siz ya da ben hazırlıklara gönüllü katılmalıyız.
+# en = Either Ahmet or you or I must volunteer for the preparations.
 1	Ya	ya	CCONJ	_	_	2	cc	_	_
 2	Ahmet	Ahmet	PROPN	_	Number=Sing	11	nsubj	_	_
 3	ya	ya	CCONJ	_	_	4	cc	_	_
@@ -756,8 +886,9 @@
 11	katılmalıyız	katıl	VERB	_	Mood=Nec|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = GK12-0090
+# sent_id = GK12-0092
 # text = Ne Ayşe ne ben yalandan hoşlanmıyoruz.
+# en = Neither Ayşe nor I like lying.
 1	Ne	ne	CCONJ	_	_	2	cc	_	_
 2	Ayşe	Ayşe	PROPN	_	Number=Sing	6	nsubj	_	_
 3	ne	ne	CCONJ	_	_	4	cc	_	_
@@ -766,8 +897,9 @@
 6	hoşlanmıyoruz	hoşlan	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0091
+# sent_id = GK12-0093
 # text = Sen ya da Ahmet, bugün oraya gidip bu işi bitirin.
+# en = You or Ahmet should go there and finish it off today.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 2	ya	ya	CCONJ	_	_	4	cc	_	_
 3	da	de	CCONJ	_	_	2	fixed	_	_
@@ -781,16 +913,18 @@
 11	bitirin	bit	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
-# sent_id = GK12-0092
+# sent_id = GK12-0094
 # text = Annemle babam üniversitede tanışmış.
+# en = My mother and father met at university.
 1	Annemle	anne	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 2	babam	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	conj	_	_
 3	üniversitede	üniversite	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 4	tanışmış	tanı	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0093
+# sent_id = GK12-0095
 # text = Bulaşıkla çamaşır mutlaka birer makine ister.
+# en = Dish washing and laundry definitely each require a machine.
 1	Bulaşıkla	bulaşık	NOUN	_	Case=Ins|Number=Sing	6	nsubj	_	_
 2	çamaşır	çamaşır	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
 3	mutlaka	mutlaka	ADV	_	_	6	advmod	_	_
@@ -799,29 +933,9 @@
 6	ister	iste	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0094
-# text = Ahmet’le dün deniz kenarında yürüyüş yaptık.
-1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	6	nmod	_	_
-2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
-3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
-4	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
-5	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
-6	yaptık	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	_
-
-# sent_id = GK12-0095
-# text = Ahmet’le ben dün deniz kenarında yürüyüş yaptık.
-1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
-2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
-3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
-6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
-7	yaptık	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	_
-
 # sent_id = GK12-0096
 # text = Ahmet’le dün deniz kenarında yürüyüş yaptık.
+# en = Yesterday Ahmet and I went for a walk on the seashore.
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	6	nmod	_	_
 2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -831,7 +945,20 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK12-0097
+# text = Ahmet’le ben dün deniz kenarında yürüyüş yaptık.
+# en = Yesterday Ahmet and I went for a walk on the seashore. / Yesterday we and Ahmet went for a walk on the seashore.
+1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
+2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
+3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
+4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
+6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	yaptık	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = GK12-0098
 # text = Ben Ahmet’le dün deniz kenarında yürüyüş yaptım.
+# en = Yesterday Ahmet and I went for a walk on the seashore. 
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
@@ -841,54 +968,67 @@
 7	yaptım	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = GK12-0098
+# sent_id = GK12-0099
 # text = Ayşe benim.
+# gloss = Ayşe I-1SG
+# en = I am Ayşe.
 1	Ayşe	Ayşe	PROPN	_	Number=Sing	2	nsubj	_	_
 2-3	benim	_	_	_	_	_	_	_	SpaceAfter=No
 2	ben	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 3	im	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0099
+# sent_id = GK12-0100
 # text = Ayşe benim.
+# gloss = Ayşe I-1SG.POSS
+# en = Ayşe is mine.
 1	Ayşe	Ayşe	PROPN	_	Number=Sing	2	nsubj	_	_
 2	benim	ben	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0100
+# sent_id = GK12-0101
 # text = Ben Ayşeyim.
+# gloss = I Ayşe-1SG
+# en = I am Ayşe.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2-3	Ayşeyim	_	_	_	_	_	_	_	SpaceAfter=No
 2	Ayşe	Ayşe	PROPN	_	Number=Sing	0	root	_	_
 3	yim	i	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0101
+# sent_id = GK12-0102
 # text = Maç birazdan başlayacak deniyor.
+# gloss = match soon start-FUT say-PASS-IMPF
+# en = It is said that the match will be starting soon.
 1	Maç	maç	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	birazdan	birazdan	ADV	_	_	3	advmod	_	_
 3	başlayacak	başla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	csubj	_	_
 4	deniyor	de	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0102
+# sent_id = GK12-0103
 # text = Çocuğun babası kim bilinmiyor.
+# en = It’s not known who the father of the child is. (lit. ‘[Who is the father of the child] is not known.’)
 1	Çocuğun	çocuk	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	kim	kim	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	csubj	_	_
 4	bilinmiyor	bil	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0103
+# sent_id = GK12-0104
 # text = Maçın birazdan başlayacağı söyleniyor.
+# gloss = match-GEN soon start-SUB-3SG.POSS
+# en = It is said that the match will be starting soon.
 1	Maçın	maç	NOUN	_	Case=Gen|Number=Sing	3	nsubj	_	_
 2	birazdan	birazdan	ADV	_	_	3	advmod	_	_
 3	başlayacağı	başla	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Fin	4	csubj	_	_
 4	söyleniyor	söyle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0104
+# sent_id = GK12-0105
 # text = Maç başlayınca herkes ayağa fırladı.
+# gloss = match start-SUB _ _ _
+# en = When the match started everyone jumped to their feet.
 1	Maç	maç	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	başlayınca	başlayınca	VERB	_	Mood=Ind|VerbForm=Conv	5	advcl	_	_
 3	herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -896,8 +1036,10 @@
 5	fırladı	fırla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0105
+# sent_id = GK12-0106
 # text = Maçı izleyen kişiler yağmurdan sırılsıklam olmuşlar.
+# gloss = match-ACC watch-SUB _ _ _ _
+# en = The people [who watched the match] got soaked.
 1	Maçı	maç	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 2	izleyen	izleyen	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	kişiler	kişi	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
@@ -906,8 +1048,9 @@
 6	olmuşlar	ol	AUX	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0106
+# sent_id = GK12-0107
 # text = Maç birazdan başlayacak diye biliyorduk.
+# en = We thought (that) the match would be starting soon.
 1	Maç	maç	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	birazdan	birazdan	ADV	_	_	3	advmod	_	_
 3	başlayacak	başla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
@@ -915,8 +1058,10 @@
 5	biliyorduk	bil	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0107
+# sent_id = GK12-0108
 # text = Füsun bu kitapları öğretmenlik yaparken kullanmıştı.
+# gloss = Füsun this book-PL-ACC teaching do-AOR-SUB use-PF-P.COP
+# en = Füsun used these books when she was working as a teacher.
 1	Füsun	Füsun	PROPN	_	Number=Sing	6	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	kitapları	kitap	NOUN	_	Case=Acc|Number=Plur	6	obj	_	_
@@ -925,8 +1070,10 @@
 6	kullanmıştı	kullan	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0108
+# sent_id = GK12-0109
 # text = Füsunun bu kitapları kullandığını duyan kişiler
+# gloss = Füsun-GEN this book-PL-ACC use-SUB-3SG.POSS-ACC hear-SUB people
+# en = the people who heard that Füsun was using these books
 1	Füsunun	Füsun	PROPN	_	Case=Gen|Number=Sing	4	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	kitapları	kitap	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
@@ -934,16 +1081,19 @@
 5	duyan	duyan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	6	acl	_	_
 6	kişiler	kişi	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = GK12-0109
+# sent_id = GK12-0110
 # text = Füsun’un kullanılmıyor diye kitapları satması
+# gloss = Füsun-GEN use-PASS-NEG-IMPF SUB book-PL-ACC sell-SUB-3SG.POSS
+# en = Füsun’s selling the books on the grounds that they were not being used
 1	Füsun’un	Füsun	PROPN	_	Case=Gen|Number=Sing	5	nsubj	_	_
 2	kullanılmıyor	kullan	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl	_	_
 3	diye	diye	SCONJ	_	_	2	mark	_	_
 4	kitapları	kitap	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
 5	satması	sat	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	0	root	_	_
 
-# sent_id = GK12-0110
+# sent_id = GK12-0111
 # text = Köyde Bayram’ın ailesi zengin sayılıyormuş.
+# en = In the village Bayram’s family is apparently considered rich.
 1	Köyde	köy	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	Bayram’ın	bayram	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 3	ailesi	aile	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
@@ -951,8 +1101,9 @@
 5	sayılıyormuş	say	VERB	_	Aspect=Prog|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0111
+# sent_id = GK12-0112
 # text = Bayram’ın ailesinin diğer köylülerden daha çok toprağı var.
+# en = Bayram’s family has more land than the other villagers.
 1	Bayram’ın	bayram	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	ailesinin	aile	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 3	diğer	diğer	DET	_	Definite=Def|PronType=Art	4	det	_	_
@@ -963,8 +1114,9 @@
 8	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = GK12-0112
+# sent_id = GK12-0113
 # text = Saat ikiden sonra beni telefonla ara.
+# en = Ring me after two o’clock.
 1	Saat	saat	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	ikiden	iki	NUM	_	Case=Abl|Number=Sing|NumType=Card	6	obl:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
@@ -973,23 +1125,26 @@
 6	ara	ara	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = GK12-0113
+# sent_id = GK12-0114
 # text = Bu akşam dışarda yiyelim.
+# en = Let’s eat out this evening.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	dışarda	dışarı	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 4	yiyelim	ye	VERB	_	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0114
+# sent_id = GK12-0115
 # text = Çabuk bitirseler bari.
+# en = I hope at least they finish quickly.
 1	Çabuk	çabuk	ADV	_	_	2	advmod	_	_
 2	bitirseler	bit	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	_
 3	bari	bari	ADV	_	_	2	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = GK12-0115
+# sent_id = GK12-0116
 # text = Burası ne güzel bir yer!
+# en = What a beautiful place this is!
 1	Burası	bura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Dem	5	nsubj	_	_
 2	ne	ne	ADV	_	PronType=Int	3	advmod	_	_
 3	güzel	güzel	ADJ	_	_	5	amod	_	_
@@ -997,15 +1152,17 @@
 5	yer	yer	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	5	punct	_	_
 
-# sent_id = GK12-0116
+# sent_id = GK12-0117
 # text = Ay nasıl güldük!
+# en = Oh, how we laughed!
 1	Ay	ay	INTJ	_	_	3	discourse	_	_
 2	nasıl	nasıl	ADV	_	PronType=Int	3	advmod	_	_
 3	güldük	gül	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0117
+# sent_id = GK12-0118
 # text = Su o kadar soğuktu ki!
+# The water was so cold!
 1	Su	su	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	o	o	PRON	_	Case=Nom|Number=Sing|PronType=Dem	4	nmod	_	_
 3	kadar	kadar	ADP	_	_	2	case	_	_
@@ -1015,16 +1172,18 @@
 6	ki	ki	ADV	_	_	4	advmod:emph	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	4	punct	_	_
 
-# sent_id = GK12-0118
+# sent_id = GK12-0119
 # text = Çocuğu öylesine seviyor ki…
+# en = S/he loves the child so much...
 1	Çocuğu	çocuk	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 2	öylesine	öylesine	ADV	_	_	3	advmod	_	_
 3	seviyor	sev	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ki	ki	ADV	_	_	3	advmod:emph	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	3	punct	_	_
 
-# sent_id = GK12-0119
+# sent_id = GK12-0120
 # text = Pek de tatlı bir oğlunuz varmış!
+# en = What a sweet son you have!
 1	Pek	pek	ADV	_	_	3	advmod	_	_
 2	de	de	ADV	_	_	1	advmod:emph	_	_
 3	tatlı	tatlı	ADJ	_	_	5	amod	_	_
