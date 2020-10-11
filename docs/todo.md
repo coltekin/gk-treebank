@@ -1,6 +1,10 @@
 ### TODO
 
 - Add gloss and translation
+- üstünde/altında/... as NOUN instead of ADP
+- How to annotate 'Ablamlar', i.e., distinguish it from 'Ablalarım'
+- add obl:arg?
+- revise -li: case vs. nmod
 - Revise/rethink the cases of '-si derived' pronouns
 - Revise/document `advmod`s of `ADP` (biraz sonra)
 - GK14-0190: 'bazen .. bazen' coordination?
