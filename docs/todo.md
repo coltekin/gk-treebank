@@ -2,6 +2,8 @@
 
 - Add gloss and translation
 - üstünde/altında/... as NOUN instead of ADP
+- Add more variation to proper names
+- Mark all copular subjects with :cop
 - How to annotate 'Ablamlar', i.e., distinguish it from 'Ablalarım'
 - add obl:arg?
 - revise -li: case vs. nmod
