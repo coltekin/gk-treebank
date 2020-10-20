@@ -2,6 +2,7 @@
 
 - Add gloss and translation
 - üstünde/altında/... as NOUN instead of ADP
+- turn sentence fragments to sentences.
 - Add more variation to proper names
 - Mark all copular subjects with :cop
 - How to annotate 'Ablamlar', i.e., distinguish it from 'Ablalarım'
@@ -19,7 +20,7 @@
 - Copula - non-copula analysis of ol-
 
 ### Open issues question
-- PronType does not really fit in all pronouns and determiners. For
+- PronType does not really cover in all pronouns and determiners. For
     most determiners. Fitting determiners in Turkish into one of the
     PronType categories does not seem trivial. The same is true for
     pronouns. Currently (2020-05-01) the cases difficult to fit into
