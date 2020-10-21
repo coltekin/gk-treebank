@@ -1,5 +1,6 @@
 # sent_id = GKA2-0001
 # text = Hasan Fransızca okuyabiliyor.
+# en = Hasan can read French.
 1	Hasan	Hasan	PROPN	_	Number=Sing	3	nsubj	_	_
 2	Fransızca	Fransızca	PROPN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	okuyabiliyor	oku	VERB	_	Aspect=Prog|Mood=Pot|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -7,24 +8,28 @@
 
 # sent_id = GKA2-0002
 # text = Yağmur yağabilir.
+# en = It may rain.
 1	Yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	yağabilir	yağ	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0003
 # text = Oraya gidemezsin.
+# en = You can’t go there.
 1	Oraya	ora	PRON	_	Case=Dat|Number=Sing|PronType=Dem	2	obl	_	_
 2	gidemezsin	git	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0004
 # text = Arabamı sattım.
+# en = I sold/have sold my car.
 1	Arabamı	araba	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	_
 2	sattım	sat	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0005
 # text = Burada yağmur yağmış.
+# en = Apparently it rained / It seems to have rained here.
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	3	obl	_	_
 2	yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	yağmış	yağ	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -32,6 +37,7 @@
 
 # sent_id = GKA2-0006
 # text = O hafta çok yağmur yağmıştı.
+# en = It had rained a lot that week.
 1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	çok	çok	ADV	_	_	5	advmod	_	_
@@ -41,6 +47,7 @@
 
 # sent_id = GKA2-0007
 # text = Şu anda Ahmet futbol oynuyor.
+# en = Ahmet is playing football at the moment.
 1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	anda	an	NOUN	_	Case=Loc|Number=Sing	5	obl:tmod	_	_
 3	Ahmet	Ahmet	PROPN	_	Number=Sing	5	nsubj	_	_
@@ -50,6 +57,7 @@
 
 # sent_id = GKA2-0008
 # text = Sen telefon ettiğinde Ahmet futbol oynuyordu.
+# en = Ahmet was playing football when you rang.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	telefon	telefon	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
 3	ettiğinde	et	VERB	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	6	advcl	_	_
@@ -60,6 +68,7 @@
 
 # sent_id = GKA2-0009
 # text = Cumartesileri Ahmet futbol oynuyor.
+# en = On Saturdays Ahmet plays football.
 1	Cumartesileri	cumartesi	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 2	Ahmet	Ahmet	PROPN	_	Number=Sing	4	nsubj	_	_
 3	futbol	futbol	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -68,6 +77,7 @@
 
 # sent_id = GKA2-0010
 # text = Cumartesileri Ahmet futbol oynuyordu.
+# en = On Saturdays Ahmet plays used to play football.
 1	Cumartesileri	cumartesi	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 2	Ahmet	Ahmet	PROPN	_	Number=Sing	4	nsubj	_	_
 3	futbol	futbol	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -76,6 +86,7 @@
 
 # sent_id = GKA2-0011
 # text = Yarın Paris’e gidiyoruz.
+# en = We’re going to Paris tomorrow.
 1	Yarın	yarın	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 2	Paris’e	Paris	PROPN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	gidiyoruz	git	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -83,6 +94,7 @@
 
 # sent_id = GKA2-0012
 # text = Şu sıralarda konferansımı hazırlamaktayım.
+# en = At the moment I’m preparing my lecture.
 1	Şu	şu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	sıralarda	sıra	NOUN	_	Case=Loc|Number=Plur	4	obl:tmod	_	_
 3	konferansımı	konferans	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	_
@@ -91,6 +103,7 @@
 
 # sent_id = GKA2-0013
 # text = Cep telefonlarının kullanımı uçağın iletişim sistemini kötü yönde etkilemektedir.
+# en = The use of mobile phones adversely affects the plane’s communication system.
 1	Cep	cep	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	telefonlarının	telefon	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	kullanımı	kullanım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
@@ -104,6 +117,7 @@
 
 # sent_id = GKA2-0014
 # text = Burada dört ev yapılacak.
+# en = Four houses are going to be built here.
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	obl	_	_
 2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	ev	ev	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -112,6 +126,7 @@
 
 # sent_id = GKA2-0015
 # text = Burada dört ev yapılacaktı.
+# en = Four houses were going to be built here.
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	obl	_	_
 2	dört	dört	NUM	_	NumType=Card	3	nummod	_	_
 3	ev	ev	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -120,6 +135,7 @@
 
 # sent_id = GKA2-0016
 # text = Kapı çaldı, Hasan olacak.
+# en = The door bell rang; that’ll be Hasan.
 1	Kapı	kapı	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2	çaldı	çal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -129,6 +145,7 @@
 
 # sent_id = GKA2-0017
 # text = Herkes saat ikide burada olacak, anlaşıldı mı?
+# en = Everyone is to be here at two o’clock; is that clear?
 1	Herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	ikide	iki	NUM	_	Case=Loc|Number=Sing|NumType=Card	4	obl:tmod	_	_
@@ -141,6 +158,7 @@
 
 # sent_id = GKA2-0018
 # text = Burada çok yağmur yağar.
+# en = It rains a lot here.
 1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	obl	_	_
 2	çok	çok	ADV	_	_	4	advmod	_	_
 3	yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
@@ -149,6 +167,7 @@
 
 # sent_id = GKA2-0019
 # text = Para mutluluk getirmez.
+# en = Money doesn’t bring happiness.
 1	Para	para	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	mutluluk	mutluluk	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	getirmez	getir	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -156,6 +175,7 @@
 
 # sent_id = GKA2-0020
 # text = Öğrenciler çok kahve içer.
+# en = (The) students drink a lot of coffee.
 1	Öğrenciler	öğrenci	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	çok	çok	ADV	_	_	4	advmod	_	_
 3	kahve	kahve	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
@@ -164,6 +184,7 @@
 
 # sent_id = GKA2-0021
 # text = Sen oradaki havayı beğenmezsin.
+# en = You wouldn’t like the atmosphere there.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 2-3	oradaki	_	_	_	_	_	_	_	_
 2	orada	ora	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	nmod	_	_
@@ -174,6 +195,7 @@
 
 # sent_id = GKA2-0022
 # text = Oradan iki saatte gelirsiniz.
+# en = From there you’ll get here in two hours.
 1	Oradan	ora	PRON	_	Case=Abl|Number=Sing|PronType=Dem	4	obl	_	_
 2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	saatte	saat	NOUN	_	Case=Loc|Number=Sing	4	obl:tmod	_	_
@@ -182,6 +204,7 @@
 
 # sent_id = GKA2-0023
 # text = Bana yardım eder misiniz?
+# en = Would you [please] help me?
 1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
 2	yardım	yardım	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
 3	eder	et	VERB	_	Aspect=Hab|Mood=Gen|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -190,6 +213,7 @@
 
 # sent_id = GKA2-0024
 # text = Bunu kimseye söylemem.
+# en = I won’t tell anyone about this.
 1	Bunu	bu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	3	obj	_	_
 2	kimseye	kimse	PRON	_	Case=Dat|Number=Sing|PronType=Prs	3	obl	_	_
 3	söylemem	söyle	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -197,12 +221,14 @@
 
 # sent_id = GKA2-0025
 # text = Artık gitmeliyim.
+# en = I must go now.
 1	Artık	artık	ADV	_	_	2	advmod	_	_
 2	gitmeliyim	git	VERB	_	Mood=Nec|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0026
 # text = Bu ceket senin olmalı.
+# en = This jacket must be yours.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	ceket	ceket	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	0	root	_	_
@@ -211,6 +237,7 @@
 
 # sent_id = GKA2-0027
 # text = Daha büyük bir arabamız olsa.
+# en = If only we had a bigger car.
 1	Daha	daha	ADV	_	_	2	advmod	_	_
 2	büyük	büyük	ADJ	_	_	4	amod	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
@@ -220,6 +247,7 @@
 
 # sent_id = GKA2-0028
 # text = Bu akşam ne yapsak acaba?
+# en = What should we do this evening, I wonder?
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	ne	ne	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	obj	_	_
@@ -229,6 +257,7 @@
 
 # sent_id = GKA2-0029
 # text = Bu parayı Kaya’ya ver.
+# en = Give this money to Kaya.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	parayı	para	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
 3	Kaya’ya	Kaya	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
@@ -237,18 +266,21 @@
 
 # sent_id = GKA2-0030
 # text = Düğmeye basın.
+# en = Press the button.
 1	Düğmeye	düğme	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	basın	bas	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0031
 # text = Düğmeye basınız.
+# en = Press the button.
 1	Düğmeye	düğme	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
 2	basınız	bas	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0032
 # text = Ayşe bu akşam bana telefon etsin.
+# en = I want/Tell Ayşe to ring me this evening.
 1	Ayşe	Ayşe	PROPN	_	Number=Sing	6	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
@@ -259,6 +291,7 @@
 
 # sent_id = GKA2-0033
 # text = Sana yardım edeyim.
+# en = Let me help you.
 1	Sana	sen	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
 2	yardım	yardım	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
 3	edeyim	et	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -266,6 +299,7 @@
 
 # sent_id = GKA2-0034
 # text = Biraz oturalım mı?
+# en = Shall we sit down for a while?
 1	Biraz	biraz	ADV	_	_	2	advmod	_	_
 2	oturalım	otur	VERB	_	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mı	mi	AUX	_	PronType=Int	2	aux:q	_	SpaceAfter=No
@@ -273,6 +307,7 @@
 
 # sent_id = GKA2-0035
 # text = Herkes bahçedeydi.
+# en = Everyone was in the garden.
 1	Herkes	herkes	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2-3	bahçedeydi	_	_	_	_	_	_	_	SpaceAfter=No
 2	bahçede	bahçe	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
@@ -281,11 +316,13 @@
 
 # sent_id = GKA2-0036
 # text = Eğleniyorduk.
+# en = We were having a good time.
 1	Eğleniyorduk	eğlen	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GKA2-0037
 # text = Sen bu işi daha güzel yapardın.
+# en = You would have done this job better.
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	işi	iş	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
@@ -296,12 +333,14 @@
 
 # sent_id = GKA2-0038
 # text = Baştan söyleseydin.
+# en = If only you had said [so] at the start.
 1	Baştan	baştan	ADV	_	_	2	advmod	_	_
 2	söyleseydin	söyle	VERB	_	Mood=Cnd|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GKA2-0039
 # text = Aysel’in babası mühendismiş.
+# en = Apparently Aysel’s father is/was an engineer.
 1	Aysel’in	Aysel	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj:cop	_	_
 3-4	mühendismiş	_	_	_	_	_	_	_	SpaceAfter=No
@@ -311,6 +350,7 @@
 
 # sent_id = GKA2-0040
 # text = Her yaz Amerika’ya gidiyorlarmış.
+# en = It seems they go/went to America every summer.
 1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	yaz	yaz	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 3	Amerika’ya	Amerika	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
@@ -319,6 +359,7 @@
 
 # sent_id = GKA2-0041
 # text = Burası gerçekten güzelmiş.
+# en = This really is a beautiful place.
 1	Burası	bura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Dem	3	nsubj	_	_
 2	gerçekten	gerçekten	ADV	_	_	3	advmod	_	_
 3-4	güzelmiş	_	_	_	_	_	_	_	SpaceAfter=No
@@ -328,6 +369,7 @@
 
 # sent_id = GKA2-0042
 # text = Demir ağırdır.
+# en = Iron is heavy.
 1	Demir	demir	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
 2-3	ağırdır	_	_	_	_	_	_	_	SpaceAfter=No
 2	ağır	ağır	ADJ	_	_	0	root	_	_
@@ -336,6 +378,7 @@
 
 # sent_id = GKA2-0043
 # text = İnsanlar tembeldir.
+# en = People are lazy.
 1	İnsanlar	insan	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	_
 2-3	tembeldir	_	_	_	_	_	_	_	SpaceAfter=No
 2	tembel	tembel	ADJ	_	_	0	root	_	_
@@ -344,6 +387,7 @@
 
 # sent_id = GKA2-0044
 # text = Yorgunsundur.
+# en = You must be tired.
 1-2	Yorgunsundur	_	_	_	_	_	_	_	SpaceAfter=No
 1	Yorgunsun	yorgun	ADJ	_	_	0	root	_	_
 2	dur	i	AUX	_	Mood=Gen|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -351,6 +395,7 @@
 
 # sent_id = GKA2-0045
 # text = Toplantı artık bitmiştir.
+# en = The meeting will have finished by now.
 1	Toplantı	toplantı	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 2	artık	artık	ADV	_	_	3	advmod	_	_
 3	bitmiştir	bit	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No

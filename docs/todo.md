@@ -1,7 +1,7 @@
 ### TODO
 
-- Add gloss and translation
 - üstünde/altında/... as NOUN instead of ADP
+- compund:lvc
 - turn sentence fragments to sentences.
 - Add more variation to proper names
 - Mark all copular subjects with :cop
@@ -60,6 +60,7 @@
 
 ### Done
 
+- Add gloss and translation
 - Fix: Some converbs are marked 'finite'
         grep '	Mood=Ind|VerbForm=Fin.*advcl' *.conllu
 - Add PronType and VerbType
