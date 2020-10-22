@@ -803,7 +803,7 @@
 2	size	siz	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
 3	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 4	ay	ay	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		7	obl:tmod	_	_
+5	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	7	obl:tmod	_	_
 6	geri	geri	ADV	_	_	7	advmod	_	_
 7	ödemek	öde	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	acl	_	_
 8	şartıyla	şart	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
@@ -1351,7 +1351,7 @@
 2	öldüğünden	öl	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	advcl	_	_
 3	beri	beri	ADP	_	_	2	mark	_	_
 4	ablasının	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
-5	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		5	nmod	_	_
+5	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	6	obl	_	_
 6	kalıyor	kal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1362,7 +1362,7 @@
 1	Kocası	koca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
 2	öleli	öl	VERB	_	VerbForm=Conv	5	advcl	_	_
 3	ablasının	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
-4	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		5	obl	_	_
+4	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	5	obl	_	_
 5	kalıyor	kal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1374,7 +1374,7 @@
 2	öleli	öle	VERB	_	VerbForm=Conv	6	advcl	_	_
 3	beri	beri	ADP	_	_	2	mark	_	_
 4	ablasının	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
-5	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		6	obl	_	_
+5	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	6	obl	_	_
 6	kalıyor	kal	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1538,7 +1538,7 @@
 # en = Whenever Osman was asked (things) about the accident, he would become even more confused.
 1	Osman’a	Osman	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
 2	kaza	kaza	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
-3	hakkında	hak	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		5	nmod	_	_
+3	hakkında	hak	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	5	nmod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	şeyler	şey	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 6	soruldukça	soruldukça	VERB	_	Mood=Ind|VerbForm=Conv	10	advcl	_	_

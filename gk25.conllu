@@ -90,7 +90,7 @@
 # text = Kutunun içinde üç top var.
 # en = There are three balls in the box.
 1	Kutunun	kutu	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-2	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3		5	nmod	_	_
+2	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
 4	top	top	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -194,7 +194,7 @@
 # text = Çocuğun arkasında adam var.
 # en = There is a man behind the child.
 1	Çocuğun	çocuk	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-2	arkasında	arka	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3		4	obl	_	_
+2	arkasında	arka	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 3	adam	adam	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -464,7 +464,7 @@
 # en = The bridge is situated in front of the houses.
 1	Köprü	köprü	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 2	evlerin	ev	NOUN	_	Case=Gen|Number=Plur	3	nmod	_	_
-3	önünden	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		4	obl	_	_
+3	önünden	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	4	obl	_	_
 4	geçiyor	geç	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
