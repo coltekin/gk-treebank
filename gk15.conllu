@@ -60,9 +60,9 @@
 # sent_id = GK150009
 # text = evin önündeki arabalar
 # en = the cars in front of the house
-1	evin	ev	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+1	evin	ev	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2-3	önündeki	_	_	_	_	_	_	_	_
-2	önünde	önünde	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+2	önünde	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 3	ki	ki	ADP	_	_	1	case	_	_
 4	arabalar	araba	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
 
@@ -275,7 +275,7 @@
 # gloss = back-1PL.POSS-LOC-ADJ car _ _ _
 # en = The car behind us wants to overtake us.
 1-2	Arkamızdaki	_	_	_	_	_	_	_	_
-1	Arkamızda	arka	ADP	_	Number[psor]=Plur|Person[psor]=1	3	nmod	_	_
+1	Arkamızda	arka	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=1	3	nmod	_	_
 2	ki	ki	ADP	_	_	1	case	_	_
 3	araba	araba	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 4	bizi	biz	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
@@ -288,7 +288,7 @@
 # gloss = back-1PL.POSS-LOC-ADJ a car _ _ _
 # en = A car behind us wants to overtake us.
 1-2	Arkamızdaki	_	_	_	_	_	_	_	_
-1	Arkamızda	arka	ADP	_	Number[psor]=Plur|Person[psor]=1	4	nmod	_	_
+1	Arkamızda	arka	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=1	4	nmod	_	_
 2	ki	ki	ADP	_	_	1	case	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	araba	araba	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
@@ -300,9 +300,9 @@
 # sent_id = GK150033
 # text = Benim hakkımdaki fikriniz yanlış.
 # en = Your opinion of me is wrong.
-1	Benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+1	Benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2-3	hakkımdaki	_	_	_	_	_	_	_	_
-2	hakkımda	hakkımda	ADP	_	Number[psor]=Sing|Person[psor]=1	1	case	_	_
+2	hakkımda	hak	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
 3	ki	ki	ADP	_	_	1	case	_	_
 4	fikriniz	fikir	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	nsubj	_	_
 5	yanlış	yanlış	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -361,7 +361,7 @@
 # text = Arkamızdan gelen araba bizi geçmek istiyor.
 # gloss = back-1PL.POSS-ABL come-PART car _ _ _
 # en = The car that’s following us wants to overtake us.
-1	Arkamızdan	arkamızdan	ADP	_	Number[psor]=Plur|Person[psor]=1	2	obl	_	_
+1	Arkamızdan	arka	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=1	2	obl	_	_
 2	gelen	gelen	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	araba	araba	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 4	bizi	biz	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
@@ -597,8 +597,8 @@
 # text = yarışmaya katılanlar içinde en başarılı çocuk
 # en = the most successful child among the ones who entered the competition
 1	yarışmaya	yarışma	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
-2	katılanlar	katıl	VERB	_	Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part	6	nmod	_	_
-3	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	2	mark	_	_
+2	katılanlar	katıl	VERB	_	Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part	3	nmod	_	_
+3	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 4	en	en	ADV	_	_	5	advmod	_	_
 5	başarılı	başarılı	ADJ	_	_	6	amod	_	_
 6	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
@@ -607,8 +607,8 @@
 # text = yarışmaya katılanlar arasında en başarılı çocuk
 # en = the most successful child among the ones who entered the competition
 1	yarışmaya	yarışma	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
-2	katılanlar	katıl	VERB	_	Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part	6	nmod	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	mark	_	_
+2	katılanlar	katıl	VERB	_	Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part	3	nmod	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 4	en	en	ADV	_	_	5	advmod	_	_
 5	başarılı	başarılı	ADJ	_	_	6	amod	_	_
 6	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_

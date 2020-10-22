@@ -176,8 +176,8 @@
 # en = I seem to have left the laundry in the washing machine again.
 1	Çamaşırları	çamaşır	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
 2	gene	gene	ADV	_	_	5	advmod	_	_
-3	makinanın	makina	NOUN	_	Case=Gen|Number=Sing	5	obl	_	_
-4	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+3	makinanın	makina	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	bırakmışım	bırak	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -205,8 +205,8 @@
 # text = Bu hayvanların arasında en vahşisi kaplanmış.
 # en = Apparently the most savage these animals is the tiger.
 1	Bu	bu	DET	_	Definite=Def|Polarity=Pos|PronType=Art	2	det	_	_
-2	hayvanların	hayvan	NOUN	_	Case=Gen|Number=Plur	6	obl	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	hayvanların	hayvan	NOUN	_	Case=Gen|Number=Plur	3	nmod	_	_
+3	arasında	ara	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	en	en	ADV	_	_	5	advmod	_	_
 5	vahşisi	vahşi	NOUN	_	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 6-7	kaplanmış	_	_	_	_	_	_	_	SpaceAfter=No

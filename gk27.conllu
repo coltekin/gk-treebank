@@ -389,7 +389,7 @@
 4	arkadaşlarıyla	arkadaş	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5	buluşacak	buluş	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	10	advcl	_	_
 6	olursa	ol	AUX	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-7	yanına	yanına	ADP	_	Number[psor]=Sing|Person[psor]=2	10	obl	_	_
+7	yanına	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	10	obl	_	_
 8	başka	başka	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	giysiler	giysi	NOUN	_	Case=Nom|Number=Plur	10	obj	_	_
 10	alıyor	al	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1016,8 +1016,8 @@
 2	var	var	ADJ	_	_	7	advcl	_	_
 3	sa	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	cop	_	_
 4	biraz	biraz	ADV	_	_	7	advmod	_	_
-5	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
-6	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=2	5	case	_	_
+5	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	kenarında	kenar	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		7	obl	_	_
 7	yürüyelim	yürü	VERB	_	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1357,7 +1357,7 @@
 4	gitse	git	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 5	köpeğini	köpek	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 6	de	de	ADV	_	_	5	advmod:emph	_	_
-7	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=2	8	obl	_	_
+7	yanında	yanında	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	8	obl	_	_
 8	götürüyordu	götür	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1370,7 +1370,7 @@
 4	giderse	git	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 5	köpeğini	köpek	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
 6	de	de	ADV	_	_	5	advmod:emph	_	_
-7	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=2	8	obl	_	_
+7	yanında	yanında	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	8	obl	_	_
 8	götürüyordu	götür	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1419,7 +1419,7 @@
 5	köpeğini	köpek	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 6	de	de	ADV	_	_	5	advmod:emph	_	_
 7	oraya	ora	PRON	_	Case=Dat|Number=Sing|PronType=Dem	9	obl	_	_
-8	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=2	9	obl	_	_
+8	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	9	obl	_	_
 9	götürüyordu	götür	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1445,7 +1445,7 @@
 5	giderse	git	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 6	köpeğini	köpek	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 7	de	de	ADV	_	_	6	advmod:emph	_	_
-8	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=2	9	obl	_	_
+8	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	9	obl	_	_
 9	götürüyordu	götür	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1612,8 +1612,8 @@
 # text = Yapılaşma denetim altına alınmaması halinde sahil bölgeleri kısa zamanda bozulmaktadır.
 # en = If building development is not brought under control], coastal regions are rapidly spoilt.
 1	Yapılaşma	yapılaşma	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-2	denetim	denetim	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	altına	altına	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
+2	denetim	denetim	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	altına	alt	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=2		4	obl	_	_
 4	alınmaması	al	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|VerbForm=Vnoun|Voice=Pass	10	advcl	_	_
 5	halinde	halinde	ADP	_	Number=Sing	4	mark	_	_
 6	sahil	sahil	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -1627,8 +1627,8 @@
 # text = Yapılaşma denetim altına alınmaması durumunda sahil bölgeleri kısa zamanda bozulmaktadır.
 # en = If building development is not brought under control], coastal regions are rapidly spoilt.
 1	Yapılaşma	yapılaşma	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
-2	denetim	denetim	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	altına	altına	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
+2	denetim	denetim	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	altına	alt	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=2		4	obl	_	_
 4	alınmaması	al	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|VerbForm=Vnoun|Voice=Pass	10	advcl	_	_
 5	durumunda	durumunda	ADP	_	Number=Sing	4	mark	_	_
 6	sahil	sahil	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_

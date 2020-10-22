@@ -26,8 +26,8 @@
 # en = Necla will complete the project within a week.
 1	Necla	Necla	PROPN	_	Number=Sing	6	nsubj	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
-3	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
-4	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	3	case	_	_
+3	hafta	hafta	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	içinde	iç	NOUN	_	Number[psor]=Sing|Person[psor]=2	6	obl:tmod	_	_
 5	projeyi	proje	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 6	bitirecek	bit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -621,8 +621,8 @@
 # sent_id = GK12-0065
 # text = Yarışmacılar arasından iki üç kişi, jürinin ısrarına rağmen yaşlarını söylememiş.
 # en = Two or three of the competitors, despite insistent requests from the judges, have apparently not stated their ages.
-1	Yarışmacılar	yarışmacı	NOUN	_	Case=Nom|Number=Plur	5	nmod:part	_	_
-2	arasından	arasından	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Yarışmacılar	yarışmacı	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	_
+2	arasından	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	nmod:part	_	_
 3	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 4	üç	üç	NUM	_	NumType=Card	3	conj	_	_
 5	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
@@ -667,7 +667,7 @@
 # en = The students were talking among themselves all the time.
 1	Öğrenciler	öğrenci	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
 2	sürekli	sürekli	ADV	_	_	4	advmod	_	_
-3	aralarında	aralarında	ADP	_	Number[psor]=Plur|Person[psor]=3	4	obl	_	_
+3	aralarında	aralarında	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=3	4	obl	_	_
 4	konuşuyorlardı	konuş	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -938,8 +938,8 @@
 # en = Yesterday Ahmet and I went for a walk on the seashore.
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	6	nmod	_	_
 2	dün	dün	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
-3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
-4	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+3	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	kenarında	kenar	NOUN	_	Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 5	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
 6	yaptık	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -950,8 +950,8 @@
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
+4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	kenarında	kenar	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
 6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
 7	yaptık	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -962,8 +962,8 @@
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-5	kenarında	kenarında	ADP	_	Number[psor]=Sing|Person[psor]=3	4	case	_	_
+4	deniz	deniz	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	kenarında	kenar	NOUN	_	Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
 6	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
 7	yaptım	yap	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_

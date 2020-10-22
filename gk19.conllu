@@ -624,8 +624,8 @@
 # gloss = _ _ what-PL _ _
 # en = What’s in this box?
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	kutunun	kutu	NOUN	_	Case=Gen|Number=Sing	5	obl	_	_
-3	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
+2	kutunun	kutu	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	5	obl	_	_
 4	neler	ne	PRON	_	Case=Nom|Number=Plur|PronType=Int	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
@@ -818,7 +818,7 @@
 # sent_id = GK190077
 # text = Aranızdan hangisi bu işte gönüllü olarak çalışmak istiyor?
 # en = Which one among you would like to work as a volunteer?
-1	Aranızdan	aranızdan	ADP	_	Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
+1	Aranızdan	ara	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
 2	hangisi	hangisi	PRON	_	Case=Nom|Number=Sing|PronType=Int	9	nsubj	_	_
 3	bu	bu	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	işte	iş	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
@@ -833,7 +833,7 @@
 # sent_id = GK190078
 # text = İçinizden hangisi bu işte gönüllü olarak çalışmak istiyor?
 # en = Which one among you would like to work as a volunteer?
-1	İçinizden	içinizden	ADP	_	Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
+1	İçinizden	iç	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
 2	hangisi	hangisi	PRON	_	Case=Nom|Number=Sing|PronType=Int	9	nsubj	_	_
 3	bu	bu	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	işte	iş	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
@@ -887,7 +887,7 @@
 # sent_id = GK190083
 # text = İçinizden kaçı araba kullanmayı biliyor?
 # en = How many of you know how to drive?
-1	İçinizden	içinizden	ADP	_	Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
+1	İçinizden	iç	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=2	2	nmod:part	_	_
 2	kaçı	kaç	NUM	_	Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	5	nsubj	_	_
 3	araba	araba	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
 4	kullanmayı	kullan	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
@@ -904,9 +904,9 @@
 # sent_id = GK190085
 # text = Kaçla kaç arasında arayayım seni?
 # en = Between what times should I call you?
-1	Kaçla	kaç	NUM	_	Case=Ins|Number=Sing|NumType=Card	4	obl:tmod	_	_
+1	Kaçla	kaç	NUM	_	Case=Ins|Number=Sing|NumType=Card	3	nmod	_	_
 2	kaç	kaç	NUM	_	NumType=Card|PronType=Int	1	conj	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	4	obl:tmod	_	_
 4	arayayım	ara	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	seni	sen	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	_	_
@@ -1518,8 +1518,8 @@
 # text = Bunun üzerine Turgut elindeki bardağı duvara doğru fırlatmasın mı?
 # gloss = _ _ _ _ _ _ _ _ hurl-NEG-OPT.3SG INT
 # en = Then, would you believe it, Turgut hurled the glass in his hand against the wall.
-1	Bunun	bu	PRON	_	Case=Gen|Number=Sing|PronType=Dem	9	obl	_	_
-2	üzerine	üzerine	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Bunun	bu	PRON	_	Case=Gen|Number=Sing|PronType=Dem	2	nmod	_	_
+2	üzerine	üzer	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 3	Turgut	Turgut	PROPN	_	Number=Sing	9	nsubj	_	_
 4-5	elindeki	_	_	_	_	_	_	_	_
 4	elinde	el	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_

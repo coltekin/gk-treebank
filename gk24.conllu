@@ -388,7 +388,7 @@
 1	Kapıyı	kapı	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 2	açtım	aç	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ki	ki	SCONJ	_	_	6	mark	_	_
-4	içerisi	içeri	ADP	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
+4	içerisi	içeri	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	insan	insan	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	dolu	dolu	ADJ	_	_	2	advcl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -614,8 +614,8 @@
 1	Amacım	amaç	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	nsubj:cop	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
-4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
+4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		7	obl:tmod	_	_
 6	zengin	zengin	ADJ	_	_	7	xcomp	_	_
 7-8	olmaktı	_	_	_	_	_	_	_	SpaceAfter=No
 7	olmak	ol	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
@@ -628,8 +628,8 @@
 1	Amaç	amaç	NOUN	_	Case=Nom|Number=Sing	7	nsubj:cop	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	beş	beş	NUM	_	NumType=Card	4	nummod	_	_
-4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
-5	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
+4	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2		7	obl:tmod	_	_
 6	zengin	zengin	ADJ	_	_	7	xcomp	_	_
 7-8	olmaktı	_	_	_	_	_	_	_	SpaceAfter=No
 7	olmak	ol	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	_
@@ -778,14 +778,14 @@
 # gloss =_ demonstration during first police then organizer-PL by stop-CAUS-PASS-VN want-PASS-PF-1PL
 # en = During the demonstration attempts were made to stop us, first by the police, then by the organizers.
 1	Biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-2	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	10	obl:tmod	_	_
-3	sırasında	sırasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	yürüyüş	yürüyüş	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	sırasında	sıra	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3		10	obl:tmod	_	_
 4	önce	önce	ADV	_	_	5	advmod	_	_
 5	polis	polis	NOUN	_	Case=Nom|Number=Sing	10	obl:agent	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	sonra	sonra	ADV	_	_	8	advmod	_	_
-8	düzenleyiciler	düzenleyici	NOUN	_	Case=Nom|Number=Plur	5	conj	_	_
-9	tarafından	tarafından	ADP	_	Number[psor]=Sing|Person[psor]=3	5	case	_	_
+8	düzenleyiciler	düzenleyici	NOUN	_	Case=Nom|Number=Plur	9	nmod	_	_
+9	tarafından	taraf	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3		5	conj	_	_
 10	durdurulmak	dur	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=CauPass	11	xcomp	_	_
 11	istendik	iste	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
@@ -808,8 +808,8 @@
 2	sıralarda	sıra	NOUN	_	Case=Loc|Number=Plur	15	obl:tmod	_	_
 3	sabahın	sabah	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	köründe	kör	NOUN	_	Case=Loc|Number=Sing	7	obl:tmod	_	_
-5	polis	polis	NOUN	_	Case=Nom|Number=Sing	7	obl:agent	_	_
-6	tarafından	tarafından	ADP	_	Number[psor]=Sing|Person[psor]=3	5	case	_	_
+5	polis	polis	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	tarafından	taraf	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3		7	obl:agent	_	_
 7	uyandırılmalar	uyan	VERB	_	Case=Nom|Number=Plur|VerbForm=Vnoun|Voice=CauPass	15	csubj:cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	karakola	karakol	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
@@ -1148,8 +1148,8 @@
 # gloss = you-GEN sister-2SG.POSS-GEN with be-VN-2SG.POSS-ACC know-IMPF-P.COP-1SG
 # en = I knew you were with your sister.
 1	Senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	ablanın	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	ccomp	_	_
-3	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	ablanın	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nmod	_	_
+3	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3		5	ccomp	_	_
 4	olduğunu	ol	AUX	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	2	cop	_	_
 5	biliyordum	bil	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1158,8 +1158,8 @@
 # text = Senin ablanın yanında olduğunu sanıyordum.
 # en = I thought you were with your sister.
 1	Senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	ablanın	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	ccomp	_	_
-3	yanında	yanında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	ablanın	abla	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nmod	_	_
+3	yanında	yan	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3		5	ccomp	_	_
 4	olduğunu	ol	AUX	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	2	cop	_	_
 5	sanıyordum	san	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_

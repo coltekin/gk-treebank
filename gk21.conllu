@@ -504,7 +504,7 @@
 # gloss = Tülay side-1SG.POSS-DAT sit-PF
 # en = Tülay sat down beside me.
 1	Tülay	Tülay	PROPN	_	Number=Sing	3	nsubj	_	_
-2	yanıma	yanıma	ADP	_	Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+2	yanıma	yan	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
 3	oturdu	otur	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -514,7 +514,7 @@
 # en = Tülay was sitting beside me at dinner.
 1	Yemekte	yemek	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 2	Tülay	Tülay	PROPN	_	Number=Sing	4	nsubj	_	_
-3	yanımda	yanımda	ADP	_	Number[psor]=Sing|Person[psor]=1	4	obl	_	_
+3	yanımda	yan	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=1	4	obl	_	_
 4	oturuyordu	otur	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -780,10 +780,10 @@
 # sent_id = GK21-0078
 # text = Anne babaları arasındaki bu gerginlik, çocuklar için zor oluyor tabii.
 # en = This tension between their parents is, of course, hard for the children.
-1	Anne	anne	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+1	Anne	anne	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	babaları	baba	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	1	fixed	_	_
 3-4	arasındaki	_	_	_	_	_	_	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 4	ki	-ki	ADP	_	_	1	case	_	_
 5	bu	bu	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	gerginlik	gerginlik	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
@@ -798,10 +798,10 @@
 # sent_id = GK21-0079
 # text = Anne babaları arasındaki bu gerginlik, çocuklar için zor tabii.
 # en = This tension between their parents is, of course, hard for the children.
-1	Anne	anne	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+1	Anne	anne	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	babaları	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	1	fixed	_	_
 3-4	arasındaki	_	_	_	_	_	_	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 4	ki	-ki	ADP	_	_	1	case	_	_
 5	bu	bu	DET	_	Definite=Def|PronType=Art	6	det	_	_
 6	gerginlik	gerginlik	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
@@ -847,8 +847,8 @@
 # en = The Prime Minister is appointed by the President.
 1	Başbakan	başbakan	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	Cumhurbaşkanı	cumhurbaşkanı	NOUN	_	Case=Nom|Number=Sing	5	obl:agent	_	_
-4	tarafından	tarafından	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+3	Cumhurbaşkanı	cumhurbaşkanı	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	tarafından	taraf	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3	5	obl:agent	_	_
 5	görevlendirilir	görevlen	VERB	_	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=CauPass	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1451,15 +1451,15 @@
 # sent_id = GK21-0145
 # text = Başkanlık konusunda Coşkun’u ikna edemeyebileceğim için başka kişiler üzerinde de durmamız gerekiyor.
 # en = As I may not be able to persuade Coşkun about the chairmanship, we have to consider other people too.
-1	Başkanlık	başkanlık	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
-2	konusunda	konusunda	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Başkanlık	başkanlık	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	konusunda	konu	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 3	Coşkun’u	Coşkun	PROPN	_	Case=Acc|Number=Sing	4	obj	_	_
 4	ikna	ikna	NOUN	_	Case=Nom|Number=Sing	5	compound	_	_
 5	edemeyebileceğim	et	VERB	_	Mood=PotPot|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin	12	advcl	_	_
 6	için	için	ADP	_	_	5	mark	_	_
 7	başka	başka	DET	_	Definite=Ind|PronType=Art	8	det	_	_
-8	kişiler	kişi	NOUN	_	Case=Nom|Number=Plur	11	obl	_	_
-9	üzerinde	üzerinde	ADP	_	Number[psor]=Sing|Person[psor]=3	8	case	_	_
+8	kişiler	kişi	NOUN	_	Case=Nom|Number=Plur	9	nmod	_	_
+9	üzerinde	üzer	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
 10	de	de	ADV	_	_	9	advmod:emph	_	_
 11	durmamız	dur	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	12	xcomp	_	_
 12	gerekiyor	gerek	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1914,7 +1914,7 @@
 # text = Gözlüğümü yanıma almamışım.
 # en = I seem not to have brought my glasses with me.
 1	Gözlüğümü	gözlük	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	_
-2	yanıma	yanıma	ADP	_	Number[psor]=Sing|Person[psor]=1	3	obl	_	_
+2	yanıma	yanıma	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=1	3	obl	_	_
 3	almamışım	al	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 

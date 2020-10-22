@@ -390,8 +390,8 @@
 # gloss = sand-PL-ACC _ _ _
 # en = S/he was sifting the (grains of) sand through her fingers.
 1	Kumları	kum	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
-2	parmaklarının	parmak	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
-3	arasından	arasından	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	parmaklarının	parmak	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
+3	arasından	ara	NOUN	_	Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	geçiriyordu	geçir	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -463,8 +463,8 @@
 # sent_id = GK140052
 # text = Erzurum taraflarında
 # en = around Erzurum / in the Erzurum area
-1	Erzurum	Erzurum	PROPN	_	Case=Nom|Number=Sing	0	root	_	_
-2	taraflarında	baş	ADP	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Erzurum	Erzurum	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	taraflarında	taraf	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK140053
 # text = uzaklarda
@@ -771,8 +771,8 @@
 2	görsün	gör	VERB	_	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 3	diye	diye	SCONJ	_	_	2	mark	_	_
 4	kartı	kart	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
-5	masanın	masa	NOUN	_	Case=Gen|Number=Sing	7	obl	_	_
-6	üstünde	üstünde	ADP	_	Number[psor]=Sing|Person[psor]=3	5	case	_	_
+5	masanın	masa	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+6	üstünde	üst	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 7	bırakıyorum	bırak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -880,8 +880,8 @@
 # text = Ellerim çamur içinde kalmıştı.
 # en = My hands were covered in mud.
 1	Ellerim	el	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
-2	çamur	çamur	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	çamur	çamur	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	kalmıştı	kal	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1708,7 +1708,7 @@
 # sent_id = GK140185
 # text = İçlerinden yirmi otuz aile de şimdiden gelecek yıl için rezervasyon yaptılar.
 # en = From among them, twenty or thirty families have already made reservations for next year.
-1	İçlerinden	içlerinden	ADP	_	Number[psor]=Plur|Person[psor]=3	4	nmod:part	_	_
+1	İçlerinden	iç	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=3	4	nmod:part	_	_
 2	yirmi	yirmi	NUM	_	NumType=Card	4	nummod	_	_
 3	otuz	otuz	NUM	_	NumType=Card	2	conj	_	_
 4	aile	aile	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
@@ -1724,7 +1724,7 @@
 # sent_id = GK140186
 # text = İçimizden birkaç kişi geziden memnun kalmadı.
 # en = Several of our number were not satisfied with the tour.
-1	İçimizden	içimizden	ADP	_	Number[psor]=Plur|Person[psor]=1	3	nmod:part	_	_
+1	İçimizden	içimizden	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=1	3	nmod:part	_	_
 2	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 4	geziden	gezi	NOUN	_	Case=Abl|Number=Sing	6	nmod	_	_
@@ -1735,7 +1735,7 @@
 # sent_id = GK140187
 # text = Aramızdan birkaç kişi geziden memnun kalmadı.
 # en = Several of our number were not satisfied with the tour.
-1	Aramızdan	aramızdan	ADP	_	Number[psor]=Plur|Person[psor]=1	3	nmod:part	_	_
+1	Aramızdan	aramızdan	NOUN	_	Case=Abl|Number[psor]=Plur|Person[psor]=1	3	nmod:part	_	_
 2	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	kişi	kişi	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 4	geziden	gezi	NOUN	_	Case=Abl|Number=Sing	6	nmod	_	_

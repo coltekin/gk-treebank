@@ -760,8 +760,8 @@
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	6	nsubj	_	_
 2	kendi	kendi	PRON	_	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	3	compound:redup	_	_
 3	kendine	kendi	PRON	_	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes	6	obl	_	_
-4	yurt	yurt	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
-5	dışına	dışına	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
+4	yurt	yurt	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	dışına	dış	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	6	obl	_	_
 6	çıkamaz	çık	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -772,8 +772,8 @@
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	6	nsubj	_	_
 2	kendi	kendi	PRON	_	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	3	compound:redup	_	_
 3	kendisine	kendi	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obl	_	_
-4	yurt	yurt	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
-5	dışına	dışına	ADP	_	Number[psor]=Sing|Person[psor]=2	4	case	_	_
+4	yurt	yurt	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	dışına	dış	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	6	obl	_	_
 6	çıkamaz	çık	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -1356,9 +1356,9 @@
 # en = Zeki’s car is in front of the house.
 1	Zeki’nin	Zeki	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	evin	ev	NOUN	_	Case=Gen|Number=Sing	0	root	_	_
+3	evin	ev	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4-5	önündeymiş	_	_	_	_	_	_	_	SpaceAfter=No
-4	önünde	önünde	ADP	_	Number[psor]=Sing|Person[psor]=2	3	case	_	_
+4	önünde	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	0	root	_	_
 5	ymiş	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1588,7 +1588,7 @@
 # sent_id = GK180147
 # text = Aşağısı çok dağınık.
 # en = It’s very untidy downstairs.
-1	Aşağısı	aşağı	ADP	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+1	Aşağısı	aşağı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 2	çok	çok	ADV	_	_	3	advmod	_	_
 3	dağınık	dağınık	ADJ	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1614,8 +1614,8 @@
 # sent_id = GK180150
 # text = Köyün ötesinde bir dere var.
 # en = There is a stream beyond the village.
-1	Köyün	köy	NOUN	_	Case=Gen|Number=Sing	5	obl	_	_
-2	ötesinde	ötesinde	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Köyün	köy	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	ötesinde	öte	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	dere	dere	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1777,7 +1777,7 @@
 # sent_id = GK180167
 # text = Aralarında opera sevmeyenleri Verona’da konaklamayacaklar.
 # en = Those among them who don’t like opera won’t be staying (overnight) in Verona.
-1	Aralarında	aralarında	ADP	_	Number[psor]=Plur|Person[psor]=3	3	obl	_	_
+1	Aralarında	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
 2	opera	opera	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	sevmeyenleri	sev	VERB	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Part	5	csubj	_	_
 4	Verona’da	Verona	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
@@ -1787,7 +1787,7 @@
 # sent_id = GK180168
 # text = Aralarından opera sevmeyenleri Verona’da konaklamayacaklar.
 # en = Those among them who don’t like opera won’t be staying (overnight) in Verona.
-1	Aralarından	aralarından	ADP	_	Number[psor]=Plur|Person[psor]=3	3	obl	_	_
+1	Aralarından	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=3	3	obl	_	_
 2	opera	opera	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 3	sevmeyenleri	sev	VERB	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Part	5	csubj	_	_
 4	Verona’da	Verona	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
@@ -1904,7 +1904,7 @@
 # sent_id = GK180179
 # text = Yanına her şeyini aldın mı?
 # en = Have you taken everything (that belongs to you) with you?
-1	Yanına	yanına	ADP	_	Number[psor]=Sing|Person[psor]=2	4	obl	_	_
+1	Yanına	yan	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=2	4	obl	_	_
 2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
 3	şeyini	şey	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	aldın	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_

@@ -96,8 +96,8 @@
 # text = O telaş içinde hastanın ateşine bakmamış bulundum.
 # en = In the confusion I neglected to take the patient’s temperature.
 1	O	o	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	telaş	telaş	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
-3	içinde	içinde	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	telaş	telaş	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	içinde	iç	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	hastanın	hasta	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
 5	ateşine	ateş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 6	bakmamış	bak	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -202,8 +202,8 @@
 3	yaz	yaz	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
 4	tatile	tatil	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 5	çıkıp	çıkıp	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
-6	çıkmama	çık	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	8	advcl	_	_
-7	konusunda	konusunda	ADP	_	Number[psor]=Sing|Person[psor]=3	6	mark	_	_
+6	çıkmama	çık	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	7	nmod	_	_
+7	konusunda	konu	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	8	advcl	_	_
 8-10	tereddütlüymüş	_	_	_	_	_	_	_	SpaceAfter=No
 8	tereddüt	tereddüt	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 9	lü	-li	ADP	_	_	8	case	_	_
@@ -518,8 +518,8 @@
 # sent_id = GK200044
 # text = Görüşmeler hakkında ne hükümetten, ne iş adamlarından, ne işçi sendikalarından bir bilgi alamadık.
 # en = We weren’t able to get any information about the negotiations from either the government, the businessmen or the trade unions.
-1	Görüşmeler	görüşme	NOUN	_	Case=Nom|Number=Plur	15	obl	_	_
-2	hakkında	hakkında	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Görüşmeler	görüşme	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	_
+2	hakkında	hak	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	15	obl	_	_
 3	ne	ne	CCONJ	_	_	4	cc	_	_
 4	hükümetten	hükümet	NOUN	_	Case=Abl|Number=Sing	15	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
@@ -538,8 +538,8 @@
 # sent_id = GK200045
 # text = Görüşmeler hakkında ne hükümetten, ne iş adamlarından, ne de işçi sendikalarından bir bilgi alamadık.
 # en = We weren’t able to get any information about the negotiations from either the government, the businessmen or the trade unions.
-1	Görüşmeler	görüşme	NOUN	_	Case=Nom|Number=Plur	16	obl	_	_
-2	hakkında	hakkında	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Görüşmeler	görüşme	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	_
+2	hakkında	hak	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 3	ne	ne	CCONJ	_	_	4	cc	_	_
 4	hükümetten	hükümet	NOUN	_	Case=Abl|Number=Sing	16	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_

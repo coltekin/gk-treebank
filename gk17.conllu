@@ -25,7 +25,7 @@
 # gloss = I-GEN place-1SG.POSS-DAT
 # en = instead of me
 1	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	yerime	yerime	ADP	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
+2	yerime	yer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	_
 
 # sent_id = GK170005
 # text = bizler gibi
@@ -945,8 +945,8 @@
 # text = Ahmet’le çocuklar arasında bir sorun mu var?
 # en = Is there some problem between Ahmet and the children?
 1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
-2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	mu	mi	AUX	_	PronType=Int	5	aux:q	_	_
@@ -957,69 +957,69 @@
 # text = babasıyla bizim aramızda
 # gloss = father-3SG.POSS-CONJ we-GEN between-1PL.POSS-LOC
 # en = between his/her father and us/me
-1	babasıyla	baba	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
+1	babasıyla	baba	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 2	bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
-3	aramızda	aramızda	ADP	_	Number[psor]=Plur|Person[psor]=1	2	case	_	_
+3	aramızda	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = GK170092
 # text = babasıyla aramızda
 # gloss = father-3SG.POSS-CONJ between-1PL.POSS-LOC
 # en = between his/her father and us/me
-1	babasıyla	baba	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
-2	aramızda	aramızda	ADP	_	Number[psor]=Plur|Person[psor]=1	1	case	_	_
+1	babasıyla	baba	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
+2	aramızda	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 
 # sent_id = GK170093
 # text = bizimle babası arasında
 # en = between us and his/her father
-1	bizimle	biz	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+1	bizimle	biz	PRON	_	Case=Ins|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 2	babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK170094
 # text = Ayşeyle senin aranda
 # gloss = Ayşe-CONJ you-GEN between-2SG.POSS-LOC
 # en = between Ayşe and you
-1	Ayşeyle	Ayşe	PROPN	_	Case=Ins|Number=Sing	0	root	_	_
+1	Ayşeyle	Ayşe	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	senin	sen	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	conj	_	_
-3	aranda	aranda	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
+3	aranda	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	0	root	_	_
 
 # sent_id = GK170095
 # text = Ayşe’yle onların arasında
 # en = between Ayşe and them
-1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	0	root	_	_
+1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	onların	o	PRON	_	Case=Gen|Number=Plur|PronType=Prs	1	conj	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK170096
 # text = Ayşe’yle onların aralarında
 # en = between Ayşe and them
-1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	0	root	_	_
+1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	onların	o	PRON	_	Case=Gen|Number=Plur|PronType=Prs	1	conj	_	_
-3	aralarında	aralarında	ADP	_	Number[psor]=Plur|Person[psor]=3	2	case	_	_
+3	aralarında	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=3	0	root	_	_
 
 # sent_id = GK170097
 # text = Ayşe’yle onlar arasında
 # en = between Ayşe and them
-1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	0	root	_	_
+1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	onlar	o	PRON	_	Case=Nom|Number=Plur|PronType=Prs	1	conj	_	_
-3	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	arasında	arasında	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 
 # sent_id = GK170098
 # text = Ayşe’yle onlar aralarında
 # en = between Ayşe and them
-1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	0	root	_	_
+1	Ayşe’yle	Ayşe	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	onlar	o	PRON	_	Case=Nom|Number=Plur|PronType=Prs	1	conj	_	_
-3	aralarında	aralarında	ADP	_	Number[psor]=Plur|Person[psor]=3	2	case	_	_
+3	aralarında	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=3	0	root	_	_
 
 # sent_id = GK170099
 # text = Babası, amcası ve bizim aramızda eski bir dostluk vardı.
 # en = There was a longstanding friendship between his father, his uncle and us.
-1	Babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	SpaceAfter=No
+1	Babası	baba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	amcası	amca	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
 4	ve	ve	CCONJ	_	_	5	cc	_	_
 5	bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
-6	aramızda	aramızda	ADP	_	Number[psor]=Plur|Person[psor]=1	5	case	_	_
+6	aramızda	ara	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=1	10	obl	_	_
 7	eski	eski	ADJ	_	_	9	amod	_	_
 8	bir	bir	DET	_	Definite=Ind|PronType=Art	9	det	_	_
 9	dostluk	dostluk	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -1031,10 +1031,10 @@
 # sent_id = GK170100
 # text = Diyarbakır ile Urfa arasında otobüs işletiyordu.
 # en = He ran a bus service between Diyarbakır and Urfa.
-1	Diyarbakır	Diyarbakır	PROPN	_	Number=Sing	6	obl	_	_
+1	Diyarbakır	Diyarbakır	PROPN	_	Number=Sing	4	nmod	_	_
 2	ile	ile	CCONJ	_	_	3	cc	_	_
 3	Urfa	Urfa	PROPN	_	Number=Sing	1	conj	_	_
-4	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+4	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	işletiyordu	işle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1042,10 +1042,10 @@
 # sent_id = GK170101
 # text = Diyarbakır - Urfa arasında otobüs işletiyordu.
 # en = He ran a bus service between Diyarbakır and Urfa.
-1	Diyarbakır	Diyarbakır	PROPN	_	Number=Sing	6	obl	_	_
+1	Diyarbakır	Diyarbakır	PROPN	_	Number=Sing	4	nmod	_	_
 2	-	-	PUNCT	_	_	3	punct	_	_
 3	Urfa	Urfa	PROPN	_	Number=Sing	1	conj	_	_
-4	arasında	arasında	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+4	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	işletiyordu	işle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1067,8 +1067,8 @@
 # text = Çocuklar sayesinde alışveriş işleri pek sorun olmuyor.
 # gloss = child-PL saye-3SG.POSS-LOC _ _ _ _ _
 # en = Thanks to the children, shopping is not really a problem.
-1	Çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	6	obl	_	_
-2	sayesinde	sayesinde	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	2	nmod	_	_
+2	sayesinde	saye	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 3	alışveriş	alışveriş	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	işleri	iş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	pek	pek	ADV	_	_	6	advmod	_	_
@@ -1081,8 +1081,8 @@
 # gloss = _ I-GEN hakk-1SG.POSS-LOC _ _
 # en = What did Ömer say about me?
 1	Ömer	Ömer	PROPN	_	Number=Sing	5	nsubj	_	_
-2	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
-3	hakkımda	hakkımda	ADP	_	Number[psor]=Sing|Person[psor]=1	2	case	_	_
+2	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+3	hakkımda	hak	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=1	5	obl	_	_
 4	neler	ne	PRON	_	Case=Nom|Number=Plur|PronType=Int	5	obj	_	_
 5	söyledi	söyle	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
@@ -1093,16 +1093,16 @@
 # en = It is thanks to you that we have been able to do all this.
 1	Bütün	bütün	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	bunları	bu	PRON	_	Case=Acc|Number=Plur|PronType=Dem	5	obj	_	_
-3	sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
-4	sayenizde	sayenizde	ADP	_	Number[psor]=Plur|Person[psor]=2	3	case	_	_
+3	sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
+4	sayenizde	saye	NOUN	_	Case=Loc|Number[psor]=Plur|Person[psor]=2	5	obl	_	_
 5	yapabildik	yap	VERB	_	Aspect=Perf|Mood=Pot|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GK170106
 # text = Sağlık bakımından bu kadar çikolata yemek doğru değil.
 # en = From the health point of view it’s not good to eat so much chocolate.
-1	Sağlık	sağlık	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
-2	bakımından	bakımından	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Sağlık	sağlık	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	bakımından	bakım	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 3	bu	bu	PRON	_	Case=Nom|Number=Sing|PronType=Dem	5	nmod	_	_
 4	kadar	kadar	ADP	_	_	3	case	_	_
 5	çikolata	çikolata	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
@@ -1114,8 +1114,8 @@
 # sent_id = GK170107
 # text = Sağlık açısından bu kadar çikolata yemek doğru değil.
 # en = From the health point of view it’s not good to eat so much chocolate.
-1	Sağlık	sağlık	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
-2	açısından	açısından	ADP	_	Number[psor]=Sing|Person[psor]=3	1	case	_	_
+1	Sağlık	sağlık	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	açısından	açı	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 3	bu	bu	PRON	_	Case=Nom|Number=Sing|PronType=Dem	5	nmod	_	_
 4	kadar	kadar	ADP	_	_	3	case	_	_
 5	çikolata	çikolata	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
@@ -1130,8 +1130,8 @@
 1-2	Türkiye’deki	_	_	_	_	_	_	_	_
 1	Türkiye’de	Türkiye	PROPN	_	Case=Loc|Number=Sing	3	nmod	_	_
 2	ki	ki	ADP	_	_	1	case	_	_
-3	depremler	deprem	NOUN	_	Case=Nom|Number=Plur	6	nmod	_	_
-4	konusunda	konusunda	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+3	depremler	deprem	NOUN	_	Case=Nom|Number=Plur	4	nmod	_	_
+4	konusunda	konu	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
 7	yazmış	yaz	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1150,8 +1150,8 @@
 # text = Onlar Timur’un aracılığıyla tanışmışlar.
 # en = Apparently they first met through Timur.
 1	Onlar	o	PRON	_	Case=Nom|Number=Plur|PronType=Prs	4	nsubj	_	_
-2	Timur’un	Timur	PROPN	_	Case=Gen|Number=Sing	4	obl	_	_
-3	aracılığıyla	aracılığıyla	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	Timur’un	Timur	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	aracılığıyla	aracılık	NOUN	_	Case=Ins|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	tanışmışlar	tanı	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1168,8 +1168,8 @@
 # text = Onlar Timur aracılığıyla tanışmışlar.
 # en = Apparently they first met through Timur.
 1	Onlar	o	PRON	_	Case=Nom|Number=Plur|PronType=Prs	4	nsubj	_	_
-2	Timur	Timur	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
-3	aracılığıyla	aracılığıyla	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	Timur	Timur	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	aracılığıyla	aracılık	NOUN	_	Case=Ins|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	tanışmışlar	tanı	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1225,8 +1225,8 @@
 # text = Sıcak havalar yüzünden son zamanlarda işler yavaş gidiyor.
 # en = Because of the hot weather there has been slow progress recently.
 1	Sıcak	sıcak	ADJ	_	_	2	amod	_	_
-2	havalar	hava	NOUN	_	Case=Nom|Number=Plur	8	obl	_	_
-3	yüzünden	yüzünden	ADP	_	Number[psor]=Sing|Person[psor]=2	2	case	_	_
+2	havalar	hava	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
+3	yüzünden	yüz	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=2	8	obl	_	_
 4	son	son	ADJ	_	_	5	amod	_	_
 5	zamanlarda	zaman	NOUN	_	Case=Loc|Number=Plur	8	obl:tmod	_	_
 6	işler	iş	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
@@ -1238,8 +1238,8 @@
 # text = Sıcak havalar sayesinde denize bol bol girebildik.
 # en = Because of (thanks to) the hot weather we’ve been able to swim in the sea a lot.
 1	Sıcak	sıcak	ADJ	_	_	2	amod	_	_
-2	havalar	hava	NOUN	_	Case=Nom|Number=Plur	7	obl	_	_
-3	sayesinde	sayesinde	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	havalar	hava	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
+3	sayesinde	saye	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 4	denize	deniz	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
 5	bol	bol	ADV	_	_	6	compound:redup	_	_
 6	bol	bol	ADV	_	_	7	advmod	_	_
@@ -1250,8 +1250,8 @@
 # text = Yazların sıcaklığı nedeniyle bu bölgede muz ve hurma yetişmektedir.
 # en = On account of the hot summers, bananas and dates grow in this region.
 1	Yazların	yaz	NOUN	_	Case=Gen|Number=Plur	2	nmod	_	_
-2	sıcaklığı	sıcaklık	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
-3	nedeniyle	nedeniyle	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+2	sıcaklığı	sıcaklık	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	nedeniyle	neden	NOUN	_	Case=Ins|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 4	bu	bu	DET	_	Definite=Def|PronType=Art	5	det	_	_
 5	bölgede	bölge	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
 6	muz	muz	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
@@ -1315,9 +1315,9 @@
 # text = sendikacılık tarihi konusundaki araştırmalarınız
 # en = your research on (the subject of) the history of trade unionism
 1	sendikacılık	sendikacılık	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	tarihi	tarih	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+2	tarihi	tarih	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3-4	konusundaki	_	_	_	_	_	_	_	_
-3	konusunda	konusunda	ADP	_	Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	konusunda	konu	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 4	ki	ki	ADP	_	_	2	case	_	_
 5	araştırmalarınız	araştırma	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=2	0	root	_	_
 
@@ -1337,8 +1337,8 @@
 # en = Can’s car is in front of the house.
 1	Can’ın	Can	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	evin	ev	NOUN	_	Case=Gen|Number=Sing	0	root	_	_
-4	önünde	önünde	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	SpaceAfter=No
+3	evin	ev	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	önünde	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK170128
@@ -1346,9 +1346,9 @@
 # en = Can’s car is in front of the house.
 1	Can’ın	Can	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	evin	ev	NOUN	_	Case=Gen|Number=Sing	0	root	_	_
+3	evin	ev	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4-5	önündeki	_	_	_	_	_	_	_	SpaceAfter=No
-4	önünde	önünde	ADP	_	Number[psor]=Sing|Person[psor]=3	3	case	_	_
+4	önünde	ön	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 5	ki	-ki	ADP	_	_	3	case	_	_
 6	.	.	PUNCT	_	_	3	punct	_	_
 
