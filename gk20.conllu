@@ -391,7 +391,7 @@
 # text = Değil sinemaya gitmek, televizyon bile seyredecek zamanım yok.
 # gloss = not cinema-DAT GO-INF television even watch-PART time-1SG.POSS non-existent
 # en = I don’t even have time to watch TV, let alone go to the cinema.
-1	Değil	değil	CCONJ	_	PronType=Neg	3	cc	_	_
+1	Değil	değil	CCONJ	_	Polarity=Neg	3	cc	_	_
 2	sinemaya	sinema	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 3	gitmek	git	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	8	acl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
@@ -406,7 +406,7 @@
 # text = Ahmet değil saksafon, ıslık bile çalamaz.
 # en = Ahmet can’t even whistle, let alone play the saxophone.
 1	Ahmet	Ahmet	PROPN	_	Number=Sing	7	nsubj	_	_
-2	değil	değil	CCONJ	_	PronType=Neg	3	cc	_	_
+2	değil	değil	CCONJ	_	Polarity=Neg	3	cc	_	_
 3	saksafon	saksafon	NOUN	_	Case=Nom|Number=Sing	7	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ıslık	ıslık	NOUN	_	Case=Nom|Number=Sing	3	conj	_	_
