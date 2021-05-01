@@ -1282,7 +1282,7 @@
 # gloss = _ _ _ _ use-PSB-AOR-2SG
 # en = You can use my computer [whenever you like].’ (I give you permission to do so.)
 1	Bilgisayarımı	bilgisayar	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	_
-2	ne	ne	DET	_	Case=Nom|PronType=Int	3	det	_	_
+2	ne	ne	DET	_	PronType=Int	3	det	_	_
 3	zaman	zaman	NOUN	_	Case=Nom|Number=Plur	4	obl	_	_
 4	istersen	iste	VERB	_	Aspect=Hab|Mood=CndGen|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 5	kullanabilirsin	kullan	VERB	_	Aspect=Hab|Mood=GenPot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1754,7 +1754,7 @@
 # en = The man said he had to go.
 1	Adam	adam	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 2	gitmek	git	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	3	xcomp	_	_
-3	zorunda	zor	NOUN	_	Case=Loc|Number=Sing	5	nsubj	_	_
+3	zorunda	zor	NOUN	_	Case=Loc|Number=Sing	5	ccomp	_	_
 4	olduğunu	ol	AUX	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	3	cop	_	_
 5	söyledi	söyle	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_

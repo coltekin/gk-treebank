@@ -299,14 +299,14 @@
 # text = İki orta yaşlı adam mı çalmış arabayı?
 # gloss = two middle aged man INT steal-EV/PF car-ACC
 # en = Did two middle-aged men steal the car?
-1	İki	iki	NUM	_	Case=Nom|Number=Sing	5	nummod	_	_
+1	İki	iki	NUM	_	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
 2	orta	orta	ADJ	_	Case=Nom|Number=Sing	3	amod	_	_
 3-4	yaşlı	_	_	_	_	_	_	_	_
 3	yaş	yaş	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	lı	li	ADP	_	_	3	case	_	_
 5	adam	adam	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	5	aux:q	_	_
-7	çalmış	çal	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	çalmış	çal	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	arabayı	araba	NOUN	_	Case=Acc|Number=Sing	7	obj	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	7	punct	_	_
 
@@ -415,7 +415,7 @@
 5	önce	önce	ADP	_	_	4	mark	_	_
 6	çocukları	çocuk	NOUN	_	Case=Acc|Number=Plur	8	obj	_	_
 7	okuldan	okul	NOUN	_	Case=Abl|Number=Sing	8	obl	_	_
-8	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+8	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = GK19-0036
@@ -428,7 +428,7 @@
 5	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	3	aux:q	_	_
 6	çocukları	çocuk	NOUN	_	Case=Acc|Number=Plur	8	obj	_	_
 7	okuldan	okul	NOUN	_	Case=Abl|Number=Sing	8	obl	_	_
-8	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+8	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = GK19-0037
@@ -485,14 +485,14 @@
 # en = Are you going out?
 1	Sokağa	sokak	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
 2	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int	1	aux:q	_	_
-3	çıkıyorsun	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	çıkıyorsun	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = GK19-0043
 # text = Sokağa çıkıyor musun?
 # en = Are you going out?
 1	Sokağa	sokak	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
-2	çıkıyor	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2	çıkıyor	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	musun	mi	AUX	_	Number=Sing|Person=2|PronType=Int	2	aux:q	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
 

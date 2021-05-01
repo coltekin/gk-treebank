@@ -1489,7 +1489,7 @@
 # text = Senin arkadaşlarına soralım.
 # gloss = you-GEN friend-PL-2SG.POSS-DAT _ 
 # en = Let’s ask your friends.
-1	Senin	sen	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
+1	Senin	sen	PRON	_	Case=Gen|Number=Sing|PronType=Prs	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=2	3	obl	_	_
 3	soralım	sor	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1498,7 +1498,7 @@
 # text = Onun arkadaşlarına soralım.
 # gloss = s/he-GEN friend-PL-3SG.POSS-DAT _ 
 # en = Let’s ask his/her friends.
-1	Onun	o	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
+1	Onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	soralım	sor	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1507,7 +1507,7 @@
 # text = Onların arkadaşlarına soralım.
 # gloss = they-GEN friend-PL-3SG.POSS-DAT _ 
 # en = Let’s ask their friends.
-1	Onların	onlar	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
+1	Onların	onlar	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	soralım	sor	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1516,7 +1516,7 @@
 # text = Onların arkadaşlarına soralım.
 # gloss = they-GEN friend-3SG.POSS-DAT _ 
 # en = Let’s ask their friend.
-1	Onların	onlar	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
+1	Onların	onlar	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	soralım	sor	PROPN	_	Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -1800,9 +1800,9 @@
 
 # sent_id = GK14-0194
 # text = Bana küçüklerden iki tane lazım.
-1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	5	obl	_	_
+1	Bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 2	küçüklerden	küçük	ADJ	_	Case=Abl|Number=Plur	4	nmod	_	_
-3	iki	iki	NUM	_	Case=Nom|Number=Sing	4	nummod	_	_
+3	iki	iki	NUM	_	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	_
 4	tane	tane	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	lazım	lazım	ADJ	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1810,9 +1810,9 @@
 # sent_id = GK14-0195
 # text = Küçüklerden iki tanesi bana lazım.
 1	Küçüklerden	küçük	ADJ	_	Case=Abl|Number=Plur	3	nmod	_	_
-2	iki	iki	NUM	_	Case=Nom|Number=Sing	3	nummod	_	_
+2	iki	iki	NUM	_	Case=Nom|Number=Sing|NumType=Card	3	nummod	_	_
 3	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-4	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1	5	obl	_	_
+4	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 5	lazım	lazım	ADJ	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 

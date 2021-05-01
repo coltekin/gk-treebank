@@ -8,7 +8,7 @@
 # sent_id = GK11-0002
 # text = ev bile
 # en = even a/the house
-1	ev	ev	VERB	_	Case=Nom|Number=Sing	0	root	_	_
+1	ev	ev	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 2	bile	bile	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
 
 # sent_id = GK11-0003
@@ -19,7 +19,7 @@
 # sent_id = GK11-0004
 # text = Yaparım da.
 # en = I will do [it], too.
-1	Yaparım	yap	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+1	Yaparım	yap	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	da	de	ADV	_	_	1	advmod:emph	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -90,7 +90,7 @@
 # sent_id = GK11-0013
 # text = Zehra’yıysa
 # en = as for Zehra (ACC)
-1	Zehra’yı	Zehra	PRON	_	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No
+1	Zehra’yı	Zehra	PROPN	_	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No
 2	ysa	i	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 
 # sent_id = GK11-0014

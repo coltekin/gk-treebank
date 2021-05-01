@@ -571,7 +571,7 @@
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	araba	araba	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
 6	aldığını	al	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	7	ccomp	_	_
-7	sanıyor	san	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+7	sanıyor	san	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = GK18-0054
@@ -583,7 +583,7 @@
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	araba	araba	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
 5	aldığını	al	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	6	ccomp	_	_
-6	sanıyor	san	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	sanıyor	san	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GK18-0055
@@ -806,20 +806,20 @@
 # sent_id = GK18-0074
 # text = Biz kendimize yemek pişiriyoruz.
 # en = We are cooking a meal for ourselves.
-1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
-2	kendimize	kendi	PRON	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1	4	obl	_	_
-3	yemek	yemek	PRON	_	Case=Nom|Number=Sing	4	obj	_	_
-4	pişiriyoruz	piş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
+1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	kendimize	kendi	PRON	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	4	obl	_	_
+3	yemek	yemek	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+4	pişiriyoruz	piş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GK18-0075
 # text = Biz kendi kendimize yemek pişiriyoruz.
 # en = We are cooking a meal by ourselves.
-1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
-2	kendi	kendi	PRON	_	Case=Nom|Number=Sing	3	compound:redup	_	_
-3	kendimize	kendi	PRON	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1	5	obl	_	_
-4	yemek	yemek	PRON	_	Case=Nom|Number=Sing	5	obj	_	_
-5	pişiriyoruz	piş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
+1	Biz	biz	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	kendi	kendi	PRON	_	Case=Nom|Number=Sing|PronType=Prs	3	compound:redup	_	_
+3	kendimize	kendi	PRON	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	5	obl	_	_
+4	yemek	yemek	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	pişiriyoruz	piş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = GK18-0076
