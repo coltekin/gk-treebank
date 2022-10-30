@@ -298,7 +298,7 @@
 # sent_id = GK12-0031
 # text = Murat’ta bir resim var.
 # en = Murat has a picture.
-1	Murat’ta	murat	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
+1	Murat’ta	murat	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	resim	resim	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -601,7 +601,7 @@
 # text = Bu sınıfta elli iki öğrenci var.
 # en = There are fifty-two pupils in this class.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	sınıfta	sınıf	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
+2	sınıfta	sınıf	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 3	elli	elli	NUM	_	NumType=Card	4	compound	_	_
 4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
 5	öğrenci	öğrenci	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
@@ -1105,12 +1105,12 @@
 # text = Bayram’ın ailesinin diğer köylülerden daha çok toprağı var.
 # en = Bayram’s family has more land than the other villagers.
 1	Bayram’ın	bayram	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-2	ailesinin	aile	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
+2	ailesinin	aile	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 3	diğer	diğer	DET	_	Definite=Def|PronType=Art	4	det	_	_
-4	köylülerden	köylü	NOUN	_	Case=Abl|Number=Plur	6	nmod:comp	_	_
+4	köylülerden	köylü	NOUN	_	Case=Abl|Number=Plur	6	obl	_	_
 5	daha	daha	ADV	_	_	6	advmod	_	_
 6	çok	çok	ADJ	_	_	7	amod	_	_
-7	toprağı	toprak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
+7	toprağı	toprak	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
 8	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 

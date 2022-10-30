@@ -139,7 +139,7 @@
 # gloss = _ _ _ _ five six music-3SG.POSS
 # en = There are at least five or six [kinds of] music in this country.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	memleketin	memleket	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+2	memleketin	memleket	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
 3	en	en	ADV	_	_	4	advmod	_	_
 4	az	az	ADV	_	_	5	advmod	_	ModifiesHead=Yes
 5	beş	beş	NUM	_	NumType=Card	7	nummod	_	_
@@ -399,7 +399,7 @@
 # text = Bizim Migros’ta güzel şaraplar var.
 # en = There are nice wines at our Migros.
 1	Bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	Migros’ta	Migros	PROPN	_	Case=Loc|Number=Sing	5	nmod	_	_
+2	Migros’ta	Migros	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 3	güzel	güzel	ADJ	_	_	4	amod	_	_
 4	şaraplar	şarap	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -1144,7 +1144,7 @@
 # sent_id = GK14-0129
 # text = Köyde elektrik var mıydı?
 # en = Was there electricity in the village?
-1	Köyde	köy	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
+1	Köyde	köy	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
 2	elektrik	elektrik	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
 3	var	var	ADJ	_	_	0	root	_	_
 4	mıydı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Past	3	aux:q	_	SpaceAfter=No
@@ -1237,7 +1237,7 @@
 # sent_id = GK14-0139
 # text = Padişahın som altından bir tahtı vardı.
 # en = The king had a throne of solid gold.
-1	Padişahın	padişah	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+1	Padişahın	padişah	NOUN	_	Case=Gen|Number=Sing	6	obl	_	_
 2	som	som	ADJ	_	_	3	amod	_	_
 3	altından	altın	NOUN	_	Case=Abl|Number=Sing	5	nmod	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
@@ -1354,7 +1354,7 @@
 # sent_id = GK14-0150
 # text = Ayten’in iki kız kardeşi var.
 # en = Ayten has two sisters.
-1	Ayten’in	Ayten	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
+1	Ayten’in	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
 2	iki	iki	NUM	_	NumType=Card	4	nummod	_	_
 3	kız	kız	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	kardeşi	kardeş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
@@ -1565,7 +1565,7 @@
 # text = Sizin arabanız var mı?
 # gloss = you-GEN car-2PL.POSS existent INT
 # en = Do you have a car?
-1	Sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
+1	Sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
 2	arabanız	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	3	nsubj:cop	_	_
 3	var	var	ADJ	_	_	0	root	_	_
 4	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Pres	3	aux:q	_	SpaceAfter=No
@@ -1783,7 +1783,7 @@
 # text = Bunlardan bizde de var.
 # en = We’ve got [some] of these, too.
 1	Bunlardan	bu	PRON	_	Case=Abl|Number=Plur|PronType=Dem	4	nsubj	_	_
-2	bizde	biz	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+2	bizde	biz	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 3	de	de	ADV	_	_	2	advmod:emph	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -1860,7 +1860,7 @@
 # en = Every one of the students had a different excuse.
 1	Öğrencilerin	öğrenci	NOUN	_	Case=Gen|Number=Plur	3	nmod:part	_	_
 2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	birinin	biri	PRON	_	Case=Gen|Number=Sing|PronType=Ind	6	nmod	_	_
+3	birinin	biri	PRON	_	Case=Gen|Number=Sing|PronType=Ind	6	obl	_	_
 4	ayrı	ayrı	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	mazereti	mazeret	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_

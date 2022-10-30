@@ -292,7 +292,7 @@
 # text = Bizde sahiden video yok.
 # gloss we-LOC really _ _ _
 # en = We really don’t have a video player.
-1	Bizde	biz	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+1	Bizde	biz	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 2	sahiden	sahiden	ADV	_	_	4	advmod	_	_
 3	video	video	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
@@ -302,7 +302,7 @@
 # text = Bizim gerçekten videomuz yok.
 # gloss = we-GEN really video.player-1PL.POSS
 # en = We really don’t have a video player.
-1	Bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+1	Bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 2	gerçekten	gerçekten	ADV	_	_	4	advmod	_	_
 3	videomuz	video	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	4	nsubj	_	_
 4	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
@@ -572,7 +572,7 @@
 # sent_id = GK23-0056
 # text = Ahmet’in iki arabası var.
 # en = Ahmet has two cars.
-1	Ahmet’in	Ahmet	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
+1	Ahmet’in	Ahmet	PROPN	_	Case=Gen|Number=Sing	4	obl	_	_
 2	iki	iki	NUM	_	NumType=Card	3	nummod	_	_
 3	arabası	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -738,7 +738,7 @@
 1	Var	var	ADJ	_	_	0	root	_	_
 2	mış	i	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
 3	sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
-4	bakkalda	bakkal	NOUN	_	Case=Loc|Number=Sing	1	nmod	_	_
+4	bakkalda	bakkal	NOUN	_	Case=Loc|Number=Sing	1	obl	_	_
 5	kopya	kopya	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	kağıdı	kağıt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	1	punct	_	_
@@ -950,7 +950,7 @@
 # text = Burada bir elbisem vardı eteği sökük.
 # gloss = here a dress-1SG.POSS existent-P.COP hemline-3SG.POSS unstitched
 # en = I had a dress here, with its hemline unstitched.
-1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	nmod	_	_
+1	Burada	bura	PRON	_	Case=Loc|Number=Sing|PronType=Dem	4	obl	_	_
 2	bir	bir	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	elbisem	elbise	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 4-5	vardı	_	_	_	_	_	_	_	_
@@ -965,7 +965,7 @@
 # gloss = all cold.vegetable.dish-PL-LOC sugar existent-GM one two spoonful
 # en = All cold vegetable dishes have sugar in them, [just] one or two spoonfuls.
 1	Bütün	bütün	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	zeytinyağlılarda	zeytinyağlı	NOUN	_	Case=Loc|Number=Plur	4	nmod	_	_
+2	zeytinyağlılarda	zeytinyağlı	NOUN	_	Case=Loc|Number=Plur	4	obl	_	_
 3	şeker	şeker	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4-5	vardır	_	_	_	_	_	_	_	_
 4	var	var	ADJ	_	_	0	root	_	_

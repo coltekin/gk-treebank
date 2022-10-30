@@ -368,7 +368,7 @@
 # sent_id = GK17-0039
 # text = Bundan başka bir şey var mı?
 # en = Is there anything other than this?
-1	Bundan	bu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	4	nmod	_	_
+1	Bundan	bu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	4	obl	_	_
 2	başka	başka	ADP	_	_	1	case	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	şey	şey	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -808,9 +808,8 @@
 # sent_id = GK17-0078
 # text = Masanın üzerinde bir şey yok.
 # en = There’s nothing on the table.
-# TODO: lemma 'üzer'
 1	Masanın	masa	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-2	üzerinde	üzer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+2	üzerinde	üzeri	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	şey	şey	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	yok	yok	ADJ	_	Case=Nom|Polarity=Neg	0	root	_	SpaceAfter=No
@@ -832,7 +831,7 @@
 1	Gençlerde	genç	NOUN	_	Case=Loc|Number=Plur	3	nmod	_	_
 2	uyuşturucu	uyuşturucu	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	kullanımı	kullanım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
-4	üzerine	üzer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
+4	üzerine	üzeri	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	araştırma	araştırma	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
 6	yapıyor	yap	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -853,7 +852,7 @@
 # en = On her husband’s death she went back to her own country.
 1	Kocasının	koca	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
 2	ölümü	ölüm	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
-3	üzerine	üzer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
+3	üzerine	üzeri	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 4	kendi	kendi	PRON	_	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	5	nmod	_	_
 5	memleketine	memleket	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 6	döndü	dön	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -932,9 +931,9 @@
 # sent_id = GK17-0089
 # text = Ahmet’le çocukların arasında bir sorun mu var?
 # en = Is there some problem between Ahmet and the children?
-1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
+1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
 2	çocukların	çocuk	NOUN	_	Case=Gen|Number=Plur	1	conj	_	_
-3	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	case	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	mu	mi	AUX	_	PronType=Int	5	aux:q	_	_
@@ -944,9 +943,9 @@
 # sent_id = GK17-0090
 # text = Ahmet’le çocuklar arasında bir sorun mu var?
 # en = Is there some problem between Ahmet and the children?
-1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	obl	_	_
-2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	3	nmod	_	_
-3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
+1	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	3	nmod	_	_
+2	çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
+3	arasında	ara	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 6	mu	mi	AUX	_	PronType=Int	5	aux:q	_	_
