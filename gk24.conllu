@@ -918,7 +918,7 @@
 # sent_id = GK24-0079
 # text = Önemli olan sizin bu evi beğenmeniz.
 # en = The important thing is that you (should) like this house.
-1	Önemli	önemli	ADJ	_	_	6	csubj:cop	_	_
+1	Önemli	önemli	ADJ	_	_	6	csubj:outer	_	_
 2	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 4	bu	bu	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -930,7 +930,7 @@
 # text = Bizim ricamız toplantının haftaya ertelenmesi olacak.
 # en = Our request is (lit. will be) that the meeting be postponed to next week.
 1	Bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	ricamız	rica	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj:cop	_	_
+2	ricamız	rica	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj:outer	_	_
 3	toplantının	toplantı	NOUN	_	Case=Gen|Number=Sing	5	nsubj	_	_
 4	haftaya	hafta	NOUN	_	Case=Dat|Number=Sing	5	obl:tmod	_	_
 5	ertelenmesi	ertele	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun|Voice=Pass	0	root	_	_
@@ -1945,8 +1945,8 @@
 5	olduktan	ol	AUX	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
 6	sonra	sonra	ADP	_	_	4	mark	_	_
 7	artık	artık	ADV	_	_	11	advmod	_	_
-8	hiç	hiç	DET	_	Definite=Ind|Polarity=Neg|PronType=Art	10	det	_	_
-9	bir	bir	DET	_	Definite=Ind|PronType=Art	8	goeswith	_	_
+8	hiç	hiçbir	DET	_	Definite=Ind|Polarity=Neg|PronType=Art	10	det	_	_
+9	bir	_	_	_	_	8	goeswith	_	_
 10	işe	iş	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	yaramadığı	yara	VERB	_	Case=Acc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	12	acl	_	_
 12	kaygısına	kaygı	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
